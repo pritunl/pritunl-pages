@@ -3,13 +3,13 @@
 	"version": "0.1.0",
 	"private": true,
 	"scripts": {
-		"dev": "next dev",
-		"build": "next build",
-		"start": "next start",
-		"lint": "next lint",
-		"deploy": "opennextjs-cloudflare build && opennextjs-cloudflare deploy",
-		"upload": "opennextjs-cloudflare build && opennextjs-cloudflare upload",
-		"preview": "opennextjs-cloudflare build && opennextjs-cloudflare preview",
+		"dev:cloud": "PRODUCT=cloud next dev",
+		"build:cloud": "PRODUCT=cloud next build",
+		"start:cloud": "PRODUCT=cloud next start",
+		"lint:cloud": "PRODUCT=cloud next lint",
+		"deploy:cloud": "cp wrangler.cloud.toml wrangler.toml && PRODUCT=cloud opennextjs-cloudflare build && PRODUCT=cloud opennextjs-cloudflare deploy",
+		"upload:cloud": "cp wrangler.cloud.toml wrangler.toml && PRODUCT=cloud opennextjs-cloudflare build && opennextjs-cloudflare upload",
+		"preview:cloud": "cp wrangler.cloud.toml wrangler.toml && PRODUCT=cloud opennextjs-cloudflare build && opennextjs-cloudflare preview",
 		"cf-typegen": "wrangler types --env-interface CloudflareEnv ./cloudflare-env.d.ts"
 	},
 	"dependencies": {
