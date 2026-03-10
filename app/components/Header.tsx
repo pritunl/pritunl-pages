@@ -4,12 +4,11 @@ import { useState } from "react"
 import { Dialog, DialogPanel } from "@headlessui/react"
 import * as Lucide from "lucide-react"
 
+import type { ProductConfig } from "../types"
 import Link from "next/link"
 import Image from "next/image"
 
 import pritunlLogo from "../assets/pritunl.png"
-
-import type { ProductConfig } from "../types"
 
 export default function Header({ config }: { config: ProductConfig }) {
 	const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
