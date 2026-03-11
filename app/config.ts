@@ -8,5 +8,5 @@ const products: Record<string, ProductDefinition> = {
 	zero,
 }
 
-const product = products[process.env.PRODUCT as string]
+const product = products[process.env.NEXT_PUBLIC_PRODUCT as string]
 export default product
