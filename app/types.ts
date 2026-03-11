@@ -18,6 +18,18 @@ export interface HeroButton {
 	style: "primary" | "secondary"
 }
 
+export interface FeaturesGridItem {
+	image: StaticImageData
+	title: string
+	description: string
+}
+
+export interface FeaturesGrid {
+	title: string
+	description: string
+	items: FeaturesGridItem[]
+}
+
 export interface ProductConfig {
 	name: string
 	title: string
@@ -32,6 +44,8 @@ export interface ProductConfig {
 
 	heroImage: StaticImageData
 	heroImageAlt: string
+
+	featuresGrid?: FeaturesGrid
 }
 
 export interface PageProps {
