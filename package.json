@@ -4,12 +4,19 @@
 	"private": true,
 	"scripts": {
 		"dev:cloud": "PRODUCT=cloud next dev",
+		"dev:zero": "PRODUCT=zero next dev",
 		"build:cloud": "PRODUCT=cloud next build",
+		"build:zero": "PRODUCT=zero next build",
 		"start:cloud": "PRODUCT=cloud next start",
+		"start:zero": "PRODUCT=zero next start",
 		"lint:cloud": "PRODUCT=cloud next lint",
+		"lint:zero": "PRODUCT=zero next lint",
 		"deploy:cloud": "cp wrangler.cloud.toml wrangler.toml && PRODUCT=cloud opennextjs-cloudflare build && PRODUCT=cloud opennextjs-cloudflare deploy",
+		"deploy:zero": "cp wrangler.zero.toml wrangler.toml && PRODUCT=cloud opennextjs-cloudflare build && PRODUCT=zero opennextjs-cloudflare deploy",
 		"upload:cloud": "cp wrangler.cloud.toml wrangler.toml && PRODUCT=cloud opennextjs-cloudflare build && opennextjs-cloudflare upload",
+		"upload:zero": "cp wrangler.zero.toml wrangler.toml && PRODUCT=zero opennextjs-cloudflare build && opennextjs-cloudflare upload",
 		"preview:cloud": "cp wrangler.cloud.toml wrangler.toml && PRODUCT=cloud opennextjs-cloudflare build && opennextjs-cloudflare preview",
+		"preview:zero": "cp wrangler.zero.toml wrangler.toml && PRODUCT=zero opennextjs-cloudflare build && opennextjs-cloudflare preview",
 		"cf-typegen": "wrangler types --env-interface CloudflareEnv ./cloudflare-env.d.ts"
 	},
 	"dependencies": {
