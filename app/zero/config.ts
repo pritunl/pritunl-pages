@@ -2,6 +2,9 @@ import type { ProductDefinition } from "../types"
 
 import Home from "../components/Home"
 import heroImage from "../assets/zero/zero_services.png"
+import networkPolicy from "../assets/zero/zero_network_policy.png"
+import twoFactor from "../assets/zero/zero_two_factor_policy.png"
+import webauthnPolicy from "../assets/zero/zero_webauthn_policy.png"
 
 const definition: ProductDefinition = {
 	config: {
@@ -48,6 +51,28 @@ const definition: ProductDefinition = {
 
 		heroImage: heroImage,
 		heroImageAlt: "Pritunl Zero Dashboard",
+
+		featuresGrid: {
+			title: "Provide Easy and Secure Access to Web Applications and SSH",
+			description: "Pritunl Zero creates an authentication layer in front of existing web applications. No modifications to the existing web application is required. For SSH servers Pritunl Zero will maintain a certificate authority and provide controlled SSH access with additional layers of authentication.",
+			items: [
+				{
+					image: networkPolicy,
+					title: "Network Policy Control",
+					description: "Control access based on permitted and blocked networks.",
+				},
+				{
+					image: twoFactor,
+					title: "Multi-Factor Authentication",
+					description: "Require multi-factor authentication from providers with secondary authentication support including Duo, OneLogin Protect and Okta Verify.",
+				},
+				{
+					image: webauthnPolicy,
+					title: "WebAuthn Device Authentication",
+					description: "Authenticate users with hardware WebAuthn tokens including the YubiKey and Google Titan Security Key.",
+				},
+			],
+		},
 	},
 
 	pages: {
