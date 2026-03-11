@@ -7,3 +7,6 @@ const products: Record<string, ProductDefinition> = {
 	cloud,
 	zero,
 }
+
+const product = products[process.env.PRODUCT as string]
+export default product
