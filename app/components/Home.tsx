@@ -1,9 +1,8 @@
 import Header from "./Header"
 import { Gradient } from "./Themed"
 
-import Image from "next/image"
-
 import type { PageProps } from "../types"
+import Image from "next/image"
 
 export default function Home({ config }: PageProps) {
 	return (
