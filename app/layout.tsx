@@ -1,15 +1,9 @@
 import type { Metadata, Viewport } from "next"
+
+import product from "./config"
+
 import "./globals.css"
 
-import type { ProductDefinition } from "./types"
-
-import cloud from "./cloud/config"
-
-const products: Record<string, ProductDefinition> = {
-	cloud,
-}
-
-const product = products[process.env.PRODUCT as string]
 const { config } = product
 
 export const metadata: Metadata = {
