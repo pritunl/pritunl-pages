@@ -19,7 +19,7 @@ const definition: ProductDefinition = {
 			{ name: "Community Forums", href: "https://forum.pritunl.com/", external: true },
 		],
 
-		badge: "Enterprise-Grade Zero Trust",
+		badge: "Self Hosted Zero Trust",
 		heading: [
 			[
 				{ text: "Pritunl " },
