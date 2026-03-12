@@ -61,10 +61,13 @@ export default function Home({ config }: PageProps) {
 					</div>
 				</div>
 			</div>
+			<div className="h-38"></div>
 			{config.featuresGrid && <FeaturesGrid featuresGrid={config.featuresGrid}/>}
+			<div className="h-38"></div>
 			{config.featureBlocks?.map((block, i) => (
 				<FeatureBlock key={i} block={block} first={i === 0}/>
 			))}
+			<div className="h-38"></div>
 		</Gradient>
 	)
 }
