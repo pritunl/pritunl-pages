@@ -30,6 +30,21 @@ export interface FeaturesGrid {
 	items: FeaturesGridItem[]
 }
 
+export interface FeatureBlockItem {
+	icon: string
+	title: string
+	description: string
+}
+
+export interface FeatureBlock {
+	type: "left" | "right"
+	title: string
+	description: string
+	image: StaticImageData
+	imageAlt: string
+	items: FeatureBlockItem[]
+}
+
 export interface ProductConfig {
 	name: string
 	title: string
@@ -46,6 +61,7 @@ export interface ProductConfig {
 	heroImageAlt: string
 
 	featuresGrid?: FeaturesGrid
+	featureBlocks?: FeatureBlock[]
 }
 
 export interface PageProps {
