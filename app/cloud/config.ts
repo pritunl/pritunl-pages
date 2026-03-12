@@ -14,6 +14,10 @@ import storage from "../assets/cloud/cloud_storage.png"
 import authority from "../assets/cloud/cloud_authority.png"
 import secret from "../assets/cloud/cloud_secret.png"
 import loadBalancer from "../assets/cloud/cloud_load_balancer.png"
+import cloudSpec from "../assets/cloud/cloud_spec.png"
+import cloudDeploymentLogs from "../assets/cloud/cloud_deployment_logs.png"
+import cloudDeploymentMigrate from "../assets/cloud/cloud_deployment_migrate.png"
+import cloudCertificates from "../assets/cloud/cloud_certificates.png"
 
 const definition: ProductDefinition = {
 	config: {
@@ -124,6 +128,105 @@ const definition: ProductDefinition = {
 				},
 			],
 		},
+
+		featureBlocks: [
+			{
+				type: "left",
+				title: "A New Template Format",
+				description: "A new Markdown and YAML based template format that allows adding notes and documentation right into the deployment spec. Python and Shell support allows creating dynamic deployments that can handle complex configurations all in one template.",
+				image: cloudSpec,
+				imageAlt: "Template Editor",
+				items: [
+					{
+						icon: "FileText",
+						title: "Markdown & YAML based.",
+						description: "Add notes and documentation directly into deployment specs with a familiar and readable format.",
+					},
+					{
+						icon: "Code",
+						title: "Python & Shell support.",
+						description: "Create dynamic deployments that can handle complex configurations with Python and Shell scripting.",
+					},
+					{
+						icon: "Monitor",
+						title: "All-in-one template.",
+						description: "Handle everything in a single unified template, simplifying deployment management and reducing complexity.",
+					},
+				],
+			},
+			{
+				type: "right",
+				title: "Live Deployment Logs",
+				description: "Live view of deployment status with logging and resource metrics. All deployment management and monitoring can be done from the web console.",
+				image: cloudDeploymentLogs,
+				imageAlt: "Deployments Log Output",
+				items: [
+					{
+						icon: "Scale",
+						title: "Real-time monitoring.",
+						description: "View live deployment status, logging output, and resource metrics directly from the web console.",
+					},
+					{
+						icon: "AppWindow",
+						title: "Web console management.",
+						description: "All deployment management and monitoring can be done entirely from the web console interface.",
+					},
+					{
+						icon: "RefreshCcw",
+						title: "Statement based plans.",
+						description: "Take actions such as scaling or restarting deployments based on the state of existing deployments.",
+					},
+				],
+			},
+			{
+				type: "left",
+				title: "Deployment Migration",
+				description: "Live migrate deployment templates with a diff view of changes that will be applied. Deployments can be migrated from older or newer template commits.",
+				image: cloudDeploymentMigrate,
+				imageAlt: "Deployment Migration",
+				items: [
+					{
+						icon: "RefreshCcw",
+						title: "Live migration.",
+						description: "Migrate deployment templates between commits without downtime or service interruption.",
+					},
+					{
+						icon: "CloudUpload",
+						title: "Diff view.",
+						description: "Visual diff view of all changes that will be applied before committing the migration.",
+					},
+					{
+						icon: "CirclePlus",
+						title: "Version flexibility.",
+						description: "Migrate from older or newer template commits, allowing both upgrades and rollbacks.",
+					},
+				],
+			},
+			{
+				type: "right",
+				title: "Automatic SSL Certificates",
+				description: "Automatically create SSL certificates from Lets Encrypt with support for HTTP validation or DNS CNAME validation. Certificates are dynamically updated in deployment templates with the IMDS service.",
+				image: cloudCertificates,
+				imageAlt: "Certificates Management",
+				items: [
+					{
+						icon: "Lock",
+						title: "Lets Encrypt integration.",
+						description: "Automatically create and renew SSL certificates with HTTP validation on port 80 or DNS CNAME validation.",
+					},
+					{
+						icon: "Server",
+						title: "Multi-provider DNS.",
+						description: "DNS CNAME validation with AWS, Cloudflare, and Oracle Cloud DNS APIs. Wildcard certificates supported.",
+					},
+					{
+						icon: "Scale",
+						title: "Automatic renewal.",
+						description: "Certificates automatically renew and are dynamically updated in deployment templates via the IMDS service.",
+					},
+				],
+			},
+		],
 	},
 
 	pages: {
