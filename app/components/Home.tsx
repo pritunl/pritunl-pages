@@ -10,8 +10,8 @@ export default function Home({ config }: PageProps) {
 	return (
 		<Gradient>
 			<Header config={config}/>
-			<div className="pt-14">
-				<div className="py-24 sm:py-32 lg:pb-24">
+			<div className="pt-42">
+				<div>
 					<div className="mx-auto max-w-7xl px-6 lg:px-8">
 						<div className="mx-auto max-w-2xl text-center">
 							<div className="mb-4 flex justify-center">
