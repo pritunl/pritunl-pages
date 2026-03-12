@@ -1,5 +1,6 @@
 import Header from "./Header"
 import FeaturesGrid from "./FeaturesGrid"
+import FeatureBlock from "./FeatureBlock"
 import { Gradient } from "./Themed"
 
 import type { PageProps } from "../types"
@@ -61,6 +62,9 @@ export default function Home({ config }: PageProps) {
 				</div>
 			</div>
 			{config.featuresGrid && <FeaturesGrid featuresGrid={config.featuresGrid}/>}
+			{config.featureBlocks?.map((block, i) => (
+				<FeatureBlock key={i} block={block} first={i === 0}/>
+			))}
 		</Gradient>
 	)
 }
