@@ -11,6 +11,11 @@ import {
 	CirclePlus,
 	Lock,
 	Server,
+	ShieldCheck,
+	KeyRound,
+	Globe,
+	Activity,
+	BarChart3,
 } from "lucide-react"
 import type { LucideIcon } from "lucide-react"
 
@@ -25,6 +30,11 @@ const icons: Record<string, LucideIcon> = {
 	CirclePlus,
 	Lock,
 	Server,
+	ShieldCheck,
+	KeyRound,
+	Globe,
+	Activity,
+	BarChart3,
 }
 
 interface Props {
