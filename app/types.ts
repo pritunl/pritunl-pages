@@ -37,7 +37,7 @@ export interface FeatureBlockItem {
 }
 
 export interface FeatureBlock {
-	type: "left" | "right"
+	type: "left" | "right" | "center"
 	title: string
 	description: string
 	image: StaticImageData
