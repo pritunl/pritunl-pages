@@ -233,23 +233,6 @@ const definition: ProductDefinition = {
 				description: "Visually manage large pod deployments with an integrated editor and comprehensive web console.",
 				image: cloudDeployments,
 				imageAlt: "Deployments View",
-				items: [
-					{
-						icon: "Lock",
-						title: "Lets Encrypt integration.",
-						description: "Automatically create and renew SSL certificates with HTTP validation on port 80 or DNS CNAME validation.",
-					},
-					{
-						icon: "Server",
-						title: "Multi-provider DNS.",
-						description: "DNS CNAME validation with AWS, Cloudflare, and Oracle Cloud DNS APIs. Wildcard certificates supported.",
-					},
-					{
-						icon: "Scale",
-						title: "Automatic renewal.",
-						description: "Certificates automatically renew and are dynamically updated in deployment templates via the IMDS service.",
-					},
-				],
 			}
 		],
 	},
