@@ -42,7 +42,7 @@ export interface FeatureBlock {
 	description: string
 	image: StaticImageData
 	imageAlt: string
-	items: FeatureBlockItem[]
+	items?: FeatureBlockItem[]
 }
 
 export interface ProductConfig {
