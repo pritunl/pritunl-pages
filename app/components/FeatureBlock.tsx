@@ -1,5 +1,6 @@
 import type { FeatureBlock as FeatureBlockType } from "../types"
 import Image from "next/image"
+import Link from "next/link"
 import {
 	FileText,
 	Code,
@@ -78,13 +79,57 @@ export default function FeatureBlock({ block, first }: Props) {
 				<Image
 					width={2432}
 					height={1442}
-					src={block.image}
-					alt={block.imageAlt}
+					src={block.image!}
+					alt={block.imageAlt || ""}
 					className="w-full rounded-md shadow-xl"
 				/>
 			</div>
 		</div>
 	)
+
+	if (block.type === "columns") {
+		return (
+			<div className={first ? "overflow-hidden pb-12" : "overflow-hidden py-12"}>
+				<div className="mx-auto max-w-7xl px-6 lg:px-8">
+					<div className="mx-auto max-w-2xl lg:text-center">
+						<p className="mt-2 text-4xl font-semibold tracking-tight text-pretty text-white sm:text-5xl lg:text-balance">
+							{block.title}
+						</p>
+						<p className="mt-6 text-lg/8 text-gray-400">
+							{block.description}
+						</p>
+					</div>
+					{block.items && block.items.length > 0 && (
+						<div className="mx-auto mt-16 max-w-2xl sm:mt-20 lg:mt-24 lg:max-w-none">
+							<dl className="grid max-w-xl grid-cols-1 gap-x-8 gap-y-16 lg:max-w-none lg:grid-cols-3">
+								{block.items.map((item, i) => {
+									const Icon = icons[item.icon]
+									return (
+										<div key={i} className="flex flex-col">
+											<dt className="flex items-center gap-x-3 text-base/7 font-semibold text-white">
+												{Icon && <Icon aria-hidden="true" className="size-5 flex-none text-indigo-400" />}
+												{item.title}
+											</dt>
+											<dd className="mt-4 flex flex-auto flex-col text-base/7 text-gray-400">
+												<p className="flex-auto">{item.description}</p>
+												{item.link && (
+													<p className="mt-6">
+														<Link href={item.link} className="text-sm/6 font-semibold text-indigo-400 hover:text-indigo-300">
+															{item.linkLabel || "Learn more"} <span aria-hidden="true">→</span>
+														</Link>
+													</p>
+												)}
+											</dd>
+										</div>
+									)
+								})}
+							</dl>
+						</div>
+					)}
+				</div>
+			</div>
+		)
+	}
 
 	if (block.type === "center") {
 		return (
@@ -105,8 +150,8 @@ export default function FeatureBlock({ block, first }: Props) {
 							<Image
 								width={2432}
 								height={1442}
-								src={block.image}
-								alt={block.imageAlt}
+								src={block.image!}
+								alt={block.imageAlt || ""}
 								className="w-full rounded-md shadow-xl"
 							/>
 						</div>
