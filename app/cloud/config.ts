@@ -250,6 +250,28 @@ const definition: ProductDefinition = {
 				image: cloudSpecDiff,
 				imageAlt: "Template Diff Editor",
 			},
+			{
+				type: "columns",
+				title: "Open Source Virtualization",
+				description: "Scalable self hosted bare metal virtualization with no vendor lock-in.",
+				items: [
+					{
+						icon: "ShieldCheck",
+						title: "Multi-Factor Authentication",
+						description: "Multifactor secondary authentication from Duo, OneLogin Protect, Okta Verify and any WebAuthn hardware token including YubiKeys and Google Titan Tokens.",
+					},
+					{
+						icon: "Activity",
+						title: "High Availability",
+						description: "All nodes run independently and will continue running in the event of other nodes failing. Additional nodes can be added and removed as needed for fast scaling without downtime.",
+					},
+					{
+						icon: "Server",
+						title: "Instance IMDS Service",
+						description: "IMDS agent delivers deployment information, platform resource access, and real-time CPU, memory, and disk metrics. Security CVE alerts notify when DNF updates are pending.",
+					},
+				],
+			},
 		],
 	},
 
