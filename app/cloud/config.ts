@@ -20,6 +20,7 @@ import cloudDeploymentMigrate from "../assets/cloud/cloud_deployment_migrate.png
 import cloudCertificates from "../assets/cloud/cloud_certificates.png"
 import cloudDeployments from "../assets/cloud/cloud_deployments.png"
 import cloudSpecEditor from "../assets/cloud/cloud_spec_editor.png"
+import cloudSpecDiff from "../assets/cloud/cloud_spec_diff.png"
 
 const definition: ProductDefinition = {
 	config: {
@@ -241,6 +242,13 @@ const definition: ProductDefinition = {
 				description: "Integrated Monaco editor for editing templates. Includes syntax highlighting and autocomplete support for all resources in Pritunl Cloud.",
 				image: cloudSpecEditor,
 				imageAlt: "Template Editor",
+			},
+			{
+				type: "center",
+				title: "Template Diff View",
+				description: "Compare changes between different template commits and quickly diagnose issues from changes. All from the web console editor.",
+				image: cloudSpecDiff,
+				imageAlt: "Template Diff Editor",
 			},
 		],
 	},
