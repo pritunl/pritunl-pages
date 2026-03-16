@@ -53,7 +53,7 @@ export default function FeatureBlock({ block, first }: Props) {
 					{block.description}
 				</p>
 				<dl className="mt-10 max-w-xl space-y-8 text-base/7 text-gray-400 lg:max-w-none">
-					{block.items.map((item, i) => {
+					{block.items?.map((item, i) => {
 						const Icon = icons[item.icon]
 						return (
 							<div key={i} className="relative pl-9">
@@ -112,7 +112,7 @@ export default function FeatureBlock({ block, first }: Props) {
 				</div>
 				<div className="mx-auto mt-12 max-w-7xl px-6 sm:mt-14 md:mt-18 lg:px-8">
 					<dl className="mx-auto grid max-w-2xl grid-cols-1 gap-x-6 gap-y-10 text-base/7 text-gray-400 sm:grid-cols-2 lg:mx-0 lg:max-w-none lg:grid-cols-3 lg:gap-x-8 lg:gap-y-16">
-						{block.items.map((item, i) => {
+						{block.items?.map((item, i) => {
 							const Icon = icons[item.icon]
 							return (
 								<div key={i} className="relative pl-9">
