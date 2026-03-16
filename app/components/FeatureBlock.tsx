@@ -52,20 +52,22 @@ export default function FeatureBlock({ block, first }: Props) {
 				<p className="mt-6 text-lg/8 text-gray-400">
 					{block.description}
 				</p>
-				<dl className="mt-10 max-w-xl space-y-8 text-base/7 text-gray-400 lg:max-w-none">
-					{block.items?.map((item, i) => {
-						const Icon = icons[item.icon]
-						return (
-							<div key={i} className="relative pl-9">
-								<dt className="inline font-semibold text-white">
-									{Icon && <Icon aria-hidden="true" className="absolute top-1 left-1 size-5 text-indigo-400" />}
-									{item.title}
-								</dt>
-								<dd className="inline"> {item.description}</dd>
-							</div>
-						)
-					})}
-				</dl>
+				{block.items && block.items.length > 0 && (
+					<dl className="mt-10 max-w-xl space-y-8 text-base/7 text-gray-400 lg:max-w-none">
+						{block.items.map((item, i) => {
+							const Icon = icons[item.icon]
+							return (
+								<div key={i} className="relative pl-9">
+									<dt className="inline font-semibold text-white">
+										{Icon && <Icon aria-hidden="true" className="absolute top-1 left-1 size-5 text-indigo-400" />}
+										{item.title}
+									</dt>
+									<dd className="inline"> {item.description}</dd>
+								</div>
+							)
+						})}
+					</dl>
+				)}
 			</div>
 		</div>
 	)
@@ -110,22 +112,24 @@ export default function FeatureBlock({ block, first }: Props) {
 						</div>
 					</div>
 				</div>
-				<div className="mx-auto mt-12 max-w-7xl px-6 sm:mt-14 md:mt-18 lg:px-8">
-					<dl className="mx-auto grid max-w-2xl grid-cols-1 gap-x-6 gap-y-10 text-base/7 text-gray-400 sm:grid-cols-2 lg:mx-0 lg:max-w-none lg:grid-cols-3 lg:gap-x-8 lg:gap-y-16">
-						{block.items?.map((item, i) => {
-							const Icon = icons[item.icon]
-							return (
-								<div key={i} className="relative pl-9">
-									<dt className="inline font-semibold text-white">
-										{Icon && <Icon aria-hidden="true" className="absolute top-1 left-1 size-5 text-indigo-400" />}
-										{item.title}
-									</dt>{" "}
-									<dd className="inline">{item.description}</dd>
-								</div>
-							)
-						})}
-					</dl>
-				</div>
+				{block.items && block.items.length > 0 && (
+					<div className="mx-auto mt-12 max-w-7xl px-6 sm:mt-14 md:mt-18 lg:px-8">
+						<dl className="mx-auto grid max-w-2xl grid-cols-1 gap-x-6 gap-y-10 text-base/7 text-gray-400 sm:grid-cols-2 lg:mx-0 lg:max-w-none lg:grid-cols-3 lg:gap-x-8 lg:gap-y-16">
+							{block.items.map((item, i) => {
+								const Icon = icons[item.icon]
+								return (
+									<div key={i} className="relative pl-9">
+										<dt className="inline font-semibold text-white">
+											{Icon && <Icon aria-hidden="true" className="absolute top-1 left-1 size-5 text-indigo-400" />}
+											{item.title}
+										</dt>{" "}
+										<dd className="inline">{item.description}</dd>
+									</div>
+								)
+							})}
+						</dl>
+					</div>
+				)}
 			</div>
 		)
 	}
