@@ -34,14 +34,16 @@ export interface FeatureBlockItem {
 	icon: string
 	title: string
 	description: string
+	link?: string
+	linkLabel?: string
 }
 
 export interface FeatureBlock {
-	type: "left" | "right" | "center"
+	type: "left" | "right" | "center" | "columns"
 	title: string
 	description: string
-	image: StaticImageData
-	imageAlt: string
+	image?: StaticImageData
+	imageAlt?: string
 	items?: FeatureBlockItem[]
 }
 
