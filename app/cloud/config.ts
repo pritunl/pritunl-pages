@@ -19,6 +19,7 @@ import cloudDeploymentLogs from "../assets/cloud/cloud_deployment_logs.png"
 import cloudDeploymentMigrate from "../assets/cloud/cloud_deployment_migrate.png"
 import cloudCertificates from "../assets/cloud/cloud_certificates.png"
 import cloudDeployments from "../assets/cloud/cloud_deployments.png"
+import cloudSpecEditor from "../assets/cloud/cloud_spec_editor.png"
 
 const definition: ProductDefinition = {
 	config: {
@@ -233,7 +234,14 @@ const definition: ProductDefinition = {
 				description: "Visually manage large pod deployments with an integrated editor and comprehensive web console.",
 				image: cloudDeployments,
 				imageAlt: "Deployments View",
-			}
+			},
+			{
+				type: "center",
+				title: "Integrated Template Editor",
+				description: "Integrated Monaco editor for editing templates. Includes syntax highlighting and autocomplete support for all resources in Pritunl Cloud.",
+				image: cloudSpecEditor,
+				imageAlt: "Template Editor",
+			},
 		],
 	},
 
