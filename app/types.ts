@@ -38,6 +38,27 @@ export interface FeatureBlockItem {
 	linkLabel?: string
 }
 
+export interface PricingPlanFeature {
+	label: string
+	icon: string
+}
+
+export interface PricingPlan {
+	name: string
+	cost: number
+	description: string
+	featured?: boolean
+	href?: string
+	buttonLabel?: string
+	features: PricingPlanFeature[]
+}
+
+export interface Pricing {
+	title: string
+	description: string
+	plans: PricingPlan[]
+}
+
 export interface FeatureBlock {
 	type: "left" | "right" | "center" | "columns"
 	title: string
@@ -64,6 +85,7 @@ export interface ProductConfig {
 
 	featuresGrid?: FeaturesGrid
 	featureBlocks?: FeatureBlock[]
+	pricing?: Pricing
 }
 
 export interface PageProps {
