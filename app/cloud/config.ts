@@ -1,4 +1,18 @@
 import type { ProductDefinition } from "../types"
+import {
+	FileText,
+	Code,
+	Monitor,
+	Scale,
+	AppWindow,
+	RefreshCcw,
+	CloudUpload,
+	CirclePlus,
+	Lock,
+	Server,
+	ShieldCheck,
+	Activity,
+} from "lucide-react"
 
 import Home from "../components/Home"
 import heroImage from "../assets/cloud/cloud_pods.png"
@@ -141,17 +155,17 @@ const definition: ProductDefinition = {
 				imageAlt: "Template Editor",
 				items: [
 					{
-						icon: "FileText",
+						icon: FileText,
 						title: "Markdown & YAML based.",
 						description: "Add notes and documentation directly into deployment specs with a familiar and readable format.",
 					},
 					{
-						icon: "Code",
+						icon: Code,
 						title: "Python & Shell support.",
 						description: "Create dynamic deployments that can handle complex configurations with Python and Shell scripting.",
 					},
 					{
-						icon: "Monitor",
+						icon: Monitor,
 						title: "All-in-one template.",
 						description: "Handle everything in a single unified template, simplifying deployment management and reducing complexity.",
 					},
@@ -165,17 +179,17 @@ const definition: ProductDefinition = {
 				imageAlt: "Deployments Log Output",
 				items: [
 					{
-						icon: "Scale",
+						icon: Scale,
 						title: "Real-time monitoring.",
 						description: "View live deployment status, logging output, and resource metrics directly from the web console.",
 					},
 					{
-						icon: "AppWindow",
+						icon: AppWindow,
 						title: "Web console management.",
 						description: "All deployment management and monitoring can be done entirely from the web console interface.",
 					},
 					{
-						icon: "RefreshCcw",
+						icon: RefreshCcw,
 						title: "Statement based plans.",
 						description: "Take actions such as scaling or restarting deployments based on the state of existing deployments.",
 					},
@@ -189,17 +203,17 @@ const definition: ProductDefinition = {
 				imageAlt: "Deployment Migration",
 				items: [
 					{
-						icon: "RefreshCcw",
+						icon: RefreshCcw,
 						title: "Live migration.",
 						description: "Migrate deployment templates between commits without downtime or service interruption.",
 					},
 					{
-						icon: "CloudUpload",
+						icon: CloudUpload,
 						title: "Diff view.",
 						description: "Visual diff view of all changes that will be applied before committing the migration.",
 					},
 					{
-						icon: "CirclePlus",
+						icon: CirclePlus,
 						title: "Version flexibility.",
 						description: "Migrate from older or newer template commits, allowing both upgrades and rollbacks.",
 					},
@@ -213,17 +227,17 @@ const definition: ProductDefinition = {
 				imageAlt: "Certificates Management",
 				items: [
 					{
-						icon: "Lock",
+						icon: Lock,
 						title: "Lets Encrypt integration.",
 						description: "Automatically create and renew SSL certificates with HTTP validation on port 80 or DNS CNAME validation.",
 					},
 					{
-						icon: "Server",
+						icon: Server,
 						title: "Multi-provider DNS.",
 						description: "DNS CNAME validation with AWS, Cloudflare, and Oracle Cloud DNS APIs. Wildcard certificates supported.",
 					},
 					{
-						icon: "Scale",
+						icon: Scale,
 						title: "Automatic renewal.",
 						description: "Certificates automatically renew and are dynamically updated in deployment templates via the IMDS service.",
 					},
@@ -256,17 +270,17 @@ const definition: ProductDefinition = {
 				description: "Scalable self hosted bare metal virtualization with no vendor lock-in.",
 				items: [
 					{
-						icon: "ShieldCheck",
+						icon: ShieldCheck,
 						title: "Multi-Factor Authentication",
 						description: "Multifactor secondary authentication from Duo, OneLogin Protect, Okta Verify and any WebAuthn hardware token including YubiKeys and Google Titan Tokens.",
 					},
 					{
-						icon: "Activity",
+						icon: Activity,
 						title: "High Availability",
 						description: "All nodes run independently and will continue running in the event of other nodes failing. Additional nodes can be added and removed as needed for fast scaling without downtime.",
 					},
 					{
-						icon: "Server",
+						icon: Server,
 						title: "Instance IMDS Service",
 						description: "IMDS agent delivers deployment information, platform resource access, and real-time CPU, memory, and disk metrics. Security CVE alerts notify when DNF updates are pending.",
 					},
@@ -283,12 +297,12 @@ const definition: ProductDefinition = {
 					cost: 0,
 					description: "Free to use with no limits on servers or users.",
 					features: [
-						{ label: "Unlimited Users", icon: "" },
-						{ label: "Unlimited Servers", icon: "" },
-						{ label: "Distributed Architecture", icon: "" },
-						{ label: "WebAuthn Authentication", icon: "" },
-						{ label: "Lets Encrypt Certificates", icon: "" },
-						{ label: "DNS Management", icon: "" },
+						{ label: "Unlimited Users", icon: undefined },
+						{ label: "Unlimited Servers", icon: undefined },
+						{ label: "Distributed Architecture", icon: undefined },
+						{ label: "WebAuthn Authentication", icon: undefined },
+						{ label: "Lets Encrypt Certificates", icon: undefined },
+						{ label: "DNS Management", icon: undefined },
 					],
 				},
 				{
@@ -299,12 +313,12 @@ const definition: ProductDefinition = {
 					href: "https://app.pritunl.com/checkout/cloud",
 					buttonLabel: "Get started today",
 					features: [
-						{ label: "Multi-Tenant Support", icon: "" },
-						{ label: "Single Sign-On", icon: "" },
-						{ label: "Geo-IP Data", icon: "" },
-						{ label: "Email Support", icon: "" },
-						{ label: "Credit Card Payments", icon: "" },
-						{ label: "Bank ACH Payments", icon: "" },
+						{ label: "Multi-Tenant Support", icon: undefined },
+						{ label: "Single Sign-On", icon: undefined },
+						{ label: "Geo-IP Data", icon: undefined },
+						{ label: "Email Support", icon: undefined },
+						{ label: "Credit Card Payments", icon: undefined },
+						{ label: "Bank ACH Payments", icon: undefined },
 					],
 				},
 			],
