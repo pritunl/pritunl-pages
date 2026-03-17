@@ -1,42 +1,6 @@
 import type { FeatureBlock as FeatureBlockType } from "../types"
 import Image from "next/image"
 import Link from "next/link"
-import {
-	FileText,
-	Code,
-	Monitor,
-	Scale,
-	AppWindow,
-	RefreshCcw,
-	CloudUpload,
-	CirclePlus,
-	Lock,
-	Server,
-	ShieldCheck,
-	KeyRound,
-	Globe,
-	Activity,
-	BarChart3,
-} from "lucide-react"
-import type { LucideIcon } from "lucide-react"
-
-const icons: Record<string, LucideIcon> = {
-	FileText,
-	Code,
-	Monitor,
-	Scale,
-	AppWindow,
-	RefreshCcw,
-	CloudUpload,
-	CirclePlus,
-	Lock,
-	Server,
-	ShieldCheck,
-	KeyRound,
-	Globe,
-	Activity,
-	BarChart3,
-}
 
 interface Props {
 	block: FeatureBlockType
@@ -56,7 +20,7 @@ export default function FeatureBlock({ block, first }: Props) {
 				{block.items && block.items.length > 0 && (
 					<dl className="mt-10 max-w-xl space-y-8 text-base/7 text-gray-400 lg:max-w-none">
 						{block.items.map((item, i) => {
-							const Icon = icons[item.icon]
+							const Icon = item.icon
 							return (
 								<div key={i} className="relative pl-9">
 									<dt className="inline font-semibold text-white">
@@ -103,7 +67,7 @@ export default function FeatureBlock({ block, first }: Props) {
 						<div className="mx-auto mt-16 max-w-2xl sm:mt-20 lg:mt-24 lg:max-w-none">
 							<dl className="grid max-w-xl grid-cols-1 gap-x-8 gap-y-16 lg:max-w-none lg:grid-cols-3">
 								{block.items.map((item, i) => {
-									const Icon = icons[item.icon]
+									const Icon = item.icon
 									return (
 										<div key={i} className="flex flex-col">
 											<dt className="flex items-center gap-x-3 text-base/7 font-semibold text-white">
@@ -161,7 +125,7 @@ export default function FeatureBlock({ block, first }: Props) {
 					<div className="mx-auto mt-12 max-w-7xl px-6 sm:mt-14 md:mt-18 lg:px-8">
 						<dl className="mx-auto grid max-w-2xl grid-cols-1 gap-x-6 gap-y-10 text-base/7 text-gray-400 sm:grid-cols-2 lg:mx-0 lg:max-w-none lg:grid-cols-3 lg:gap-x-8 lg:gap-y-16">
 							{block.items.map((item, i) => {
-								const Icon = icons[item.icon]
+								const Icon = item.icon
 								return (
 									<div key={i} className="relative pl-9">
 										<dt className="inline font-semibold text-white">
