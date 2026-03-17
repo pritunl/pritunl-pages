@@ -1,5 +1,6 @@
 import type { ComponentType } from "react"
 import type { StaticImageData } from "next/image"
+import type { LucideIcon } from "lucide-react"
 
 export interface NavItem {
 	name: string
@@ -31,7 +32,7 @@ export interface FeaturesGrid {
 }
 
 export interface FeatureBlockItem {
-	icon: string
+	icon: LucideIcon
 	title: string
 	description: string
 	link?: string
@@ -40,7 +41,7 @@ export interface FeatureBlockItem {
 
 export interface PricingPlanFeature {
 	label: string
-	icon: string
+	icon?: LucideIcon
 }
 
 export interface PricingPlan {
