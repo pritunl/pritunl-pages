@@ -69,7 +69,10 @@ export default function Home({ config }: PageProps) {
 				<FeatureBlock key={i} block={block} first={i === 0}/>
 			))}
 			<div className="h-38"></div>
-			{config.pricing && <Pricing pricing={config.pricing}/>}
+			{config.pricing && <>
+				<Pricing pricing={config.pricing}/>
+				<div className="h-38"></div>
+			</>}
 		</Gradient>
 	)
 }
