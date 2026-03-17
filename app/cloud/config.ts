@@ -273,6 +273,42 @@ const definition: ProductDefinition = {
 				],
 			},
 		],
+
+		pricing: {
+			title: "Pricing",
+			description: "Pritunl Cloud is free to use with no limits on the number of servers or users. An optional subscription provides enterprise features including multi-tenant support, single sign-on and geo-IP data. The subscription can be activated from the admin web console at anytime.",
+			plans: [
+				{
+					name: "Community",
+					cost: 0,
+					description: "Free to use with no limits on servers or users.",
+					features: [
+						{ label: "Unlimited Users", icon: "" },
+						{ label: "Unlimited Servers", icon: "" },
+						{ label: "Distributed Architecture", icon: "" },
+						{ label: "WebAuthn Authentication", icon: "" },
+						{ label: "Lets Encrypt Certificates", icon: "" },
+						{ label: "DNS Management", icon: "" },
+					],
+				},
+				{
+					name: "Enterprise",
+					cost: 50,
+					description: "Free 7 Day Trial",
+					featured: true,
+					href: "https://app.pritunl.com/checkout/cloud",
+					buttonLabel: "Get started today",
+					features: [
+						{ label: "Multi-Tenant Support", icon: "" },
+						{ label: "Single Sign-On", icon: "" },
+						{ label: "Geo-IP Data", icon: "" },
+						{ label: "Email Support", icon: "" },
+						{ label: "Credit Card Payments", icon: "" },
+						{ label: "Bank ACH Payments", icon: "" },
+					],
+				},
+			],
+		},
 	},
 
 	pages: {
