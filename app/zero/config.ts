@@ -1,4 +1,15 @@
 import type { ProductDefinition } from "../types"
+import {
+	ShieldCheck,
+	KeyRound,
+	Globe,
+	Lock,
+	Server,
+	RefreshCcw,
+	Activity,
+	FileText,
+	BarChart3,
+} from "lucide-react"
 
 import Home from "../components/Home"
 import heroImage from "../assets/zero/zero_services.png"
@@ -86,17 +97,17 @@ const definition: ProductDefinition = {
 				imageAlt: "Login Console",
 				items: [
 					{
-						icon: "ShieldCheck",
+						icon: ShieldCheck,
 						title: "Single sign-on.",
 						description: "Seamlessly authenticate with existing identity providers including Azure, Google, Authelia, Authentik and Okta.",
 					},
 					{
-						icon: "KeyRound",
+						icon: KeyRound,
 						title: "Policy enforcement.",
 						description: "Enforce authentication policies including multi-factor, WebAuthn and network restrictions before granting access.",
 					},
 					{
-						icon: "Globe",
+						icon: Globe,
 						title: "Web application access.",
 						description: "Provide authenticated access to internal web applications without modifying the application.",
 					},
@@ -110,17 +121,17 @@ const definition: ProductDefinition = {
 				imageAlt: "Certificates Management",
 				items: [
 					{
-						icon: "Lock",
+						icon: Lock,
 						title: "Lets Encrypt integration.",
 						description: "Automatically create and renew SSL certificates with HTTP or DNS CNAME validation.",
 					},
 					{
-						icon: "Server",
+						icon: Server,
 						title: "Multi-provider DNS.",
 						description: "DNS CNAME validation with AWS, Cloudflare, and Oracle Cloud DNS APIs. Wildcard certificates supported.",
 					},
 					{
-						icon: "RefreshCcw",
+						icon: RefreshCcw,
 						title: "Automatic renewal.",
 						description: "Certificates automatically renew allowing effortless management of certificates for internal web applications.",
 					},
@@ -134,17 +145,17 @@ const definition: ProductDefinition = {
 				imageAlt: "Endpoint Charts",
 				items: [
 					{
-						icon: "Activity",
+						icon: Activity,
 						title: "System monitoring.",
 						description: "Monitor Linux endpoints with detailed charting for system activity, CPU, memory and disk usage.",
 					},
 					{
-						icon: "FileText",
+						icon: FileText,
 						title: "Log storage.",
 						description: "Centralized log storage for endpoint activity providing visibility into infrastructure operations.",
 					},
 					{
-						icon: "BarChart3",
+						icon: BarChart3,
 						title: "Health overview.",
 						description: "Quick overview of infrastructure health with detailed metrics and usage statistics across all endpoints.",
 					},
