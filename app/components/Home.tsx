@@ -2,6 +2,7 @@ import Header from "./Header"
 import FeaturesGrid from "./FeaturesGrid"
 import FeatureBlock from "./FeatureBlock"
 import Pricing from "./Pricing"
+import Support from "./Support"
 import { Gradient } from "./Themed"
 
 import type { PageProps } from "../types"
@@ -71,6 +72,10 @@ export default function Home({ config }: PageProps) {
 			<div className="h-38"></div>
 			{config.pricing && <>
 				<Pricing pricing={config.pricing}/>
+				<div className="h-38"></div>
+			</>}
+		{config.support && <>
+				<Support support={config.support}/>
 				<div className="h-38"></div>
 			</>}
 		</Gradient>
