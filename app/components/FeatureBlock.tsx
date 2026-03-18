@@ -5,9 +5,10 @@ import Link from "next/link"
 interface Props {
 	block: FeatureBlockType
 	first?: boolean
+	last?: boolean
 }
 
-export default function FeatureBlock({ block, first }: Props) {
+export default function FeatureBlock({ block, first, last }: Props) {
 	const dataContent = (
 		<div className={block.type === "left" ? "lg:pt-4 lg:pr-8" : "lg:pt-4 lg:pl-8"}>
 			<div className="lg:max-w-lg">
@@ -53,7 +54,7 @@ export default function FeatureBlock({ block, first }: Props) {
 
 	if (block.type === "columns") {
 		return (
-			<div className={first ? "overflow-hidden pb-12" : "overflow-hidden py-12"}>
+			<div className={`overflow-hidden${first && last ? "" : first ? " pb-12" : last ? " pt-12" : " py-12"}`}>
 				<div className="mx-auto max-w-7xl px-6 lg:px-8">
 					<div className="mx-auto max-w-2xl lg:text-center">
 						<p className="mt-2 text-4xl font-semibold tracking-tight text-pretty text-white sm:text-5xl lg:text-balance">
@@ -97,7 +98,7 @@ export default function FeatureBlock({ block, first }: Props) {
 
 	if (block.type === "center") {
 		return (
-			<div className={first ? "overflow-hidden pb-12" : "overflow-hidden py-12"}>
+			<div className={`overflow-hidden${first && last ? "" : first ? " pb-12" : last ? " pt-12" : " py-12"}`}>
 				<div className="mx-auto max-w-7xl px-6 lg:px-8">
 					<div className="mx-auto max-w-3xl sm:text-center">
 						<p className="mt-2 text-4xl font-semibold tracking-tight text-pretty text-white sm:text-5xl sm:text-balance">
@@ -144,7 +145,7 @@ export default function FeatureBlock({ block, first }: Props) {
 	}
 
 	return (
-		<div className={first ? "overflow-hidden pb-12" : "overflow-hidden py-12"}>
+		<div className={`overflow-hidden${first && last ? "" : first ? " pb-12" : last ? " pt-12" : " py-12"}`}>
 			<div className="mx-auto max-w-7xl px-6 lg:px-8">
 				<div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2">
 					{block.type === "left" ? (
