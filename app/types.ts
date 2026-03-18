@@ -60,6 +60,18 @@ export interface Pricing {
 	plans: PricingPlan[]
 }
 
+export interface SupportButton {
+	label: string
+	link: string
+	icon: LucideIcon
+}
+
+export interface Support {
+	title: string
+	description: string
+	buttons: SupportButton[]
+}
+
 export interface FeatureBlock {
 	type: "left" | "right" | "center" | "columns"
 	title: string
@@ -87,6 +99,7 @@ export interface ProductConfig {
 	featuresGrid?: FeaturesGrid
 	featureBlocks?: FeatureBlock[]
 	pricing?: Pricing
+	support?: Support
 }
 
 export interface PageProps {
