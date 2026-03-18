@@ -24,6 +24,9 @@ import {
 	Mail,
 	CreditCard,
 	Landmark,
+	Headset,
+	MessageSquare,
+	BookOpen,
 } from "lucide-react"
 
 import Home from "../components/Home"
@@ -299,6 +302,16 @@ const definition: ProductDefinition = {
 				],
 			},
 		],
+
+		support: {
+			title: "Contact Support",
+			description: "Email and community forums available for support",
+			buttons: [
+				{ label: "Email Support", link: "https://support.pritunl.com", icon: Mail },
+				{ label: "Community Forum", link: "https://forum.pritunl.com", icon: MessageSquare },
+				{ label: "Documentation", link: "https://docs.pritunl.com/kb/cloud", icon: BookOpen },
+			],
+		},
 
 		pricing: {
 			title: "Pricing",
