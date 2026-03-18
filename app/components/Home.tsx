@@ -74,7 +74,7 @@ export default function Home({ config }: PageProps) {
 				<Pricing pricing={config.pricing}/>
 				<div className="h-38"></div>
 			</>}
-		{config.support && <>
+			{config.support && <>
 				<Support support={config.support}/>
 				<div className="h-38"></div>
 			</>}
