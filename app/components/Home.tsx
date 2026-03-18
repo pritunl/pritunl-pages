@@ -66,7 +66,7 @@ export default function Home({ config }: PageProps) {
 			{config.featuresGrid && <FeaturesGrid featuresGrid={config.featuresGrid}/>}
 			<div className="h-38"></div>
 			{config.featureBlocks?.map((block, i) => (
-				<FeatureBlock key={i} block={block} first={i === 0}/>
+				<FeatureBlock key={i} block={block} first={i === 0} last={i === config.featureBlocks!.length - 1}/>
 			))}
 			<div className="h-38"></div>
 			{config.pricing && <>
