@@ -1,42 +1,5 @@
 import type { Pricing as PricingType } from "../types"
-import {
-	Check,
-	FileText,
-	Code,
-	Monitor,
-	Scale,
-	AppWindow,
-	RefreshCcw,
-	CloudUpload,
-	CirclePlus,
-	Lock,
-	Server,
-	ShieldCheck,
-	KeyRound,
-	Globe,
-	Activity,
-	BarChart3,
-} from "lucide-react"
-import type { LucideIcon } from "lucide-react"
-
-const icons: Record<string, LucideIcon> = {
-	Check,
-	FileText,
-	Code,
-	Monitor,
-	Scale,
-	AppWindow,
-	RefreshCcw,
-	CloudUpload,
-	CirclePlus,
-	Lock,
-	Server,
-	ShieldCheck,
-	KeyRound,
-	Globe,
-	Activity,
-	BarChart3,
-}
+import { Check } from "lucide-react"
 
 interface Props {
 	pricing: PricingType
@@ -92,7 +55,7 @@ export default function Pricing({ pricing }: Props) {
 							className="mt-8 space-y-3 text-sm/6 text-gray-300 sm:mt-10"
 						>
 							{plan.features.map((feature) => {
-								const Icon = icons[feature.icon] || Check
+								const Icon = feature.icon || Check
 								return (
 									<li key={feature.label} className="flex gap-x-3">
 										<Icon
