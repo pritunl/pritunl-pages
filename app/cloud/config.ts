@@ -28,6 +28,7 @@ import {
 
 import Discourse from "../icons/Discourse"
 import GitBook from "../icons/GitBook"
+import Substack from "../icons/Substack"
 import Home from "../components/Home"
 import heroImage from "../assets/cloud/cloud_pods.png"
 import pythonShellSpec from "../assets/cloud/cloud_python_shell_spec.png"
@@ -309,6 +310,7 @@ const definition: ProductDefinition = {
 				{ label: "Email Support", link: "https://support.pritunl.com", icon: Mail },
 				{ label: "Community Forum", link: "https://forum.pritunl.com", icon: Discourse },
 				{ label: "Documentation", link: "https://docs.pritunl.com/kb/cloud", icon: GitBook },
+				{ label: "Substack Newsletter", link: "https://docs.pritunl.com/kb/cloud", icon: Substack },
 			],
 		},
 
