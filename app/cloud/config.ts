@@ -24,11 +24,10 @@ import {
 	Mail,
 	CreditCard,
 	Landmark,
-	Headset,
-	MessageSquare,
-	BookOpen,
 } from "lucide-react"
 
+import Discourse from "../icons/Discourse"
+import GitBook from "../icons/GitBook"
 import Home from "../components/Home"
 import heroImage from "../assets/cloud/cloud_pods.png"
 import pythonShellSpec from "../assets/cloud/cloud_python_shell_spec.png"
@@ -308,8 +307,8 @@ const definition: ProductDefinition = {
 			description: "Email and community forums available for support",
 			buttons: [
 				{ label: "Email Support", link: "https://support.pritunl.com", icon: Mail },
-				{ label: "Community Forum", link: "https://forum.pritunl.com", icon: MessageSquare },
-				{ label: "Documentation", link: "https://docs.pritunl.com/kb/cloud", icon: BookOpen },
+				{ label: "Community Forum", link: "https://forum.pritunl.com", icon: Discourse },
+				{ label: "Documentation", link: "https://docs.pritunl.com/kb/cloud", icon: GitBook },
 			],
 		},
 
