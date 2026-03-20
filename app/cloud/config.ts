@@ -303,7 +303,7 @@ const definition: ProductDefinition = {
 		],
 
 		support: {
-			title: "Contact Support",
+			title: "Support",
 			description: "Email and community forums available for support",
 			buttons: [
 				{ label: "Email Support", link: "https://support.pritunl.com", icon: Mail },
