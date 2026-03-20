@@ -14,7 +14,7 @@ export default function Support({ support }: Props) {
 				<p className="mx-auto mt-6 max-w-xl text-lg/8 text-pretty text-gray-400">
 					{support.description}
 				</p>
-				<div className="mt-8 flex justify-center gap-x-4">
+				<div className="mt-8 flex flex-wrap justify-center gap-4">
 					{support.buttons.map((button) => {
 						const Icon = button.icon
 						return (
