@@ -74,6 +74,17 @@ export interface Support {
 	buttons: SupportButton[]
 }
 
+export interface Footer {
+	copyright: string
+	privacy: string
+	terms: string
+	twitter: string
+	bluesky: string
+	github: string
+	linkedin: string
+	substack: string
+}
+
 export interface FeatureBlock {
 	type: "left" | "right" | "center" | "columns"
 	title: string
@@ -102,6 +113,7 @@ export interface ProductConfig {
 	featureBlocks?: FeatureBlock[]
 	pricing?: Pricing
 	support?: Support
+	footer?: Footer
 }
 
 export interface PageProps {
