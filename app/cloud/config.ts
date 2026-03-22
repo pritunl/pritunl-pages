@@ -349,6 +349,17 @@ const definition: ProductDefinition = {
 				},
 			],
 		},
+
+		footer: {
+			copyright: "Pritunl, Inc © 2026",
+			privacy: "https://pritunl.com/privacy",
+			terms: "https://pritunl.com/terms",
+			twitter: "https://x.com/pritunl",
+			bluesky: "https://bsky.app/profile/pritunl.bsky.social",
+			github: "https://github.com/pritunl/pritunl-cloud",
+			linkedin: "https://linkedin.com/company/pritunl",
+			substack: "https://pritunl.substack.com",
+		}
 	},
 
 	pages: {
