@@ -310,7 +310,7 @@ const definition: ProductDefinition = {
 				{ label: "Email Support", link: "https://support.pritunl.com", icon: Mail },
 				{ label: "Community Forum", link: "https://forum.pritunl.com", icon: Discourse },
 				{ label: "Documentation", link: "https://docs.pritunl.com/kb/cloud", icon: GitBook },
-				{ label: "Substack Newsletter", link: "https://docs.pritunl.com/kb/cloud", icon: Substack },
+				{ label: "Substack Newsletter", link: "https://pritunl.substack.com/subscribe", icon: Substack },
 			],
 		},
 
