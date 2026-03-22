@@ -75,6 +75,10 @@ export interface Support {
 }
 
 export interface Footer {
+	icon: StaticImageData
+	address1: string
+	address2: string
+	phone: string
 	copyright: string
 	privacy: string
 	terms: string
