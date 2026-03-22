@@ -30,6 +30,7 @@ import Discourse from "../icons/Discourse"
 import GitBook from "../icons/GitBook"
 import Substack from "../icons/Substack"
 import Home from "../components/Home"
+import pritunlImage from "../assets/pritunl.png"
 import heroImage from "../assets/cloud/cloud_pods.png"
 import pythonShellSpec from "../assets/cloud/cloud_python_shell_spec.png"
 import images from "../assets/cloud/cloud_images.png"
@@ -359,6 +360,10 @@ const definition: ProductDefinition = {
 			github: "https://github.com/pritunl/pritunl-cloud",
 			linkedin: "https://linkedin.com/company/pritunl",
 			substack: "https://pritunl.substack.com",
+			icon: pritunlImage,
+			address1: "1700 7th Ave Ste 116-211",
+			address2: "Seattle, WA 98101",
+			phone: "(206) 202-2276",
 		}
 	},
 
