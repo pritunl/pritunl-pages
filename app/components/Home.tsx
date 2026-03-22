@@ -3,6 +3,7 @@ import FeaturesGrid from "./FeaturesGrid"
 import FeatureBlock from "./FeatureBlock"
 import Pricing from "./Pricing"
 import Support from "./Support"
+import Footer from "./Footer"
 import { Gradient } from "./Themed"
 
 import type { PageProps } from "../types"
@@ -78,6 +79,7 @@ export default function Home({ config }: PageProps) {
 				<Support support={config.support}/>
 				<div className="h-38"></div>
 			</>}
+			{config.footer && <Footer footer={config.footer}/>}
 		</Gradient>
 	)
 }
