@@ -21,7 +21,7 @@ const socialLinks = [
 export default function Footer({ footer }: Props) {
 	return (
 		<footer>
-			<div className="mx-auto max-w-7xl px-6 py-12 lg:px-8">
+			<div className="mx-auto max-w-7xl px-6 pb-12 lg:px-8">
 				<div>
 					<Image src={footer.icon} alt={footer.address1} className="h-9 w-auto" />
 					<div className="mt-4">
