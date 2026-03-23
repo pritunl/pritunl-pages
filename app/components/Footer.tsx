@@ -20,7 +20,7 @@ const socialLinks = [
 
 export default function Footer({ footer }: Props) {
 	return (
-		<footer className="bg-gray-900">
+		<footer>
 			<div className="mx-auto max-w-7xl px-6 py-12 lg:px-8">
 				<div>
 					<Image src={footer.icon} alt={footer.address1} className="h-9 w-auto" />
