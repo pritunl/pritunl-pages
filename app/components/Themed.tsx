@@ -35,6 +35,24 @@ export function Gradient({ children }: { children: React.ReactNode }) {
 					className="relative left-[calc(50%-15rem)] aspect-[1155/678] w-[38rem] -translate-x-1/2 rotate-[60deg] bg-gradient-to-tr from-[#9089fc] to-[#ff80b5] opacity-15 sm:left-[calc(50%-25rem)] sm:w-[74rem]"
 				/>
 			</div>
+			<div aria-hidden="true" className="absolute inset-x-0 top-[30%] -z-10 transform-gpu overflow-hidden blur-3xl">
+				<div
+					style={{ clipPath: clipPath3 }}
+					className="relative left-[calc(50%+15rem)] aspect-[1155/678] w-[42rem] -translate-x-1/2 rotate-[110deg] bg-gradient-to-tr from-[#7c6dfc] to-[#ff80b5] opacity-15 sm:left-[calc(50%+30rem)] sm:w-[78rem]"
+				/>
+			</div>
+			<div aria-hidden="true" className="absolute inset-x-0 top-[50%] -z-10 transform-gpu overflow-hidden blur-3xl">
+				<div
+					style={{ clipPath: clipPath2 }}
+					className="relative left-[calc(50%-8rem)] aspect-[1155/678] w-[36rem] -translate-x-1/2 rotate-[270deg] bg-gradient-to-tr from-[#ff80b5] to-[#9089fc] opacity-15 sm:left-[calc(50%-20rem)] sm:w-[70rem]"
+				/>
+			</div>
+			<div aria-hidden="true" className="absolute inset-x-0 top-[70%] -z-10 transform-gpu overflow-hidden blur-3xl">
+				<div
+					style={{ clipPath: clipPath1 }}
+					className="relative left-[calc(50%+5rem)] aspect-[1155/678] w-[38rem] -translate-x-1/2 rotate-[330deg] bg-gradient-to-tr from-[#9089fc] to-[#7c6dfc] opacity-15 sm:left-[calc(50%+15rem)] sm:w-[75rem]"
+				/>
+			</div>
 			<div aria-hidden="true" className="absolute inset-x-0 bottom-0 -z-10 transform-gpu overflow-hidden blur-3xl">
 				<div
 					style={{ clipPath: clipPath1 }}
