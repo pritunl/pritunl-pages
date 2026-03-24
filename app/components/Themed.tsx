@@ -5,7 +5,7 @@ const clipPath3 = "polygon(50% 0%, 80% 10%, 100% 40%, 95% 70%, 75% 100%, 40% 90%
 export function Gradient({ children }: { children: React.ReactNode }) {
 	return (
 		<div className="relative isolate bg-gray-950 overflow-hidden">
-			<div aria-hidden="true" className="absolute inset-x-0 -top-40 -z-10 transform-gpu overflow-hidden blur-3xl sm:-top-80">
+			<div aria-hidden="true" className="absolute inset-x-0 top-10 -z-10 transform-gpu overflow-hidden blur-3xl">
 				<div
 					style={{ clipPath: clipPath1 }}
 					className="relative left-[calc(50%-11rem)] aspect-[1155/678] w-[36.125rem] -translate-x-1/2 rotate-[30deg] bg-gradient-to-tr from-[#ff80b5] to-[#9089fc] opacity-20 sm:left-[calc(50%-30rem)] sm:w-[72.1875rem]"
