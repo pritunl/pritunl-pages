@@ -21,7 +21,7 @@ export default function Pricing({ pricing }: Props) {
 					<div
 						key={plan.name}
 						className={[
-							plan.featured ? "relative bg-gray-800" : "bg-white/2.5 sm:mx-8 lg:mx-0",
+							plan.featured ? "relative bg-gray-900" : "bg-white/2.5 sm:mx-8 lg:mx-0",
 							plan.featured
 								? ""
 								: planIdx === 0
