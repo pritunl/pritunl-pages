@@ -11,6 +11,12 @@ export function Gradient({ children }: { children: React.ReactNode }) {
 					className="relative left-[calc(50%-11rem)] aspect-[1155/678] w-[36.125rem] -translate-x-1/2 rotate-[30deg] bg-gradient-to-tr from-[#ff80b5] to-[#9089fc] opacity-20 sm:left-[calc(50%-30rem)] sm:w-[72.1875rem]"
 				/>
 			</div>
+			<div aria-hidden="true" className="absolute inset-x-0 top-[10%] -z-10 transform-gpu overflow-hidden blur-3xl">
+				<div
+					style={{ clipPath: clipPath3 }}
+					className="relative left-[calc(50%+12rem)] aspect-[1155/678] w-[40rem] -translate-x-1/2 rotate-[240deg] bg-gradient-to-tr from-[#9089fc] to-[#ff80b5] opacity-15 sm:left-[calc(50%+28rem)] sm:w-[76rem]"
+				/>
+			</div>
 			<div aria-hidden="true" className="absolute inset-x-0 top-[20%] -z-10 transform-gpu overflow-hidden blur-3xl">
 				<div
 					style={{ clipPath: clipPath2 }}
@@ -51,6 +57,12 @@ export function Gradient({ children }: { children: React.ReactNode }) {
 				<div
 					style={{ clipPath: clipPath1 }}
 					className="relative left-[calc(50%+5rem)] aspect-[1155/678] w-[38rem] -translate-x-1/2 rotate-[330deg] bg-gradient-to-tr from-[#9089fc] to-[#7c6dfc] opacity-15 sm:left-[calc(50%+15rem)] sm:w-[75rem]"
+				/>
+			</div>
+			<div aria-hidden="true" className="absolute inset-x-0 top-[90%] -z-10 transform-gpu overflow-hidden blur-3xl">
+				<div
+					style={{ clipPath: clipPath3 }}
+					className="relative left-[calc(50%+15rem)] aspect-[1155/678] w-[42rem] -translate-x-1/2 rotate-[110deg] bg-gradient-to-tr from-[#7c6dfc] to-[#ff80b5] opacity-15 sm:left-[calc(50%+30rem)] sm:w-[78rem]"
 				/>
 			</div>
 			<div aria-hidden="true" className="absolute inset-x-0 bottom-30 -z-10 transform-gpu overflow-hidden blur-3xl">
