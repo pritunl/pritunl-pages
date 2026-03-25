@@ -6,7 +6,7 @@ interface Props {
 
 export default function Support({ support }: Props) {
 	return (
-		<div className="relative isolate px-6 lg:px-8">
+		<div id="support" className="relative isolate px-6 lg:px-8">
 			<div className="mx-auto max-w-4xl text-center">
 				<p className="mt-2 text-4xl font-semibold tracking-tight text-balance text-white sm:text-5xl">
 					{support.title}
