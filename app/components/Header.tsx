@@ -28,12 +28,7 @@ export default function Header({ config }: { config: ProductConfig }) {
 						)
 					)}
 				</div>
-				<div className="hidden lg:flex lg:flex-1 lg:justify-end lg:gap-x-4 lg:items-center">
-					<Link href="/log-in" className="text-sm/6 font-semibold text-white">Log in</Link>
-					<Link href="/sign-up" className="rounded-md bg-indigo-500 px-3.5 py-2 text-sm font-semibold text-white shadow-xs hover:bg-indigo-400 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-500">
-						Sign Up
-					</Link>
-				</div>
+				<div className="hidden lg:flex lg:flex-1"></div>
 			</nav>
 		</header>
 	)
