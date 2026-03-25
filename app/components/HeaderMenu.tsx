@@ -58,14 +58,6 @@ export default function HeaderMenu(
 									)
 								)}
 							</div>
-							<div className="py-6">
-								<Link href="/log-in" onClick={() => setMobileMenuOpen(false)} className="-mx-3 block rounded-lg px-3 py-2.5 text-base/7 font-semibold text-white hover:bg-white/5">
-									Log in
-								</Link>
-								<Link href="/sign-up" onClick={() => setMobileMenuOpen(false)} className="-mx-3 block rounded-lg px-3 py-2.5 text-base/7 font-semibold text-white hover:bg-white/5">
-									Sign Up
-								</Link>
-							</div>
 						</div>
 					</div>
 				</DialogPanel>
