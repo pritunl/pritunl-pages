@@ -60,7 +60,7 @@ const definition: ProductDefinition = {
 
 		navigation: [
 			{ name: "Pricing", href: "#pricing" },
-			{ name: "Support", href: "https://support.pritunl.com", external: true },
+			{ name: "Support", href: "#support" },
 			{ name: "Documentation", href: "https://docs.pritunl.com/kb/cloud", external: true },
 			{ name: "Community Forums", href: "https://forum.pritunl.com/", external: true },
 		],
