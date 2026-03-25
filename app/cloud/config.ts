@@ -335,7 +335,7 @@ const definition: ProductDefinition = {
 				{
 					name: "Enterprise",
 					cost: 50,
-					description: "Free 7 Day Trial",
+					description: "Free 7 day trial included.",
 					featured: true,
 					href: "https://app.pritunl.com/checkout/cloud",
 					buttonLabel: "Get started today",
