@@ -96,6 +96,38 @@ export default function FeatureBlock({ block, first, last }: Props) {
 		)
 	}
 
+	if (block.type === "logos") {
+		return (
+			<div className={`overflow-hidden${first && last ? "" : first ? " pb-12" : last ? " pt-12" : " py-12"}`}>
+				<div className="mx-auto max-w-7xl px-6 lg:px-8">
+					<div className="mx-auto max-w-2xl lg:text-center">
+						<p className="mt-2 text-4xl font-semibold tracking-tight text-pretty text-white sm:text-5xl lg:text-balance">
+							{block.title}
+						</p>
+						<p className="mt-6 text-lg/8 text-gray-400">
+							{block.description}
+						</p>
+					</div>
+					{block.logoItems && block.logoItems.length > 0 && (
+						<div className="mt-16 -mx-6 grid grid-cols-2 gap-0.5 overflow-hidden sm:mx-0 sm:rounded-2xl md:grid-cols-3">
+							{block.logoItems.map((item, i) => (
+								<Link key={i} href={item.link} className="bg-white/5 p-8 sm:p-10">
+									<Image
+										width={158}
+										height={48}
+										src={item.image}
+										alt={item.imageAlt}
+										className="max-h-12 w-full object-contain"
+									/>
+								</Link>
+							))}
+						</div>
+					)}
+				</div>
+			</div>
+		)
+	}
+
 	if (block.type === "center") {
 		return (
 			<div className={`overflow-hidden${first && last ? "" : first ? " pb-12" : last ? " pt-12" : " py-12"}`}>
