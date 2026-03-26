@@ -112,13 +112,15 @@ export default function FeatureBlock({ block, first, last }: Props) {
 						<div className="mt-16 -mx-6 grid grid-cols-2 gap-0.5 overflow-hidden sm:mx-0 sm:rounded-2xl md:grid-cols-3">
 							{block.logoItems.map((item, i) => (
 								<Link key={i} href={item.link} className="bg-white/5 p-8 sm:p-10">
-									<Image
-										width={158}
-										height={48}
-										src={item.image}
-										alt={item.imageAlt}
-										className="max-h-12 w-full object-contain"
-									/>
+									<div className="flex h-12 w-full items-center justify-center">
+										<Image
+											width={500}
+											height={48}
+											src={item.image}
+											alt={item.imageAlt}
+											className="max-h-12 max-w-full object-contain"
+										/>
+									</div>
 								</Link>
 							))}
 						</div>
