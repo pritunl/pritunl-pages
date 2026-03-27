@@ -42,7 +42,7 @@ export interface FeatureBlockItem {
 }
 
 export interface FeatureBlockLogoItem {
-	image: StaticImageData
+	image: SvgIcon | StaticImageData
 	imageAlt: string
 	link: string
 }
