@@ -317,24 +317,14 @@ const definition: ProductDefinition = {
 				description: "Supported single sign-on providers.",
 				logoItems: [
 					{
-						image: Auth0,
-						imageAlt: "Auth0",
-						link: "https://auth0.com",
-					},
-					{
-						image: Duo,
-						imageAlt: "Duo",
-						link: "https://duo.com",
-					},
-					{
 						image: GoogleWorkspace,
 						imageAlt: "Google Workspace",
 						link: "https://workspace.google.com",
 					},
 					{
-						image: JumpCloud,
-						imageAlt: "JumpCloud",
-						link: "https://jumpcloud.com",
+						image: Auth0,
+						imageAlt: "Auth0",
+						link: "https://auth0.com",
 					},
 					{
 						image: MicrosoftEntra,
@@ -350,6 +340,16 @@ const definition: ProductDefinition = {
 						image: OneLogin,
 						imageAlt: "OneLogin",
 						link: "https://onelogin.com",
+					},
+					{
+						image: JumpCloud,
+						imageAlt: "JumpCloud",
+						link: "https://jumpcloud.com",
+					},
+					{
+						image: Duo,
+						imageAlt: "Duo",
+						link: "https://duo.com",
 					},
 					{
 						image: Yubico,
