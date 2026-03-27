@@ -51,6 +51,14 @@ import cloudCertificates from "../assets/cloud/cloud_certificates.png"
 import cloudDeployments from "../assets/cloud/cloud_deployments.png"
 import cloudSpecEditor from "../assets/cloud/cloud_spec_editor.png"
 import cloudSpecDiff from "../assets/cloud/cloud_spec_diff.png"
+import auth0Logo from "../assets/auth0.svg"
+import duoLogo from "../assets/duo.svg"
+import googleWorkspaceLogo from "../assets/google_workspace.svg"
+import jumpCloudLogo from "../assets/jumpcloud.svg"
+import microsoftEntraLogo from "../assets/microsoft_entra.svg"
+import oktaLogo from "../assets/okta.svg"
+import oneLoginLogo from "../assets/onelogin.svg"
+import yubicoLogo from "../assets/yubico.svg"
 
 const definition: ProductDefinition = {
 	config: {
@@ -299,6 +307,53 @@ const definition: ProductDefinition = {
 						icon: Server,
 						title: "Instance IMDS Service",
 						description: "IMDS agent delivers deployment information, platform resource access, and real-time CPU, memory, and disk metrics. Security CVE alerts notify when DNF updates are pending.",
+					},
+				],
+			},
+			{
+				type: "logos",
+				title: "Single Sign-On Providers",
+				description: "Supported single sign-on providers.",
+				logoItems: [
+					{
+						image: auth0Logo,
+						imageAlt: "Auth0",
+						link: "https://auth0.com",
+					},
+					{
+						image: duoLogo,
+						imageAlt: "Duo",
+						link: "https://duo.com",
+					},
+					{
+						image: googleWorkspaceLogo,
+						imageAlt: "Google Workspace",
+						link: "https://workspace.google.com",
+					},
+					{
+						image: jumpCloudLogo,
+						imageAlt: "JumpCloud",
+						link: "https://jumpcloud.com",
+					},
+					{
+						image: microsoftEntraLogo,
+						imageAlt: "Microsoft Entra",
+						link: "https://www.microsoft.com/en-us/security/business/microsoft-entra",
+					},
+					{
+						image: oktaLogo,
+						imageAlt: "Okta",
+						link: "https://okta.com",
+					},
+					{
+						image: oneLoginLogo,
+						imageAlt: "OneLogin",
+						link: "https://onelogin.com",
+					},
+					{
+						image: yubicoLogo,
+						imageAlt: "Yubico",
+						link: "https://yubico.com",
 					},
 				],
 			},
