@@ -356,11 +356,6 @@ const definition: ProductDefinition = {
 						imageAlt: "Yubico",
 						link: "https://yubico.com",
 					},
-					{
-						image: WebAuthn,
-						imageAlt: "WebAuthn",
-						link: "https://webauthn.io",
-					},
 				],
 			},
 		],
