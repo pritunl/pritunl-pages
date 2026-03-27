@@ -37,6 +37,7 @@ import MicrosoftEntra from "../logos/MicrosoftEntra"
 import Okta from "../logos/Okta"
 import OneLogin from "../logos/OneLogin"
 import Yubico from "../logos/Yubico"
+import WebAuthn from "../logos/WebAuthn"
 import Home from "../components/Home"
 import pritunlImage from "../assets/pritunl.png"
 import heroImage from "../assets/cloud/cloud_pods.png"
@@ -354,6 +355,11 @@ const definition: ProductDefinition = {
 						image: Yubico,
 						imageAlt: "Yubico",
 						link: "https://yubico.com",
+					},
+					{
+						image: WebAuthn,
+						imageAlt: "WebAuthn",
+						link: "https://webauthn.io",
 					},
 				],
 			},
