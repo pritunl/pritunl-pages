@@ -29,6 +29,14 @@ import {
 import Discourse from "../icons/Discourse"
 import GitBook from "../icons/GitBook"
 import Substack from "../icons/Substack"
+import Auth0 from "../logos/Auth0"
+import Duo from "../logos/Duo"
+import GoogleWorkspace from "../logos/GoogleWorkspace"
+import JumpCloud from "../logos/JumpCloud"
+import MicrosoftEntra from "../logos/MicrosoftEntra"
+import Okta from "../logos/Okta"
+import OneLogin from "../logos/OneLogin"
+import Yubico from "../logos/Yubico"
 import Home from "../components/Home"
 import pritunlImage from "../assets/pritunl.png"
 import heroImage from "../assets/cloud/cloud_pods.png"
@@ -51,14 +59,6 @@ import cloudCertificates from "../assets/cloud/cloud_certificates.png"
 import cloudDeployments from "../assets/cloud/cloud_deployments.png"
 import cloudSpecEditor from "../assets/cloud/cloud_spec_editor.png"
 import cloudSpecDiff from "../assets/cloud/cloud_spec_diff.png"
-import auth0Logo from "../assets/auth0.svg"
-import duoLogo from "../assets/duo.svg"
-import googleWorkspaceLogo from "../assets/google_workspace.svg"
-import jumpCloudLogo from "../assets/jumpcloud.svg"
-import microsoftEntraLogo from "../assets/microsoft_entra.svg"
-import oktaLogo from "../assets/okta.svg"
-import oneLoginLogo from "../assets/onelogin.svg"
-import yubicoLogo from "../assets/yubico.svg"
 
 const definition: ProductDefinition = {
 	config: {
@@ -316,42 +316,42 @@ const definition: ProductDefinition = {
 				description: "Supported single sign-on providers.",
 				logoItems: [
 					{
-						image: auth0Logo,
+						image: Auth0,
 						imageAlt: "Auth0",
 						link: "https://auth0.com",
 					},
 					{
-						image: duoLogo,
+						image: Duo,
 						imageAlt: "Duo",
 						link: "https://duo.com",
 					},
 					{
-						image: googleWorkspaceLogo,
+						image: GoogleWorkspace,
 						imageAlt: "Google Workspace",
 						link: "https://workspace.google.com",
 					},
 					{
-						image: jumpCloudLogo,
+						image: JumpCloud,
 						imageAlt: "JumpCloud",
 						link: "https://jumpcloud.com",
 					},
 					{
-						image: microsoftEntraLogo,
+						image: MicrosoftEntra,
 						imageAlt: "Microsoft Entra",
 						link: "https://www.microsoft.com/en-us/security/business/microsoft-entra",
 					},
 					{
-						image: oktaLogo,
+						image: Okta,
 						imageAlt: "Okta",
 						link: "https://okta.com",
 					},
 					{
-						image: oneLoginLogo,
+						image: OneLogin,
 						imageAlt: "OneLogin",
 						link: "https://onelogin.com",
 					},
 					{
-						image: yubicoLogo,
+						image: Yubico,
 						imageAlt: "Yubico",
 						link: "https://yubico.com",
 					},
