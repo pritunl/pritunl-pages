@@ -113,13 +113,20 @@ export default function FeatureBlock({ block, first, last }: Props) {
 							{block.logoItems.map((item, i) => (
 								<Link key={i} href={item.link} className="bg-white/5 p-8 sm:p-10">
 									<div className="flex h-12 w-full items-center justify-center">
-										<Image
-											width={500}
-											height={48}
-											src={item.image}
-											alt={item.imageAlt}
-											className="max-h-12 max-w-full object-contain"
-										/>
+										{typeof item.image === "function" ? (
+											<item.image
+												aria-label={item.imageAlt}
+												className="max-h-12 max-w-full object-contain text-white"
+											/>
+										) : (
+											<Image
+												width={500}
+												height={48}
+												src={item.image}
+												alt={item.imageAlt}
+												className="max-h-12 max-w-full object-contain"
+											/>
+										)}
 									</div>
 								</Link>
 							))}
