@@ -322,16 +322,6 @@ const definition: ProductDefinition = {
 						link: "https://workspace.google.com",
 					},
 					{
-						image: Auth0,
-						imageAlt: "Auth0",
-						link: "https://auth0.com",
-					},
-					{
-						image: MicrosoftEntra,
-						imageAlt: "Microsoft Entra",
-						link: "https://www.microsoft.com/en-us/security/business/microsoft-entra",
-					},
-					{
 						image: Okta,
 						imageAlt: "Okta",
 						link: "https://okta.com",
@@ -340,6 +330,16 @@ const definition: ProductDefinition = {
 						image: OneLogin,
 						imageAlt: "OneLogin",
 						link: "https://onelogin.com",
+					},
+					{
+						image: MicrosoftEntra,
+						imageAlt: "Microsoft Entra",
+						link: "https://www.microsoft.com/en-us/security/business/microsoft-entra",
+					},
+					{
+						image: Auth0,
+						imageAlt: "Auth0",
+						link: "https://auth0.com",
 					},
 					{
 						image: JumpCloud,
