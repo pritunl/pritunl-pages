@@ -41,6 +41,12 @@ export interface FeatureBlockItem {
 	linkLabel?: string
 }
 
+export interface FeatureBlockLogoItem {
+	image: StaticImageData
+	imageAlt: string
+	link: string
+}
+
 export interface PricingPlanFeature {
 	label: string
 	icon?: LucideIcon
@@ -90,12 +96,13 @@ export interface Footer {
 }
 
 export interface FeatureBlock {
-	type: "left" | "right" | "center" | "columns"
+	type: "left" | "right" | "center" | "columns" | "logos"
 	title: string
 	description: string
 	image?: StaticImageData
 	imageAlt?: string
 	items?: FeatureBlockItem[]
+	logoItems?: FeatureBlockLogoItem[]
 }
 
 export interface ProductConfig {
