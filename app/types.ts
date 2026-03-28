@@ -81,7 +81,7 @@ export interface Support {
 }
 
 export interface Footer {
-	icon: StaticImageData
+	icon: SvgIcon | StaticImageData
 	address1: string
 	address2: string
 	phone: string
