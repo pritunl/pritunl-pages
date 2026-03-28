@@ -4,9 +4,8 @@ import { useState } from "react"
 import { Dialog, DialogPanel } from "@headlessui/react"
 import { Menu, X } from "lucide-react"
 import Link from "next/link"
-import Image from "next/image"
 
-import pritunlLogo from "../assets/pritunl.png"
+import Pritunl from "../logos/Pritunl"
 import type { NavItem } from "../types"
 
 export default function HeaderMenu(
@@ -32,7 +31,7 @@ export default function HeaderMenu(
 					<div className="flex items-center justify-between">
 						<Link href="/" className="-m-1.5 p-1.5">
 							<span className="sr-only">{name}</span>
-							<Image src={pritunlLogo} alt="Pritunl Logo" className="h-9 w-auto" />
+							<Pritunl aria-label="Pritunl Logo" className="h-9 w-auto text-white" />
 						</Link>
 						<button
 							type="button"
