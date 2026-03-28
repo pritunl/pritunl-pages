@@ -59,6 +59,7 @@ import cloudCertificates from "../assets/cloud/cloud_certificates.png"
 import cloudDeployments from "../assets/cloud/cloud_deployments.png"
 import cloudSpecEditor from "../assets/cloud/cloud_spec_editor.png"
 import cloudSpecDiff from "../assets/cloud/cloud_spec_diff.png"
+import cloudDevices from "../assets/cloud/cloud_devices.png"
 
 const definition: ProductDefinition = {
 	config: {
@@ -287,6 +288,13 @@ const definition: ProductDefinition = {
 				description: "Compare changes between different template commits and quickly diagnose issues from changes. All from the web console editor.",
 				image: cloudSpecDiff,
 				imageAlt: "Template Diff Editor",
+			},
+			{
+				type: "center",
+				title: "WebAuthn Token Control",
+				description: "Manage users WebAuthn tokens from the administrator console or allow the user to validate their own WebAuthn token.",
+				image: cloudDevices,
+				imageAlt: "User Devices Management",
 			},
 			{
 				type: "columns",
