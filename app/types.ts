@@ -105,6 +105,12 @@ export interface FeatureBlock {
 	logoItems?: FeatureBlockLogoItem[]
 }
 
+export interface Script {
+	src: string
+	defer?: boolean
+	dataAttributes?: Record<string, string>
+}
+
 export interface ProductConfig {
 	name: string
 	title: string
@@ -125,6 +131,7 @@ export interface ProductConfig {
 	pricing?: Pricing
 	support?: Support
 	footer?: Footer
+	scripts?: Script[]
 }
 
 export interface PageProps {
