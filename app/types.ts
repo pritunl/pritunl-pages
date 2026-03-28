@@ -2,7 +2,7 @@ import type { ComponentType, SVGProps } from "react"
 import type { StaticImageData } from "next/image"
 import type { LucideIcon } from "lucide-react"
 
-export type SvgIcon = ComponentType<SVGProps<SVGSVGElement>>
+export type SvgData = ComponentType<SVGProps<SVGSVGElement>>
 
 export interface NavItem {
 	name: string
@@ -42,7 +42,7 @@ export interface FeatureBlockItem {
 }
 
 export interface FeatureBlockLogoItem {
-	image: SvgIcon | StaticImageData
+	image: SvgData | StaticImageData
 	imageAlt: string
 	link: string
 }
@@ -71,7 +71,7 @@ export interface Pricing {
 export interface SupportButton {
 	label: string
 	link: string
-	icon: LucideIcon | SvgIcon
+	icon: LucideIcon | SvgData
 }
 
 export interface Support {
@@ -81,7 +81,7 @@ export interface Support {
 }
 
 export interface Footer {
-	icon: SvgIcon | StaticImageData
+	icon: SvgData | StaticImageData
 	address1: string
 	address2: string
 	phone: string
