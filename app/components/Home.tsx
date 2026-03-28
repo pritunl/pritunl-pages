@@ -56,8 +56,8 @@ export default function Home({ config }: PageProps) {
 								))}
 							</div>
 						</div>
-						<div className="mt-16 flow-root sm:mt-24">
-							<div className="-m-2 rounded-xl bg-white/2.5 p-2 ring-1 ring-inset ring-white/10 lg:-m-4 lg:rounded-2xl lg:p-4">
+						<div className="mt-16 flex justify-center sm:mt-24">
+							<div className="-m-2 rounded-xl bg-white/2.5 p-2 ring-1 ring-inset ring-white/10 lg:-m-4 lg:rounded-2xl lg:p-4 w-fit">
 								<Image src={config.heroImage} alt={config.heroImageAlt} className="rounded-md bg-white/5 shadow-2xl ring-1 ring-white/10"/>
 							</div>
 						</div>
