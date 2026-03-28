@@ -70,7 +70,9 @@ export default function Home({ config }: PageProps) {
 			{config.featureBlocks?.map((block, i) => (
 				<FeatureBlock key={i} block={block} first={i === 0} last={i === config.featureBlocks!.length - 1}/>
 			))}
-			<div className="h-38"></div>
+			{(config.featureBlocks?.length ?? 0) > 0 && (
+					<div className="h-38"></div>
+			)}
 			{config.pricing && <>
 				<Pricing pricing={config.pricing}/>
 				<div className="h-38"></div>
