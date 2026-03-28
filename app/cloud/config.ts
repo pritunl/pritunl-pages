@@ -314,7 +314,7 @@ const definition: ProductDefinition = {
 			{
 				type: "logos",
 				title: "Single Sign-On Providers",
-				description: "Supported single sign-on providers.",
+				description: "Supported single sign-on and secondary authentication providers.",
 				logoItems: [
 					{
 						image: GoogleWorkspace,
