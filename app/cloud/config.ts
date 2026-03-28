@@ -39,7 +39,7 @@ import OneLogin from "../logos/OneLogin"
 import Yubico from "../logos/Yubico"
 import WebAuthn from "../logos/WebAuthn"
 import Home from "../components/Home"
-import pritunlImage from "../assets/pritunl.png"
+import Pritunl from "../logos/Pritunl"
 import heroImage from "../assets/cloud/cloud_pods.png"
 import pythonShellSpec from "../assets/cloud/cloud_python_shell_spec.png"
 import images from "../assets/cloud/cloud_images.png"
@@ -408,7 +408,7 @@ const definition: ProductDefinition = {
 		},
 
 		footer: {
-			icon: pritunlImage,
+			icon: Pritunl,
 			address1: "1700 7th Ave Ste 116-211",
 			address2: "Seattle, WA 98101",
 			phone: "(206) 202-2276",
