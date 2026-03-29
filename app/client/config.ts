@@ -79,6 +79,17 @@ const definition: ProductDefinition = {
 				},
 			],
 		},
+
+		support: {
+			title: "Support",
+			description: "Email and community forums available for support. Subscribe to the Substack for security and update announcements.",
+			buttons: [
+				{ label: "Email Support", link: "https://support.pritunl.com", icon: Mail },
+				{ label: "Community Forum", link: "https://forum.pritunl.com", icon: Discourse },
+				{ label: "Documentation", link: "https://docs.pritunl.com/kb/cloud", icon: GitBook },
+				{ label: "Substack Newsletter", link: "https://pritunl.substack.com/subscribe", icon: Substack },
+			],
+		},
 	},
 
 	pages: {
