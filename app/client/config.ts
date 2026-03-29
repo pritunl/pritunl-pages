@@ -57,6 +57,28 @@ const definition: ProductDefinition = {
 
 		heroImage: heroImage,
 		heroImageAlt: "Pritunl Client Interface",
+
+		featuresGrid: {
+			title: "Provide Easy and Secure Access to Web Applications and SSH",
+			description: "Pritunl Client provides a simple GUI and CLI interface for managing OpenVPN and WireGuard connections across all major platforms. Import OpenVPN and WireGuard profiles directly from Pritunl servers or standard OpenVPN configuration files.",
+			items: [
+				{
+					image: networkPolicy,
+					title: "Open Source",
+					description: "All source code for Pritunl is publicly available on GitHub. To allow anyone to evaluate Pritunl to ensure that it is secure.",
+				},
+				{
+					image: twoFactor,
+					title: "Viscosity Alternative",
+					description: "Free and open source alternative to Viscosity. No registration or credit card necessary.",
+				},
+				{
+					image: webauthnPolicy,
+					title: "Easy Configuration",
+					description: "Easily add OpenVPN profiles by importing the configuration or by using the URI available with Pritunl servers.",
+				},
+			],
+		},
 	},
 
 	pages: {
