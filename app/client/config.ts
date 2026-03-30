@@ -8,7 +8,9 @@ import GitBook from "../icons/GitBook"
 import Substack from "../icons/Substack"
 import Home from "../components/Home"
 import Pritunl from "../logos/Pritunl"
-import heroImage from "../assets/client/client_hero.png"
+import heroWinImage from "../assets/client/client_windows.png"
+import heroAppleImage from "../assets/client/client_macos.png"
+import heroLinuxImage from "../assets/client/client_linux.png"
 import networkPolicy from "../assets/zero/zero_network_policy.png"
 import twoFactor from "../assets/zero/zero_two_factor_policy.png"
 import webauthnPolicy from "../assets/zero/zero_webauthn_policy.png"
@@ -55,8 +57,9 @@ const definition: ProductDefinition = {
 			},
 		],
 
-		heroImage: heroImage,
+		heroImage: heroWinImage,
 		heroImageAlt: "Pritunl Client Interface",
+		heroImages: [heroWinImage, heroAppleImage, heroLinuxImage],
 
 		featuresGrid: {
 			title: "Provide Easy and Secure Access to Web Applications and SSH",
