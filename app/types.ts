@@ -125,6 +125,7 @@ export interface ProductConfig {
 
 	heroImage: StaticImageData
 	heroImageAlt: string
+	heroImages?: StaticImageData[]
 
 	featuresGrid?: FeaturesGrid
 	featureBlocks?: FeatureBlock[]
