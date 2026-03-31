@@ -63,8 +63,10 @@ const definition: ProductDefinition = {
 			},
 		],
 
-		heroImage: heroImage,
-		heroImageAlt: "Pritunl Zero Dashboard",
+		heroImage: {
+			image: heroImage,
+			alt: "Pritunl Zero Dashboard",
+		},
 
 		featuresGrid: {
 			title: "Provide Easy and Secure Access to Web Applications and SSH",
