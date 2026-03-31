@@ -101,8 +101,10 @@ const definition: ProductDefinition = {
 			},
 		],
 
-		heroImage: heroImage,
-		heroImageAlt: "Cloud Deployments",
+		heroImage: {
+			image: heroImage,
+			alt: "Cloud Deployments",
+		},
 
 		featuresGrid: {
 			title: "Declarative Virtualization with Dynamic Shell and Python Specs",
