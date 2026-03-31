@@ -21,6 +21,13 @@ export interface HeroButton {
 	style: "primary" | "secondary"
 }
 
+export interface HeroImage {
+	image: StaticImageData
+	alt: string
+	quality?: number
+	unoptimized?: boolean
+}
+
 export interface FeaturesGridItem {
 	image: StaticImageData
 	title: string
@@ -123,9 +130,8 @@ export interface ProductConfig {
 	subheading: string
 	buttons: HeroButton[]
 
-	heroImage: StaticImageData
-	heroImageAlt: string
-	heroImages?: StaticImageData[]
+	heroImage: HeroImage
+	heroImages?: HeroImage[]
 
 	featuresGrid?: FeaturesGrid
 	featureBlocks?: FeatureBlock[]
