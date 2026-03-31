@@ -74,13 +74,13 @@ export default function Home({ config }: PageProps) {
 									</div>
 								</div>
 							</div>
-						) : (
+						) : config.heroImage ? (
 							<div className="mt-16 flex justify-center sm:mt-24">
 								<div className="-m-2 rounded-xl bg-white/2.5 p-2 ring-1 ring-inset ring-white/10 lg:-m-4 lg:rounded-2xl lg:p-4 w-fit">
 									<Image src={config.heroImage.image} alt={config.heroImage.alt} className={`bg-white/5 shadow-2xl ring-1 ring-white/10 ${config.heroImage.rounded ?? "rounded-md"}`} quality={config.heroImage.quality} unoptimized={config.heroImage.unoptimized}/>
 								</div>
 							</div>
-						)}
+						) : null}
 					</div>
 				</div>
 			</div>
