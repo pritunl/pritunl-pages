@@ -130,7 +130,7 @@ export interface ProductConfig {
 	subheading: string
 	buttons: HeroButton[]
 
-	heroImage: HeroImage
+	heroImage?: HeroImage
 	heroImages?: HeroImage[]
 
 	featuresGrid?: FeaturesGrid
