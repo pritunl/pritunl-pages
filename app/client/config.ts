@@ -57,9 +57,24 @@ const definition: ProductDefinition = {
 			},
 		],
 
-		heroImage: heroWinImage,
-		heroImageAlt: "Pritunl Client Interface",
-		heroImages: [heroWinImage, heroAppleImage, heroLinuxImage],
+		heroImages: [
+			{
+				image: heroWinImage,
+				alt: "Pritunl Client Windows",
+				quality: 100,
+			},
+			{
+				image: heroAppleImage,
+				alt: "Pritunl Client macOS",
+				quality: 100,
+				unoptimized: true,
+			},
+			{
+				image: heroLinuxImage,
+				alt: "Pritunl Client Linux",
+				quality: 100,
+			},
+		],
 
 		featuresGrid: {
 			title: "Provide Easy and Secure Access to Web Applications and SSH",
