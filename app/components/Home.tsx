@@ -57,19 +57,19 @@ export default function Home({ config }: PageProps) {
 							</div>
 						</div>
 						{config.heroImages ? (
-							<div className="mt-16 sm:mt-24 relative mx-auto max-w-7xl h-[420px] sm:h-[520px] lg:h-[600px]">
-								<div className="absolute left-0 top-0 w-[40%] z-10  -rotate-3">
+							<div className="mt-16 sm:mt-24 mx-auto max-w-7xl grid grid-cols-3 items-start">
+								<div className="mt-0 -rotate-3 z-10 -mr-[10%]">
 									<div className="-m-1.5 rounded-xl bg-white/2.5 p-1.5 ring-1 ring-inset ring-white/10 lg:-m-3 lg:rounded-2xl lg:p-3 w-fit">
 										<Image src={config.heroImages[0]} alt={config.heroImageAlt} className="rounded-md bg-white/5 shadow-2xl ring-1 ring-white/10"/>
 									</div>
 								</div>
-								<div className="absolute left-1/2 top-[40%] -translate-x-1/2 w-[40%] z-20">
+								<div className="mt-[40%] z-20 -mx-[10%]">
 									<div className="-m-1.5 rounded-xl bg-white/2.5 p-1.5 ring-1 ring-inset ring-white/10 lg:-m-3 lg:rounded-2xl lg:p-3 w-fit">
 										<Image src={config.heroImages[1]} alt={config.heroImageAlt} className="rounded-md bg-white/5 shadow-2xl ring-1 ring-white/10"/>
 									</div>
 								</div>
-								<div className="absolute right-0 top-0 w-[40%] z-10 rotate-3">
-									<div className="-m-1.5 rounded-xl bg-white/2.5 p-1.5 ring-1 ring-inset ring-white/10 lg:-m-3 lg:rounded-2xl lg:p-3 w-fit">
+								<div className="mt-0 rotate-3 z-10 -ml-[10%]">
+									<div className="-m-1.5 rounded-xl bg-white/2.5 p-1.5 ring-1 ring-inset ring-white/10 lg:-m-3 lg:rounded-2xl lg:p-3 w-fit ml-auto">
 										<Image src={config.heroImages[2]} alt={config.heroImageAlt} className="rounded-md bg-white/5 shadow-2xl ring-1 ring-white/10"/>
 									</div>
 								</div>
