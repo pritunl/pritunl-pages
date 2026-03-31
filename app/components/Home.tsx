@@ -60,17 +60,17 @@ export default function Home({ config }: PageProps) {
 							<div className="mt-16 sm:mt-24 mx-auto max-w-7xl grid grid-cols-3 items-start">
 								<div className="mt-0 -rotate-3 z-10 -mr-[10%]">
 									<div className="-m-1.5 rounded-xl bg-white/2.5 p-1.5 ring-1 ring-inset ring-white/10 lg:-m-3 lg:rounded-2xl lg:p-3 w-fit">
-										<Image src={config.heroImages[0]} alt={config.heroImageAlt} className="rounded-md bg-white/5 shadow-2xl ring-1 ring-white/10"/>
+										<Image src={config.heroImages[0]} alt={config.heroImageAlt} className="rounded-md bg-white/5 shadow-2xl ring-1 ring-white/10" quality={100}/>
 									</div>
 								</div>
 								<div className="mt-[40%] z-20 -mx-[10%]">
-									<div className="-m-1.5 rounded-xl bg-white/2.5 p-1.5 ring-1 ring-inset ring-white/10 lg:-m-3 lg:rounded-2xl lg:p-3 w-fit">
-										<Image src={config.heroImages[1]} alt={config.heroImageAlt} className="rounded-md bg-white/5 shadow-2xl ring-1 ring-white/10"/>
+									<div className="-m-1.5 rounded-xl bg-white/2.5 p-1.5 ring-1 ring-inset ring-white/10 lg:-m-3 lg:rounded-xl lg:p-3 w-fit">
+										<Image src={config.heroImages[1]} alt={config.heroImageAlt} className="rounded-md bg-white/5 shadow-2xl ring-1 ring-white/10" unoptimized quality={100}/>
 									</div>
 								</div>
 								<div className="mt-0 rotate-3 z-10 -ml-[10%]">
 									<div className="-m-1.5 rounded-xl bg-white/2.5 p-1.5 ring-1 ring-inset ring-white/10 lg:-m-3 lg:rounded-2xl lg:p-3 w-fit ml-auto">
-										<Image src={config.heroImages[2]} alt={config.heroImageAlt} className="rounded-md bg-white/5 shadow-2xl ring-1 ring-white/10"/>
+										<Image src={config.heroImages[2]} alt={config.heroImageAlt} className="rounded-md bg-white/5 shadow-2xl ring-1 ring-white/10" quality={100}/>
 									</div>
 								</div>
 							</div>
