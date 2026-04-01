@@ -11,9 +11,9 @@ import Pritunl from "../logos/Pritunl"
 import heroWinImage from "../assets/client/client_windows.png"
 import heroAppleImage from "../assets/client/client_macos.png"
 import heroLinuxImage from "../assets/client/client_linux.png"
-import networkPolicy from "../assets/zero/zero_network_policy.png"
-import twoFactor from "../assets/zero/zero_two_factor_policy.png"
-import webauthnPolicy from "../assets/zero/zero_webauthn_policy.png"
+import clientOpen from "../assets/client/client_open.png"
+import clientImport from "../assets/client/client_import.png"
+import clientSettings from "../assets/client/client_settings.png"
 
 const definition: ProductDefinition = {
 	config: {
@@ -84,17 +84,17 @@ const definition: ProductDefinition = {
 			description: "Pritunl Client provides a simple GUI and CLI interface for managing OpenVPN and WireGuard connections across all major platforms. Import OpenVPN and WireGuard profiles directly from Pritunl servers or standard OpenVPN configuration files.",
 			items: [
 				{
-					image: networkPolicy,
+					image: clientOpen,
 					title: "Open Source",
 					description: "All source code for Pritunl is publicly available on GitHub. To allow anyone to evaluate Pritunl to ensure that it is secure.",
 				},
 				{
-					image: twoFactor,
+					image: clientImport,
 					title: "Viscosity Alternative",
 					description: "Free and open source alternative to Viscosity. No registration or credit card necessary.",
 				},
 				{
-					image: webauthnPolicy,
+					image: clientSettings,
 					title: "Easy Configuration",
 					description: "Easily add OpenVPN profiles by importing the configuration or by using the URI available with Pritunl servers.",
 				},
