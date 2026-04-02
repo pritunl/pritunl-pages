@@ -123,6 +123,7 @@ export interface ProductConfig {
 	name: string
 	title: string
 	description: string
+	codeBackground?: boolean
 
 	navigation: NavItem[]
 
