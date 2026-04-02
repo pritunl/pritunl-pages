@@ -113,6 +113,14 @@ export interface FeatureBlock {
 	logoItems?: FeatureBlockLogoItem[]
 }
 
+export type RepositoryDistribution = "arch" | "alma" | "rocky" | "debian" | "oracle" | "fedora" | "ubuntu"
+
+export interface Repository {
+	distribution: RepositoryDistribution
+	version: string
+	package: string
+}
+
 export interface Script {
 	src: string
 	defer?: boolean
@@ -138,6 +146,7 @@ export interface ProductConfig {
 	featuresGrid?: FeaturesGrid
 	featureBlocks?: FeatureBlock[]
 	pricing?: Pricing
+	repositories?: Repository[]
 	support?: Support
 	footer?: Footer
 	scripts?: Script[]
