@@ -58,18 +58,18 @@ export default function Home({ config }: PageProps) {
 						</div>
 						{config.heroImages ? (
 							<div className="mt-16 sm:mt-24 mx-auto max-w-7xl grid grid-cols-1 md:grid-cols-3 items-start gap-6 md:gap-0">
-								<div className="order-2 md:order-1 md:mt-0 md:-rotate-3 md:z-10 md:-mr-[10%]">
-									<div className="-m-1.5 rounded-xl bg-white/2.5 p-1.5 ring-1 ring-inset ring-white/10 lg:-m-3 lg:rounded-2xl lg:p-3 w-fit mx-auto md:mx-0">
+								<div className="order-2 md:order-1 sm:mt-0 sm:-rotate-3 sm:z-10 sm:-mr-[10%]">
+									<div className="-m-1.5 rounded-xl bg-white/2.5 p-1.5 ring-1 ring-inset ring-white/10 lg:-m-3 lg:rounded-2xl lg:p-3 w-fit mx-auto sm:mx-0">
 										<Image src={config.heroImages[0].image} alt={config.heroImages[0].alt} className={`bg-white/5 shadow-2xl ring-1 ring-white/10 ${config.heroImages[0].rounded ?? "rounded-md"}`} quality={config.heroImages[0].quality} unoptimized={config.heroImages[0].unoptimized}/>
 									</div>
 								</div>
-								<div className="order-1 md:order-2 md:mt-[40%] md:z-20 md:-mx-[10%]">
-									<div className="-m-1.5 rounded-xl bg-white/2.5 p-1.5 ring-1 ring-inset ring-white/10 lg:-m-3 lg:rounded-xl lg:p-3 w-fit mx-auto md:mx-0">
+								<div className="order-1 md:order-2 sm:mt-[40%] sm:z-20 sm:-mx-[10%]">
+									<div className="-m-1.5 rounded-xl bg-white/2.5 p-1.5 ring-1 ring-inset ring-white/10 lg:-m-3 lg:rounded-xl lg:p-3 w-fit mx-auto sm:mx-0">
 										<Image src={config.heroImages[1].image} alt={config.heroImages[1].alt} className={`bg-white/5 shadow-2xl ring-1 ring-white/10 ${config.heroImages[1].rounded ?? "rounded-md"}`} quality={config.heroImages[1].quality} unoptimized={config.heroImages[1].unoptimized}/>
 									</div>
 								</div>
-								<div className="order-3 md:mt-0 md:rotate-3 md:z-10 md:-ml-[10%]">
-									<div className="-m-1.5 rounded-xl bg-white/2.5 p-1.5 ring-1 ring-inset ring-white/10 lg:-m-3 lg:rounded-2xl lg:p-3 w-fit mx-auto md:mx-0 md:ml-auto">
+								<div className="order-3 sm:mt-0 sm:rotate-3 sm:z-10 sm:-ml-[10%]">
+									<div className="-m-1.5 rounded-xl bg-white/2.5 p-1.5 ring-1 ring-inset ring-white/10 lg:-m-3 lg:rounded-2xl lg:p-3 w-fit mx-auto sm:mx-0 sm:ml-auto">
 										<Image src={config.heroImages[2].image} alt={config.heroImages[2].alt} className={`bg-white/5 shadow-2xl ring-1 ring-white/10 ${config.heroImages[2].rounded ?? "rounded-md"}`} quality={config.heroImages[2].quality} unoptimized={config.heroImages[2].unoptimized}/>
 									</div>
 								</div>
