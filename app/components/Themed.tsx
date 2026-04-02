@@ -2,10 +2,10 @@ const clipPath1 = "polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.
 const clipPath2 = "polygon(20% 10%, 45% 0%, 70% 15%, 90% 35%, 100% 60%, 85% 80%, 60% 95%, 35% 100%, 10% 85%, 0% 55%, 5% 30%, 20% 10%)"
 const clipPath3 = "polygon(50% 0%, 80% 10%, 100% 40%, 95% 70%, 75% 100%, 40% 90%, 10% 70%, 0% 40%, 15% 15%, 50% 0%)"
 
-export function Gradient({ children }: { children: React.ReactNode }) {
+export function Gradient({ children, codeBackground }: { children: React.ReactNode, codeBackground?: boolean }) {
 	return (
 		<div className="relative isolate bg-gray-950 overflow-hidden">
-			<div
+			{codeBackground && <div
 				aria-hidden="true"
 				className="fixed inset-0 -z-10 opacity-2"
 				style={{
@@ -13,7 +13,7 @@ export function Gradient({ children }: { children: React.ReactNode }) {
 					backgroundPosition: "center",
 					backgroundRepeat: "repeat",
 				}}
-			/>
+			/>}
 			<div aria-hidden="true" className="absolute inset-x-0 top-10 -z-10 transform-gpu overflow-hidden blur-3xl">
 				<div
 					style={{ clipPath: clipPath1 }}
