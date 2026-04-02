@@ -1,6 +1,7 @@
 import Header from "./Header"
 import FeaturesGrid from "./FeaturesGrid"
 import FeatureBlock from "./FeatureBlock"
+import Repositories from "./Repositories"
 import Pricing from "./Pricing"
 import Support from "./Support"
 import Footer from "./Footer"
@@ -99,6 +100,10 @@ export default function Home({ config }: PageProps) {
 			</>}
 			{config.support && <>
 				<Support support={config.support}/>
+				<div className="h-38"></div>
+			</>}
+			{config.repositories && config.repositories.length > 0 && <>
+				<Repositories repositories={config.repositories}/>
 				<div className="h-38"></div>
 			</>}
 			{config.footer && <Footer footer={config.footer}/>}
