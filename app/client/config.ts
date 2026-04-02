@@ -20,6 +20,7 @@ const definition: ProductDefinition = {
 		name: "Pritunl Client",
 		title: "Pritunl Client - Open Source OpenVPN and WireGuard Client",
 		description: "Free and open source cross platform OpenVPN and WireGuard client.",
+		codeBackground: true,
 
 		navigation: [
 			{ name: "Install", href: "#install" },
