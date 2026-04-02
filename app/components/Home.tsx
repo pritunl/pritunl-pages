@@ -11,7 +11,7 @@ import Image from "next/image"
 
 export default function Home({ config }: PageProps) {
 	return (
-		<Gradient>
+		<Gradient codeBackground={config.codeBackground}>
 			<Header config={config}/>
 			<div className="pt-42">
 				<div>
