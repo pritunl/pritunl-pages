@@ -5,6 +5,15 @@ const clipPath3 = "polygon(50% 0%, 80% 10%, 100% 40%, 95% 70%, 75% 100%, 40% 90%
 export function Gradient({ children }: { children: React.ReactNode }) {
 	return (
 		<div className="relative isolate bg-gray-950 overflow-hidden">
+			<div
+				aria-hidden="true"
+				className="fixed inset-0 -z-10 opacity-2"
+				style={{
+					backgroundImage: "url('/pritunl_code.svg')",
+					backgroundPosition: "center",
+					backgroundRepeat: "repeat",
+				}}
+			/>
 			<div aria-hidden="true" className="absolute inset-x-0 top-10 -z-10 transform-gpu overflow-hidden blur-3xl">
 				<div
 					style={{ clipPath: clipPath1 }}
