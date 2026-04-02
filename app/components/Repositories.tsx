@@ -137,7 +137,7 @@ export default function Repositories({ repositories }: Props) {
 				<p className="mx-auto mt-6 max-w-xl text-center text-lg/8 text-pretty text-gray-400">
 					Select your distribution to view installation instructions.
 				</p>
-				<div className="mt-8 flex flex-wrap justify-center gap-2">
+				<div className="mt-8 grid grid-cols-1 min-[380px]:grid-cols-2 md:grid-cols-4 gap-2">
 					{repositories.map((repo, i) => {
 						const Icon = distroIcons[repo.distribution]
 						return (
