@@ -1,10 +1,27 @@
 "use client"
 
-import { useState } from "react"
-import type { Repository } from "../types"
+import { useState, type ComponentType, type SVGProps } from "react"
+import type { Repository, RepositoryDistribution } from "../types"
+import ArchLinux from "../icons/ArchLinux"
+import AlmaLinux from "../icons/AlmaLinux"
+import RockyLinux from "../icons/RockyLinux"
+import Debian from "../icons/Debian"
+import OracleLinux from "../icons/OracleLinux"
+import Fedora from "../icons/Fedora"
+import Ubuntu from "../icons/Ubuntu"
 
 interface Props {
 	repositories: Repository[]
+}
+
+const distroIcons: Record<RepositoryDistribution, ComponentType<SVGProps<SVGSVGElement>>> = {
+	arch: ArchLinux,
+	alma: AlmaLinux,
+	rocky: RockyLinux,
+	debian: Debian,
+	oracle: OracleLinux,
+	fedora: Fedora,
+	ubuntu: Ubuntu,
 }
 
 const distroLabels: Record<string, string> = {
@@ -121,19 +138,23 @@ export default function Repositories({ repositories }: Props) {
 					Select your distribution to view installation instructions.
 				</p>
 				<div className="mt-8 flex flex-wrap justify-center gap-2">
-					{repositories.map((repo, i) => (
-						<button
-							key={i}
-							onClick={() => setSelected(i)}
-							className={`rounded-md px-3.5 py-2 text-sm font-semibold transition-colors cursor-pointer ${
-								selected === i
-									? "bg-indigo-500 text-white shadow-xs"
-									: "bg-white/5 text-gray-300 ring-1 ring-inset ring-white/10 hover:bg-white/10"
-							}`}
-						>
-							{getRepoLabel(repo)}
-						</button>
-					))}
+					{repositories.map((repo, i) => {
+						const Icon = distroIcons[repo.distribution]
+						return (
+							<button
+								key={i}
+								onClick={() => setSelected(i)}
+								className={`inline-flex items-center gap-x-2 rounded-md px-3.5 py-2 text-sm font-semibold transition-colors cursor-pointer ${
+									selected === i
+										? "bg-indigo-500 text-white shadow-xs"
+										: "bg-white/5 text-gray-300 ring-1 ring-inset ring-white/10 hover:bg-white/10"
+								}`}
+							>
+								<Icon aria-hidden="true" className="h-4 w-4" />
+								{getRepoLabel(repo)}
+							</button>
+						)
+					})}
 				</div>
 				<div className="mt-6 rounded-lg bg-white/2.5 ring-1 ring-inset ring-white/10 overflow-hidden">
 					<div className="flex items-center justify-between border-b border-white/10 px-4 py-2.5">
