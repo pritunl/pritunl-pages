@@ -50,7 +50,8 @@ function getRepoLabel(repo: Repository): string {
 }
 
 function generateCommands(repo: Repository): string {
-	const gpgKey = "7568D9BB55FF9E5287D586017AE645C0CF8E292A"
+	const gpgKey = "https://raw.githubusercontent.com/pritunl/pgp/master/pritunl_repo_pub.asc"
+	const gpgKeyId = "7568D9BB55FF9E5287D586017AE645C0CF8E292A"
 
 	switch (repo.distribution) {
 		case "arch":
@@ -59,8 +60,9 @@ function generateCommands(repo: Repository): string {
 Server = https://repo.pritunl.com/stable/pacman
 EOF
 
-sudo pacman-key --keyserver hkp://keyserver.ubuntu.com -r ${gpgKey}
-sudo pacman-key --lsign-key ${gpgKey}
+curl -fsSL ${gpgKey} \\
+  | sudo pacman-key --add -
+sudo pacman-key --lsign-key ${gpgKeyId}
 sudo pacman -Sy
 sudo pacman -S ${repo.package}`
 
@@ -74,19 +76,20 @@ name=Pritunl Stable Repository
 baseurl=https://repo.pritunl.com/stable/yum/${dnfPaths[repo.distribution]}/${repo.version}/
 gpgcheck=1
 enabled=1
-gpgkey=https://raw.githubusercontent.com/pritunl/pgp/master/pritunl_repo_pub.asc
+gpgkey=${gpgKey}
 EOF
 
 sudo dnf -y install ${repo.package}`
 
 		case "ubuntu":
 			return `sudo tee /etc/apt/sources.list.d/pritunl.list << EOF
-deb https://repo.pritunl.com/stable/apt ${ubuntuVersionNames[repo.version]} main
+deb [signed-by=/usr/share/keyrings/pritunl.gpg] https://repo.pritunl.com/stable/apt ${ubuntuVersionNames[repo.version]} main
 EOF
 
 sudo apt --assume-yes install gnupg
-gpg --keyserver hkp://keyserver.ubuntu.com --recv-keys ${gpgKey}
-gpg --armor --export ${gpgKey} | sudo tee /etc/apt/trusted.gpg.d/pritunl.asc
+curl -fsSL ${gpgKey} \\
+  | sudo gpg -o /usr/share/keyrings/pritunl.gpg --dearmor --yes
+
 sudo apt update
 sudo apt install ${repo.package}`
 
@@ -96,7 +99,8 @@ deb [signed-by=/usr/share/keyrings/pritunl.gpg] https://repo.pritunl.com/stable/
 EOF
 
 sudo apt --assume-yes install gnupg
-curl -fsSL https://raw.githubusercontent.com/pritunl/pgp/master/pritunl_repo_pub.asc | sudo gpg -o /usr/share/keyrings/pritunl.gpg --dearmor --yes
+curl -fsSL ${gpgKey} \\
+  | sudo gpg -o /usr/share/keyrings/pritunl.gpg --dearmor --yes
 
 sudo apt update
 sudo apt install ${repo.package}`
