@@ -10,7 +10,7 @@ import { Gradient } from "./Themed"
 import type { PageProps } from "../types"
 import Image from "next/image"
 
-export default function Home({ config }: PageProps) {
+export default async function Home({ config }: PageProps) {
 	return (
 		<Gradient codeBackground={config.codeBackground}>
 			<Header config={config}/>
