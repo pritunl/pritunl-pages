@@ -33,6 +33,7 @@ const distroIcons: Record<RepositoryDistribution, ComponentType<SVGProps<SVGSVGE
 
 export default function RepositorySelector({ entries }: Props) {
 	const [selected, setSelected] = useState(0)
+	const [copied, setCopied] = useState(false)
 
 	return (
 		<>
@@ -61,10 +62,19 @@ export default function RepositorySelector({ entries }: Props) {
 						{entries[selected].label}
 					</span>
 					<button
-						onClick={() => navigator.clipboard?.writeText(entries[selected].commands)}
-						className="text-xs text-gray-500 hover:text-gray-300 transition-colors cursor-pointer"
+						onClick={() => {
+							navigator.clipboard?.writeText(entries[selected].commands).then(() => {
+								setCopied(true)
+								setTimeout(() => setCopied(false), 1500)
+							})
+						}}
+						className={`text-xs transition-colors cursor-pointer ${
+							copied
+								? "text-indigo-400"
+								: "text-gray-500 hover:text-gray-300"
+						}`}
 					>
-						Copy
+						{copied ? "Copied!" : "Copy"}
 					</button>
 				</div>
 				<div
