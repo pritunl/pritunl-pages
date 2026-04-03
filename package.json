@@ -34,7 +34,8 @@
 		"lucide-react": "^0.575.0",
 		"next": "16.1.5",
 		"react": "19.1.5",
-		"react-dom": "19.1.5"
+		"react-dom": "19.1.5",
+		"shiki": "^4.0.1"
 	},
 	"devDependencies": {
 		"@eslint/eslintrc": "^3",
