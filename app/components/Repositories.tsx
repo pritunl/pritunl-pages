@@ -144,7 +144,7 @@ export default function Repositories({ repositories }: Props) {
 							<button
 								key={i}
 								onClick={() => setSelected(i)}
-								className={`inline-flex items-center justify-center gap-x-2 rounded-md px-3.5 py-2 text-sm font-semibold transition-colors cursor-pointer ${
+								className={`inline-flex items-center justify-center gap-x-2 rounded-md py-2 text-sm font-semibold transition-colors cursor-pointer ${
 									selected === i
 										? "bg-indigo-500 text-white shadow-xs"
 										: "bg-white/5 text-gray-300 ring-1 ring-inset ring-white/10 hover:bg-white/10"
