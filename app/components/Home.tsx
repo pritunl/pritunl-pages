@@ -45,8 +45,7 @@ export default async function Home({ config }: PageProps) {
 									<a
 										key={button.label}
 										href={button.href}
-										target="_blank"
-										rel="noopener noreferrer"
+										{...(button.external ? { target: "_blank", rel: "noopener noreferrer" } : {})}
 										className={button.style === "primary"
 											? "rounded-md bg-indigo-500 px-3.5 py-2.5 text-sm font-semibold text-white shadow-xs hover:bg-white/20 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-500"
 											: "rounded-md bg-white/10 px-3.5 py-2.5 text-sm font-semibold text-white shadow-xs hover:bg-white/20 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white"
