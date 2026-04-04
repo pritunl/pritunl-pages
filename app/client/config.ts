@@ -54,9 +54,8 @@ const definition: ProductDefinition = {
 			},
 			{
 				label: "Install",
-				href: "https://docs.pritunl.com/kb/zero/general/pritunl-zero-service",
+				href: "#install",
 				style: "primary",
-				external: true,
 			},
 		],
 
