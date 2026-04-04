@@ -19,6 +19,7 @@ export interface HeroButton {
 	label: string
 	href: string
 	style: "primary" | "secondary"
+	external?: boolean
 }
 
 export interface HeroImage {
