@@ -122,6 +122,13 @@ export interface Repository {
 	package: string
 }
 
+export interface Installer {
+	label: string
+	version: string
+	url: string
+	hashUrl: string
+}
+
 export interface Script {
 	src: string
 	defer?: boolean
@@ -148,6 +155,7 @@ export interface ProductConfig {
 	featureBlocks?: FeatureBlock[]
 	pricing?: Pricing
 	repositories?: Repository[]
+	installers?: { macos?: Installer; windows?: Installer }
 	support?: Support
 	footer?: Footer
 	scripts?: Script[]
