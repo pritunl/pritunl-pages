@@ -103,6 +103,21 @@ const definition: ProductDefinition = {
 			],
 		},
 
+		installers: {
+			macos: {
+				label: "macOS",
+				version: "1.3.4466.51",
+				url: "https://github.com/pritunl/pritunl-client-electron/releases/download/1.3.4466.51/Pritunl.pkg.zip",
+				hashUrl: "https://raw.githubusercontent.com/pritunl/pritunl-client-electron/master/SHA256",
+			},
+			windows: {
+				label: "Windows",
+				version: "1.3.4466.51",
+				url: "https://github.com/pritunl/pritunl-client-electron/releases/download/1.3.4466.51/Pritunl.exe",
+				hashUrl: "https://raw.githubusercontent.com/pritunl/pritunl-client-electron/master/SHA256",
+			},
+		},
+
 		repositories: [
 			{ distribution: "arch", version: "", package: "pritunl-client-electron" },
 			{ distribution: "alma", version: "10", package: "pritunl-client-electron" },
