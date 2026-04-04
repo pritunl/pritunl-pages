@@ -50,16 +50,19 @@ const definition: ProductDefinition = {
 				label: "Live Admin Demo",
 				href: "https://admin-zero-demo.pritunl.com/",
 				style: "secondary",
+				external: true,
 			},
 			{
 				label: "Get Started",
 				href: "https://docs.pritunl.com/kb/zero/general/pritunl-zero-service",
 				style: "primary",
+				external: true,
 			},
 			{
 				label: "Live Web Service Demo",
 				href: "https://service-zero-demo.pritunl.com/",
 				style: "secondary",
+				external: true,
 			},
 		],
 
