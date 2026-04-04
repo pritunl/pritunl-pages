@@ -151,7 +151,7 @@ export default async function Repositories({ repositories, installers }: Props) 
 										SHA-256 Checksum
 									</a>
 									<a
-										href={installers.macos.url}
+										href={installers.macos.url.replace("$version", installers.macos.version)}
 										className="inline-flex items-center justify-center rounded-md bg-indigo-500 px-4 py-2.5 text-sm font-semibold text-white shadow-xs hover:bg-indigo-400 transition-colors"
 									>
 										Download Pkg
@@ -173,7 +173,7 @@ export default async function Repositories({ repositories, installers }: Props) 
 										SHA-256 Checksum
 									</a>
 									<a
-										href={installers.windows.url}
+										href={installers.windows.url.replace("$version", installers.windows.version)}
 										className="inline-flex items-center justify-center rounded-md bg-indigo-500 px-4 py-2.5 text-sm font-semibold text-white shadow-xs hover:bg-indigo-400 transition-colors"
 									>
 										Download Installer
