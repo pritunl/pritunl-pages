@@ -50,11 +50,13 @@ const definition: ProductDefinition = {
 				label: "GitHub Repo",
 				href: "https://github.com/pritunl/pritunl-client",
 				style: "secondary",
+				external: true,
 			},
 			{
 				label: "Install",
 				href: "https://docs.pritunl.com/kb/zero/general/pritunl-zero-service",
 				style: "primary",
+				external: true,
 			},
 		],
 
