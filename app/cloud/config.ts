@@ -93,11 +93,13 @@ const definition: ProductDefinition = {
 				label: "Live Demo",
 				href: "https://cloud.demo.pritunl.com",
 				style: "secondary",
+				external: true,
 			},
 			{
 				label: "Get Started",
 				href: "https://docs.pritunl.com/kb/cloud/getting-started/installation",
 				style: "primary",
+				external: true,
 			},
 		],
 
