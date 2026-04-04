@@ -1,9 +1,10 @@
-import type { Repository } from "../types"
+import type { Repository, Installer } from "../types"
 import { highlight } from "../lib/shiki"
 import RepositorySelector from "./RepositorySelector"
 
 interface Props {
 	repositories: Repository[]
+	installers?: { macos?: Installer; windows?: Installer }
 }
 
 const distroLabels: Record<string, string> = {
