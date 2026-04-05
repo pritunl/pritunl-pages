@@ -107,13 +107,13 @@ const definition: ProductDefinition = {
 			macos: {
 				label: "macOS",
 				version: "1.3.4466.51",
-				url: "https://github.com/pritunl/pritunl-client-electron/releases/download/1.3.4466.51/Pritunl.pkg.zip",
+				url: "https://github.com/pritunl/pritunl-client-electron/releases/download/$version/Pritunl.pkg.zip",
 				hashUrl: "https://raw.githubusercontent.com/pritunl/pritunl-client-electron/master/SHA256",
 			},
 			windows: {
 				label: "Windows",
 				version: "1.3.4466.51",
-				url: "https://github.com/pritunl/pritunl-client-electron/releases/download/1.3.4466.51/Pritunl.exe",
+				url: "https://github.com/pritunl/pritunl-client-electron/releases/download/$version/Pritunl.exe",
 				hashUrl: "https://raw.githubusercontent.com/pritunl/pritunl-client-electron/master/SHA256",
 			},
 		},
