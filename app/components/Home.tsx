@@ -12,7 +12,7 @@ import Image from "next/image"
 
 export default async function Home({ config }: PageProps) {
 	return (
-		<Gradient codeBackground={config.codeBackground}>
+		<Gradient codeBackground={config.codeBackground} short={(config.featureBlocks?.length ?? 0) < 3}>
 			<Header config={config}/>
 			<div className="pt-42">
 				<div>
