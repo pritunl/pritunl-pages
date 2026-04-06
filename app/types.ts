@@ -130,12 +130,6 @@ export interface Installer {
 	hashUrl: string
 }
 
-export interface Script {
-	src: string
-	defer?: boolean
-	dataAttributes?: Record<string, string>
-}
-
 export interface ProductConfig {
 	name: string
 	title: string
@@ -161,7 +155,6 @@ export interface ProductConfig {
 	installers?: { macos?: Installer; windows?: Installer }
 	support?: Support
 	footer?: Footer
-	scripts?: Script[]
 }
 
 export interface PageProps {
