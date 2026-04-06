@@ -71,22 +71,6 @@ export default function RootLayout({
 						data-cf-beacon={`{"token": "${config.cloudflareToken}"}`}
 					/>
 				)}
-				{config.scripts?.map((script, i) => {
-					const dataProps: Record<string, string> = {}
-					if (script.dataAttributes) {
-						for (const [key, value] of Object.entries(script.dataAttributes)) {
-							dataProps[`data-${key}`] = value
-						}
-					}
-					return (
-						<Script
-							key={i}
-							src={script.src}
-							strategy={script.defer ? "afterInteractive" : "beforeInteractive"}
-							{...dataProps}
-						/>
-					)
-				})}
 			</body>
 		</html>
 	)
