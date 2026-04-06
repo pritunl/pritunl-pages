@@ -30,7 +30,7 @@ const definition: ProductDefinition = {
 			{ name: "Community Forums", href: "https://forum.pritunl.com", external: true },
 		],
 
-		badge: "Enterprise VPN Client",
+		badge: "Free and Open Source VPN Client",
 		heading: [
 			[
 				{ text: "Pritunl " },
