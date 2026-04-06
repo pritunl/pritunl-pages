@@ -69,6 +69,7 @@ const definition: ProductDefinition = {
 		heroImage: {
 			image: heroImage,
 			alt: "Pritunl Zero Dashboard",
+			ring: true,
 		},
 
 		featuresGrid: {
