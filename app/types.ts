@@ -141,6 +141,7 @@ export interface ProductConfig {
 	title: string
 	description: string
 	codeBackground?: boolean
+	googleTag?: string
 
 	navigation: NavItem[]
 
