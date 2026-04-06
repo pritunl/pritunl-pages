@@ -106,6 +106,7 @@ const definition: ProductDefinition = {
 		heroImage: {
 			image: heroImage,
 			alt: "Cloud Deployments",
+			ring: true,
 		},
 
 		featuresGrid: {
