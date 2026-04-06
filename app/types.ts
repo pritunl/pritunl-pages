@@ -26,6 +26,7 @@ export interface HeroImage {
 	image: StaticImageData
 	alt: string
 	rounded?: string
+	ring?: boolean
 	quality?: number
 	unoptimized?: boolean
 }
