@@ -63,6 +63,14 @@ export default function RootLayout({
 						/>
 					</>
 				)}
+				{config.cloudflareToken && (
+					<Script
+						src="https://static.cloudflareinsights.com/beacon.min.js"
+						strategy="afterInteractive"
+						defer
+						data-cf-beacon={`{"token": "${config.cloudflareToken}"}`}
+					/>
+				)}
 				{config.scripts?.map((script, i) => {
 					const dataProps: Record<string, string> = {}
 					if (script.dataAttributes) {
