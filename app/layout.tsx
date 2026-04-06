@@ -43,6 +43,26 @@ export default function RootLayout({
 		<html lang="en">
 			<body className="bg-gray-950 antialiased">
 				{children}
+				{config.googleTag && (
+					<>
+						<Script
+							src={`https://www.googletagmanager.com/gtag/js?id=${config.googleTag}`}
+							strategy="afterInteractive"
+						/>
+						<Script
+							id="gtag-init"
+							strategy="afterInteractive"
+							dangerouslySetInnerHTML={{
+								__html: `
+									window.dataLayer = window.dataLayer || [];
+									function gtag(){dataLayer.push(arguments);}
+									gtag('js', new Date());
+									gtag('config', '${config.googleTag}');
+								`,
+							}}
+						/>
+					</>
+				)}
 				{config.scripts?.map((script, i) => {
 					const dataProps: Record<string, string> = {}
 					if (script.dataAttributes) {
