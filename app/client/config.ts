@@ -55,7 +55,7 @@ const definition: ProductDefinition = {
 				external: true,
 			},
 			{
-				label: "Install",
+				label: "Install Now",
 				href: "#install",
 				style: "primary",
 			},
