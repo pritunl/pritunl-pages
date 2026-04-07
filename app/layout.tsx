@@ -41,6 +41,11 @@ export default function RootLayout({
 }>) {
 	return (
 		<html lang="en">
+			<head>
+				{config.fontUrl && (
+					<link rel="stylesheet" type="text/css" href={config.fontUrl} />
+				)}
+			</head>
 			<body className="bg-gray-950 antialiased">
 				{children}
 				{config.googleTag && (
