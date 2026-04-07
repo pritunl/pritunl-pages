@@ -63,12 +63,12 @@ export default function RootLayout({
 						/>
 					</>
 				)}
-				{config.cloudflareToken && (
+				{config.cloudflareTag && (
 					<Script
 						src="https://static.cloudflareinsights.com/beacon.min.js"
 						strategy="afterInteractive"
 						defer
-						data-cf-beacon={`{"token": "${config.cloudflareToken}"}`}
+						data-cf-beacon={`{"token": "${config.cloudflareTag}"}`}
 					/>
 				)}
 			</body>
