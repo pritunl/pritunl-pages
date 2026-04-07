@@ -84,8 +84,8 @@ const definition: ProductDefinition = {
 		],
 
 		featuresGrid: {
-			title: "GUI and CLI OpenVPN and WireGuard client for macOS Linux and Windows",
-			description: "Pritunl Client provides a simple GUI and CLI interface for managing OpenVPN and WireGuard connections on macOS, Linux and Windows. Import OpenVPN and WireGuard profiles directly from Pritunl servers or standard OpenVPN configuration files.",
+			title: "Simple OpenVPN and WireGuard client for macOS Linux and Windows",
+			description: "Pritunl Client provides a secure graphical and command line interface to connect to OpenVPN and WireGuard servers. Import OpenVPN and WireGuard profiles directly from Pritunl servers or standard OpenVPN configuration files.",
 			items: [
 				{
 					image: clientOpen,
