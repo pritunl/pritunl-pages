@@ -71,7 +71,7 @@ const definition: ProductDefinition = {
 			{
 				image: heroAppleImage,
 				alt: "Pritunl Client macOS",
-				rounded: "rounded-2xl",
+				rounded: "rounded-xl",
 				quality: 100,
 				unoptimized: true,
 			},
