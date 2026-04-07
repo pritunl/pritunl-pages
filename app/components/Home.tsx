@@ -17,7 +17,7 @@ export default async function Home({ config }: PageProps) {
 			<div className="pt-42">
 				<div>
 					<div className="mx-auto max-w-7xl px-6 lg:px-8">
-						<div className="mx-auto max-w-2xl text-center">
+						<div className="mx-auto max-w-4xl text-center">
 							<div className="mb-4 flex justify-center">
 								<span className="inline-flex items-center rounded-full bg-indigo-500/10 px-4 py-1.5 text-sm font-medium text-indigo-400 ring-1 ring-inset ring-indigo-500/20">
 									{config.badge}
