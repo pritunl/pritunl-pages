@@ -1,5 +1,5 @@
 import type { FeaturesGrid as FeaturesGridType } from "../types"
-import Image from "next/image"
+import Image from "./Image"
 
 interface Props {
 	featuresGrid: FeaturesGridType
