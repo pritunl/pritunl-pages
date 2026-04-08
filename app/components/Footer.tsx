@@ -1,5 +1,5 @@
 import type { Footer as FooterType } from "../types"
-import Image from "next/image"
+import Image from "./Image"
 import X from "../icons/X"
 import Bluesky from "../icons/Bluesky"
 import GitHub from "../icons/GitHub"
