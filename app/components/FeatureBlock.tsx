@@ -1,5 +1,5 @@
 import type { FeatureBlock as FeatureBlockType } from "../types"
-import Image from "next/image"
+import Image from "./Image"
 import Link from "next/link"
 
 interface Props {
