@@ -1,8 +1,10 @@
 import sharp from "sharp"
 import { readdir, stat } from "fs/promises"
 import path from "path"
+import os from "os"
 
 const ASSETS_DIR = "./app/assets"
+const CONCURRENCY = Math.max(1, os.cpus().length)
 
 async function findImages(dir: string): Promise<string[]> {
 	const entries = await readdir(dir, { withFileTypes: true })
@@ -20,6 +22,27 @@ async function findImages(dir: string): Promise<string[]> {
 	return files
 }
 
+async function optimizeImage(file: string): Promise<void> {
+	const dir = path.dirname(file)
+	const name = path.basename(file, ".png")
+	const output = path.join(dir, `${name}.avif`)
+
+	const info = await sharp(file)
+		.avif({ quality: 50, effort: 9 })
+		.toFile(output)
+
+	const original = await stat(file)
+	const reduction = (
+		((original.size - info.size) / original.size) *
+		100
+	).toFixed(1)
+
+	console.log(
+		`${file} -> ${output}  (${(original.size / 1024).toFixed(0)}KB` +
+		` -> ${(info.size / 1024).toFixed(0)}KB, -${reduction}%)`
+	)
+}
+
 async function main() {
 	const files = await findImages(ASSETS_DIR)
 
@@ -28,26 +51,12 @@ async function main() {
 		process.exit(0)
 	}
 
-	console.log(`Found ${files.length} PNG files\n`)
+	console.log(`Found ${files.length} PNG files`)
+	console.log(`Processing with ${CONCURRENCY} threads\n`)
 
-	for (const file of files) {
-		const dir = path.dirname(file)
-		const name = path.basename(file, ".png")
-		const output = path.join(dir, `${name}.avif`)
-
-		const info = await sharp(file)
-			.avif({ quality: 50, effort: 9 })
-			.toFile(output)
-
-		const original = await stat(file)
-		const reduction = (
-			((original.size - info.size) / original.size) *
-			100
-		).toFixed(1)
-
-		console.log(
-			`${file} -> ${output}  (${(original.size / 1024).toFixed(0)}KB -> ${(info.size / 1024).toFixed(0)}KB, -${reduction}%)`
-		)
+	for (let i = 0; i < files.length; i += CONCURRENCY) {
+		const batch = files.slice(i, i + CONCURRENCY)
+		await Promise.all(batch.map(optimizeImage))
 	}
 
 	console.log("\nImage Optimize Complete")
