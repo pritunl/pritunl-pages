@@ -5,10 +5,10 @@ import Repositories from "./Repositories"
 import Pricing from "./Pricing"
 import Support from "./Support"
 import Footer from "./Footer"
+import Image from "./Image"
 import { Gradient } from "./Themed"
 
 import type { PageProps } from "../types"
-import Image from "next/image"
 
 export default async function Home({ config }: PageProps) {
 	return (
