@@ -1,4 +1,5 @@
 import type { Metadata, Viewport } from "next"
+import { Geologica } from 'next/font/google';
 import Script from "next/script"
 
 import product from "./config"
@@ -34,18 +35,19 @@ export const viewport: Viewport = {
 	viewportFit: "cover",
 }
 
+const geologica = Geologica({
+  subsets: ['latin'],
+  variable: '--font-geologica',
+  weight: ['500', '600'],
+});
+
 export default function RootLayout({
 	children,
 }: Readonly<{
 	children: React.ReactNode
 }>) {
 	return (
-		<html lang="en">
-			<head>
-				{config.fontUrl && (
-					<link rel="stylesheet" type="text/css" href={config.fontUrl} />
-				)}
-			</head>
+		<html lang="en" className={geologica.variable}>
 			<body className="bg-gray-950 antialiased">
 				{children}
 				{config.googleTag && (
