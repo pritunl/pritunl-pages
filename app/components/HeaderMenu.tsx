@@ -47,11 +47,11 @@ export default function HeaderMenu(
 							<div className="space-y-2 py-6">
 								{navigation.map((item) =>
 									item.external ? (
-										<a key={item.name} href={item.href} target="_blank" className="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-white hover:bg-white/5">
+										<a key={item.name} href={item.href} target="_blank" className="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-medium text-white hover:bg-white/5">
 											{item.name}
 										</a>
 									) : (
-										<Link key={item.name} href={item.href} onClick={() => setMobileMenuOpen(false)} className="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-white hover:bg-white/5">
+										<Link key={item.name} href={item.href} onClick={() => setMobileMenuOpen(false)} className="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-medium text-white hover:bg-white/5">
 											{item.name}
 										</Link>
 									)
