@@ -53,7 +53,7 @@ export default function FeaturesGrid({ featuresGrid }: Props) {
 	return (
 		<div>
 			<div className="mx-auto max-w-2xl px-6 lg:max-w-7xl lg:px-8">
-				<h2 className="mt-2 max-w-2xl text-4xl font-semibold tracking-tight text-pretty text-white sm:text-5xl">
+				<h2 className="mt-2 max-w-2xl text-4xl font-medium tracking-tight text-pretty text-white sm:text-5xl">
 					{featuresGrid.title}
 				</h2>
 				<p className="mt-6 max-w-2xl text-lg text-gray-400">
@@ -75,7 +75,7 @@ export default function FeaturesGrid({ featuresGrid }: Props) {
 										/>
 									</div>
 									<div className="p-6 pt-4">
-										<h3 className="text-lg font-semibold tracking-tight text-white">{item.title}</h3>
+										<p className="text-lg font-semibold tracking-tight text-white">{item.title}</p>
 										<p className="mt-2 max-w-lg text-sm/6 text-gray-400">{item.description}</p>
 									</div>
 								</div>
