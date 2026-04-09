@@ -8,9 +8,9 @@ export default function Support({ support }: Props) {
 	return (
 		<div id="support" className="relative isolate px-6 lg:px-8">
 			<div className="mx-auto max-w-4xl text-center">
-				<p className="mt-2 text-4xl font-semibold tracking-tight text-balance text-white sm:text-5xl">
+				<h2 className="mt-2 text-4xl font-medium tracking-tight text-balance text-white sm:text-5xl">
 					{support.title}
-				</p>
+				</h2>
 				<p className="mx-auto mt-6 max-w-xl text-lg/8 text-pretty text-gray-400">
 					{support.description}
 				</p>
