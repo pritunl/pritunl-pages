@@ -137,7 +137,6 @@ export interface ProductConfig {
 	codeBackground?: boolean
 	googleTag?: string
 	cloudflareTag?: string
-	fontUrl?: string
 
 	navigation: NavItem[]
 
