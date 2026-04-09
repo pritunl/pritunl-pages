@@ -17,11 +17,11 @@ export default function Header({ config }: { config: ProductConfig }) {
 				<div className="hidden lg:flex lg:gap-x-12">
 					{config.navigation.map((item) =>
 						item.external ? (
-							<a key={item.name} href={item.href} target="_blank" className="text-sm/6 font-semibold text-white">
+							<a key={item.name} href={item.href} target="_blank" className="text-sm/6 font-medium text-white">
 								{item.name}
 							</a>
 						) : (
-							<Link key={item.name} href={item.href} className="text-sm/6 font-semibold text-white">
+							<Link key={item.name} href={item.href} className="text-sm/6 font-medium text-white">
 								{item.name}
 							</Link>
 						)
