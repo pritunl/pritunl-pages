@@ -16,7 +16,7 @@ export default async function Home({ config }: PageProps) {
 			<Header config={config}/>
 			<div className="pt-42">
 				<div>
-					<div className="mx-auto max-w-7xl px-6 lg:px-8">
+					<div className="mx-auto max-w-7xl px-2 lg:px-8">
 						<div className="mx-auto max-w-4xl text-center">
 							<div className="mb-4 flex justify-center">
 								<span className="inline-flex items-center rounded-full bg-indigo-500/10 px-4 py-1.5 text-sm font-medium text-indigo-400 ring-1 ring-inset ring-indigo-500/20">
@@ -57,7 +57,7 @@ export default async function Home({ config }: PageProps) {
 							</div>
 						</div>
 						{config.heroImages ? (
-							<div className="mt-16 sm:mt-24 mx-auto max-w-7xl grid grid-cols-1 md:grid-cols-3 items-start gap-6 md:gap-0">
+							<div className="px-4 mt-16 sm:mt-24 mx-auto max-w-7xl grid grid-cols-1 md:grid-cols-3 items-start gap-6 md:gap-0">
 								<div className="order-2 md:order-1 sm:mt-0 sm:-rotate-3 sm:z-10 sm:-mr-[10%]">
 									<div className="-m-1.5 rounded-xl bg-white/2.5 p-1.5 ring-1 ring-inset ring-white/10 lg:-m-3 lg:rounded-2xl lg:p-3 w-fit mx-auto sm:mx-0">
 										<Image src={config.heroImages[0].image} alt={config.heroImages[0].alt} className={`bg-white/5 shadow-2xl ${config.heroImages[0].ring ? "ring-1 ring-white/10" : ""} ${config.heroImages[0].rounded ?? "rounded-md"}`} quality={config.heroImages[0].quality} unoptimized={config.heroImages[0].unoptimized}/>
@@ -75,7 +75,7 @@ export default async function Home({ config }: PageProps) {
 								</div>
 							</div>
 						) : config.heroImage ? (
-							<div className="mt-16 flex justify-center sm:mt-24">
+							<div className="px-4 mt-16 flex justify-center sm:mt-24">
 								<div className="-m-2 rounded-xl bg-white/2.5 p-2 ring-1 ring-inset ring-white/10 lg:-m-4 lg:rounded-2xl lg:p-4 w-fit">
 									<Image src={config.heroImage.image} alt={config.heroImage.alt} className={`bg-white/5 shadow-2xl ${config.heroImage.ring ? "ring-1 ring-white/10" : ""} ${config.heroImage.rounded ?? "rounded-md"}`} quality={config.heroImage.quality} unoptimized={config.heroImage.unoptimized}/>
 								</div>
