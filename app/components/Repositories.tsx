@@ -128,9 +128,9 @@ export default async function Repositories({ repositories, installers }: Props) 
 	return (
 		<div id="install" className="relative isolate px-6 lg:px-8">
 			<div className="mx-auto max-w-4xl">
-				<p className="text-center text-4xl font-semibold tracking-tight text-balance text-white sm:text-5xl">
+				<h2 className="text-center text-4xl font-medium tracking-tight text-balance text-white sm:text-5xl">
 					Installation
-				</p>
+				</h2>
 				<p className="mx-auto mt-6 max-w-xl text-center text-lg/8 text-pretty text-gray-400">
 					Select your distribution to view installation instructions.
 				</p>
