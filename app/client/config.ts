@@ -66,20 +66,16 @@ const definition: ProductDefinition = {
 				image: heroWinImage,
 				alt: "Pritunl Client Windows",
 				rounded: "rounded-lg",
-				quality: 100,
 			},
 			{
 				image: heroAppleImage,
 				alt: "Pritunl Client macOS",
 				rounded: "rounded-xl",
-				quality: 100,
-				unoptimized: true,
 			},
 			{
 				image: heroLinuxImage,
 				alt: "Pritunl Client Linux",
 				rounded: "rounded-sm",
-				quality: 100,
 			},
 		],
 
