@@ -23,7 +23,7 @@ export default async function Home({ config }: PageProps) {
 									{config.badge}
 								</span>
 							</div>
-							<h1 className="text-5xl font-semibold tracking-tight text-balance text-white sm:text-7xl">
+							<h1 className="text-4.5xl font-semibold tracking-tight text-balance text-white min-[460px]:text-5xl min-[560px]:text-6xl min-[660px]:text-7xl">
 								{config.heading.map((line, i) => (
 									<span key={i}>
 										{i > 0 && <br />}
@@ -37,7 +37,7 @@ export default async function Home({ config }: PageProps) {
 									</span>
 								))}
 							</h1>
-							<p className="mt-8 text-lg max-w-2xl mx-auto font-medium text-pretty text-gray-400 sm:text-xl/8">
+							<p className="mt-8 text-lg max-w-2xl mx-auto text-pretty text-gray-400 sm:text-xl/8">
 								{config.subheading}
 							</p>
 							<div className="mt-10 flex items-center justify-center gap-x-6">
