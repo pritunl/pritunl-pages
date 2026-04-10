@@ -5,7 +5,7 @@
 	"scripts": {
 		"build": "next build --webpack",
 		"lint": "next lint",
-		"optimize": "npx tsx tools/optimize.ts",
+		"optimize": "python3 tools/optimize.py",
 		"dev:cloud": "NEXT_PUBLIC_PRODUCT=cloud next dev --webpack",
 		"dev:zero": "NEXT_PUBLIC_PRODUCT=zero next dev --webpack",
 		"dev:client": "NEXT_PUBLIC_PRODUCT=client next dev --webpack",
