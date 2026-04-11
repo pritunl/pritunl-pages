@@ -1,4 +1,5 @@
 import os
+import sys
 import subprocess
 import threading
 from pathlib import Path
@@ -6,6 +7,7 @@ from concurrent.futures import ThreadPoolExecutor
 
 ASSETS_DIR = "./app/assets"
 CONCURRENCY = max(1, os.cpu_count() // 4)
+FORCE = "--force" in sys.argv
 print_lock = threading.Lock()
 
 def find_images(directory: str) -> list[Path]:
@@ -13,6 +15,11 @@ def find_images(directory: str) -> list[Path]:
 
 def optimize_image(file: Path) -> None:
     output = file.with_suffix(".avif")
+
+    if not FORCE and output.exists():
+        with print_lock:
+            print(f"{file} -> {output}  (skipped)")
+        return
 
     subprocess.run([
             "avifenc",
