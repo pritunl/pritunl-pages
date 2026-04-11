@@ -4,3 +4,10 @@
   --text-4\.5xl: 2.625rem;
   --text-4\.5xl--line-height: 1.1;
 }
+
+h1 {
+    font-family: var(--font-geologica), ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+h2 {
+    font-family: var(--font-geologica), ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
