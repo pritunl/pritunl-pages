@@ -12,13 +12,13 @@ import {
 } from "lucide-react"
 
 import Home from "../components/Home"
-import heroImage from "../assets/zero/zero_services.png"
-import networkPolicy from "../assets/zero/zero_network_policy.png"
-import twoFactor from "../assets/zero/zero_two_factor_policy.png"
-import webauthnPolicy from "../assets/zero/zero_webauthn_policy.png"
-import zeroLogin from "../assets/zero/zero_login_full.png"
-import zeroCertificates from "../assets/zero/zero_certificates.png"
-import zeroEndpoint from "../assets/zero/zero_endpoint.png"
+import heroImage from "../assets/zero/zero_services.avif"
+import networkPolicy from "../assets/zero/zero_network_policy.avif"
+import twoFactor from "../assets/zero/zero_two_factor_policy.avif"
+import webauthnPolicy from "../assets/zero/zero_webauthn_policy.avif"
+import zeroLogin from "../assets/zero/zero_login_full.avif"
+import zeroCertificates from "../assets/zero/zero_certificates.avif"
+import zeroEndpoint from "../assets/zero/zero_endpoint.avif"
 
 const definition: ProductDefinition = {
 	config: {
