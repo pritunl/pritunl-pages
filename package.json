@@ -25,7 +25,6 @@
 		"deploy:cloud": "cp wrangler.cloud.jsonc wrangler.jsonc && NEXT_PUBLIC_PRODUCT=cloud opennextjs-cloudflare build && NEXT_PUBLIC_PRODUCT=cloud opennextjs-cloudflare deploy",
 		"deploy:zero": "cp wrangler.zero.jsonc wrangler.jsonc && NEXT_PUBLIC_PRODUCT=zero opennextjs-cloudflare build && NEXT_PUBLIC_PRODUCT=zero opennextjs-cloudflare deploy",
 		"deploy:client": "cp wrangler.client.jsonc wrangler.jsonc && NEXT_PUBLIC_PRODUCT=client opennextjs-cloudflare build && NEXT_PUBLIC_PRODUCT=client opennextjs-cloudflare deploy",
-		"deploy:static": "wrangler deploy --config wrangler.static.jsonc",
 		"deploy:vpn": "cp wrangler.vpn.jsonc wrangler.jsonc && NEXT_PUBLIC_PRODUCT=vpn opennextjs-cloudflare build && NEXT_PUBLIC_PRODUCT=vpn opennextjs-cloudflare deploy",
 		"upload:cloud": "cp wrangler.cloud.jsonc wrangler.jsonc && NEXT_PUBLIC_PRODUCT=cloud opennextjs-cloudflare build && opennextjs-cloudflare upload",
 		"upload:zero": "cp wrangler.zero.jsonc wrangler.jsonc && NEXT_PUBLIC_PRODUCT=zero opennextjs-cloudflare build && opennextjs-cloudflare upload",
