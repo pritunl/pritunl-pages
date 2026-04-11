@@ -1,5 +1,11 @@
 import type { ProductDefinition } from "../types"
+import {
+	Mail,
+} from "lucide-react"
 
+import Discourse from "../icons/Discourse"
+import GitBook from "../icons/GitBook"
+import Substack from "../icons/Substack"
 import Home from "../components/Home"
 import Pritunl from "../logos/Pritunl"
 
@@ -40,6 +46,17 @@ const definition: ProductDefinition = {
 				external: true,
 			},
 		],
+
+		support: {
+			title: "Support",
+			description: "Email and community forums available for support. Subscribe to the Substack for security and update announcements.",
+			buttons: [
+				{ label: "Email Support", link: "https://support.pritunl.com", icon: Mail },
+				{ label: "Community Forum", link: "https://forum.pritunl.com", icon: Discourse },
+				{ label: "Documentation", link: "https://docs.pritunl.com/kb/vpn", icon: GitBook },
+				{ label: "Substack Newsletter", link: "https://pritunl.substack.com/subscribe", icon: Substack },
+			],
+		},
 
 		footer: {
 			icon: Pritunl,
