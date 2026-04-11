@@ -8,12 +8,12 @@ import GitBook from "../icons/GitBook"
 import Substack from "../icons/Substack"
 import Home from "../components/Home"
 import Pritunl from "../logos/Pritunl"
-import heroWinImage from "../assets/client/client_windows.png"
-import heroAppleImage from "../assets/client/client_macos.png"
-import heroLinuxImage from "../assets/client/client_linux.png"
-import clientOpen from "../assets/client/client_open.png"
-import clientImport from "../assets/client/client_import.png"
-import clientSettings from "../assets/client/client_settings.png"
+import heroWinImage from "../assets/client/client_windows.avif"
+import heroAppleImage from "../assets/client/client_macos.avif"
+import heroLinuxImage from "../assets/client/client_linux.avif"
+import clientOpen from "../assets/client/client_open.avif"
+import clientImport from "../assets/client/client_import.avif"
+import clientSettings from "../assets/client/client_settings.avif"
 
 const definition: ProductDefinition = {
 	config: {
