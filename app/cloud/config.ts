@@ -39,27 +39,6 @@ import OneLogin from "../logos/OneLogin"
 import Yubico from "../logos/Yubico"
 import Home from "../components/Home"
 import Pritunl from "../logos/Pritunl"
-import heroImage from "../assets/cloud/cloud_pods.avif"
-import pythonShellSpec from "../assets/cloud/cloud_python_shell_spec.avif"
-import images from "../assets/cloud/cloud_images.avif"
-import multiTenant from "../assets/cloud/cloud_multi_tenant_selection.avif"
-import vpc from "../assets/cloud/cloud_vpc.avif"
-import policies from "../assets/cloud/cloud_policies.avif"
-import domains from "../assets/cloud/cloud_domains.avif"
-import firewall from "../assets/cloud/cloud_firewall.avif"
-import ipBlocks from "../assets/cloud/cloud_ip_blocks.avif"
-import storage from "../assets/cloud/cloud_storage.avif"
-import authority from "../assets/cloud/cloud_authority.avif"
-import secret from "../assets/cloud/cloud_secret.avif"
-import loadBalancer from "../assets/cloud/cloud_load_balancer.avif"
-import cloudSpec from "../assets/cloud/cloud_spec.avif"
-import cloudDeploymentLogs from "../assets/cloud/cloud_deployment_logs.avif"
-import cloudDeploymentMigrate from "../assets/cloud/cloud_deployment_migrate.avif"
-import cloudCertificates from "../assets/cloud/cloud_certificates.avif"
-import cloudDeployments from "../assets/cloud/cloud_deployments.avif"
-import cloudSpecEditor from "../assets/cloud/cloud_spec_editor.avif"
-import cloudSpecDiff from "../assets/cloud/cloud_spec_diff.avif"
-import cloudDevices from "../assets/cloud/cloud_devices.avif"
 
 const definition: ProductDefinition = {
 	config: {
@@ -104,7 +83,7 @@ const definition: ProductDefinition = {
 		],
 
 		heroImage: {
-			image: heroImage,
+			image: "cloud_pods",
 			alt: "Cloud Deployments",
 			ring: true,
 		},
@@ -114,62 +93,62 @@ const definition: ProductDefinition = {
 			description: "Define resources with dynamic templates that adjust to configuration changes in the cluster. Provides the benefits of Kubernetes with a less complex architecture and fewer interdependent components.",
 			items: [
 				{
-					image: pythonShellSpec,
+					image: "cloud_python_shell_spec",
 					title: "Transparent Python Integration",
 					description: "Utilize both shell and Python in pod templates with a transparent shared environment.",
 				},
 				{
-					image: images,
+					image: "cloud_images",
 					title: "Instance Base Images",
 					description: "Includes base images for common Linux distributions and FreeBSD.",
 				},
 				{
-					image: multiTenant,
+					image: "cloud_multi_tenant_selection",
 					title: "Multi-Tenant Support",
 					description: "Isolate resources into organizations and control user access to each organization.",
 				},
 				{
-					image: vpc,
+					image: "cloud_vpc",
 					title: "VPC Networking",
 					description: "Advanced VPC networking with routing table support. Source and destination checking option for instances allows site-to-site VPN configurations.",
 				},
 				{
-					image: policies,
+					image: "cloud_policies",
 					title: "Access Policies",
 					description: "Policy controls with WebAuthn, location, source network and browser options.",
 				},
 				{
-					image: domains,
+					image: "cloud_domains",
 					title: "Domain Management",
 					description: "Integrated domain management with API support for AWS, Cloudflare and Oracle Cloud. Configure A, AAAA and CNAME records manually or automated with pods.",
 				},
 				{
-					image: firewall,
+					image: "cloud_firewall",
 					title: "Advanced Firewall",
 					description: "Detailed network ingress control with firewall rules that can be defined through role matched rules or in pod templates.",
 				},
 				{
-					image: ipBlocks,
+					image: "cloud_ip_blocks",
 					title: "Static IP Management",
 					description: "Static IP management that can manage pools of public IPv4 and IPv6 addresses that are either host specific or shared between multiple hosts. Support for DHCPv4, DHCPv6 and SLAAC is also available.",
 				},
 				{
-					image: storage,
+					image: "cloud_storage",
 					title: "S3 Storage Integration",
 					description: "Integrated support for S3 API based storage providers. Pod template images, disk snapshots and backups are stored on the S3 storage.",
 				},
 				{
-					image: authority,
+					image: "cloud_authority",
 					title: "SSH Key Management",
 					description: "Easily manage multiple SSH keys or SSH certificates to control access to instances.",
 				},
 				{
-					image: secret,
+					image: "cloud_secret",
 					title: "Secrets Storage",
 					description: "Store secrets in JSON format and provide access through the IMDS service and pod templates.",
 				},
 				{
-					image: loadBalancer,
+					image: "cloud_load_balancer",
 					title: "Load Balancer",
 					description: "Built in load balancer to provide access from the host to web servers running on instances.",
 				},
@@ -181,7 +160,7 @@ const definition: ProductDefinition = {
 				type: "left",
 				title: "A New Template Format",
 				description: "A new Markdown and YAML based template format that allows adding notes and documentation right into the deployment spec. Python and Shell support allows creating dynamic deployments that can handle complex configurations all in one template.",
-				image: cloudSpec,
+				image: "cloud_spec",
 				imageAlt: "Template Editor",
 				items: [
 					{
@@ -205,7 +184,7 @@ const definition: ProductDefinition = {
 				type: "right",
 				title: "Live Deployment Logs",
 				description: "Live view of deployment status with logging and resource metrics. All deployment management and monitoring can be done from the web console.",
-				image: cloudDeploymentLogs,
+				image: "cloud_deployment_logs",
 				imageAlt: "Deployments Log Output",
 				items: [
 					{
@@ -229,7 +208,7 @@ const definition: ProductDefinition = {
 				type: "left",
 				title: "Deployment Migration",
 				description: "Live migrate deployment templates with a diff view of changes that will be applied. Deployments can be migrated from older or newer template commits.",
-				image: cloudDeploymentMigrate,
+				image: "cloud_deployment_migrate",
 				imageAlt: "Deployment Migration",
 				items: [
 					{
@@ -253,7 +232,7 @@ const definition: ProductDefinition = {
 				type: "right",
 				title: "Automatic SSL Certificates",
 				description: "Automatically create SSL certificates from Lets Encrypt with support for HTTP validation or DNS CNAME validation. Certificates are dynamically updated in deployment templates with the IMDS service.",
-				image: cloudCertificates,
+				image: "cloud_certificates",
 				imageAlt: "Certificates Management",
 				items: [
 					{
@@ -277,28 +256,28 @@ const definition: ProductDefinition = {
 				type: "center",
 				title: "Visual Deployment Management with an Integrated Editor",
 				description: "Visually manage large pod deployments with an integrated editor and comprehensive web console.",
-				image: cloudDeployments,
+				image: "cloud_deployments",
 				imageAlt: "Deployments View",
 			},
 			{
 				type: "center",
 				title: "Integrated Template Editor",
 				description: "Integrated Monaco editor for editing templates. Includes syntax highlighting and autocomplete support for all resources in Pritunl Cloud.",
-				image: cloudSpecEditor,
+				image: "cloud_spec_editor",
 				imageAlt: "Template Editor",
 			},
 			{
 				type: "center",
 				title: "Template Diff View",
 				description: "Compare changes between different template commits and quickly diagnose issues from changes. All from the web console editor.",
-				image: cloudSpecDiff,
+				image: "cloud_spec_diff",
 				imageAlt: "Template Diff Editor",
 			},
 			{
 				type: "center",
 				title: "WebAuthn Token Control",
 				description: "Manage users WebAuthn tokens from the administrator console or allow the user to validate their own WebAuthn token.",
-				image: cloudDevices,
+				image: "cloud_devices",
 				imageAlt: "User Devices Management",
 			},
 			{
