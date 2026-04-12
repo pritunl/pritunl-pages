@@ -8,12 +8,6 @@ import GitBook from "../icons/GitBook"
 import Substack from "../icons/Substack"
 import Home from "../components/Home"
 import Pritunl from "../logos/Pritunl"
-import heroWinImage from "../assets/client/client_windows.avif"
-import heroAppleImage from "../assets/client/client_macos.avif"
-import heroLinuxImage from "../assets/client/client_linux.avif"
-import clientOpen from "../assets/client/client_open.avif"
-import clientImport from "../assets/client/client_import.avif"
-import clientSettings from "../assets/client/client_settings.avif"
 
 const definition: ProductDefinition = {
 	config: {
@@ -63,17 +57,17 @@ const definition: ProductDefinition = {
 
 		heroImages: [
 			{
-				image: heroWinImage,
+				image: "client_windows",
 				alt: "Pritunl Client Windows",
 				rounded: "rounded-lg",
 			},
 			{
-				image: heroAppleImage,
+				image: "client_macos",
 				alt: "Pritunl Client macOS",
 				rounded: "rounded-xl",
 			},
 			{
-				image: heroLinuxImage,
+				image: "client_linux",
 				alt: "Pritunl Client Linux",
 				rounded: "rounded-sm",
 			},
@@ -84,17 +78,17 @@ const definition: ProductDefinition = {
 			description: "Pritunl Client provides a secure graphical and command line interface to connect to OpenVPN and WireGuard servers. Import OpenVPN and WireGuard profiles directly from Pritunl servers or standard OpenVPN configuration files.",
 			items: [
 				{
-					image: clientOpen,
+					image: "client_open",
 					title: "Open Source",
 					description: "All source code for Pritunl is publicly available on GitHub. To allow anyone to evaluate Pritunl to ensure that it is secure.",
 				},
 				{
-					image: clientImport,
+					image: "client_import",
 					title: "Viscosity Alternative",
 					description: "Free and open source alternative to Viscosity. No registration or credit card necessary.",
 				},
 				{
-					image: clientSettings,
+					image: "client_settings",
 					title: "Easy Configuration",
 					description: "Easily add OpenVPN profiles by importing the configuration or by using the URI available with Pritunl servers.",
 				},
