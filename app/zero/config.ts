@@ -12,13 +12,6 @@ import {
 } from "lucide-react"
 
 import Home from "../components/Home"
-import heroImage from "../assets/zero/zero_services.avif"
-import networkPolicy from "../assets/zero/zero_network_policy.avif"
-import twoFactor from "../assets/zero/zero_two_factor_policy.avif"
-import webauthnPolicy from "../assets/zero/zero_webauthn_policy.avif"
-import zeroLogin from "../assets/zero/zero_login_full.avif"
-import zeroCertificates from "../assets/zero/zero_certificates.avif"
-import zeroEndpoint from "../assets/zero/zero_endpoint.avif"
 
 const definition: ProductDefinition = {
 	config: {
@@ -67,7 +60,7 @@ const definition: ProductDefinition = {
 		],
 
 		heroImage: {
-			image: heroImage,
+			image: "zero_services",
 			alt: "Pritunl Zero Dashboard",
 			ring: true,
 		},
@@ -77,17 +70,17 @@ const definition: ProductDefinition = {
 			description: "Pritunl Zero creates an authentication layer in front of existing web applications. No modifications to the existing web application is required. For SSH servers Pritunl Zero will maintain a certificate authority and provide controlled SSH access with additional layers of authentication.",
 			items: [
 				{
-					image: networkPolicy,
+					image: "zero_network_policy",
 					title: "Network Policy Control",
 					description: "Control access based on permitted and blocked networks.",
 				},
 				{
-					image: twoFactor,
+					image: "zero_two_factor_policy",
 					title: "Multi-Factor Authentication",
 					description: "Require multi-factor authentication from providers with secondary authentication support including Duo, OneLogin Protect and Okta Verify.",
 				},
 				{
-					image: webauthnPolicy,
+					image: "zero_webauthn_policy",
 					title: "WebAuthn Device Authentication",
 					description: "Authenticate users with hardware WebAuthn tokens including the YubiKey and Google Titan Security Key.",
 				},
@@ -99,7 +92,7 @@ const definition: ProductDefinition = {
 				type: "left",
 				title: "Simple Authentication",
 				description: "When users access internal web applications they will be prompted to complete authentication and fulfill any configured policy requirements.",
-				image: zeroLogin,
+				image: "zero_login_full",
 				imageAlt: "Login Console",
 				items: [
 					{
@@ -123,7 +116,7 @@ const definition: ProductDefinition = {
 				type: "right",
 				title: "Automatic SSL Certificates",
 				description: "Automatically create SSL certificates from Lets Encrypt with support for HTTP validation on port 80 or DNS CNAME validation using AWS, Cloudflare or Oracle Cloud support DNS APIs. Wildcard certificates are supported when using DNS CNAME validation. Certificates will automatically renew allowing effortless management of certificates for the internal web applications.",
-				image: zeroCertificates,
+				image: "zero_certificates",
 				imageAlt: "Certificates Management",
 				items: [
 					{
@@ -147,7 +140,7 @@ const definition: ProductDefinition = {
 				type: "left",
 				title: "Endpoint Management",
 				description: "Pritunl Endpoint provides monitoring of Linux endpoints with log storage. Detailed charting for system activity and usage allows for a quick overview of infrastructure health.",
-				image: zeroEndpoint,
+				image: "zero_endpoint",
 				imageAlt: "Endpoint Charts",
 				items: [
 					{
