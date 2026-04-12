@@ -44,7 +44,7 @@ export default function FeatureBlock({ block, first, last }: Props) {
 				<Image
 					width={2432}
 					height={1442}
-					src={block.image!}
+					name={block.image!}
 					alt={block.imageAlt || ""}
 					className="w-full rounded-md shadow-xl"
 				/>
@@ -122,7 +122,7 @@ export default function FeatureBlock({ block, first, last }: Props) {
 											<Image
 												width={500}
 												height={48}
-												src={item.image}
+												name={item.image}
 												alt={item.imageAlt}
 												className="max-h-12 max-w-full object-contain"
 											/>
@@ -156,7 +156,7 @@ export default function FeatureBlock({ block, first, last }: Props) {
 							<Image
 								width={2432}
 								height={1442}
-								src={block.image!}
+								name={block.image!}
 								alt={block.imageAlt || ""}
 								className="w-full rounded-md shadow-xl"
 							/>
