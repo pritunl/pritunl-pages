@@ -1,5 +1,4 @@
 import type { ComponentType, SVGProps } from "react"
-import type { StaticImageData } from "next/image"
 import type { LucideIcon } from "lucide-react"
 
 export type SvgData = ComponentType<SVGProps<SVGSVGElement>>
@@ -23,7 +22,7 @@ export interface HeroButton {
 }
 
 export interface HeroImage {
-	image: StaticImageData
+	image: string
 	alt: string
 	rounded?: string
 	ring?: boolean
@@ -32,7 +31,7 @@ export interface HeroImage {
 }
 
 export interface FeaturesGridItem {
-	image: StaticImageData
+	image: string
 	title: string
 	description: string
 }
@@ -52,7 +51,7 @@ export interface FeatureBlockItem {
 }
 
 export interface FeatureBlockLogoItem {
-	image: SvgData | StaticImageData
+	image: SvgData | string
 	imageAlt: string
 	link: string
 }
@@ -91,7 +90,7 @@ export interface Support {
 }
 
 export interface Footer {
-	icon: SvgData | StaticImageData
+	icon: SvgData | string
 	address1: string
 	address2: string
 	phone: string
@@ -109,7 +108,7 @@ export interface FeatureBlock {
 	type: "left" | "right" | "center" | "columns" | "logos"
 	title: string
 	description: string
-	image?: StaticImageData
+	image?: string
 	imageAlt?: string
 	items?: FeatureBlockItem[]
 	logoItems?: FeatureBlockLogoItem[]
