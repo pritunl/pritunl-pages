@@ -44,7 +44,7 @@ export default function FeatureBlock({ block, first, last }: Props) {
 				<Image
 					width={2432}
 					height={1442}
-					name={block.image!}
+					image={block.image!}
 					alt={block.imageAlt || ""}
 					className="w-full rounded-md shadow-xl"
 				/>
@@ -113,20 +113,13 @@ export default function FeatureBlock({ block, first, last }: Props) {
 							{block.logoItems.map((item, i) => (
 								<Link key={i} href={item.link} className="bg-white/5 p-8 sm:p-10">
 									<div className="flex h-12 w-full items-center justify-center">
-										{typeof item.image === "function" ? (
-											<item.image
-												aria-label={item.imageAlt}
-												className="max-h-12 max-w-full object-contain text-white"
-											/>
-										) : (
-											<Image
-												width={500}
-												height={48}
-												name={item.image}
-												alt={item.imageAlt}
-												className="max-h-12 max-w-full object-contain"
-											/>
-										)}
+										<Image
+											width={500}
+											height={48}
+											image={item.image}
+											alt={item.imageAlt}
+											className="max-h-12 max-w-full object-contain"
+										/>
 									</div>
 								</Link>
 							))}
@@ -156,7 +149,7 @@ export default function FeatureBlock({ block, first, last }: Props) {
 							<Image
 								width={2432}
 								height={1442}
-								name={block.image!}
+								image={block.image!}
 								alt={block.imageAlt || ""}
 								className="w-full rounded-md shadow-xl"
 							/>
