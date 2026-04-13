@@ -7,11 +7,11 @@ const images = require.context(
 
 type Props = Omit<ImageProps, "src"> & {
   name: string;
-};
+}
 
 export default function Image({ name, ...props }: Props) {
-  const avif = images(`./${name}.avif`).default;
-  const webp = images(`./${name}.webp`).default;
+  const avif = images(`./${name}.avif`).default
+  const webp = images(`./${name}.webp`).default
 
   return (
     <picture>
