@@ -22,7 +22,7 @@ export interface HeroButton {
 }
 
 export interface HeroImage {
-	image: string
+	image: string | SvgData
 	alt: string
 	rounded?: string
 	ring?: boolean
@@ -31,7 +31,7 @@ export interface HeroImage {
 }
 
 export interface FeaturesGridItem {
-	image: string
+	image: string | SvgData
 	title: string
 	description: string
 }
@@ -108,7 +108,7 @@ export interface FeatureBlock {
 	type: "left" | "right" | "center" | "columns" | "logos"
 	title: string
 	description: string
-	image?: string
+	image?: string | SvgData
 	imageAlt?: string
 	items?: FeatureBlockItem[]
 	logoItems?: FeatureBlockLogoItem[]
