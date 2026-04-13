@@ -1,4 +1,5 @@
 import NextImage, { ImageProps } from "next/image"
+import type { SvgData } from "../types"
 
 const images = require.context(
   "../assets/" + process.env.NEXT_PUBLIC_PRODUCT,
@@ -6,12 +7,21 @@ const images = require.context(
 )
 
 type Props = Omit<ImageProps, "src"> & {
-  name: string;
+  image: string | SvgData;
 }
 
-export default function Image({ name, ...props }: Props) {
-  const avif = images(`./${name}.avif`).default
-  const webp = images(`./${name}.webp`).default
+export default function Image({ image, ...props }: Props) {
+  if (!image) {
+    return <></>
+  }
+
+  if (typeof image === "function") {
+    const SvgComponent = image
+    return <SvgComponent aria-label={props.alt || ""} className={typeof props.className === "string" ? props.className : ""} />
+  }
+
+  const avif = images(`./${image}.avif`).default
+  const webp = images(`./${image}.webp`).default
 
   return (
     <picture>
