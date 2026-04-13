@@ -68,7 +68,7 @@ export default function FeaturesGrid({ featuresGrid }: Props) {
 								<div className={`relative flex h-full flex-col overflow-hidden rounded-[calc(var(--radius-lg)+1px)] ${cls.inner}`}>
 									<div className={`relative m-2 h-60 shrink-0 overflow-hidden rounded-sm ring-1 ring-white/10 ${cls.img}`}>
 										<Image
-											name={item.image}
+											image={item.image}
 											alt={item.title}
 											fill
 											className="object-cover object-left"
