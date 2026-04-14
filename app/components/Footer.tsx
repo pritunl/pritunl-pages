@@ -26,7 +26,7 @@ export default function Footer({ footer }: Props) {
 					{typeof footer.icon === "function" ? (
 						<footer.icon aria-label={footer.address1} className="h-9 w-auto text-white" />
 					) : (
-						<Image name={footer.icon} alt={footer.address1} className="h-9 w-auto" />
+						<Image image={footer.icon} alt={footer.address1} className="h-9 w-auto" />
 					)}
 					<div className="mt-4">
 						<p className="text-sm/6 text-gray-400">{footer.address1}</p>
