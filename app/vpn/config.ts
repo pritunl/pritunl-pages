@@ -47,6 +47,17 @@ const definition: ProductDefinition = {
 			},
 		],
 
+
+		featureBlocks: [
+			{
+				type: "center_open",
+				title: "Simple Virtual Private Networks",
+				description: "Create a cloud vpn with complex site-to-site links, gateway links and provide local network access to remote users. Protect your network traffic and remote users connecting over public connections with secure encryption. All from a simple web interface.",
+				image: "vpn_datacenter",
+				imageAlt: "Protected Datacenter",
+			},
+		],
+
 		repositories: [
 			{ distribution: "arch", version: "", package: "pritunl-client-electron" },
 			{ distribution: "alma", version: "10", package: "pritunl-client-electron" },
