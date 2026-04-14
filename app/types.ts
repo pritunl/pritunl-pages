@@ -151,7 +151,10 @@ export interface ProductConfig {
 	featureBlocks?: FeatureBlock[]
 	pricing?: Pricing
 	repositories?: Repository[]
-	installers?: { macos?: Installer; windows?: Installer }
+	installers?: {
+		macos?: Installer;
+		windows?: Installer
+	}
 	support?: Support
 	footer?: Footer
 }
