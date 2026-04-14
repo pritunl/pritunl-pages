@@ -3,7 +3,7 @@ import type { SvgData } from "../types"
 
 const images = require.context(
   "../assets/" + process.env.NEXT_PUBLIC_PRODUCT,
-  false, /\.(avif|svg|webp)$/,
+  false, /\.(avif|svg|webp|tsx)$/,
 )
 
 type Props = Omit<ImageProps, "src"> & {
@@ -18,6 +18,12 @@ export default function Image({ image, ...props }: Props) {
   if (typeof image === "function") {
     const SvgComponent = image
     return <SvgComponent aria-label={props.alt || ""} className={typeof props.className === "string" ? props.className : ""} />
+  }
+
+  try {
+    const SvgComponent = images(`./${image}.tsx`).default
+    return <SvgComponent aria-label={props.alt || ""} className={typeof props.className === "string" ? props.className : ""} />
+  } catch {
   }
 
   try {
