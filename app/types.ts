@@ -105,7 +105,7 @@ export interface Footer {
 }
 
 export interface FeatureBlock {
-	type: "left" | "right" | "center" | "columns" | "logos"
+	type: "left" | "right" | "center" | "center_open" | "columns" | "logos"
 	title: string
 	description: string
 	image?: string | SvgData
