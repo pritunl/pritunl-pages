@@ -119,173 +119,45 @@ export default function VpnDatacenter({ outline = true, ...props }: Props) {
 				</g>
 				<g>
 					<g>
-						<line
-							className="st7"
-							x1="747.6"
-							y1="183.3"
-							x2="723.3"
-							y2="169.3"
-						/>
-						<circle
-							className="st8"
-							cx="718.3"
-							cy="166.3"
-							r="2"
-						/>
+						<line className="st7" x1="747.6" y1="183.3" x2="723.3" y2="169.3" />
+						<circle className="st8" cx="718.3" cy="166.3" r="2" />
 					</g>
 					<g>
-						<line
-							className="st7"
-							x1="747.6"
-							y1="174.3"
-							x2="723.3"
-							y2="160.3"
-						/>
-						<circle
-							className="st8"
-							cx="718.3"
-							cy="157.3"
-							r="2"
-						/>
+						<line className="st7" x1="747.6" y1="174.3" x2="723.3" y2="160.3" />
+						<circle className="st8" cx="718.3" cy="157.3" r="2" />
 					</g>
 					<g>
-						<line
-							className="st7"
-							x1="747.6"
-							y1="164.3"
-							x2="723.3"
-							y2="150.3"
-						/>
-						<circle
-							className="st8"
-							cx="718.3"
-							cy="147.3"
-							r="2"
-						/>
+						<line className="st7" x1="747.6" y1="164.3" x2="723.3" y2="150.3" />
+						<circle className="st8" cx="718.3" cy="147.3" r="2" />
 					</g>
 					<g>
-						<line
-							className="st7"
-							x1="709.6"
-							y1="161.3"
-							x2="685.3"
-							y2="147.3"
-						/>
-						<circle
-							className="st8"
-							cx="680.3"
-							cy="144.3"
-							r="2"
-						/>
+						<line className="st7" x1="709.6" y1="161.3" x2="685.3" y2="147.3" />
+						<circle className="st8" cx="680.3" cy="144.3" r="2" />
 					</g>
 					<g>
-						<line
-							className="st7"
-							x1="747.6"
-							y1="192.3"
-							x2="723.3"
-							y2="178.3"
-						/>
-						<circle
-							className="st8"
-							cx="718.3"
-							cy="175.3"
-							r="2"
-						/>
+						<line className="st7" x1="747.6" y1="192.3" x2="723.3" y2="178.3" />
+						<circle className="st8" cx="718.3" cy="175.3" r="2" />
 					</g>
 					<g>
-						<line
-							className="st7"
-							x1="709.6"
-							y1="170.3"
-							x2="685.3"
-							y2="156.3"
-						/>
-						<circle
-							className="st8"
-							cx="680.3"
-							cy="153.3"
-							r="2"
-						/>
+						<line className="st7" x1="709.6" y1="170.3" x2="685.3" y2="156.3" />
+						<circle className="st8" cx="680.3" cy="153.3" r="2" />
 					</g>
 					<g>
-						<line
-							className="st7"
-							x1="709.6"
-							y1="152.3"
-							x2="685.3"
-							y2="138.3"
-						/>
-						<circle
-							className="st8"
-							cx="680.3"
-							cy="135.3"
-							r="2"
-						/>
+						<line className="st7" x1="709.6" y1="152.3" x2="685.3" y2="138.3" />
+						<circle className="st8" cx="680.3" cy="135.3" r="2" />
 					</g>
 					<g>
-						<line
-							className="st7"
-							x1="709.6"
-							y1="142.3"
-							x2="685.3"
-							y2="128.3"
-						/>
-						<circle
-							className="st8"
-							cx="680.3"
-							cy="125.3"
-							r="2"
-						/>
+						<line className="st7" x1="709.6" y1="142.3" x2="685.3" y2="128.3" />
+						<circle className="st8" cx="680.3" cy="125.3" r="2" />
 					</g>
 				</g>
-				<circle
-					className="st9"
-					cx="682.9"
-					cy="115"
-					r="3.5"
-				/>
-				<circle
-					className="st10"
-					cx="692.3"
-					cy="120.6"
-					r="3.5"
-				/>
-				<line
-					className="st11"
-					x1="819.5"
-					y1="201.9"
-					x2="836.8"
-					y2="191.9"
-				/>
-				<line
-					className="st11"
-					x1="819.5"
-					y1="197.9"
-					x2="836.8"
-					y2="187.9"
-				/>
-				<line
-					className="st11"
-					x1="819.5"
-					y1="193.9"
-					x2="836.8"
-					y2="183.9"
-				/>
-				<line
-					className="st11"
-					x1="819.5"
-					y1="189.9"
-					x2="836.8"
-					y2="179.9"
-				/>
-				<line
-					className="st11"
-					x1="819.5"
-					y1="185.9"
-					x2="836.8"
-					y2="175.9"
-				/>
+				<circle className="st9" cx="682.9" cy="115" r="3.5" />
+				<circle className="st10" cx="692.3" cy="120.6" r="3.5" />
+				<line className="st11" x1="819.5" y1="201.9" x2="836.8" y2="191.9" />
+				<line className="st11" x1="819.5" y1="197.9" x2="836.8" y2="187.9" />
+				<line className="st11" x1="819.5" y1="193.9" x2="836.8" y2="183.9" />
+				<line className="st11" x1="819.5" y1="189.9" x2="836.8" y2="179.9" />
+				<line className="st11" x1="819.5" y1="185.9" x2="836.8" y2="175.9" />
 			</g>
 			<g>
 				<polygon
@@ -328,173 +200,45 @@ export default function VpnDatacenter({ outline = true, ...props }: Props) {
 				</g>
 				<g>
 					<g>
-						<line
-							className="st7"
-							x1="851.6"
-							y1="298.7"
-							x2="827.3"
-							y2="284.7"
-						/>
-						<circle
-							className="st8"
-							cx="822.3"
-							cy="281.7"
-							r="2"
-						/>
+						<line className="st7" x1="851.6" y1="298.7" x2="827.3" y2="284.7" />
+						<circle className="st8" cx="822.3" cy="281.7" r="2" />
 					</g>
 					<g>
-						<line
-							className="st7"
-							x1="851.6"
-							y1="289.7"
-							x2="827.3"
-							y2="275.7"
-						/>
-						<circle
-							className="st8"
-							cx="822.3"
-							cy="272.7"
-							r="2"
-						/>
+						<line className="st7" x1="851.6" y1="289.7" x2="827.3" y2="275.7" />
+						<circle className="st8" cx="822.3" cy="272.7" r="2" />
 					</g>
 					<g>
-						<line
-							className="st7"
-							x1="851.6"
-							y1="279.7"
-							x2="827.3"
-							y2="265.7"
-						/>
-						<circle
-							className="st8"
-							cx="822.3"
-							cy="262.7"
-							r="2"
-						/>
+						<line className="st7" x1="851.6" y1="279.7" x2="827.3" y2="265.7" />
+						<circle className="st8" cx="822.3" cy="262.7" r="2" />
 					</g>
 					<g>
-						<line
-							className="st7"
-							x1="813.6"
-							y1="276.7"
-							x2="789.3"
-							y2="262.7"
-						/>
-						<circle
-							className="st8"
-							cx="784.3"
-							cy="259.7"
-							r="2"
-						/>
+						<line className="st7" x1="813.6" y1="276.7" x2="789.3" y2="262.7" />
+						<circle className="st8" cx="784.3" cy="259.7" r="2" />
 					</g>
 					<g>
-						<line
-							className="st7"
-							x1="851.6"
-							y1="307.7"
-							x2="827.3"
-							y2="293.7"
-						/>
-						<circle
-							className="st8"
-							cx="822.3"
-							cy="290.7"
-							r="2"
-						/>
+						<line className="st7" x1="851.6" y1="307.7" x2="827.3" y2="293.7" />
+						<circle className="st8" cx="822.3" cy="290.7" r="2" />
 					</g>
 					<g>
-						<line
-							className="st7"
-							x1="813.6"
-							y1="285.7"
-							x2="789.3"
-							y2="271.7"
-						/>
-						<circle
-							className="st8"
-							cx="784.3"
-							cy="268.7"
-							r="2"
-						/>
+						<line className="st7" x1="813.6" y1="285.7" x2="789.3" y2="271.7" />
+						<circle className="st8" cx="784.3" cy="268.7" r="2" />
 					</g>
 					<g>
-						<line
-							className="st7"
-							x1="813.6"
-							y1="267.7"
-							x2="789.3"
-							y2="253.7"
-						/>
-						<circle
-							className="st8"
-							cx="784.3"
-							cy="250.7"
-							r="2"
-						/>
+						<line className="st7" x1="813.6" y1="267.7" x2="789.3" y2="253.7" />
+						<circle className="st8" cx="784.3" cy="250.7" r="2" />
 					</g>
 					<g>
-						<line
-							className="st7"
-							x1="813.6"
-							y1="257.7"
-							x2="789.3"
-							y2="243.7"
-						/>
-						<circle
-							className="st8"
-							cx="784.3"
-							cy="240.7"
-							r="2"
-						/>
+						<line className="st7" x1="813.6" y1="257.7" x2="789.3" y2="243.7" />
+						<circle className="st8" cx="784.3" cy="240.7" r="2" />
 					</g>
 				</g>
-				<circle
-					className="st9"
-					cx="786.9"
-					cy="230.4"
-					r="3.5"
-				/>
-				<circle
-					className="st10"
-					cx="796.3"
-					cy="235.9"
-					r="3.5"
-				/>
-				<line
-					className="st11"
-					x1="923.5"
-					y1="317.3"
-					x2="940.9"
-					y2="307.3"
-				/>
-				<line
-					className="st11"
-					x1="923.5"
-					y1="313.3"
-					x2="940.9"
-					y2="303.3"
-				/>
-				<line
-					className="st11"
-					x1="923.5"
-					y1="309.3"
-					x2="940.9"
-					y2="299.3"
-				/>
-				<line
-					className="st11"
-					x1="923.5"
-					y1="305.3"
-					x2="940.9"
-					y2="295.3"
-				/>
-				<line
-					className="st11"
-					x1="923.5"
-					y1="301.3"
-					x2="940.9"
-					y2="291.3"
-				/>
+				<circle className="st9" cx="786.9" cy="230.4" r="3.5" />
+				<circle className="st10" cx="796.3" cy="235.9" r="3.5" />
+				<line className="st11" x1="923.5" y1="317.3" x2="940.9" y2="307.3" />
+				<line className="st11" x1="923.5" y1="313.3" x2="940.9" y2="303.3" />
+				<line className="st11" x1="923.5" y1="309.3" x2="940.9" y2="299.3" />
+				<line className="st11" x1="923.5" y1="305.3" x2="940.9" y2="295.3" />
+				<line className="st11" x1="923.5" y1="301.3" x2="940.9" y2="291.3" />
 			</g>
 			<g>
 				<polygon
@@ -537,173 +281,45 @@ export default function VpnDatacenter({ outline = true, ...props }: Props) {
 				</g>
 				<g>
 					<g>
-						<line
-							className="st7"
-							x1="954.8"
-							y1="361.1"
-							x2="930.4"
-							y2="347.1"
-						/>
-						<circle
-							className="st8"
-							cx="925.4"
-							cy="344.1"
-							r="2"
-						/>
+						<line className="st7" x1="954.8" y1="361.1" x2="930.4" y2="347.1" />
+						<circle className="st8" cx="925.4" cy="344.1" r="2" />
 					</g>
 					<g>
-						<line
-							className="st7"
-							x1="954.8"
-							y1="352.1"
-							x2="930.4"
-							y2="338.1"
-						/>
-						<circle
-							className="st8"
-							cx="925.4"
-							cy="335.1"
-							r="2"
-						/>
+						<line className="st7" x1="954.8" y1="352.1" x2="930.4" y2="338.1" />
+						<circle className="st8" cx="925.4" cy="335.1" r="2" />
 					</g>
 					<g>
-						<line
-							className="st7"
-							x1="954.8"
-							y1="342.1"
-							x2="930.4"
-							y2="328.1"
-						/>
-						<circle
-							className="st8"
-							cx="925.4"
-							cy="325.1"
-							r="2"
-						/>
+						<line className="st7" x1="954.8" y1="342.1" x2="930.4" y2="328.1" />
+						<circle className="st8" cx="925.4" cy="325.1" r="2" />
 					</g>
 					<g>
-						<line
-							className="st7"
-							x1="916.8"
-							y1="339.1"
-							x2="892.4"
-							y2="325.1"
-						/>
-						<circle
-							className="st8"
-							cx="887.4"
-							cy="322.1"
-							r="2"
-						/>
+						<line className="st7" x1="916.8" y1="339.1" x2="892.4" y2="325.1" />
+						<circle className="st8" cx="887.4" cy="322.1" r="2" />
 					</g>
 					<g>
-						<line
-							className="st7"
-							x1="954.8"
-							y1="370.1"
-							x2="930.4"
-							y2="356.1"
-						/>
-						<circle
-							className="st8"
-							cx="925.4"
-							cy="353.1"
-							r="2"
-						/>
+						<line className="st7" x1="954.8" y1="370.1" x2="930.4" y2="356.1" />
+						<circle className="st8" cx="925.4" cy="353.1" r="2" />
 					</g>
 					<g>
-						<line
-							className="st7"
-							x1="916.8"
-							y1="348.1"
-							x2="892.4"
-							y2="334.1"
-						/>
-						<circle
-							className="st8"
-							cx="887.4"
-							cy="331.1"
-							r="2"
-						/>
+						<line className="st7" x1="916.8" y1="348.1" x2="892.4" y2="334.1" />
+						<circle className="st8" cx="887.4" cy="331.1" r="2" />
 					</g>
 					<g>
-						<line
-							className="st7"
-							x1="916.8"
-							y1="330.1"
-							x2="892.4"
-							y2="316.1"
-						/>
-						<circle
-							className="st8"
-							cx="887.4"
-							cy="313.1"
-							r="2"
-						/>
+						<line className="st7" x1="916.8" y1="330.1" x2="892.4" y2="316.1" />
+						<circle className="st8" cx="887.4" cy="313.1" r="2" />
 					</g>
 					<g>
-						<line
-							className="st7"
-							x1="916.8"
-							y1="320.1"
-							x2="892.4"
-							y2="306.1"
-						/>
-						<circle
-							className="st8"
-							cx="887.4"
-							cy="303.1"
-							r="2"
-						/>
+						<line className="st7" x1="916.8" y1="320.1" x2="892.4" y2="306.1" />
+						<circle className="st8" cx="887.4" cy="303.1" r="2" />
 					</g>
 				</g>
-				<circle
-					className="st9"
-					cx="890"
-					cy="292.8"
-					r="3.5"
-				/>
-				<circle
-					className="st10"
-					cx="899.4"
-					cy="298.3"
-					r="3.5"
-				/>
-				<line
-					className="st11"
-					x1="1026.7"
-					y1="379.7"
-					x2="1044"
-					y2="369.7"
-				/>
-				<line
-					className="st11"
-					x1="1026.7"
-					y1="375.7"
-					x2="1044"
-					y2="365.7"
-				/>
-				<line
-					className="st11"
-					x1="1026.7"
-					y1="371.7"
-					x2="1044"
-					y2="361.7"
-				/>
-				<line
-					className="st11"
-					x1="1026.7"
-					y1="367.7"
-					x2="1044"
-					y2="357.7"
-				/>
-				<line
-					className="st11"
-					x1="1026.7"
-					y1="363.7"
-					x2="1044"
-					y2="353.7"
-				/>
+				<circle className="st9" cx="890" cy="292.8" r="3.5" />
+				<circle className="st10" cx="899.4" cy="298.3" r="3.5" />
+				<line className="st11" x1="1026.7" y1="379.7" x2="1044" y2="369.7" />
+				<line className="st11" x1="1026.7" y1="375.7" x2="1044" y2="365.7" />
+				<line className="st11" x1="1026.7" y1="371.7" x2="1044" y2="361.7" />
+				<line className="st11" x1="1026.7" y1="367.7" x2="1044" y2="357.7" />
+				<line className="st11" x1="1026.7" y1="363.7" x2="1044" y2="353.7" />
 			</g>
 			<g>
 				<polygon
@@ -746,173 +362,45 @@ export default function VpnDatacenter({ outline = true, ...props }: Props) {
 				</g>
 				<g>
 					<g>
-						<line
-							className="st7"
-							x1="642.7"
-							y1="300.3"
-							x2="618.4"
-							y2="286.2"
-						/>
-						<circle
-							className="st8"
-							cx="613.4"
-							cy="283.2"
-							r="2"
-						/>
+						<line className="st7" x1="642.7" y1="300.3" x2="618.4" y2="286.2" />
+						<circle className="st8" cx="613.4" cy="283.2" r="2" />
 					</g>
 					<g>
-						<line
-							className="st7"
-							x1="642.7"
-							y1="291.3"
-							x2="618.4"
-							y2="277.2"
-						/>
-						<circle
-							className="st8"
-							cx="613.4"
-							cy="274.2"
-							r="2"
-						/>
+						<line className="st7" x1="642.7" y1="291.3" x2="618.4" y2="277.2" />
+						<circle className="st8" cx="613.4" cy="274.2" r="2" />
 					</g>
 					<g>
-						<line
-							className="st7"
-							x1="642.7"
-							y1="281.3"
-							x2="618.4"
-							y2="267.2"
-						/>
-						<circle
-							className="st8"
-							cx="613.4"
-							cy="264.2"
-							r="2"
-						/>
+						<line className="st7" x1="642.7" y1="281.3" x2="618.4" y2="267.2" />
+						<circle className="st8" cx="613.4" cy="264.2" r="2" />
 					</g>
 					<g>
-						<line
-							className="st7"
-							x1="604.7"
-							y1="278.3"
-							x2="580.4"
-							y2="264.2"
-						/>
-						<circle
-							className="st8"
-							cx="575.4"
-							cy="261.2"
-							r="2"
-						/>
+						<line className="st7" x1="604.7" y1="278.3" x2="580.4" y2="264.2" />
+						<circle className="st8" cx="575.4" cy="261.2" r="2" />
 					</g>
 					<g>
-						<line
-							className="st7"
-							x1="642.7"
-							y1="309.3"
-							x2="618.4"
-							y2="295.2"
-						/>
-						<circle
-							className="st8"
-							cx="613.4"
-							cy="292.2"
-							r="2"
-						/>
+						<line className="st7" x1="642.7" y1="309.3" x2="618.4" y2="295.2" />
+						<circle className="st8" cx="613.4" cy="292.2" r="2" />
 					</g>
 					<g>
-						<line
-							className="st7"
-							x1="604.7"
-							y1="287.3"
-							x2="580.4"
-							y2="273.2"
-						/>
-						<circle
-							className="st8"
-							cx="575.4"
-							cy="270.2"
-							r="2"
-						/>
+						<line className="st7" x1="604.7" y1="287.3" x2="580.4" y2="273.2" />
+						<circle className="st8" cx="575.4" cy="270.2" r="2" />
 					</g>
 					<g>
-						<line
-							className="st7"
-							x1="604.7"
-							y1="269.3"
-							x2="580.4"
-							y2="255.2"
-						/>
-						<circle
-							className="st8"
-							cx="575.4"
-							cy="252.2"
-							r="2"
-						/>
+						<line className="st7" x1="604.7" y1="269.3" x2="580.4" y2="255.2" />
+						<circle className="st8" cx="575.4" cy="252.2" r="2" />
 					</g>
 					<g>
-						<line
-							className="st7"
-							x1="604.7"
-							y1="259.3"
-							x2="580.4"
-							y2="245.2"
-						/>
-						<circle
-							className="st8"
-							cx="575.4"
-							cy="242.2"
-							r="2"
-						/>
+						<line className="st7" x1="604.7" y1="259.3" x2="580.4" y2="245.2" />
+						<circle className="st8" cx="575.4" cy="242.2" r="2" />
 					</g>
 				</g>
-				<circle
-					className="st9"
-					cx="578"
-					cy="232"
-					r="3.5"
-				/>
-				<circle
-					className="st10"
-					cx="587.4"
-					cy="237.5"
-					r="3.5"
-				/>
-				<line
-					className="st11"
-					x1="714.7"
-					y1="318.9"
-					x2="732"
-					y2="308.9"
-				/>
-				<line
-					className="st11"
-					x1="714.7"
-					y1="314.9"
-					x2="732"
-					y2="304.9"
-				/>
-				<line
-					className="st11"
-					x1="714.7"
-					y1="310.9"
-					x2="732"
-					y2="300.9"
-				/>
-				<line
-					className="st11"
-					x1="714.7"
-					y1="306.9"
-					x2="732"
-					y2="296.9"
-				/>
-				<line
-					className="st11"
-					x1="714.7"
-					y1="302.9"
-					x2="732"
-					y2="292.9"
-				/>
+				<circle className="st9" cx="578" cy="232" r="3.5" />
+				<circle className="st10" cx="587.4" cy="237.5" r="3.5" />
+				<line className="st11" x1="714.7" y1="318.9" x2="732" y2="308.9" />
+				<line className="st11" x1="714.7" y1="314.9" x2="732" y2="304.9" />
+				<line className="st11" x1="714.7" y1="310.9" x2="732" y2="300.9" />
+				<line className="st11" x1="714.7" y1="306.9" x2="732" y2="296.9" />
+				<line className="st11" x1="714.7" y1="302.9" x2="732" y2="292.9" />
 			</g>
 			<g>
 				<polygon
@@ -955,173 +443,45 @@ export default function VpnDatacenter({ outline = true, ...props }: Props) {
 				</g>
 				<g>
 					<g>
-						<line
-							className="st7"
-							x1="538.7"
-							y1="361.8"
-							x2="514.4"
-							y2="347.7"
-						/>
-						<circle
-							className="st8"
-							cx="509.4"
-							cy="344.7"
-							r="2"
-						/>
+						<line className="st7" x1="538.7" y1="361.8" x2="514.4" y2="347.7" />
+						<circle className="st8" cx="509.4" cy="344.7" r="2" />
 					</g>
 					<g>
-						<line
-							className="st7"
-							x1="538.7"
-							y1="352.8"
-							x2="514.4"
-							y2="338.7"
-						/>
-						<circle
-							className="st8"
-							cx="509.4"
-							cy="335.7"
-							r="2"
-						/>
+						<line className="st7" x1="538.7" y1="352.8" x2="514.4" y2="338.7" />
+						<circle className="st8" cx="509.4" cy="335.7" r="2" />
 					</g>
 					<g>
-						<line
-							className="st7"
-							x1="538.7"
-							y1="342.8"
-							x2="514.4"
-							y2="328.7"
-						/>
-						<circle
-							className="st8"
-							cx="509.4"
-							cy="325.7"
-							r="2"
-						/>
+						<line className="st7" x1="538.7" y1="342.8" x2="514.4" y2="328.7" />
+						<circle className="st8" cx="509.4" cy="325.7" r="2" />
 					</g>
 					<g>
-						<line
-							className="st7"
-							x1="500.7"
-							y1="339.8"
-							x2="476.4"
-							y2="325.7"
-						/>
-						<circle
-							className="st8"
-							cx="471.4"
-							cy="322.7"
-							r="2"
-						/>
+						<line className="st7" x1="500.7" y1="339.8" x2="476.4" y2="325.7" />
+						<circle className="st8" cx="471.4" cy="322.7" r="2" />
 					</g>
 					<g>
-						<line
-							className="st7"
-							x1="538.7"
-							y1="370.8"
-							x2="514.4"
-							y2="356.7"
-						/>
-						<circle
-							className="st8"
-							cx="509.4"
-							cy="353.7"
-							r="2"
-						/>
+						<line className="st7" x1="538.7" y1="370.8" x2="514.4" y2="356.7" />
+						<circle className="st8" cx="509.4" cy="353.7" r="2" />
 					</g>
 					<g>
-						<line
-							className="st7"
-							x1="500.7"
-							y1="348.8"
-							x2="476.4"
-							y2="334.7"
-						/>
-						<circle
-							className="st8"
-							cx="471.4"
-							cy="331.7"
-							r="2"
-						/>
+						<line className="st7" x1="500.7" y1="348.8" x2="476.4" y2="334.7" />
+						<circle className="st8" cx="471.4" cy="331.7" r="2" />
 					</g>
 					<g>
-						<line
-							className="st7"
-							x1="500.7"
-							y1="330.8"
-							x2="476.4"
-							y2="316.7"
-						/>
-						<circle
-							className="st8"
-							cx="471.4"
-							cy="313.7"
-							r="2"
-						/>
+						<line className="st7" x1="500.7" y1="330.8" x2="476.4" y2="316.7" />
+						<circle className="st8" cx="471.4" cy="313.7" r="2" />
 					</g>
 					<g>
-						<line
-							className="st7"
-							x1="500.7"
-							y1="320.8"
-							x2="476.4"
-							y2="306.7"
-						/>
-						<circle
-							className="st8"
-							cx="471.4"
-							cy="303.7"
-							r="2"
-						/>
+						<line className="st7" x1="500.7" y1="320.8" x2="476.4" y2="306.7" />
+						<circle className="st8" cx="471.4" cy="303.7" r="2" />
 					</g>
 				</g>
-				<circle
-					className="st9"
-					cx="474"
-					cy="293.5"
-					r="3.5"
-				/>
-				<circle
-					className="st10"
-					cx="483.4"
-					cy="299"
-					r="3.5"
-				/>
-				<line
-					className="st11"
-					x1="610.7"
-					y1="380.4"
-					x2="628"
-					y2="370.4"
-				/>
-				<line
-					className="st11"
-					x1="610.7"
-					y1="376.4"
-					x2="628"
-					y2="366.4"
-				/>
-				<line
-					className="st11"
-					x1="610.7"
-					y1="372.4"
-					x2="628"
-					y2="362.4"
-				/>
-				<line
-					className="st11"
-					x1="610.7"
-					y1="368.4"
-					x2="628"
-					y2="358.4"
-				/>
-				<line
-					className="st11"
-					x1="610.7"
-					y1="364.4"
-					x2="628"
-					y2="354.4"
-				/>
+				<circle className="st9" cx="474" cy="293.5" r="3.5" />
+				<circle className="st10" cx="483.4" cy="299" r="3.5" />
+				<line className="st11" x1="610.7" y1="380.4" x2="628" y2="370.4" />
+				<line className="st11" x1="610.7" y1="376.4" x2="628" y2="366.4" />
+				<line className="st11" x1="610.7" y1="372.4" x2="628" y2="362.4" />
+				<line className="st11" x1="610.7" y1="368.4" x2="628" y2="358.4" />
+				<line className="st11" x1="610.7" y1="364.4" x2="628" y2="354.4" />
 			</g>
 			<g>
 				<polygon
@@ -1164,173 +524,45 @@ export default function VpnDatacenter({ outline = true, ...props }: Props) {
 				</g>
 				<g>
 					<g>
-						<line
-							className="st7"
-							x1="746.8"
-							y1="360.6"
-							x2="722.4"
-							y2="346.5"
-						/>
-						<circle
-							className="st8"
-							cx="717.4"
-							cy="343.5"
-							r="2"
-						/>
+						<line className="st7" x1="746.8" y1="360.6" x2="722.4" y2="346.5" />
+						<circle className="st8" cx="717.4" cy="343.5" r="2" />
 					</g>
 					<g>
-						<line
-							className="st7"
-							x1="746.8"
-							y1="351.6"
-							x2="722.4"
-							y2="337.5"
-						/>
-						<circle
-							className="st8"
-							cx="717.4"
-							cy="334.5"
-							r="2"
-						/>
+						<line className="st7" x1="746.8" y1="351.6" x2="722.4" y2="337.5" />
+						<circle className="st8" cx="717.4" cy="334.5" r="2" />
 					</g>
 					<g>
-						<line
-							className="st7"
-							x1="746.8"
-							y1="341.6"
-							x2="722.4"
-							y2="327.5"
-						/>
-						<circle
-							className="st8"
-							cx="717.4"
-							cy="324.5"
-							r="2"
-						/>
+						<line className="st7" x1="746.8" y1="341.6" x2="722.4" y2="327.5" />
+						<circle className="st8" cx="717.4" cy="324.5" r="2" />
 					</g>
 					<g>
-						<line
-							className="st7"
-							x1="708.8"
-							y1="338.6"
-							x2="684.4"
-							y2="324.5"
-						/>
-						<circle
-							className="st8"
-							cx="679.4"
-							cy="321.5"
-							r="2"
-						/>
+						<line className="st7" x1="708.8" y1="338.6" x2="684.4" y2="324.5" />
+						<circle className="st8" cx="679.4" cy="321.5" r="2" />
 					</g>
 					<g>
-						<line
-							className="st7"
-							x1="746.8"
-							y1="369.6"
-							x2="722.4"
-							y2="355.5"
-						/>
-						<circle
-							className="st8"
-							cx="717.4"
-							cy="352.5"
-							r="2"
-						/>
+						<line className="st7" x1="746.8" y1="369.6" x2="722.4" y2="355.5" />
+						<circle className="st8" cx="717.4" cy="352.5" r="2" />
 					</g>
 					<g>
-						<line
-							className="st7"
-							x1="708.8"
-							y1="347.6"
-							x2="684.4"
-							y2="333.5"
-						/>
-						<circle
-							className="st8"
-							cx="679.4"
-							cy="330.5"
-							r="2"
-						/>
+						<line className="st7" x1="708.8" y1="347.6" x2="684.4" y2="333.5" />
+						<circle className="st8" cx="679.4" cy="330.5" r="2" />
 					</g>
 					<g>
-						<line
-							className="st7"
-							x1="708.8"
-							y1="329.6"
-							x2="684.4"
-							y2="315.5"
-						/>
-						<circle
-							className="st8"
-							cx="679.4"
-							cy="312.5"
-							r="2"
-						/>
+						<line className="st7" x1="708.8" y1="329.6" x2="684.4" y2="315.5" />
+						<circle className="st8" cx="679.4" cy="312.5" r="2" />
 					</g>
 					<g>
-						<line
-							className="st7"
-							x1="708.8"
-							y1="319.6"
-							x2="684.4"
-							y2="305.5"
-						/>
-						<circle
-							className="st8"
-							cx="679.4"
-							cy="302.5"
-							r="2"
-						/>
+						<line className="st7" x1="708.8" y1="319.6" x2="684.4" y2="305.5" />
+						<circle className="st8" cx="679.4" cy="302.5" r="2" />
 					</g>
 				</g>
-				<circle
-					className="st9"
-					cx="682"
-					cy="292.3"
-					r="3.5"
-				/>
-				<circle
-					className="st10"
-					cx="691.4"
-					cy="297.8"
-					r="3.5"
-				/>
-				<line
-					className="st11"
-					x1="818.7"
-					y1="379.2"
-					x2="836"
-					y2="369.2"
-				/>
-				<line
-					className="st11"
-					x1="818.7"
-					y1="375.2"
-					x2="836"
-					y2="365.2"
-				/>
-				<line
-					className="st11"
-					x1="818.7"
-					y1="371.2"
-					x2="836"
-					y2="361.2"
-				/>
-				<line
-					className="st11"
-					x1="818.7"
-					y1="367.2"
-					x2="836"
-					y2="357.2"
-				/>
-				<line
-					className="st11"
-					x1="818.7"
-					y1="363.2"
-					x2="836"
-					y2="353.2"
-				/>
+				<circle className="st9" cx="682" cy="292.3" r="3.5" />
+				<circle className="st10" cx="691.4" cy="297.8" r="3.5" />
+				<line className="st11" x1="818.7" y1="379.2" x2="836" y2="369.2" />
+				<line className="st11" x1="818.7" y1="375.2" x2="836" y2="365.2" />
+				<line className="st11" x1="818.7" y1="371.2" x2="836" y2="361.2" />
+				<line className="st11" x1="818.7" y1="367.2" x2="836" y2="357.2" />
+				<line className="st11" x1="818.7" y1="363.2" x2="836" y2="353.2" />
 			</g>
 			<g>
 				<polygon
@@ -1373,173 +605,45 @@ export default function VpnDatacenter({ outline = true, ...props }: Props) {
 				</g>
 				<g>
 					<g>
-						<line
-							className="st7"
-							x1="642.8"
-							y1="422.1"
-							x2="618.5"
-							y2="408"
-						/>
-						<circle
-							className="st8"
-							cx="613.5"
-							cy="405"
-							r="2"
-						/>
+						<line className="st7" x1="642.8" y1="422.1" x2="618.5" y2="408" />
+						<circle className="st8" cx="613.5" cy="405" r="2" />
 					</g>
 					<g>
-						<line
-							className="st7"
-							x1="642.8"
-							y1="413.1"
-							x2="618.5"
-							y2="399"
-						/>
-						<circle
-							className="st8"
-							cx="613.5"
-							cy="396"
-							r="2"
-						/>
+						<line className="st7" x1="642.8" y1="413.1" x2="618.5" y2="399" />
+						<circle className="st8" cx="613.5" cy="396" r="2" />
 					</g>
 					<g>
-						<line
-							className="st7"
-							x1="642.8"
-							y1="403.1"
-							x2="618.5"
-							y2="389"
-						/>
-						<circle
-							className="st8"
-							cx="613.5"
-							cy="386"
-							r="2"
-						/>
+						<line className="st7" x1="642.8" y1="403.1" x2="618.5" y2="389" />
+						<circle className="st8" cx="613.5" cy="386" r="2" />
 					</g>
 					<g>
-						<line
-							className="st7"
-							x1="604.8"
-							y1="400.1"
-							x2="580.5"
-							y2="386"
-						/>
-						<circle
-							className="st8"
-							cx="575.5"
-							cy="383"
-							r="2"
-						/>
+						<line className="st7" x1="604.8" y1="400.1" x2="580.5" y2="386" />
+						<circle className="st8" cx="575.5" cy="383" r="2" />
 					</g>
 					<g>
-						<line
-							className="st7"
-							x1="642.8"
-							y1="431.1"
-							x2="618.5"
-							y2="417"
-						/>
-						<circle
-							className="st8"
-							cx="613.5"
-							cy="414"
-							r="2"
-						/>
+						<line className="st7" x1="642.8" y1="431.1" x2="618.5" y2="417" />
+						<circle className="st8" cx="613.5" cy="414" r="2" />
 					</g>
 					<g>
-						<line
-							className="st7"
-							x1="604.8"
-							y1="409.1"
-							x2="580.5"
-							y2="395"
-						/>
-						<circle
-							className="st8"
-							cx="575.5"
-							cy="392"
-							r="2"
-						/>
+						<line className="st7" x1="604.8" y1="409.1" x2="580.5" y2="395" />
+						<circle className="st8" cx="575.5" cy="392" r="2" />
 					</g>
 					<g>
-						<line
-							className="st7"
-							x1="604.8"
-							y1="391.1"
-							x2="580.5"
-							y2="377"
-						/>
-						<circle
-							className="st8"
-							cx="575.5"
-							cy="374"
-							r="2"
-						/>
+						<line className="st7" x1="604.8" y1="391.1" x2="580.5" y2="377" />
+						<circle className="st8" cx="575.5" cy="374" r="2" />
 					</g>
 					<g>
-						<line
-							className="st7"
-							x1="604.8"
-							y1="381.1"
-							x2="580.5"
-							y2="367"
-						/>
-						<circle
-							className="st8"
-							cx="575.5"
-							cy="364"
-							r="2"
-						/>
+						<line className="st7" x1="604.8" y1="381.1" x2="580.5" y2="367" />
+						<circle className="st8" cx="575.5" cy="364" r="2" />
 					</g>
 				</g>
-				<circle
-					className="st9"
-					cx="578"
-					cy="353.8"
-					r="3.5"
-				/>
-				<circle
-					className="st10"
-					cx="587.4"
-					cy="359.3"
-					r="3.5"
-				/>
-				<line
-					className="st11"
-					x1="714.7"
-					y1="440.7"
-					x2="732"
-					y2="430.7"
-				/>
-				<line
-					className="st11"
-					x1="714.7"
-					y1="436.7"
-					x2="732"
-					y2="426.7"
-				/>
-				<line
-					className="st11"
-					x1="714.7"
-					y1="432.7"
-					x2="732"
-					y2="422.7"
-				/>
-				<line
-					className="st11"
-					x1="714.7"
-					y1="428.7"
-					x2="732"
-					y2="418.7"
-				/>
-				<line
-					className="st11"
-					x1="714.7"
-					y1="424.7"
-					x2="732"
-					y2="414.7"
-				/>
+				<circle className="st9" cx="578" cy="353.8" r="3.5" />
+				<circle className="st10" cx="587.4" cy="359.3" r="3.5" />
+				<line className="st11" x1="714.7" y1="440.7" x2="732" y2="430.7" />
+				<line className="st11" x1="714.7" y1="436.7" x2="732" y2="426.7" />
+				<line className="st11" x1="714.7" y1="432.7" x2="732" y2="422.7" />
+				<line className="st11" x1="714.7" y1="428.7" x2="732" y2="418.7" />
+				<line className="st11" x1="714.7" y1="424.7" x2="732" y2="414.7" />
 			</g>
 			<g>
 				<polygon
@@ -1582,173 +686,45 @@ export default function VpnDatacenter({ outline = true, ...props }: Props) {
 				</g>
 				<g>
 					<g>
-						<line
-							className="st7"
-							x1="850.8"
-							y1="420.8"
-							x2="826.4"
-							y2="406.8"
-						/>
-						<circle
-							className="st8"
-							cx="821.4"
-							cy="403.8"
-							r="2"
-						/>
+						<line className="st7" x1="850.8" y1="420.8" x2="826.4" y2="406.8" />
+						<circle className="st8" cx="821.4" cy="403.8" r="2" />
 					</g>
 					<g>
-						<line
-							className="st7"
-							x1="850.8"
-							y1="411.8"
-							x2="826.4"
-							y2="397.8"
-						/>
-						<circle
-							className="st8"
-							cx="821.4"
-							cy="394.8"
-							r="2"
-						/>
+						<line className="st7" x1="850.8" y1="411.8" x2="826.4" y2="397.8" />
+						<circle className="st8" cx="821.4" cy="394.8" r="2" />
 					</g>
 					<g>
-						<line
-							className="st7"
-							x1="850.8"
-							y1="401.8"
-							x2="826.4"
-							y2="387.8"
-						/>
-						<circle
-							className="st8"
-							cx="821.4"
-							cy="384.8"
-							r="2"
-						/>
+						<line className="st7" x1="850.8" y1="401.8" x2="826.4" y2="387.8" />
+						<circle className="st8" cx="821.4" cy="384.8" r="2" />
 					</g>
 					<g>
-						<line
-							className="st7"
-							x1="812.8"
-							y1="398.8"
-							x2="788.4"
-							y2="384.8"
-						/>
-						<circle
-							className="st8"
-							cx="783.4"
-							cy="381.8"
-							r="2"
-						/>
+						<line className="st7" x1="812.8" y1="398.8" x2="788.4" y2="384.8" />
+						<circle className="st8" cx="783.4" cy="381.8" r="2" />
 					</g>
 					<g>
-						<line
-							className="st7"
-							x1="850.8"
-							y1="429.8"
-							x2="826.4"
-							y2="415.8"
-						/>
-						<circle
-							className="st8"
-							cx="821.4"
-							cy="412.8"
-							r="2"
-						/>
+						<line className="st7" x1="850.8" y1="429.8" x2="826.4" y2="415.8" />
+						<circle className="st8" cx="821.4" cy="412.8" r="2" />
 					</g>
 					<g>
-						<line
-							className="st7"
-							x1="812.8"
-							y1="407.8"
-							x2="788.4"
-							y2="393.8"
-						/>
-						<circle
-							className="st8"
-							cx="783.4"
-							cy="390.8"
-							r="2"
-						/>
+						<line className="st7" x1="812.8" y1="407.8" x2="788.4" y2="393.8" />
+						<circle className="st8" cx="783.4" cy="390.8" r="2" />
 					</g>
 					<g>
-						<line
-							className="st7"
-							x1="812.8"
-							y1="389.8"
-							x2="788.4"
-							y2="375.8"
-						/>
-						<circle
-							className="st8"
-							cx="783.4"
-							cy="372.8"
-							r="2"
-						/>
+						<line className="st7" x1="812.8" y1="389.8" x2="788.4" y2="375.8" />
+						<circle className="st8" cx="783.4" cy="372.8" r="2" />
 					</g>
 					<g>
-						<line
-							className="st7"
-							x1="812.8"
-							y1="379.8"
-							x2="788.4"
-							y2="365.8"
-						/>
-						<circle
-							className="st8"
-							cx="783.4"
-							cy="362.8"
-							r="2"
-						/>
+						<line className="st7" x1="812.8" y1="379.8" x2="788.4" y2="365.8" />
+						<circle className="st8" cx="783.4" cy="362.8" r="2" />
 					</g>
 				</g>
-				<circle
-					className="st9"
-					cx="786"
-					cy="352.5"
-					r="3.5"
-				/>
-				<circle
-					className="st10"
-					cx="795.4"
-					cy="358.1"
-					r="3.5"
-				/>
-				<line
-					className="st11"
-					x1="922.7"
-					y1="439.5"
-					x2="940"
-					y2="429.5"
-				/>
-				<line
-					className="st11"
-					x1="922.7"
-					y1="435.5"
-					x2="940"
-					y2="425.5"
-				/>
-				<line
-					className="st11"
-					x1="922.7"
-					y1="431.5"
-					x2="940"
-					y2="421.5"
-				/>
-				<line
-					className="st11"
-					x1="922.7"
-					y1="427.5"
-					x2="940"
-					y2="417.5"
-				/>
-				<line
-					className="st11"
-					x1="922.7"
-					y1="423.5"
-					x2="940"
-					y2="413.5"
-				/>
+				<circle className="st9" cx="786" cy="352.5" r="3.5" />
+				<circle className="st10" cx="795.4" cy="358.1" r="3.5" />
+				<line className="st11" x1="922.7" y1="439.5" x2="940" y2="429.5" />
+				<line className="st11" x1="922.7" y1="435.5" x2="940" y2="425.5" />
+				<line className="st11" x1="922.7" y1="431.5" x2="940" y2="421.5" />
+				<line className="st11" x1="922.7" y1="427.5" x2="940" y2="417.5" />
+				<line className="st11" x1="922.7" y1="423.5" x2="940" y2="413.5" />
 			</g>
 			<g>
 				<polygon
@@ -1791,173 +767,45 @@ export default function VpnDatacenter({ outline = true, ...props }: Props) {
 				</g>
 				<g>
 					<g>
-						<line
-							className="st7"
-							x1="746.8"
-							y1="482.3"
-							x2="722.4"
-							y2="468.3"
-						/>
-						<circle
-							className="st8"
-							cx="717.4"
-							cy="465.3"
-							r="2"
-						/>
+						<line className="st7" x1="746.8" y1="482.3" x2="722.4" y2="468.3" />
+						<circle className="st8" cx="717.4" cy="465.3" r="2" />
 					</g>
 					<g>
-						<line
-							className="st7"
-							x1="746.8"
-							y1="473.3"
-							x2="722.4"
-							y2="459.3"
-						/>
-						<circle
-							className="st8"
-							cx="717.4"
-							cy="456.3"
-							r="2"
-						/>
+						<line className="st7" x1="746.8" y1="473.3" x2="722.4" y2="459.3" />
+						<circle className="st8" cx="717.4" cy="456.3" r="2" />
 					</g>
 					<g>
-						<line
-							className="st7"
-							x1="746.8"
-							y1="463.3"
-							x2="722.4"
-							y2="449.3"
-						/>
-						<circle
-							className="st8"
-							cx="717.4"
-							cy="446.3"
-							r="2"
-						/>
+						<line className="st7" x1="746.8" y1="463.3" x2="722.4" y2="449.3" />
+						<circle className="st8" cx="717.4" cy="446.3" r="2" />
 					</g>
 					<g>
-						<line
-							className="st7"
-							x1="708.8"
-							y1="460.3"
-							x2="684.4"
-							y2="446.3"
-						/>
-						<circle
-							className="st8"
-							cx="679.4"
-							cy="443.3"
-							r="2"
-						/>
+						<line className="st7" x1="708.8" y1="460.3" x2="684.4" y2="446.3" />
+						<circle className="st8" cx="679.4" cy="443.3" r="2" />
 					</g>
 					<g>
-						<line
-							className="st7"
-							x1="746.8"
-							y1="491.3"
-							x2="722.4"
-							y2="477.3"
-						/>
-						<circle
-							className="st8"
-							cx="717.4"
-							cy="474.3"
-							r="2"
-						/>
+						<line className="st7" x1="746.8" y1="491.3" x2="722.4" y2="477.3" />
+						<circle className="st8" cx="717.4" cy="474.3" r="2" />
 					</g>
 					<g>
-						<line
-							className="st7"
-							x1="708.8"
-							y1="469.3"
-							x2="684.4"
-							y2="455.3"
-						/>
-						<circle
-							className="st8"
-							cx="679.4"
-							cy="452.3"
-							r="2"
-						/>
+						<line className="st7" x1="708.8" y1="469.3" x2="684.4" y2="455.3" />
+						<circle className="st8" cx="679.4" cy="452.3" r="2" />
 					</g>
 					<g>
-						<line
-							className="st7"
-							x1="708.8"
-							y1="451.3"
-							x2="684.4"
-							y2="437.3"
-						/>
-						<circle
-							className="st8"
-							cx="679.4"
-							cy="434.3"
-							r="2"
-						/>
+						<line className="st7" x1="708.8" y1="451.3" x2="684.4" y2="437.3" />
+						<circle className="st8" cx="679.4" cy="434.3" r="2" />
 					</g>
 					<g>
-						<line
-							className="st7"
-							x1="708.8"
-							y1="441.3"
-							x2="684.4"
-							y2="427.3"
-						/>
-						<circle
-							className="st8"
-							cx="679.4"
-							cy="424.3"
-							r="2"
-						/>
+						<line className="st7" x1="708.8" y1="441.3" x2="684.4" y2="427.3" />
+						<circle className="st8" cx="679.4" cy="424.3" r="2" />
 					</g>
 				</g>
-				<circle
-					className="st9"
-					cx="682"
-					cy="414"
-					r="3.5"
-				/>
-				<circle
-					className="st10"
-					cx="691.4"
-					cy="419.6"
-					r="3.5"
-				/>
-				<line
-					className="st11"
-					x1="818.7"
-					y1="501"
-					x2="836"
-					y2="491"
-				/>
-				<line
-					className="st11"
-					x1="818.7"
-					y1="497"
-					x2="836"
-					y2="487"
-				/>
-				<line
-					className="st11"
-					x1="818.7"
-					y1="493"
-					x2="836"
-					y2="483"
-				/>
-				<line
-					className="st11"
-					x1="818.7"
-					y1="489"
-					x2="836"
-					y2="479"
-				/>
-				<line
-					className="st11"
-					x1="818.7"
-					y1="485"
-					x2="836"
-					y2="475"
-				/>
+				<circle className="st9" cx="682" cy="414" r="3.5" />
+				<circle className="st10" cx="691.4" cy="419.6" r="3.5" />
+				<line className="st11" x1="818.7" y1="501" x2="836" y2="491" />
+				<line className="st11" x1="818.7" y1="497" x2="836" y2="487" />
+				<line className="st11" x1="818.7" y1="493" x2="836" y2="483" />
+				<line className="st11" x1="818.7" y1="489" x2="836" y2="479" />
+				<line className="st11" x1="818.7" y1="485" x2="836" y2="475" />
 			</g>
 		</g>
 		<g>
@@ -2002,173 +850,45 @@ export default function VpnDatacenter({ outline = true, ...props }: Props) {
 				</g>
 				<g>
 					<g>
-						<line
-							className="st7"
-							x1="1149.6"
-							y1="413.3"
-							x2="1125.3"
-							y2="399.3"
-						/>
-						<circle
-							className="st8"
-							cx="1120.3"
-							cy="396.3"
-							r="2"
-						/>
+						<line className="st7" x1="1149.6" y1="413.3" x2="1125.3" y2="399.3" />
+						<circle className="st8" cx="1120.3" cy="396.3" r="2" />
 					</g>
 					<g>
-						<line
-							className="st7"
-							x1="1149.6"
-							y1="404.3"
-							x2="1125.3"
-							y2="390.3"
-						/>
-						<circle
-							className="st8"
-							cx="1120.3"
-							cy="387.3"
-							r="2"
-						/>
+						<line className="st7" x1="1149.6" y1="404.3" x2="1125.3" y2="390.3" />
+						<circle className="st8" cx="1120.3" cy="387.3" r="2" />
 					</g>
 					<g>
-						<line
-							className="st7"
-							x1="1149.6"
-							y1="394.3"
-							x2="1125.3"
-							y2="380.3"
-						/>
-						<circle
-							className="st8"
-							cx="1120.3"
-							cy="377.3"
-							r="2"
-						/>
+						<line className="st7" x1="1149.6" y1="394.3" x2="1125.3" y2="380.3" />
+						<circle className="st8" cx="1120.3" cy="377.3" r="2" />
 					</g>
 					<g>
-						<line
-							className="st7"
-							x1="1111.6"
-							y1="391.3"
-							x2="1087.3"
-							y2="377.3"
-						/>
-						<circle
-							className="st8"
-							cx="1082.3"
-							cy="374.3"
-							r="2"
-						/>
+						<line className="st7" x1="1111.6" y1="391.3" x2="1087.3" y2="377.3" />
+						<circle className="st8" cx="1082.3" cy="374.3" r="2" />
 					</g>
 					<g>
-						<line
-							className="st7"
-							x1="1149.6"
-							y1="422.3"
-							x2="1125.3"
-							y2="408.3"
-						/>
-						<circle
-							className="st8"
-							cx="1120.3"
-							cy="405.3"
-							r="2"
-						/>
+						<line className="st7" x1="1149.6" y1="422.3" x2="1125.3" y2="408.3" />
+						<circle className="st8" cx="1120.3" cy="405.3" r="2" />
 					</g>
 					<g>
-						<line
-							className="st7"
-							x1="1111.6"
-							y1="400.3"
-							x2="1087.3"
-							y2="386.3"
-						/>
-						<circle
-							className="st8"
-							cx="1082.3"
-							cy="383.3"
-							r="2"
-						/>
+						<line className="st7" x1="1111.6" y1="400.3" x2="1087.3" y2="386.3" />
+						<circle className="st8" cx="1082.3" cy="383.3" r="2" />
 					</g>
 					<g>
-						<line
-							className="st7"
-							x1="1111.6"
-							y1="382.3"
-							x2="1087.3"
-							y2="368.3"
-						/>
-						<circle
-							className="st8"
-							cx="1082.3"
-							cy="365.3"
-							r="2"
-						/>
+						<line className="st7" x1="1111.6" y1="382.3" x2="1087.3" y2="368.3" />
+						<circle className="st8" cx="1082.3" cy="365.3" r="2" />
 					</g>
 					<g>
-						<line
-							className="st7"
-							x1="1111.6"
-							y1="372.3"
-							x2="1087.3"
-							y2="358.3"
-						/>
-						<circle
-							className="st8"
-							cx="1082.3"
-							cy="355.3"
-							r="2"
-						/>
+						<line className="st7" x1="1111.6" y1="372.3" x2="1087.3" y2="358.3" />
+						<circle className="st8" cx="1082.3" cy="355.3" r="2" />
 					</g>
 				</g>
-				<circle
-					className="st9"
-					cx="1084.9"
-					cy="345"
-					r="3.5"
-				/>
-				<circle
-					className="st10"
-					cx="1094.3"
-					cy="350.6"
-					r="3.5"
-				/>
-				<line
-					className="st11"
-					x1="1221.5"
-					y1="431.9"
-					x2="1238.8"
-					y2="421.9"
-				/>
-				<line
-					className="st11"
-					x1="1221.5"
-					y1="427.9"
-					x2="1238.8"
-					y2="417.9"
-				/>
-				<line
-					className="st11"
-					x1="1221.5"
-					y1="423.9"
-					x2="1238.8"
-					y2="413.9"
-				/>
-				<line
-					className="st11"
-					x1="1221.5"
-					y1="419.9"
-					x2="1238.8"
-					y2="409.9"
-				/>
-				<line
-					className="st11"
-					x1="1221.5"
-					y1="415.9"
-					x2="1238.8"
-					y2="405.9"
-				/>
+				<circle className="st9" cx="1084.9" cy="345" r="3.5" />
+				<circle className="st10" cx="1094.3" cy="350.6" r="3.5" />
+				<line className="st11" x1="1221.5" y1="431.9" x2="1238.8" y2="421.9" />
+				<line className="st11" x1="1221.5" y1="427.9" x2="1238.8" y2="417.9" />
+				<line className="st11" x1="1221.5" y1="423.9" x2="1238.8" y2="413.9" />
+				<line className="st11" x1="1221.5" y1="419.9" x2="1238.8" y2="409.9" />
+				<line className="st11" x1="1221.5" y1="415.9" x2="1238.8" y2="405.9" />
 			</g>
 			<g>
 				<polygon
@@ -2211,173 +931,45 @@ export default function VpnDatacenter({ outline = true, ...props }: Props) {
 				</g>
 				<g>
 					<g>
-						<line
-							className="st7"
-							x1="1253.6"
-							y1="528.7"
-							x2="1229.3"
-							y2="514.7"
-						/>
-						<circle
-							className="st8"
-							cx="1224.3"
-							cy="511.7"
-							r="2"
-						/>
+						<line className="st7" x1="1253.6" y1="528.7" x2="1229.3" y2="514.7" />
+						<circle className="st8" cx="1224.3" cy="511.7" r="2" />
 					</g>
 					<g>
-						<line
-							className="st7"
-							x1="1253.6"
-							y1="519.7"
-							x2="1229.3"
-							y2="505.7"
-						/>
-						<circle
-							className="st8"
-							cx="1224.3"
-							cy="502.7"
-							r="2"
-						/>
+						<line className="st7" x1="1253.6" y1="519.7" x2="1229.3" y2="505.7" />
+						<circle className="st8" cx="1224.3" cy="502.7" r="2" />
 					</g>
 					<g>
-						<line
-							className="st7"
-							x1="1253.6"
-							y1="509.7"
-							x2="1229.3"
-							y2="495.7"
-						/>
-						<circle
-							className="st8"
-							cx="1224.3"
-							cy="492.7"
-							r="2"
-						/>
+						<line className="st7" x1="1253.6" y1="509.7" x2="1229.3" y2="495.7" />
+						<circle className="st8" cx="1224.3" cy="492.7" r="2" />
 					</g>
 					<g>
-						<line
-							className="st7"
-							x1="1215.6"
-							y1="506.7"
-							x2="1191.3"
-							y2="492.7"
-						/>
-						<circle
-							className="st8"
-							cx="1186.3"
-							cy="489.7"
-							r="2"
-						/>
+						<line className="st7" x1="1215.6" y1="506.7" x2="1191.3" y2="492.7" />
+						<circle className="st8" cx="1186.3" cy="489.7" r="2" />
 					</g>
 					<g>
-						<line
-							className="st7"
-							x1="1253.6"
-							y1="537.7"
-							x2="1229.3"
-							y2="523.7"
-						/>
-						<circle
-							className="st8"
-							cx="1224.3"
-							cy="520.7"
-							r="2"
-						/>
+						<line className="st7" x1="1253.6" y1="537.7" x2="1229.3" y2="523.7" />
+						<circle className="st8" cx="1224.3" cy="520.7" r="2" />
 					</g>
 					<g>
-						<line
-							className="st7"
-							x1="1215.6"
-							y1="515.7"
-							x2="1191.3"
-							y2="501.7"
-						/>
-						<circle
-							className="st8"
-							cx="1186.3"
-							cy="498.7"
-							r="2"
-						/>
+						<line className="st7" x1="1215.6" y1="515.7" x2="1191.3" y2="501.7" />
+						<circle className="st8" cx="1186.3" cy="498.7" r="2" />
 					</g>
 					<g>
-						<line
-							className="st7"
-							x1="1215.6"
-							y1="497.7"
-							x2="1191.3"
-							y2="483.7"
-						/>
-						<circle
-							className="st8"
-							cx="1186.3"
-							cy="480.7"
-							r="2"
-						/>
+						<line className="st7" x1="1215.6" y1="497.7" x2="1191.3" y2="483.7" />
+						<circle className="st8" cx="1186.3" cy="480.7" r="2" />
 					</g>
 					<g>
-						<line
-							className="st7"
-							x1="1215.6"
-							y1="487.7"
-							x2="1191.3"
-							y2="473.7"
-						/>
-						<circle
-							className="st8"
-							cx="1186.3"
-							cy="470.7"
-							r="2"
-						/>
+						<line className="st7" x1="1215.6" y1="487.7" x2="1191.3" y2="473.7" />
+						<circle className="st8" cx="1186.3" cy="470.7" r="2" />
 					</g>
 				</g>
-				<circle
-					className="st9"
-					cx="1188.9"
-					cy="460.4"
-					r="3.5"
-				/>
-				<circle
-					className="st10"
-					cx="1198.3"
-					cy="465.9"
-					r="3.5"
-				/>
-				<line
-					className="st11"
-					x1="1325.5"
-					y1="547.3"
-					x2="1342.9"
-					y2="537.3"
-				/>
-				<line
-					className="st11"
-					x1="1325.5"
-					y1="543.3"
-					x2="1342.9"
-					y2="533.3"
-				/>
-				<line
-					className="st11"
-					x1="1325.5"
-					y1="539.3"
-					x2="1342.9"
-					y2="529.3"
-				/>
-				<line
-					className="st11"
-					x1="1325.5"
-					y1="535.3"
-					x2="1342.9"
-					y2="525.3"
-				/>
-				<line
-					className="st11"
-					x1="1325.5"
-					y1="531.3"
-					x2="1342.9"
-					y2="521.3"
-				/>
+				<circle className="st9" cx="1188.9" cy="460.4" r="3.5" />
+				<circle className="st10" cx="1198.3" cy="465.9" r="3.5" />
+				<line className="st11" x1="1325.5" y1="547.3" x2="1342.9" y2="537.3" />
+				<line className="st11" x1="1325.5" y1="543.3" x2="1342.9" y2="533.3" />
+				<line className="st11" x1="1325.5" y1="539.3" x2="1342.9" y2="529.3" />
+				<line className="st11" x1="1325.5" y1="535.3" x2="1342.9" y2="525.3" />
+				<line className="st11" x1="1325.5" y1="531.3" x2="1342.9" y2="521.3" />
 			</g>
 			<g>
 				<polygon
@@ -2420,173 +1012,45 @@ export default function VpnDatacenter({ outline = true, ...props }: Props) {
 				</g>
 				<g>
 					<g>
-						<line
-							className="st7"
-							x1="1356.8"
-							y1="591.1"
-							x2="1332.5"
-							y2="577.1"
-						/>
-						<circle
-							className="st8"
-							cx="1327.5"
-							cy="574.1"
-							r="2"
-						/>
+						<line className="st7" x1="1356.8" y1="591.1" x2="1332.5" y2="577.1" />
+						<circle className="st8" cx="1327.5" cy="574.1" r="2" />
 					</g>
 					<g>
-						<line
-							className="st7"
-							x1="1356.8"
-							y1="582.1"
-							x2="1332.5"
-							y2="568.1"
-						/>
-						<circle
-							className="st8"
-							cx="1327.5"
-							cy="565.1"
-							r="2"
-						/>
+						<line className="st7" x1="1356.8" y1="582.1" x2="1332.5" y2="568.1" />
+						<circle className="st8" cx="1327.5" cy="565.1" r="2" />
 					</g>
 					<g>
-						<line
-							className="st7"
-							x1="1356.8"
-							y1="572.1"
-							x2="1332.5"
-							y2="558.1"
-						/>
-						<circle
-							className="st8"
-							cx="1327.5"
-							cy="555.1"
-							r="2"
-						/>
+						<line className="st7" x1="1356.8" y1="572.1" x2="1332.5" y2="558.1" />
+						<circle className="st8" cx="1327.5" cy="555.1" r="2" />
 					</g>
 					<g>
-						<line
-							className="st7"
-							x1="1318.8"
-							y1="569.1"
-							x2="1294.5"
-							y2="555.1"
-						/>
-						<circle
-							className="st8"
-							cx="1289.5"
-							cy="552.1"
-							r="2"
-						/>
+						<line className="st7" x1="1318.8" y1="569.1" x2="1294.5" y2="555.1" />
+						<circle className="st8" cx="1289.5" cy="552.1" r="2" />
 					</g>
 					<g>
-						<line
-							className="st7"
-							x1="1356.8"
-							y1="600.1"
-							x2="1332.5"
-							y2="586.1"
-						/>
-						<circle
-							className="st8"
-							cx="1327.5"
-							cy="583.1"
-							r="2"
-						/>
+						<line className="st7" x1="1356.8" y1="600.1" x2="1332.5" y2="586.1" />
+						<circle className="st8" cx="1327.5" cy="583.1" r="2" />
 					</g>
 					<g>
-						<line
-							className="st7"
-							x1="1318.8"
-							y1="578.1"
-							x2="1294.5"
-							y2="564.1"
-						/>
-						<circle
-							className="st8"
-							cx="1289.5"
-							cy="561.1"
-							r="2"
-						/>
+						<line className="st7" x1="1318.8" y1="578.1" x2="1294.5" y2="564.1" />
+						<circle className="st8" cx="1289.5" cy="561.1" r="2" />
 					</g>
 					<g>
-						<line
-							className="st7"
-							x1="1318.8"
-							y1="560.1"
-							x2="1294.5"
-							y2="546.1"
-						/>
-						<circle
-							className="st8"
-							cx="1289.5"
-							cy="543.1"
-							r="2"
-						/>
+						<line className="st7" x1="1318.8" y1="560.1" x2="1294.5" y2="546.1" />
+						<circle className="st8" cx="1289.5" cy="543.1" r="2" />
 					</g>
 					<g>
-						<line
-							className="st7"
-							x1="1318.8"
-							y1="550.1"
-							x2="1294.5"
-							y2="536.1"
-						/>
-						<circle
-							className="st8"
-							cx="1289.5"
-							cy="533.1"
-							r="2"
-						/>
+						<line className="st7" x1="1318.8" y1="550.1" x2="1294.5" y2="536.1" />
+						<circle className="st8" cx="1289.5" cy="533.1" r="2" />
 					</g>
 				</g>
-				<circle
-					className="st9"
-					cx="1292"
-					cy="522.8"
-					r="3.5"
-				/>
-				<circle
-					className="st10"
-					cx="1301.4"
-					cy="528.4"
-					r="3.5"
-				/>
-				<line
-					className="st11"
-					x1="1428.7"
-					y1="609.8"
-					x2="1446"
-					y2="599.8"
-				/>
-				<line
-					className="st11"
-					x1="1428.7"
-					y1="605.8"
-					x2="1446"
-					y2="595.8"
-				/>
-				<line
-					className="st11"
-					x1="1428.7"
-					y1="601.8"
-					x2="1446"
-					y2="591.8"
-				/>
-				<line
-					className="st11"
-					x1="1428.7"
-					y1="597.8"
-					x2="1446"
-					y2="587.8"
-				/>
-				<line
-					className="st11"
-					x1="1428.7"
-					y1="593.8"
-					x2="1446"
-					y2="583.8"
-				/>
+				<circle className="st9" cx="1292" cy="522.8" r="3.5" />
+				<circle className="st10" cx="1301.4" cy="528.4" r="3.5" />
+				<line className="st11" x1="1428.7" y1="609.8" x2="1446" y2="599.8" />
+				<line className="st11" x1="1428.7" y1="605.8" x2="1446" y2="595.8" />
+				<line className="st11" x1="1428.7" y1="601.8" x2="1446" y2="591.8" />
+				<line className="st11" x1="1428.7" y1="597.8" x2="1446" y2="587.8" />
+				<line className="st11" x1="1428.7" y1="593.8" x2="1446" y2="583.8" />
 			</g>
 			<g>
 				<polygon
@@ -2629,173 +1093,45 @@ export default function VpnDatacenter({ outline = true, ...props }: Props) {
 				</g>
 				<g>
 					<g>
-						<line
-							className="st7"
-							x1="1044.8"
-							y1="530.3"
-							x2="1020.4"
-							y2="516.3"
-						/>
-						<circle
-							className="st8"
-							cx="1015.4"
-							cy="513.3"
-							r="2"
-						/>
+						<line className="st7" x1="1044.8" y1="530.3" x2="1020.4" y2="516.3" />
+						<circle className="st8" cx="1015.4" cy="513.3" r="2" />
 					</g>
 					<g>
-						<line
-							className="st7"
-							x1="1044.8"
-							y1="521.3"
-							x2="1020.4"
-							y2="507.3"
-						/>
-						<circle
-							className="st8"
-							cx="1015.4"
-							cy="504.3"
-							r="2"
-						/>
+						<line className="st7" x1="1044.8" y1="521.3" x2="1020.4" y2="507.3" />
+						<circle className="st8" cx="1015.4" cy="504.3" r="2" />
 					</g>
 					<g>
-						<line
-							className="st7"
-							x1="1044.8"
-							y1="511.3"
-							x2="1020.4"
-							y2="497.3"
-						/>
-						<circle
-							className="st8"
-							cx="1015.4"
-							cy="494.3"
-							r="2"
-						/>
+						<line className="st7" x1="1044.8" y1="511.3" x2="1020.4" y2="497.3" />
+						<circle className="st8" cx="1015.4" cy="494.3" r="2" />
 					</g>
 					<g>
-						<line
-							className="st7"
-							x1="1006.8"
-							y1="508.3"
-							x2="982.4"
-							y2="494.3"
-						/>
-						<circle
-							className="st8"
-							cx="977.4"
-							cy="491.3"
-							r="2"
-						/>
+						<line className="st7" x1="1006.8" y1="508.3" x2="982.4" y2="494.3" />
+						<circle className="st8" cx="977.4" cy="491.3" r="2" />
 					</g>
 					<g>
-						<line
-							className="st7"
-							x1="1044.8"
-							y1="539.3"
-							x2="1020.4"
-							y2="525.3"
-						/>
-						<circle
-							className="st8"
-							cx="1015.4"
-							cy="522.3"
-							r="2"
-						/>
+						<line className="st7" x1="1044.8" y1="539.3" x2="1020.4" y2="525.3" />
+						<circle className="st8" cx="1015.4" cy="522.3" r="2" />
 					</g>
 					<g>
-						<line
-							className="st7"
-							x1="1006.8"
-							y1="517.3"
-							x2="982.4"
-							y2="503.3"
-						/>
-						<circle
-							className="st8"
-							cx="977.4"
-							cy="500.3"
-							r="2"
-						/>
+						<line className="st7" x1="1006.8" y1="517.3" x2="982.4" y2="503.3" />
+						<circle className="st8" cx="977.4" cy="500.3" r="2" />
 					</g>
 					<g>
-						<line
-							className="st7"
-							x1="1006.8"
-							y1="499.3"
-							x2="982.4"
-							y2="485.3"
-						/>
-						<circle
-							className="st8"
-							cx="977.4"
-							cy="482.3"
-							r="2"
-						/>
+						<line className="st7" x1="1006.8" y1="499.3" x2="982.4" y2="485.3" />
+						<circle className="st8" cx="977.4" cy="482.3" r="2" />
 					</g>
 					<g>
-						<line
-							className="st7"
-							x1="1006.8"
-							y1="489.3"
-							x2="982.4"
-							y2="475.3"
-						/>
-						<circle
-							className="st8"
-							cx="977.4"
-							cy="472.3"
-							r="2"
-						/>
+						<line className="st7" x1="1006.8" y1="489.3" x2="982.4" y2="475.3" />
+						<circle className="st8" cx="977.4" cy="472.3" r="2" />
 					</g>
 				</g>
-				<circle
-					className="st9"
-					cx="980"
-					cy="462"
-					r="3.5"
-				/>
-				<circle
-					className="st10"
-					cx="989.4"
-					cy="467.5"
-					r="3.5"
-				/>
-				<line
-					className="st11"
-					x1="1116.7"
-					y1="548.9"
-					x2="1134"
-					y2="538.9"
-				/>
-				<line
-					className="st11"
-					x1="1116.7"
-					y1="544.9"
-					x2="1134"
-					y2="534.9"
-				/>
-				<line
-					className="st11"
-					x1="1116.7"
-					y1="540.9"
-					x2="1134"
-					y2="530.9"
-				/>
-				<line
-					className="st11"
-					x1="1116.7"
-					y1="536.9"
-					x2="1134"
-					y2="526.9"
-				/>
-				<line
-					className="st11"
-					x1="1116.7"
-					y1="532.9"
-					x2="1134"
-					y2="522.9"
-				/>
+				<circle className="st9" cx="980" cy="462" r="3.5" />
+				<circle className="st10" cx="989.4" cy="467.5" r="3.5" />
+				<line className="st11" x1="1116.7" y1="548.9" x2="1134" y2="538.9" />
+				<line className="st11" x1="1116.7" y1="544.9" x2="1134" y2="534.9" />
+				<line className="st11" x1="1116.7" y1="540.9" x2="1134" y2="530.9" />
+				<line className="st11" x1="1116.7" y1="536.9" x2="1134" y2="526.9" />
+				<line className="st11" x1="1116.7" y1="532.9" x2="1134" y2="522.9" />
 			</g>
 			<g>
 				<polygon
@@ -2838,173 +1174,45 @@ export default function VpnDatacenter({ outline = true, ...props }: Props) {
 				</g>
 				<g>
 					<g>
-						<line
-							className="st7"
-							x1="940.8"
-							y1="591.8"
-							x2="916.4"
-							y2="577.8"
-						/>
-						<circle
-							className="st8"
-							cx="911.4"
-							cy="574.8"
-							r="2"
-						/>
+						<line className="st7" x1="940.8" y1="591.8" x2="916.4" y2="577.8" />
+						<circle className="st8" cx="911.4" cy="574.8" r="2" />
 					</g>
 					<g>
-						<line
-							className="st7"
-							x1="940.8"
-							y1="582.8"
-							x2="916.4"
-							y2="568.8"
-						/>
-						<circle
-							className="st8"
-							cx="911.4"
-							cy="565.8"
-							r="2"
-						/>
+						<line className="st7" x1="940.8" y1="582.8" x2="916.4" y2="568.8" />
+						<circle className="st8" cx="911.4" cy="565.8" r="2" />
 					</g>
 					<g>
-						<line
-							className="st7"
-							x1="940.8"
-							y1="572.8"
-							x2="916.4"
-							y2="558.8"
-						/>
-						<circle
-							className="st8"
-							cx="911.4"
-							cy="555.8"
-							r="2"
-						/>
+						<line className="st7" x1="940.8" y1="572.8" x2="916.4" y2="558.8" />
+						<circle className="st8" cx="911.4" cy="555.8" r="2" />
 					</g>
 					<g>
-						<line
-							className="st7"
-							x1="902.8"
-							y1="569.8"
-							x2="878.4"
-							y2="555.8"
-						/>
-						<circle
-							className="st8"
-							cx="873.4"
-							cy="552.8"
-							r="2"
-						/>
+						<line className="st7" x1="902.8" y1="569.8" x2="878.4" y2="555.8" />
+						<circle className="st8" cx="873.4" cy="552.8" r="2" />
 					</g>
 					<g>
-						<line
-							className="st7"
-							x1="940.8"
-							y1="600.8"
-							x2="916.4"
-							y2="586.8"
-						/>
-						<circle
-							className="st8"
-							cx="911.4"
-							cy="583.8"
-							r="2"
-						/>
+						<line className="st7" x1="940.8" y1="600.8" x2="916.4" y2="586.8" />
+						<circle className="st8" cx="911.4" cy="583.8" r="2" />
 					</g>
 					<g>
-						<line
-							className="st7"
-							x1="902.8"
-							y1="578.8"
-							x2="878.4"
-							y2="564.8"
-						/>
-						<circle
-							className="st8"
-							cx="873.4"
-							cy="561.8"
-							r="2"
-						/>
+						<line className="st7" x1="902.8" y1="578.8" x2="878.4" y2="564.8" />
+						<circle className="st8" cx="873.4" cy="561.8" r="2" />
 					</g>
 					<g>
-						<line
-							className="st7"
-							x1="902.8"
-							y1="560.8"
-							x2="878.4"
-							y2="546.8"
-						/>
-						<circle
-							className="st8"
-							cx="873.4"
-							cy="543.8"
-							r="2"
-						/>
+						<line className="st7" x1="902.8" y1="560.8" x2="878.4" y2="546.8" />
+						<circle className="st8" cx="873.4" cy="543.8" r="2" />
 					</g>
 					<g>
-						<line
-							className="st7"
-							x1="902.8"
-							y1="550.8"
-							x2="878.4"
-							y2="536.8"
-						/>
-						<circle
-							className="st8"
-							cx="873.4"
-							cy="533.8"
-							r="2"
-						/>
+						<line className="st7" x1="902.8" y1="550.8" x2="878.4" y2="536.8" />
+						<circle className="st8" cx="873.4" cy="533.8" r="2" />
 					</g>
 				</g>
-				<circle
-					className="st9"
-					cx="876"
-					cy="523.5"
-					r="3.5"
-				/>
-				<circle
-					className="st10"
-					cx="885.4"
-					cy="529"
-					r="3.5"
-				/>
-				<line
-					className="st11"
-					x1="1012.7"
-					y1="610.4"
-					x2="1030"
-					y2="600.4"
-				/>
-				<line
-					className="st11"
-					x1="1012.7"
-					y1="606.4"
-					x2="1030"
-					y2="596.4"
-				/>
-				<line
-					className="st11"
-					x1="1012.7"
-					y1="602.4"
-					x2="1030"
-					y2="592.4"
-				/>
-				<line
-					className="st11"
-					x1="1012.7"
-					y1="598.4"
-					x2="1030"
-					y2="588.4"
-				/>
-				<line
-					className="st11"
-					x1="1012.7"
-					y1="594.4"
-					x2="1030"
-					y2="584.4"
-				/>
+				<circle className="st9" cx="876" cy="523.5" r="3.5" />
+				<circle className="st10" cx="885.4" cy="529" r="3.5" />
+				<line className="st11" x1="1012.7" y1="610.4" x2="1030" y2="600.4" />
+				<line className="st11" x1="1012.7" y1="606.4" x2="1030" y2="596.4" />
+				<line className="st11" x1="1012.7" y1="602.4" x2="1030" y2="592.4" />
+				<line className="st11" x1="1012.7" y1="598.4" x2="1030" y2="588.4" />
+				<line className="st11" x1="1012.7" y1="594.4" x2="1030" y2="584.4" />
 			</g>
 			<g>
 				<polygon
@@ -3047,173 +1255,45 @@ export default function VpnDatacenter({ outline = true, ...props }: Props) {
 				</g>
 				<g>
 					<g>
-						<line
-							className="st7"
-							x1="1148.8"
-							y1="590.6"
-							x2="1124.5"
-							y2="576.5"
-						/>
-						<circle
-							className="st8"
-							cx="1119.5"
-							cy="573.5"
-							r="2"
-						/>
+						<line className="st7" x1="1148.8" y1="590.6" x2="1124.5" y2="576.5" />
+						<circle className="st8" cx="1119.5" cy="573.5" r="2" />
 					</g>
 					<g>
-						<line
-							className="st7"
-							x1="1148.8"
-							y1="581.6"
-							x2="1124.5"
-							y2="567.5"
-						/>
-						<circle
-							className="st8"
-							cx="1119.5"
-							cy="564.5"
-							r="2"
-						/>
+						<line className="st7" x1="1148.8" y1="581.6" x2="1124.5" y2="567.5" />
+						<circle className="st8" cx="1119.5" cy="564.5" r="2" />
 					</g>
 					<g>
-						<line
-							className="st7"
-							x1="1148.8"
-							y1="571.6"
-							x2="1124.5"
-							y2="557.5"
-						/>
-						<circle
-							className="st8"
-							cx="1119.5"
-							cy="554.5"
-							r="2"
-						/>
+						<line className="st7" x1="1148.8" y1="571.6" x2="1124.5" y2="557.5" />
+						<circle className="st8" cx="1119.5" cy="554.5" r="2" />
 					</g>
 					<g>
-						<line
-							className="st7"
-							x1="1110.8"
-							y1="568.6"
-							x2="1086.5"
-							y2="554.5"
-						/>
-						<circle
-							className="st8"
-							cx="1081.5"
-							cy="551.5"
-							r="2"
-						/>
+						<line className="st7" x1="1110.8" y1="568.6" x2="1086.5" y2="554.5" />
+						<circle className="st8" cx="1081.5" cy="551.5" r="2" />
 					</g>
 					<g>
-						<line
-							className="st7"
-							x1="1148.8"
-							y1="599.6"
-							x2="1124.5"
-							y2="585.5"
-						/>
-						<circle
-							className="st8"
-							cx="1119.5"
-							cy="582.5"
-							r="2"
-						/>
+						<line className="st7" x1="1148.8" y1="599.6" x2="1124.5" y2="585.5" />
+						<circle className="st8" cx="1119.5" cy="582.5" r="2" />
 					</g>
 					<g>
-						<line
-							className="st7"
-							x1="1110.8"
-							y1="577.6"
-							x2="1086.5"
-							y2="563.5"
-						/>
-						<circle
-							className="st8"
-							cx="1081.5"
-							cy="560.5"
-							r="2"
-						/>
+						<line className="st7" x1="1110.8" y1="577.6" x2="1086.5" y2="563.5" />
+						<circle className="st8" cx="1081.5" cy="560.5" r="2" />
 					</g>
 					<g>
-						<line
-							className="st7"
-							x1="1110.8"
-							y1="559.6"
-							x2="1086.5"
-							y2="545.5"
-						/>
-						<circle
-							className="st8"
-							cx="1081.5"
-							cy="542.5"
-							r="2"
-						/>
+						<line className="st7" x1="1110.8" y1="559.6" x2="1086.5" y2="545.5" />
+						<circle className="st8" cx="1081.5" cy="542.5" r="2" />
 					</g>
 					<g>
-						<line
-							className="st7"
-							x1="1110.8"
-							y1="549.6"
-							x2="1086.5"
-							y2="535.5"
-						/>
-						<circle
-							className="st8"
-							cx="1081.5"
-							cy="532.5"
-							r="2"
-						/>
+						<line className="st7" x1="1110.8" y1="549.6" x2="1086.5" y2="535.5" />
+						<circle className="st8" cx="1081.5" cy="532.5" r="2" />
 					</g>
 				</g>
-				<circle
-					className="st9"
-					cx="1084"
-					cy="522.3"
-					r="3.5"
-				/>
-				<circle
-					className="st10"
-					cx="1093.4"
-					cy="527.8"
-					r="3.5"
-				/>
-				<line
-					className="st11"
-					x1="1220.7"
-					y1="609.2"
-					x2="1238"
-					y2="599.2"
-				/>
-				<line
-					className="st11"
-					x1="1220.7"
-					y1="605.2"
-					x2="1238"
-					y2="595.2"
-				/>
-				<line
-					className="st11"
-					x1="1220.7"
-					y1="601.2"
-					x2="1238"
-					y2="591.2"
-				/>
-				<line
-					className="st11"
-					x1="1220.7"
-					y1="597.2"
-					x2="1238"
-					y2="587.2"
-				/>
-				<line
-					className="st11"
-					x1="1220.7"
-					y1="593.2"
-					x2="1238"
-					y2="583.2"
-				/>
+				<circle className="st9" cx="1084" cy="522.3" r="3.5" />
+				<circle className="st10" cx="1093.4" cy="527.8" r="3.5" />
+				<line className="st11" x1="1220.7" y1="609.2" x2="1238" y2="599.2" />
+				<line className="st11" x1="1220.7" y1="605.2" x2="1238" y2="595.2" />
+				<line className="st11" x1="1220.7" y1="601.2" x2="1238" y2="591.2" />
+				<line className="st11" x1="1220.7" y1="597.2" x2="1238" y2="587.2" />
+				<line className="st11" x1="1220.7" y1="593.2" x2="1238" y2="583.2" />
 			</g>
 			<g>
 				<polygon
@@ -3256,173 +1336,45 @@ export default function VpnDatacenter({ outline = true, ...props }: Props) {
 				</g>
 				<g>
 					<g>
-						<line
-							className="st7"
-							x1="1044.8"
-							y1="652.1"
-							x2="1020.5"
-							y2="638"
-						/>
-						<circle
-							className="st8"
-							cx="1015.5"
-							cy="635"
-							r="2"
-						/>
+						<line className="st7" x1="1044.8" y1="652.1" x2="1020.5" y2="638" />
+						<circle className="st8" cx="1015.5" cy="635" r="2" />
 					</g>
 					<g>
-						<line
-							className="st7"
-							x1="1044.8"
-							y1="643.1"
-							x2="1020.5"
-							y2="629"
-						/>
-						<circle
-							className="st8"
-							cx="1015.5"
-							cy="626"
-							r="2"
-						/>
+						<line className="st7" x1="1044.8" y1="643.1" x2="1020.5" y2="629" />
+						<circle className="st8" cx="1015.5" cy="626" r="2" />
 					</g>
 					<g>
-						<line
-							className="st7"
-							x1="1044.8"
-							y1="633.1"
-							x2="1020.5"
-							y2="619"
-						/>
-						<circle
-							className="st8"
-							cx="1015.5"
-							cy="616"
-							r="2"
-						/>
+						<line className="st7" x1="1044.8" y1="633.1" x2="1020.5" y2="619" />
+						<circle className="st8" cx="1015.5" cy="616" r="2" />
 					</g>
 					<g>
-						<line
-							className="st7"
-							x1="1006.8"
-							y1="630.1"
-							x2="982.5"
-							y2="616"
-						/>
-						<circle
-							className="st8"
-							cx="977.5"
-							cy="613"
-							r="2"
-						/>
+						<line className="st7" x1="1006.8" y1="630.1" x2="982.5" y2="616" />
+						<circle className="st8" cx="977.5" cy="613" r="2" />
 					</g>
 					<g>
-						<line
-							className="st7"
-							x1="1044.8"
-							y1="661.1"
-							x2="1020.5"
-							y2="647"
-						/>
-						<circle
-							className="st8"
-							cx="1015.5"
-							cy="644"
-							r="2"
-						/>
+						<line className="st7" x1="1044.8" y1="661.1" x2="1020.5" y2="647" />
+						<circle className="st8" cx="1015.5" cy="644" r="2" />
 					</g>
 					<g>
-						<line
-							className="st7"
-							x1="1006.8"
-							y1="639.1"
-							x2="982.5"
-							y2="625"
-						/>
-						<circle
-							className="st8"
-							cx="977.5"
-							cy="622"
-							r="2"
-						/>
+						<line className="st7" x1="1006.8" y1="639.1" x2="982.5" y2="625" />
+						<circle className="st8" cx="977.5" cy="622" r="2" />
 					</g>
 					<g>
-						<line
-							className="st7"
-							x1="1006.8"
-							y1="621.1"
-							x2="982.5"
-							y2="607"
-						/>
-						<circle
-							className="st8"
-							cx="977.5"
-							cy="604"
-							r="2"
-						/>
+						<line className="st7" x1="1006.8" y1="621.1" x2="982.5" y2="607" />
+						<circle className="st8" cx="977.5" cy="604" r="2" />
 					</g>
 					<g>
-						<line
-							className="st7"
-							x1="1006.8"
-							y1="611.1"
-							x2="982.5"
-							y2="597"
-						/>
-						<circle
-							className="st8"
-							cx="977.5"
-							cy="594"
-							r="2"
-						/>
+						<line className="st7" x1="1006.8" y1="611.1" x2="982.5" y2="597" />
+						<circle className="st8" cx="977.5" cy="594" r="2" />
 					</g>
 				</g>
-				<circle
-					className="st9"
-					cx="980"
-					cy="583.8"
-					r="3.5"
-				/>
-				<circle
-					className="st10"
-					cx="989.4"
-					cy="589.3"
-					r="3.5"
-				/>
-				<line
-					className="st11"
-					x1="1116.7"
-					y1="670.7"
-					x2="1134"
-					y2="660.7"
-				/>
-				<line
-					className="st11"
-					x1="1116.7"
-					y1="666.7"
-					x2="1134"
-					y2="656.7"
-				/>
-				<line
-					className="st11"
-					x1="1116.7"
-					y1="662.7"
-					x2="1134"
-					y2="652.7"
-				/>
-				<line
-					className="st11"
-					x1="1116.7"
-					y1="658.7"
-					x2="1134"
-					y2="648.7"
-				/>
-				<line
-					className="st11"
-					x1="1116.7"
-					y1="654.7"
-					x2="1134"
-					y2="644.7"
-				/>
+				<circle className="st9" cx="980" cy="583.8" r="3.5" />
+				<circle className="st10" cx="989.4" cy="589.3" r="3.5" />
+				<line className="st11" x1="1116.7" y1="670.7" x2="1134" y2="660.7" />
+				<line className="st11" x1="1116.7" y1="666.7" x2="1134" y2="656.7" />
+				<line className="st11" x1="1116.7" y1="662.7" x2="1134" y2="652.7" />
+				<line className="st11" x1="1116.7" y1="658.7" x2="1134" y2="648.7" />
+				<line className="st11" x1="1116.7" y1="654.7" x2="1134" y2="644.7" />
 			</g>
 			<g>
 				<polygon
@@ -3465,173 +1417,45 @@ export default function VpnDatacenter({ outline = true, ...props }: Props) {
 				</g>
 				<g>
 					<g>
-						<line
-							className="st7"
-							x1="1252.8"
-							y1="650.9"
-							x2="1228.5"
-							y2="636.8"
-						/>
-						<circle
-							className="st8"
-							cx="1223.5"
-							cy="633.8"
-							r="2"
-						/>
+						<line className="st7" x1="1252.8" y1="650.9" x2="1228.5" y2="636.8" />
+						<circle className="st8" cx="1223.5" cy="633.8" r="2" />
 					</g>
 					<g>
-						<line
-							className="st7"
-							x1="1252.8"
-							y1="641.9"
-							x2="1228.5"
-							y2="627.8"
-						/>
-						<circle
-							className="st8"
-							cx="1223.5"
-							cy="624.8"
-							r="2"
-						/>
+						<line className="st7" x1="1252.8" y1="641.9" x2="1228.5" y2="627.8" />
+						<circle className="st8" cx="1223.5" cy="624.8" r="2" />
 					</g>
 					<g>
-						<line
-							className="st7"
-							x1="1252.8"
-							y1="631.9"
-							x2="1228.5"
-							y2="617.8"
-						/>
-						<circle
-							className="st8"
-							cx="1223.5"
-							cy="614.8"
-							r="2"
-						/>
+						<line className="st7" x1="1252.8" y1="631.9" x2="1228.5" y2="617.8" />
+						<circle className="st8" cx="1223.5" cy="614.8" r="2" />
 					</g>
 					<g>
-						<line
-							className="st7"
-							x1="1214.8"
-							y1="628.9"
-							x2="1190.5"
-							y2="614.8"
-						/>
-						<circle
-							className="st8"
-							cx="1185.5"
-							cy="611.8"
-							r="2"
-						/>
+						<line className="st7" x1="1214.8" y1="628.9" x2="1190.5" y2="614.8" />
+						<circle className="st8" cx="1185.5" cy="611.8" r="2" />
 					</g>
 					<g>
-						<line
-							className="st7"
-							x1="1252.8"
-							y1="659.9"
-							x2="1228.5"
-							y2="645.8"
-						/>
-						<circle
-							className="st8"
-							cx="1223.5"
-							cy="642.8"
-							r="2"
-						/>
+						<line className="st7" x1="1252.8" y1="659.9" x2="1228.5" y2="645.8" />
+						<circle className="st8" cx="1223.5" cy="642.8" r="2" />
 					</g>
 					<g>
-						<line
-							className="st7"
-							x1="1214.8"
-							y1="637.9"
-							x2="1190.5"
-							y2="623.8"
-						/>
-						<circle
-							className="st8"
-							cx="1185.5"
-							cy="620.8"
-							r="2"
-						/>
+						<line className="st7" x1="1214.8" y1="637.9" x2="1190.5" y2="623.8" />
+						<circle className="st8" cx="1185.5" cy="620.8" r="2" />
 					</g>
 					<g>
-						<line
-							className="st7"
-							x1="1214.8"
-							y1="619.9"
-							x2="1190.5"
-							y2="605.8"
-						/>
-						<circle
-							className="st8"
-							cx="1185.5"
-							cy="602.8"
-							r="2"
-						/>
+						<line className="st7" x1="1214.8" y1="619.9" x2="1190.5" y2="605.8" />
+						<circle className="st8" cx="1185.5" cy="602.8" r="2" />
 					</g>
 					<g>
-						<line
-							className="st7"
-							x1="1214.8"
-							y1="609.9"
-							x2="1190.5"
-							y2="595.8"
-						/>
-						<circle
-							className="st8"
-							cx="1185.5"
-							cy="592.8"
-							r="2"
-						/>
+						<line className="st7" x1="1214.8" y1="609.9" x2="1190.5" y2="595.8" />
+						<circle className="st8" cx="1185.5" cy="592.8" r="2" />
 					</g>
 				</g>
-				<circle
-					className="st9"
-					cx="1188"
-					cy="582.6"
-					r="3.5"
-				/>
-				<circle
-					className="st10"
-					cx="1197.4"
-					cy="588.1"
-					r="3.5"
-				/>
-				<line
-					className="st11"
-					x1="1324.7"
-					y1="669.5"
-					x2="1342"
-					y2="659.5"
-				/>
-				<line
-					className="st11"
-					x1="1324.7"
-					y1="665.5"
-					x2="1342"
-					y2="655.5"
-				/>
-				<line
-					className="st11"
-					x1="1324.7"
-					y1="661.5"
-					x2="1342"
-					y2="651.5"
-				/>
-				<line
-					className="st11"
-					x1="1324.7"
-					y1="657.5"
-					x2="1342"
-					y2="647.5"
-				/>
-				<line
-					className="st11"
-					x1="1324.7"
-					y1="653.5"
-					x2="1342"
-					y2="643.5"
-				/>
+				<circle className="st9" cx="1188" cy="582.6" r="3.5" />
+				<circle className="st10" cx="1197.4" cy="588.1" r="3.5" />
+				<line className="st11" x1="1324.7" y1="669.5" x2="1342" y2="659.5" />
+				<line className="st11" x1="1324.7" y1="665.5" x2="1342" y2="655.5" />
+				<line className="st11" x1="1324.7" y1="661.5" x2="1342" y2="651.5" />
+				<line className="st11" x1="1324.7" y1="657.5" x2="1342" y2="647.5" />
+				<line className="st11" x1="1324.7" y1="653.5" x2="1342" y2="643.5" />
 			</g>
 			<g>
 				<polygon
@@ -3674,173 +1498,45 @@ export default function VpnDatacenter({ outline = true, ...props }: Props) {
 				</g>
 				<g>
 					<g>
-						<line
-							className="st7"
-							x1="1148.8"
-							y1="712.4"
-							x2="1124.5"
-							y2="698.3"
-						/>
-						<circle
-							className="st8"
-							cx="1119.5"
-							cy="695.3"
-							r="2"
-						/>
+						<line className="st7" x1="1148.8" y1="712.4" x2="1124.5" y2="698.3" />
+						<circle className="st8" cx="1119.5" cy="695.3" r="2" />
 					</g>
 					<g>
-						<line
-							className="st7"
-							x1="1148.8"
-							y1="703.4"
-							x2="1124.5"
-							y2="689.3"
-						/>
-						<circle
-							className="st8"
-							cx="1119.5"
-							cy="686.3"
-							r="2"
-						/>
+						<line className="st7" x1="1148.8" y1="703.4" x2="1124.5" y2="689.3" />
+						<circle className="st8" cx="1119.5" cy="686.3" r="2" />
 					</g>
 					<g>
-						<line
-							className="st7"
-							x1="1148.8"
-							y1="693.4"
-							x2="1124.5"
-							y2="679.3"
-						/>
-						<circle
-							className="st8"
-							cx="1119.5"
-							cy="676.3"
-							r="2"
-						/>
+						<line className="st7" x1="1148.8" y1="693.4" x2="1124.5" y2="679.3" />
+						<circle className="st8" cx="1119.5" cy="676.3" r="2" />
 					</g>
 					<g>
-						<line
-							className="st7"
-							x1="1110.8"
-							y1="690.4"
-							x2="1086.5"
-							y2="676.3"
-						/>
-						<circle
-							className="st8"
-							cx="1081.5"
-							cy="673.3"
-							r="2"
-						/>
+						<line className="st7" x1="1110.8" y1="690.4" x2="1086.5" y2="676.3" />
+						<circle className="st8" cx="1081.5" cy="673.3" r="2" />
 					</g>
 					<g>
-						<line
-							className="st7"
-							x1="1148.8"
-							y1="721.4"
-							x2="1124.5"
-							y2="707.3"
-						/>
-						<circle
-							className="st8"
-							cx="1119.5"
-							cy="704.3"
-							r="2"
-						/>
+						<line className="st7" x1="1148.8" y1="721.4" x2="1124.5" y2="707.3" />
+						<circle className="st8" cx="1119.5" cy="704.3" r="2" />
 					</g>
 					<g>
-						<line
-							className="st7"
-							x1="1110.8"
-							y1="699.4"
-							x2="1086.5"
-							y2="685.3"
-						/>
-						<circle
-							className="st8"
-							cx="1081.5"
-							cy="682.3"
-							r="2"
-						/>
+						<line className="st7" x1="1110.8" y1="699.4" x2="1086.5" y2="685.3" />
+						<circle className="st8" cx="1081.5" cy="682.3" r="2" />
 					</g>
 					<g>
-						<line
-							className="st7"
-							x1="1110.8"
-							y1="681.4"
-							x2="1086.5"
-							y2="667.3"
-						/>
-						<circle
-							className="st8"
-							cx="1081.5"
-							cy="664.3"
-							r="2"
-						/>
+						<line className="st7" x1="1110.8" y1="681.4" x2="1086.5" y2="667.3" />
+						<circle className="st8" cx="1081.5" cy="664.3" r="2" />
 					</g>
 					<g>
-						<line
-							className="st7"
-							x1="1110.8"
-							y1="671.4"
-							x2="1086.5"
-							y2="657.3"
-						/>
-						<circle
-							className="st8"
-							cx="1081.5"
-							cy="654.3"
-							r="2"
-						/>
+						<line className="st7" x1="1110.8" y1="671.4" x2="1086.5" y2="657.3" />
+						<circle className="st8" cx="1081.5" cy="654.3" r="2" />
 					</g>
 				</g>
-				<circle
-					className="st9"
-					cx="1084"
-					cy="644.1"
-					r="3.5"
-				/>
-				<circle
-					className="st10"
-					cx="1093.4"
-					cy="649.6"
-					r="3.5"
-				/>
-				<line
-					className="st11"
-					x1="1220.7"
-					y1="731"
-					x2="1238"
-					y2="721"
-				/>
-				<line
-					className="st11"
-					x1="1220.7"
-					y1="727"
-					x2="1238"
-					y2="717"
-				/>
-				<line
-					className="st11"
-					x1="1220.7"
-					y1="723"
-					x2="1238"
-					y2="713"
-				/>
-				<line
-					className="st11"
-					x1="1220.7"
-					y1="719"
-					x2="1238"
-					y2="709"
-				/>
-				<line
-					className="st11"
-					x1="1220.7"
-					y1="715"
-					x2="1238"
-					y2="705"
-				/>
+				<circle className="st9" cx="1084" cy="644.1" r="3.5" />
+				<circle className="st10" cx="1093.4" cy="649.6" r="3.5" />
+				<line className="st11" x1="1220.7" y1="731" x2="1238" y2="721" />
+				<line className="st11" x1="1220.7" y1="727" x2="1238" y2="717" />
+				<line className="st11" x1="1220.7" y1="723" x2="1238" y2="713" />
+				<line className="st11" x1="1220.7" y1="719" x2="1238" y2="709" />
+				<line className="st11" x1="1220.7" y1="715" x2="1238" y2="705" />
 			</g>
 		</g>
 		<g>
@@ -3885,173 +1581,45 @@ export default function VpnDatacenter({ outline = true, ...props }: Props) {
 				</g>
 				<g>
 					<g>
-						<line
-							className="st7"
-							x1="747.6"
-							y1="645.3"
-							x2="723.3"
-							y2="631.3"
-						/>
-						<circle
-							className="st8"
-							cx="718.3"
-							cy="628.3"
-							r="2"
-						/>
+						<line className="st7" x1="747.6" y1="645.3" x2="723.3" y2="631.3" />
+						<circle className="st8" cx="718.3" cy="628.3" r="2" />
 					</g>
 					<g>
-						<line
-							className="st7"
-							x1="747.6"
-							y1="636.3"
-							x2="723.3"
-							y2="622.3"
-						/>
-						<circle
-							className="st8"
-							cx="718.3"
-							cy="619.3"
-							r="2"
-						/>
+						<line className="st7" x1="747.6" y1="636.3" x2="723.3" y2="622.3" />
+						<circle className="st8" cx="718.3" cy="619.3" r="2" />
 					</g>
 					<g>
-						<line
-							className="st7"
-							x1="747.6"
-							y1="626.3"
-							x2="723.3"
-							y2="612.3"
-						/>
-						<circle
-							className="st8"
-							cx="718.3"
-							cy="609.3"
-							r="2"
-						/>
+						<line className="st7" x1="747.6" y1="626.3" x2="723.3" y2="612.3" />
+						<circle className="st8" cx="718.3" cy="609.3" r="2" />
 					</g>
 					<g>
-						<line
-							className="st7"
-							x1="709.6"
-							y1="623.3"
-							x2="685.3"
-							y2="609.3"
-						/>
-						<circle
-							className="st8"
-							cx="680.3"
-							cy="606.3"
-							r="2"
-						/>
+						<line className="st7" x1="709.6" y1="623.3" x2="685.3" y2="609.3" />
+						<circle className="st8" cx="680.3" cy="606.3" r="2" />
 					</g>
 					<g>
-						<line
-							className="st7"
-							x1="747.6"
-							y1="654.3"
-							x2="723.3"
-							y2="640.3"
-						/>
-						<circle
-							className="st8"
-							cx="718.3"
-							cy="637.3"
-							r="2"
-						/>
+						<line className="st7" x1="747.6" y1="654.3" x2="723.3" y2="640.3" />
+						<circle className="st8" cx="718.3" cy="637.3" r="2" />
 					</g>
 					<g>
-						<line
-							className="st7"
-							x1="709.6"
-							y1="632.3"
-							x2="685.3"
-							y2="618.3"
-						/>
-						<circle
-							className="st8"
-							cx="680.3"
-							cy="615.3"
-							r="2"
-						/>
+						<line className="st7" x1="709.6" y1="632.3" x2="685.3" y2="618.3" />
+						<circle className="st8" cx="680.3" cy="615.3" r="2" />
 					</g>
 					<g>
-						<line
-							className="st7"
-							x1="709.6"
-							y1="614.3"
-							x2="685.3"
-							y2="600.3"
-						/>
-						<circle
-							className="st8"
-							cx="680.3"
-							cy="597.3"
-							r="2"
-						/>
+						<line className="st7" x1="709.6" y1="614.3" x2="685.3" y2="600.3" />
+						<circle className="st8" cx="680.3" cy="597.3" r="2" />
 					</g>
 					<g>
-						<line
-							className="st7"
-							x1="709.6"
-							y1="604.3"
-							x2="685.3"
-							y2="590.3"
-						/>
-						<circle
-							className="st8"
-							cx="680.3"
-							cy="587.3"
-							r="2"
-						/>
+						<line className="st7" x1="709.6" y1="604.3" x2="685.3" y2="590.3" />
+						<circle className="st8" cx="680.3" cy="587.3" r="2" />
 					</g>
 				</g>
-				<circle
-					className="st9"
-					cx="682.9"
-					cy="577"
-					r="3.5"
-				/>
-				<circle
-					className="st10"
-					cx="692.3"
-					cy="582.6"
-					r="3.5"
-				/>
-				<line
-					className="st11"
-					x1="819.5"
-					y1="663.9"
-					x2="836.8"
-					y2="653.9"
-				/>
-				<line
-					className="st11"
-					x1="819.5"
-					y1="659.9"
-					x2="836.8"
-					y2="649.9"
-				/>
-				<line
-					className="st11"
-					x1="819.5"
-					y1="655.9"
-					x2="836.8"
-					y2="645.9"
-				/>
-				<line
-					className="st11"
-					x1="819.5"
-					y1="651.9"
-					x2="836.8"
-					y2="641.9"
-				/>
-				<line
-					className="st11"
-					x1="819.5"
-					y1="647.9"
-					x2="836.8"
-					y2="637.9"
-				/>
+				<circle className="st9" cx="682.9" cy="577" r="3.5" />
+				<circle className="st10" cx="692.3" cy="582.6" r="3.5" />
+				<line className="st11" x1="819.5" y1="663.9" x2="836.8" y2="653.9" />
+				<line className="st11" x1="819.5" y1="659.9" x2="836.8" y2="649.9" />
+				<line className="st11" x1="819.5" y1="655.9" x2="836.8" y2="645.9" />
+				<line className="st11" x1="819.5" y1="651.9" x2="836.8" y2="641.9" />
+				<line className="st11" x1="819.5" y1="647.9" x2="836.8" y2="637.9" />
 			</g>
 			<g>
 				<polygon
@@ -4094,173 +1662,45 @@ export default function VpnDatacenter({ outline = true, ...props }: Props) {
 				</g>
 				<g>
 					<g>
-						<line
-							className="st7"
-							x1="851.6"
-							y1="760.7"
-							x2="827.3"
-							y2="746.7"
-						/>
-						<circle
-							className="st8"
-							cx="822.3"
-							cy="743.7"
-							r="2"
-						/>
+						<line className="st7" x1="851.6" y1="760.7" x2="827.3" y2="746.7" />
+						<circle className="st8" cx="822.3" cy="743.7" r="2" />
 					</g>
 					<g>
-						<line
-							className="st7"
-							x1="851.6"
-							y1="751.7"
-							x2="827.3"
-							y2="737.7"
-						/>
-						<circle
-							className="st8"
-							cx="822.3"
-							cy="734.7"
-							r="2"
-						/>
+						<line className="st7" x1="851.6" y1="751.7" x2="827.3" y2="737.7" />
+						<circle className="st8" cx="822.3" cy="734.7" r="2" />
 					</g>
 					<g>
-						<line
-							className="st7"
-							x1="851.6"
-							y1="741.7"
-							x2="827.3"
-							y2="727.7"
-						/>
-						<circle
-							className="st8"
-							cx="822.3"
-							cy="724.7"
-							r="2"
-						/>
+						<line className="st7" x1="851.6" y1="741.7" x2="827.3" y2="727.7" />
+						<circle className="st8" cx="822.3" cy="724.7" r="2" />
 					</g>
 					<g>
-						<line
-							className="st7"
-							x1="813.6"
-							y1="738.7"
-							x2="789.3"
-							y2="724.7"
-						/>
-						<circle
-							className="st8"
-							cx="784.3"
-							cy="721.7"
-							r="2"
-						/>
+						<line className="st7" x1="813.6" y1="738.7" x2="789.3" y2="724.7" />
+						<circle className="st8" cx="784.3" cy="721.7" r="2" />
 					</g>
 					<g>
-						<line
-							className="st7"
-							x1="851.6"
-							y1="769.7"
-							x2="827.3"
-							y2="755.7"
-						/>
-						<circle
-							className="st8"
-							cx="822.3"
-							cy="752.7"
-							r="2"
-						/>
+						<line className="st7" x1="851.6" y1="769.7" x2="827.3" y2="755.7" />
+						<circle className="st8" cx="822.3" cy="752.7" r="2" />
 					</g>
 					<g>
-						<line
-							className="st7"
-							x1="813.6"
-							y1="747.7"
-							x2="789.3"
-							y2="733.7"
-						/>
-						<circle
-							className="st8"
-							cx="784.3"
-							cy="730.7"
-							r="2"
-						/>
+						<line className="st7" x1="813.6" y1="747.7" x2="789.3" y2="733.7" />
+						<circle className="st8" cx="784.3" cy="730.7" r="2" />
 					</g>
 					<g>
-						<line
-							className="st7"
-							x1="813.6"
-							y1="729.7"
-							x2="789.3"
-							y2="715.7"
-						/>
-						<circle
-							className="st8"
-							cx="784.3"
-							cy="712.7"
-							r="2"
-						/>
+						<line className="st7" x1="813.6" y1="729.7" x2="789.3" y2="715.7" />
+						<circle className="st8" cx="784.3" cy="712.7" r="2" />
 					</g>
 					<g>
-						<line
-							className="st7"
-							x1="813.6"
-							y1="719.7"
-							x2="789.3"
-							y2="705.7"
-						/>
-						<circle
-							className="st8"
-							cx="784.3"
-							cy="702.7"
-							r="2"
-						/>
+						<line className="st7" x1="813.6" y1="719.7" x2="789.3" y2="705.7" />
+						<circle className="st8" cx="784.3" cy="702.7" r="2" />
 					</g>
 				</g>
-				<circle
-					className="st9"
-					cx="786.9"
-					cy="692.4"
-					r="3.5"
-				/>
-				<circle
-					className="st10"
-					cx="796.3"
-					cy="697.9"
-					r="3.5"
-				/>
-				<line
-					className="st11"
-					x1="923.6"
-					y1="779.3"
-					x2="940.9"
-					y2="769.3"
-				/>
-				<line
-					className="st11"
-					x1="923.6"
-					y1="775.3"
-					x2="940.9"
-					y2="765.3"
-				/>
-				<line
-					className="st11"
-					x1="923.6"
-					y1="771.3"
-					x2="940.9"
-					y2="761.3"
-				/>
-				<line
-					className="st11"
-					x1="923.6"
-					y1="767.3"
-					x2="940.9"
-					y2="757.3"
-				/>
-				<line
-					className="st11"
-					x1="923.6"
-					y1="763.3"
-					x2="940.9"
-					y2="753.3"
-				/>
+				<circle className="st9" cx="786.9" cy="692.4" r="3.5" />
+				<circle className="st10" cx="796.3" cy="697.9" r="3.5" />
+				<line className="st11" x1="923.6" y1="779.3" x2="940.9" y2="769.3" />
+				<line className="st11" x1="923.6" y1="775.3" x2="940.9" y2="765.3" />
+				<line className="st11" x1="923.6" y1="771.3" x2="940.9" y2="761.3" />
+				<line className="st11" x1="923.6" y1="767.3" x2="940.9" y2="757.3" />
+				<line className="st11" x1="923.6" y1="763.3" x2="940.9" y2="753.3" />
 			</g>
 			<g>
 				<polygon
@@ -4303,173 +1743,45 @@ export default function VpnDatacenter({ outline = true, ...props }: Props) {
 				</g>
 				<g>
 					<g>
-						<line
-							className="st7"
-							x1="954.8"
-							y1="823.1"
-							x2="930.5"
-							y2="809.1"
-						/>
-						<circle
-							className="st8"
-							cx="925.5"
-							cy="806.1"
-							r="2"
-						/>
+						<line className="st7" x1="954.8" y1="823.1" x2="930.5" y2="809.1" />
+						<circle className="st8" cx="925.5" cy="806.1" r="2" />
 					</g>
 					<g>
-						<line
-							className="st7"
-							x1="954.8"
-							y1="814.1"
-							x2="930.5"
-							y2="800.1"
-						/>
-						<circle
-							className="st8"
-							cx="925.5"
-							cy="797.1"
-							r="2"
-						/>
+						<line className="st7" x1="954.8" y1="814.1" x2="930.5" y2="800.1" />
+						<circle className="st8" cx="925.5" cy="797.1" r="2" />
 					</g>
 					<g>
-						<line
-							className="st7"
-							x1="954.8"
-							y1="804.1"
-							x2="930.5"
-							y2="790.1"
-						/>
-						<circle
-							className="st8"
-							cx="925.5"
-							cy="787.1"
-							r="2"
-						/>
+						<line className="st7" x1="954.8" y1="804.1" x2="930.5" y2="790.1" />
+						<circle className="st8" cx="925.5" cy="787.1" r="2" />
 					</g>
 					<g>
-						<line
-							className="st7"
-							x1="916.8"
-							y1="801.1"
-							x2="892.5"
-							y2="787.1"
-						/>
-						<circle
-							className="st8"
-							cx="887.5"
-							cy="784.1"
-							r="2"
-						/>
+						<line className="st7" x1="916.8" y1="801.1" x2="892.5" y2="787.1" />
+						<circle className="st8" cx="887.5" cy="784.1" r="2" />
 					</g>
 					<g>
-						<line
-							className="st7"
-							x1="954.8"
-							y1="832.1"
-							x2="930.5"
-							y2="818.1"
-						/>
-						<circle
-							className="st8"
-							cx="925.5"
-							cy="815.1"
-							r="2"
-						/>
+						<line className="st7" x1="954.8" y1="832.1" x2="930.5" y2="818.1" />
+						<circle className="st8" cx="925.5" cy="815.1" r="2" />
 					</g>
 					<g>
-						<line
-							className="st7"
-							x1="916.8"
-							y1="810.1"
-							x2="892.5"
-							y2="796.1"
-						/>
-						<circle
-							className="st8"
-							cx="887.5"
-							cy="793.1"
-							r="2"
-						/>
+						<line className="st7" x1="916.8" y1="810.1" x2="892.5" y2="796.1" />
+						<circle className="st8" cx="887.5" cy="793.1" r="2" />
 					</g>
 					<g>
-						<line
-							className="st7"
-							x1="916.8"
-							y1="792.1"
-							x2="892.5"
-							y2="778.1"
-						/>
-						<circle
-							className="st8"
-							cx="887.5"
-							cy="775.1"
-							r="2"
-						/>
+						<line className="st7" x1="916.8" y1="792.1" x2="892.5" y2="778.1" />
+						<circle className="st8" cx="887.5" cy="775.1" r="2" />
 					</g>
 					<g>
-						<line
-							className="st7"
-							x1="916.8"
-							y1="782.1"
-							x2="892.5"
-							y2="768.1"
-						/>
-						<circle
-							className="st8"
-							cx="887.5"
-							cy="765.1"
-							r="2"
-						/>
+						<line className="st7" x1="916.8" y1="782.1" x2="892.5" y2="768.1" />
+						<circle className="st8" cx="887.5" cy="765.1" r="2" />
 					</g>
 				</g>
-				<circle
-					className="st9"
-					cx="890"
-					cy="754.8"
-					r="3.5"
-				/>
-				<circle
-					className="st10"
-					cx="899.4"
-					cy="760.3"
-					r="3.5"
-				/>
-				<line
-					className="st11"
-					x1="1026.7"
-					y1="841.7"
-					x2="1044"
-					y2="831.7"
-				/>
-				<line
-					className="st11"
-					x1="1026.7"
-					y1="837.7"
-					x2="1044"
-					y2="827.7"
-				/>
-				<line
-					className="st11"
-					x1="1026.7"
-					y1="833.7"
-					x2="1044"
-					y2="823.7"
-				/>
-				<line
-					className="st11"
-					x1="1026.7"
-					y1="829.7"
-					x2="1044"
-					y2="819.7"
-				/>
-				<line
-					className="st11"
-					x1="1026.7"
-					y1="825.7"
-					x2="1044"
-					y2="815.7"
-				/>
+				<circle className="st9" cx="890" cy="754.8" r="3.5" />
+				<circle className="st10" cx="899.4" cy="760.3" r="3.5" />
+				<line className="st11" x1="1026.7" y1="841.7" x2="1044" y2="831.7" />
+				<line className="st11" x1="1026.7" y1="837.7" x2="1044" y2="827.7" />
+				<line className="st11" x1="1026.7" y1="833.7" x2="1044" y2="823.7" />
+				<line className="st11" x1="1026.7" y1="829.7" x2="1044" y2="819.7" />
+				<line className="st11" x1="1026.7" y1="825.7" x2="1044" y2="815.7" />
 			</g>
 			<g>
 				<polygon
@@ -4512,173 +1824,45 @@ export default function VpnDatacenter({ outline = true, ...props }: Props) {
 				</g>
 				<g>
 					<g>
-						<line
-							className="st7"
-							x1="642.8"
-							y1="762.3"
-							x2="618.5"
-							y2="748.2"
-						/>
-						<circle
-							className="st8"
-							cx="613.5"
-							cy="745.2"
-							r="2"
-						/>
+						<line className="st7" x1="642.8" y1="762.3" x2="618.5" y2="748.2" />
+						<circle className="st8" cx="613.5" cy="745.2" r="2" />
 					</g>
 					<g>
-						<line
-							className="st7"
-							x1="642.8"
-							y1="753.3"
-							x2="618.5"
-							y2="739.2"
-						/>
-						<circle
-							className="st8"
-							cx="613.5"
-							cy="736.2"
-							r="2"
-						/>
+						<line className="st7" x1="642.8" y1="753.3" x2="618.5" y2="739.2" />
+						<circle className="st8" cx="613.5" cy="736.2" r="2" />
 					</g>
 					<g>
-						<line
-							className="st7"
-							x1="642.8"
-							y1="743.3"
-							x2="618.5"
-							y2="729.2"
-						/>
-						<circle
-							className="st8"
-							cx="613.5"
-							cy="726.2"
-							r="2"
-						/>
+						<line className="st7" x1="642.8" y1="743.3" x2="618.5" y2="729.2" />
+						<circle className="st8" cx="613.5" cy="726.2" r="2" />
 					</g>
 					<g>
-						<line
-							className="st7"
-							x1="604.8"
-							y1="740.3"
-							x2="580.5"
-							y2="726.2"
-						/>
-						<circle
-							className="st8"
-							cx="575.5"
-							cy="723.2"
-							r="2"
-						/>
+						<line className="st7" x1="604.8" y1="740.3" x2="580.5" y2="726.2" />
+						<circle className="st8" cx="575.5" cy="723.2" r="2" />
 					</g>
 					<g>
-						<line
-							className="st7"
-							x1="642.8"
-							y1="771.3"
-							x2="618.5"
-							y2="757.2"
-						/>
-						<circle
-							className="st8"
-							cx="613.5"
-							cy="754.2"
-							r="2"
-						/>
+						<line className="st7" x1="642.8" y1="771.3" x2="618.5" y2="757.2" />
+						<circle className="st8" cx="613.5" cy="754.2" r="2" />
 					</g>
 					<g>
-						<line
-							className="st7"
-							x1="604.8"
-							y1="749.3"
-							x2="580.5"
-							y2="735.2"
-						/>
-						<circle
-							className="st8"
-							cx="575.5"
-							cy="732.2"
-							r="2"
-						/>
+						<line className="st7" x1="604.8" y1="749.3" x2="580.5" y2="735.2" />
+						<circle className="st8" cx="575.5" cy="732.2" r="2" />
 					</g>
 					<g>
-						<line
-							className="st7"
-							x1="604.8"
-							y1="731.3"
-							x2="580.5"
-							y2="717.2"
-						/>
-						<circle
-							className="st8"
-							cx="575.5"
-							cy="714.2"
-							r="2"
-						/>
+						<line className="st7" x1="604.8" y1="731.3" x2="580.5" y2="717.2" />
+						<circle className="st8" cx="575.5" cy="714.2" r="2" />
 					</g>
 					<g>
-						<line
-							className="st7"
-							x1="604.8"
-							y1="721.3"
-							x2="580.5"
-							y2="707.2"
-						/>
-						<circle
-							className="st8"
-							cx="575.5"
-							cy="704.2"
-							r="2"
-						/>
+						<line className="st7" x1="604.8" y1="721.3" x2="580.5" y2="707.2" />
+						<circle className="st8" cx="575.5" cy="704.2" r="2" />
 					</g>
 				</g>
-				<circle
-					className="st9"
-					cx="578"
-					cy="694"
-					r="3.5"
-				/>
-				<circle
-					className="st10"
-					cx="587.4"
-					cy="699.5"
-					r="3.5"
-				/>
-				<line
-					className="st11"
-					x1="714.7"
-					y1="780.9"
-					x2="732"
-					y2="770.9"
-				/>
-				<line
-					className="st11"
-					x1="714.7"
-					y1="776.9"
-					x2="732"
-					y2="766.9"
-				/>
-				<line
-					className="st11"
-					x1="714.7"
-					y1="772.9"
-					x2="732"
-					y2="762.9"
-				/>
-				<line
-					className="st11"
-					x1="714.7"
-					y1="768.9"
-					x2="732"
-					y2="758.9"
-				/>
-				<line
-					className="st11"
-					x1="714.7"
-					y1="764.9"
-					x2="732"
-					y2="754.9"
-				/>
+				<circle className="st9" cx="578" cy="694" r="3.5" />
+				<circle className="st10" cx="587.4" cy="699.5" r="3.5" />
+				<line className="st11" x1="714.7" y1="780.9" x2="732" y2="770.9" />
+				<line className="st11" x1="714.7" y1="776.9" x2="732" y2="766.9" />
+				<line className="st11" x1="714.7" y1="772.9" x2="732" y2="762.9" />
+				<line className="st11" x1="714.7" y1="768.9" x2="732" y2="758.9" />
+				<line className="st11" x1="714.7" y1="764.9" x2="732" y2="754.9" />
 			</g>
 			<g>
 				<polygon
@@ -4721,173 +1905,45 @@ export default function VpnDatacenter({ outline = true, ...props }: Props) {
 				</g>
 				<g>
 					<g>
-						<line
-							className="st7"
-							x1="538.8"
-							y1="823.8"
-							x2="514.5"
-							y2="809.8"
-						/>
-						<circle
-							className="st8"
-							cx="509.5"
-							cy="806.8"
-							r="2"
-						/>
+						<line className="st7" x1="538.8" y1="823.8" x2="514.5" y2="809.8" />
+						<circle className="st8" cx="509.5" cy="806.8" r="2" />
 					</g>
 					<g>
-						<line
-							className="st7"
-							x1="538.8"
-							y1="814.8"
-							x2="514.5"
-							y2="800.8"
-						/>
-						<circle
-							className="st8"
-							cx="509.5"
-							cy="797.8"
-							r="2"
-						/>
+						<line className="st7" x1="538.8" y1="814.8" x2="514.5" y2="800.8" />
+						<circle className="st8" cx="509.5" cy="797.8" r="2" />
 					</g>
 					<g>
-						<line
-							className="st7"
-							x1="538.8"
-							y1="804.8"
-							x2="514.5"
-							y2="790.8"
-						/>
-						<circle
-							className="st8"
-							cx="509.5"
-							cy="787.8"
-							r="2"
-						/>
+						<line className="st7" x1="538.8" y1="804.8" x2="514.5" y2="790.8" />
+						<circle className="st8" cx="509.5" cy="787.8" r="2" />
 					</g>
 					<g>
-						<line
-							className="st7"
-							x1="500.8"
-							y1="801.8"
-							x2="476.5"
-							y2="787.8"
-						/>
-						<circle
-							className="st8"
-							cx="471.5"
-							cy="784.8"
-							r="2"
-						/>
+						<line className="st7" x1="500.8" y1="801.8" x2="476.5" y2="787.8" />
+						<circle className="st8" cx="471.5" cy="784.8" r="2" />
 					</g>
 					<g>
-						<line
-							className="st7"
-							x1="538.8"
-							y1="832.8"
-							x2="514.5"
-							y2="818.8"
-						/>
-						<circle
-							className="st8"
-							cx="509.5"
-							cy="815.8"
-							r="2"
-						/>
+						<line className="st7" x1="538.8" y1="832.8" x2="514.5" y2="818.8" />
+						<circle className="st8" cx="509.5" cy="815.8" r="2" />
 					</g>
 					<g>
-						<line
-							className="st7"
-							x1="500.8"
-							y1="810.8"
-							x2="476.5"
-							y2="796.8"
-						/>
-						<circle
-							className="st8"
-							cx="471.5"
-							cy="793.8"
-							r="2"
-						/>
+						<line className="st7" x1="500.8" y1="810.8" x2="476.5" y2="796.8" />
+						<circle className="st8" cx="471.5" cy="793.8" r="2" />
 					</g>
 					<g>
-						<line
-							className="st7"
-							x1="500.8"
-							y1="792.8"
-							x2="476.5"
-							y2="778.8"
-						/>
-						<circle
-							className="st8"
-							cx="471.5"
-							cy="775.8"
-							r="2"
-						/>
+						<line className="st7" x1="500.8" y1="792.8" x2="476.5" y2="778.8" />
+						<circle className="st8" cx="471.5" cy="775.8" r="2" />
 					</g>
 					<g>
-						<line
-							className="st7"
-							x1="500.8"
-							y1="782.8"
-							x2="476.5"
-							y2="768.8"
-						/>
-						<circle
-							className="st8"
-							cx="471.5"
-							cy="765.8"
-							r="2"
-						/>
+						<line className="st7" x1="500.8" y1="782.8" x2="476.5" y2="768.8" />
+						<circle className="st8" cx="471.5" cy="765.8" r="2" />
 					</g>
 				</g>
-				<circle
-					className="st9"
-					cx="474"
-					cy="755.5"
-					r="3.5"
-				/>
-				<circle
-					className="st10"
-					cx="483.4"
-					cy="761"
-					r="3.5"
-				/>
-				<line
-					className="st11"
-					x1="610.7"
-					y1="842.4"
-					x2="628"
-					y2="832.4"
-				/>
-				<line
-					className="st11"
-					x1="610.7"
-					y1="838.4"
-					x2="628"
-					y2="828.4"
-				/>
-				<line
-					className="st11"
-					x1="610.7"
-					y1="834.4"
-					x2="628"
-					y2="824.4"
-				/>
-				<line
-					className="st11"
-					x1="610.7"
-					y1="830.4"
-					x2="628"
-					y2="820.4"
-				/>
-				<line
-					className="st11"
-					x1="610.7"
-					y1="826.4"
-					x2="628"
-					y2="816.4"
-				/>
+				<circle className="st9" cx="474" cy="755.5" r="3.5" />
+				<circle className="st10" cx="483.4" cy="761" r="3.5" />
+				<line className="st11" x1="610.7" y1="842.4" x2="628" y2="832.4" />
+				<line className="st11" x1="610.7" y1="838.4" x2="628" y2="828.4" />
+				<line className="st11" x1="610.7" y1="834.4" x2="628" y2="824.4" />
+				<line className="st11" x1="610.7" y1="830.4" x2="628" y2="820.4" />
+				<line className="st11" x1="610.7" y1="826.4" x2="628" y2="816.4" />
 			</g>
 			<g>
 				<polygon
@@ -4930,173 +1986,45 @@ export default function VpnDatacenter({ outline = true, ...props }: Props) {
 				</g>
 				<g>
 					<g>
-						<line
-							className="st7"
-							x1="746.8"
-							y1="822.6"
-							x2="722.5"
-							y2="808.5"
-						/>
-						<circle
-							className="st8"
-							cx="717.5"
-							cy="805.5"
-							r="2"
-						/>
+						<line className="st7" x1="746.8" y1="822.6" x2="722.5" y2="808.5" />
+						<circle className="st8" cx="717.5" cy="805.5" r="2" />
 					</g>
 					<g>
-						<line
-							className="st7"
-							x1="746.8"
-							y1="813.6"
-							x2="722.5"
-							y2="799.5"
-						/>
-						<circle
-							className="st8"
-							cx="717.5"
-							cy="796.5"
-							r="2"
-						/>
+						<line className="st7" x1="746.8" y1="813.6" x2="722.5" y2="799.5" />
+						<circle className="st8" cx="717.5" cy="796.5" r="2" />
 					</g>
 					<g>
-						<line
-							className="st7"
-							x1="746.8"
-							y1="803.6"
-							x2="722.5"
-							y2="789.5"
-						/>
-						<circle
-							className="st8"
-							cx="717.5"
-							cy="786.5"
-							r="2"
-						/>
+						<line className="st7" x1="746.8" y1="803.6" x2="722.5" y2="789.5" />
+						<circle className="st8" cx="717.5" cy="786.5" r="2" />
 					</g>
 					<g>
-						<line
-							className="st7"
-							x1="708.8"
-							y1="800.6"
-							x2="684.5"
-							y2="786.5"
-						/>
-						<circle
-							className="st8"
-							cx="679.5"
-							cy="783.5"
-							r="2"
-						/>
+						<line className="st7" x1="708.8" y1="800.6" x2="684.5" y2="786.5" />
+						<circle className="st8" cx="679.5" cy="783.5" r="2" />
 					</g>
 					<g>
-						<line
-							className="st7"
-							x1="746.8"
-							y1="831.6"
-							x2="722.5"
-							y2="817.5"
-						/>
-						<circle
-							className="st8"
-							cx="717.5"
-							cy="814.5"
-							r="2"
-						/>
+						<line className="st7" x1="746.8" y1="831.6" x2="722.5" y2="817.5" />
+						<circle className="st8" cx="717.5" cy="814.5" r="2" />
 					</g>
 					<g>
-						<line
-							className="st7"
-							x1="708.8"
-							y1="809.6"
-							x2="684.5"
-							y2="795.5"
-						/>
-						<circle
-							className="st8"
-							cx="679.5"
-							cy="792.5"
-							r="2"
-						/>
+						<line className="st7" x1="708.8" y1="809.6" x2="684.5" y2="795.5" />
+						<circle className="st8" cx="679.5" cy="792.5" r="2" />
 					</g>
 					<g>
-						<line
-							className="st7"
-							x1="708.8"
-							y1="791.6"
-							x2="684.5"
-							y2="777.5"
-						/>
-						<circle
-							className="st8"
-							cx="679.5"
-							cy="774.5"
-							r="2"
-						/>
+						<line className="st7" x1="708.8" y1="791.6" x2="684.5" y2="777.5" />
+						<circle className="st8" cx="679.5" cy="774.5" r="2" />
 					</g>
 					<g>
-						<line
-							className="st7"
-							x1="708.8"
-							y1="781.6"
-							x2="684.5"
-							y2="767.5"
-						/>
-						<circle
-							className="st8"
-							cx="679.5"
-							cy="764.5"
-							r="2"
-						/>
+						<line className="st7" x1="708.8" y1="781.6" x2="684.5" y2="767.5" />
+						<circle className="st8" cx="679.5" cy="764.5" r="2" />
 					</g>
 				</g>
-				<circle
-					className="st9"
-					cx="682"
-					cy="754.3"
-					r="3.5"
-				/>
-				<circle
-					className="st10"
-					cx="691.4"
-					cy="759.8"
-					r="3.5"
-				/>
-				<line
-					className="st11"
-					x1="818.7"
-					y1="841.2"
-					x2="836"
-					y2="831.2"
-				/>
-				<line
-					className="st11"
-					x1="818.7"
-					y1="837.2"
-					x2="836"
-					y2="827.2"
-				/>
-				<line
-					className="st11"
-					x1="818.7"
-					y1="833.2"
-					x2="836"
-					y2="823.2"
-				/>
-				<line
-					className="st11"
-					x1="818.7"
-					y1="829.2"
-					x2="836"
-					y2="819.2"
-				/>
-				<line
-					className="st11"
-					x1="818.7"
-					y1="825.2"
-					x2="836"
-					y2="815.2"
-				/>
+				<circle className="st9" cx="682" cy="754.3" r="3.5" />
+				<circle className="st10" cx="691.4" cy="759.8" r="3.5" />
+				<line className="st11" x1="818.7" y1="841.2" x2="836" y2="831.2" />
+				<line className="st11" x1="818.7" y1="837.2" x2="836" y2="827.2" />
+				<line className="st11" x1="818.7" y1="833.2" x2="836" y2="823.2" />
+				<line className="st11" x1="818.7" y1="829.2" x2="836" y2="819.2" />
+				<line className="st11" x1="818.7" y1="825.2" x2="836" y2="815.2" />
 			</g>
 			<g>
 				<polygon
@@ -5139,173 +2067,45 @@ export default function VpnDatacenter({ outline = true, ...props }: Props) {
 				</g>
 				<g>
 					<g>
-						<line
-							className="st7"
-							x1="642.8"
-							y1="884.1"
-							x2="618.5"
-							y2="870"
-						/>
-						<circle
-							className="st8"
-							cx="613.5"
-							cy="867"
-							r="2"
-						/>
+						<line className="st7" x1="642.8" y1="884.1" x2="618.5" y2="870" />
+						<circle className="st8" cx="613.5" cy="867" r="2" />
 					</g>
 					<g>
-						<line
-							className="st7"
-							x1="642.8"
-							y1="875.1"
-							x2="618.5"
-							y2="861"
-						/>
-						<circle
-							className="st8"
-							cx="613.5"
-							cy="858"
-							r="2"
-						/>
+						<line className="st7" x1="642.8" y1="875.1" x2="618.5" y2="861" />
+						<circle className="st8" cx="613.5" cy="858" r="2" />
 					</g>
 					<g>
-						<line
-							className="st7"
-							x1="642.8"
-							y1="865.1"
-							x2="618.5"
-							y2="851"
-						/>
-						<circle
-							className="st8"
-							cx="613.5"
-							cy="848"
-							r="2"
-						/>
+						<line className="st7" x1="642.8" y1="865.1" x2="618.5" y2="851" />
+						<circle className="st8" cx="613.5" cy="848" r="2" />
 					</g>
 					<g>
-						<line
-							className="st7"
-							x1="604.8"
-							y1="862.1"
-							x2="580.5"
-							y2="848"
-						/>
-						<circle
-							className="st8"
-							cx="575.5"
-							cy="845"
-							r="2"
-						/>
+						<line className="st7" x1="604.8" y1="862.1" x2="580.5" y2="848" />
+						<circle className="st8" cx="575.5" cy="845" r="2" />
 					</g>
 					<g>
-						<line
-							className="st7"
-							x1="642.8"
-							y1="893.1"
-							x2="618.5"
-							y2="879"
-						/>
-						<circle
-							className="st8"
-							cx="613.5"
-							cy="876"
-							r="2"
-						/>
+						<line className="st7" x1="642.8" y1="893.1" x2="618.5" y2="879" />
+						<circle className="st8" cx="613.5" cy="876" r="2" />
 					</g>
 					<g>
-						<line
-							className="st7"
-							x1="604.8"
-							y1="871.1"
-							x2="580.5"
-							y2="857"
-						/>
-						<circle
-							className="st8"
-							cx="575.5"
-							cy="854"
-							r="2"
-						/>
+						<line className="st7" x1="604.8" y1="871.1" x2="580.5" y2="857" />
+						<circle className="st8" cx="575.5" cy="854" r="2" />
 					</g>
 					<g>
-						<line
-							className="st7"
-							x1="604.8"
-							y1="853.1"
-							x2="580.5"
-							y2="839"
-						/>
-						<circle
-							className="st8"
-							cx="575.5"
-							cy="836"
-							r="2"
-						/>
+						<line className="st7" x1="604.8" y1="853.1" x2="580.5" y2="839" />
+						<circle className="st8" cx="575.5" cy="836" r="2" />
 					</g>
 					<g>
-						<line
-							className="st7"
-							x1="604.8"
-							y1="843.1"
-							x2="580.5"
-							y2="829"
-						/>
-						<circle
-							className="st8"
-							cx="575.5"
-							cy="826"
-							r="2"
-						/>
+						<line className="st7" x1="604.8" y1="843.1" x2="580.5" y2="829" />
+						<circle className="st8" cx="575.5" cy="826" r="2" />
 					</g>
 				</g>
-				<circle
-					className="st9"
-					cx="578"
-					cy="815.8"
-					r="3.5"
-				/>
-				<circle
-					className="st10"
-					cx="587.4"
-					cy="821.3"
-					r="3.5"
-				/>
-				<line
-					className="st11"
-					x1="714.7"
-					y1="902.7"
-					x2="732"
-					y2="892.7"
-				/>
-				<line
-					className="st11"
-					x1="714.7"
-					y1="898.7"
-					x2="732"
-					y2="888.7"
-				/>
-				<line
-					className="st11"
-					x1="714.7"
-					y1="894.7"
-					x2="732"
-					y2="884.7"
-				/>
-				<line
-					className="st11"
-					x1="714.7"
-					y1="890.7"
-					x2="732"
-					y2="880.7"
-				/>
-				<line
-					className="st11"
-					x1="714.7"
-					y1="886.7"
-					x2="732"
-					y2="876.7"
-				/>
+				<circle className="st9" cx="578" cy="815.8" r="3.5" />
+				<circle className="st10" cx="587.4" cy="821.3" r="3.5" />
+				<line className="st11" x1="714.7" y1="902.7" x2="732" y2="892.7" />
+				<line className="st11" x1="714.7" y1="898.7" x2="732" y2="888.7" />
+				<line className="st11" x1="714.7" y1="894.7" x2="732" y2="884.7" />
+				<line className="st11" x1="714.7" y1="890.7" x2="732" y2="880.7" />
+				<line className="st11" x1="714.7" y1="886.7" x2="732" y2="876.7" />
 			</g>
 			<g>
 				<polygon
@@ -5348,173 +2148,45 @@ export default function VpnDatacenter({ outline = true, ...props }: Props) {
 				</g>
 				<g>
 					<g>
-						<line
-							className="st7"
-							x1="850.8"
-							y1="882.8"
-							x2="826.5"
-							y2="868.8"
-						/>
-						<circle
-							className="st8"
-							cx="821.5"
-							cy="865.8"
-							r="2"
-						/>
+						<line className="st7" x1="850.8" y1="882.8" x2="826.5" y2="868.8" />
+						<circle className="st8" cx="821.5" cy="865.8" r="2" />
 					</g>
 					<g>
-						<line
-							className="st7"
-							x1="850.8"
-							y1="873.8"
-							x2="826.5"
-							y2="859.8"
-						/>
-						<circle
-							className="st8"
-							cx="821.5"
-							cy="856.8"
-							r="2"
-						/>
+						<line className="st7" x1="850.8" y1="873.8" x2="826.5" y2="859.8" />
+						<circle className="st8" cx="821.5" cy="856.8" r="2" />
 					</g>
 					<g>
-						<line
-							className="st7"
-							x1="850.8"
-							y1="863.8"
-							x2="826.5"
-							y2="849.8"
-						/>
-						<circle
-							className="st8"
-							cx="821.5"
-							cy="846.8"
-							r="2"
-						/>
+						<line className="st7" x1="850.8" y1="863.8" x2="826.5" y2="849.8" />
+						<circle className="st8" cx="821.5" cy="846.8" r="2" />
 					</g>
 					<g>
-						<line
-							className="st7"
-							x1="812.8"
-							y1="860.8"
-							x2="788.5"
-							y2="846.8"
-						/>
-						<circle
-							className="st8"
-							cx="783.5"
-							cy="843.8"
-							r="2"
-						/>
+						<line className="st7" x1="812.8" y1="860.8" x2="788.5" y2="846.8" />
+						<circle className="st8" cx="783.5" cy="843.8" r="2" />
 					</g>
 					<g>
-						<line
-							className="st7"
-							x1="850.8"
-							y1="891.8"
-							x2="826.5"
-							y2="877.8"
-						/>
-						<circle
-							className="st8"
-							cx="821.5"
-							cy="874.8"
-							r="2"
-						/>
+						<line className="st7" x1="850.8" y1="891.8" x2="826.5" y2="877.8" />
+						<circle className="st8" cx="821.5" cy="874.8" r="2" />
 					</g>
 					<g>
-						<line
-							className="st7"
-							x1="812.8"
-							y1="869.8"
-							x2="788.5"
-							y2="855.8"
-						/>
-						<circle
-							className="st8"
-							cx="783.5"
-							cy="852.8"
-							r="2"
-						/>
+						<line className="st7" x1="812.8" y1="869.8" x2="788.5" y2="855.8" />
+						<circle className="st8" cx="783.5" cy="852.8" r="2" />
 					</g>
 					<g>
-						<line
-							className="st7"
-							x1="812.8"
-							y1="851.8"
-							x2="788.5"
-							y2="837.8"
-						/>
-						<circle
-							className="st8"
-							cx="783.5"
-							cy="834.8"
-							r="2"
-						/>
+						<line className="st7" x1="812.8" y1="851.8" x2="788.5" y2="837.8" />
+						<circle className="st8" cx="783.5" cy="834.8" r="2" />
 					</g>
 					<g>
-						<line
-							className="st7"
-							x1="812.8"
-							y1="841.8"
-							x2="788.5"
-							y2="827.8"
-						/>
-						<circle
-							className="st8"
-							cx="783.5"
-							cy="824.8"
-							r="2"
-						/>
+						<line className="st7" x1="812.8" y1="841.8" x2="788.5" y2="827.8" />
+						<circle className="st8" cx="783.5" cy="824.8" r="2" />
 					</g>
 				</g>
-				<circle
-					className="st9"
-					cx="786"
-					cy="814.5"
-					r="3.5"
-				/>
-				<circle
-					className="st10"
-					cx="795.4"
-					cy="820.1"
-					r="3.5"
-				/>
-				<line
-					className="st11"
-					x1="922.7"
-					y1="901.5"
-					x2="940"
-					y2="891.5"
-				/>
-				<line
-					className="st11"
-					x1="922.7"
-					y1="897.5"
-					x2="940"
-					y2="887.5"
-				/>
-				<line
-					className="st11"
-					x1="922.7"
-					y1="893.5"
-					x2="940"
-					y2="883.5"
-				/>
-				<line
-					className="st11"
-					x1="922.7"
-					y1="889.5"
-					x2="940"
-					y2="879.5"
-				/>
-				<line
-					className="st11"
-					x1="922.7"
-					y1="885.5"
-					x2="940"
-					y2="875.5"
-				/>
+				<circle className="st9" cx="786" cy="814.5" r="3.5" />
+				<circle className="st10" cx="795.4" cy="820.1" r="3.5" />
+				<line className="st11" x1="922.7" y1="901.5" x2="940" y2="891.5" />
+				<line className="st11" x1="922.7" y1="897.5" x2="940" y2="887.5" />
+				<line className="st11" x1="922.7" y1="893.5" x2="940" y2="883.5" />
+				<line className="st11" x1="922.7" y1="889.5" x2="940" y2="879.5" />
+				<line className="st11" x1="922.7" y1="885.5" x2="940" y2="875.5" />
 			</g>
 			<g>
 				<polygon
@@ -5557,173 +2229,45 @@ export default function VpnDatacenter({ outline = true, ...props }: Props) {
 				</g>
 				<g>
 					<g>
-						<line
-							className="st7"
-							x1="746.8"
-							y1="944.3"
-							x2="722.5"
-							y2="930.3"
-						/>
-						<circle
-							className="st8"
-							cx="717.5"
-							cy="927.3"
-							r="2"
-						/>
+						<line className="st7" x1="746.8" y1="944.3" x2="722.5" y2="930.3" />
+						<circle className="st8" cx="717.5" cy="927.3" r="2" />
 					</g>
 					<g>
-						<line
-							className="st7"
-							x1="746.8"
-							y1="935.3"
-							x2="722.5"
-							y2="921.3"
-						/>
-						<circle
-							className="st8"
-							cx="717.5"
-							cy="918.3"
-							r="2"
-						/>
+						<line className="st7" x1="746.8" y1="935.3" x2="722.5" y2="921.3" />
+						<circle className="st8" cx="717.5" cy="918.3" r="2" />
 					</g>
 					<g>
-						<line
-							className="st7"
-							x1="746.8"
-							y1="925.3"
-							x2="722.5"
-							y2="911.3"
-						/>
-						<circle
-							className="st8"
-							cx="717.5"
-							cy="908.3"
-							r="2"
-						/>
+						<line className="st7" x1="746.8" y1="925.3" x2="722.5" y2="911.3" />
+						<circle className="st8" cx="717.5" cy="908.3" r="2" />
 					</g>
 					<g>
-						<line
-							className="st7"
-							x1="708.8"
-							y1="922.3"
-							x2="684.5"
-							y2="908.3"
-						/>
-						<circle
-							className="st8"
-							cx="679.5"
-							cy="905.3"
-							r="2"
-						/>
+						<line className="st7" x1="708.8" y1="922.3" x2="684.5" y2="908.3" />
+						<circle className="st8" cx="679.5" cy="905.3" r="2" />
 					</g>
 					<g>
-						<line
-							className="st7"
-							x1="746.8"
-							y1="953.3"
-							x2="722.5"
-							y2="939.3"
-						/>
-						<circle
-							className="st8"
-							cx="717.5"
-							cy="936.3"
-							r="2"
-						/>
+						<line className="st7" x1="746.8" y1="953.3" x2="722.5" y2="939.3" />
+						<circle className="st8" cx="717.5" cy="936.3" r="2" />
 					</g>
 					<g>
-						<line
-							className="st7"
-							x1="708.8"
-							y1="931.3"
-							x2="684.5"
-							y2="917.3"
-						/>
-						<circle
-							className="st8"
-							cx="679.5"
-							cy="914.3"
-							r="2"
-						/>
+						<line className="st7" x1="708.8" y1="931.3" x2="684.5" y2="917.3" />
+						<circle className="st8" cx="679.5" cy="914.3" r="2" />
 					</g>
 					<g>
-						<line
-							className="st7"
-							x1="708.8"
-							y1="913.3"
-							x2="684.5"
-							y2="899.3"
-						/>
-						<circle
-							className="st8"
-							cx="679.5"
-							cy="896.3"
-							r="2"
-						/>
+						<line className="st7" x1="708.8" y1="913.3" x2="684.5" y2="899.3" />
+						<circle className="st8" cx="679.5" cy="896.3" r="2" />
 					</g>
 					<g>
-						<line
-							className="st7"
-							x1="708.8"
-							y1="903.3"
-							x2="684.5"
-							y2="889.3"
-						/>
-						<circle
-							className="st8"
-							cx="679.5"
-							cy="886.3"
-							r="2"
-						/>
+						<line className="st7" x1="708.8" y1="903.3" x2="684.5" y2="889.3" />
+						<circle className="st8" cx="679.5" cy="886.3" r="2" />
 					</g>
 				</g>
-				<circle
-					className="st9"
-					cx="682"
-					cy="876"
-					r="3.5"
-				/>
-				<circle
-					className="st10"
-					cx="691.4"
-					cy="881.6"
-					r="3.5"
-				/>
-				<line
-					className="st11"
-					x1="818.7"
-					y1="963"
-					x2="836"
-					y2="953"
-				/>
-				<line
-					className="st11"
-					x1="818.7"
-					y1="959"
-					x2="836"
-					y2="949"
-				/>
-				<line
-					className="st11"
-					x1="818.7"
-					y1="955"
-					x2="836"
-					y2="945"
-				/>
-				<line
-					className="st11"
-					x1="818.7"
-					y1="951"
-					x2="836"
-					y2="941"
-				/>
-				<line
-					className="st11"
-					x1="818.7"
-					y1="947"
-					x2="836"
-					y2="937"
-				/>
+				<circle className="st9" cx="682" cy="876" r="3.5" />
+				<circle className="st10" cx="691.4" cy="881.6" r="3.5" />
+				<line className="st11" x1="818.7" y1="963" x2="836" y2="953" />
+				<line className="st11" x1="818.7" y1="959" x2="836" y2="949" />
+				<line className="st11" x1="818.7" y1="955" x2="836" y2="945" />
+				<line className="st11" x1="818.7" y1="951" x2="836" y2="941" />
+				<line className="st11" x1="818.7" y1="947" x2="836" y2="937" />
 			</g>
 		</g>
 		<g>
@@ -5768,173 +2312,45 @@ export default function VpnDatacenter({ outline = true, ...props }: Props) {
 				</g>
 				<g>
 					<g>
-						<line
-							className="st7"
-							x1="351.6"
-							y1="416.3"
-							x2="327.3"
-							y2="402.3"
-						/>
-						<circle
-							className="st8"
-							cx="322.3"
-							cy="399.3"
-							r="2"
-						/>
+						<line className="st7" x1="351.6" y1="416.3" x2="327.3" y2="402.3" />
+						<circle className="st8" cx="322.3" cy="399.3" r="2" />
 					</g>
 					<g>
-						<line
-							className="st7"
-							x1="351.6"
-							y1="407.3"
-							x2="327.3"
-							y2="393.3"
-						/>
-						<circle
-							className="st8"
-							cx="322.3"
-							cy="390.3"
-							r="2"
-						/>
+						<line className="st7" x1="351.6" y1="407.3" x2="327.3" y2="393.3" />
+						<circle className="st8" cx="322.3" cy="390.3" r="2" />
 					</g>
 					<g>
-						<line
-							className="st7"
-							x1="351.6"
-							y1="397.3"
-							x2="327.3"
-							y2="383.3"
-						/>
-						<circle
-							className="st8"
-							cx="322.3"
-							cy="380.3"
-							r="2"
-						/>
+						<line className="st7" x1="351.6" y1="397.3" x2="327.3" y2="383.3" />
+						<circle className="st8" cx="322.3" cy="380.3" r="2" />
 					</g>
 					<g>
-						<line
-							className="st7"
-							x1="313.6"
-							y1="394.3"
-							x2="289.3"
-							y2="380.3"
-						/>
-						<circle
-							className="st8"
-							cx="284.3"
-							cy="377.3"
-							r="2"
-						/>
+						<line className="st7" x1="313.6" y1="394.3" x2="289.3" y2="380.3" />
+						<circle className="st8" cx="284.3" cy="377.3" r="2" />
 					</g>
 					<g>
-						<line
-							className="st7"
-							x1="351.6"
-							y1="425.3"
-							x2="327.3"
-							y2="411.3"
-						/>
-						<circle
-							className="st8"
-							cx="322.3"
-							cy="408.3"
-							r="2"
-						/>
+						<line className="st7" x1="351.6" y1="425.3" x2="327.3" y2="411.3" />
+						<circle className="st8" cx="322.3" cy="408.3" r="2" />
 					</g>
 					<g>
-						<line
-							className="st7"
-							x1="313.6"
-							y1="403.3"
-							x2="289.3"
-							y2="389.3"
-						/>
-						<circle
-							className="st8"
-							cx="284.3"
-							cy="386.3"
-							r="2"
-						/>
+						<line className="st7" x1="313.6" y1="403.3" x2="289.3" y2="389.3" />
+						<circle className="st8" cx="284.3" cy="386.3" r="2" />
 					</g>
 					<g>
-						<line
-							className="st7"
-							x1="313.6"
-							y1="385.3"
-							x2="289.3"
-							y2="371.3"
-						/>
-						<circle
-							className="st8"
-							cx="284.3"
-							cy="368.3"
-							r="2"
-						/>
+						<line className="st7" x1="313.6" y1="385.3" x2="289.3" y2="371.3" />
+						<circle className="st8" cx="284.3" cy="368.3" r="2" />
 					</g>
 					<g>
-						<line
-							className="st7"
-							x1="313.6"
-							y1="375.3"
-							x2="289.3"
-							y2="361.3"
-						/>
-						<circle
-							className="st8"
-							cx="284.3"
-							cy="358.3"
-							r="2"
-						/>
+						<line className="st7" x1="313.6" y1="375.3" x2="289.3" y2="361.3" />
+						<circle className="st8" cx="284.3" cy="358.3" r="2" />
 					</g>
 				</g>
-				<circle
-					className="st9"
-					cx="286.9"
-					cy="348"
-					r="3.5"
-				/>
-				<circle
-					className="st10"
-					cx="296.3"
-					cy="353.6"
-					r="3.5"
-				/>
-				<line
-					className="st11"
-					x1="423.5"
-					y1="434.9"
-					x2="440.8"
-					y2="424.9"
-				/>
-				<line
-					className="st11"
-					x1="423.5"
-					y1="430.9"
-					x2="440.8"
-					y2="420.9"
-				/>
-				<line
-					className="st11"
-					x1="423.5"
-					y1="426.9"
-					x2="440.8"
-					y2="416.9"
-				/>
-				<line
-					className="st11"
-					x1="423.5"
-					y1="422.9"
-					x2="440.8"
-					y2="412.9"
-				/>
-				<line
-					className="st11"
-					x1="423.5"
-					y1="418.9"
-					x2="440.8"
-					y2="408.9"
-				/>
+				<circle className="st9" cx="286.9" cy="348" r="3.5" />
+				<circle className="st10" cx="296.3" cy="353.6" r="3.5" />
+				<line className="st11" x1="423.5" y1="434.9" x2="440.8" y2="424.9" />
+				<line className="st11" x1="423.5" y1="430.9" x2="440.8" y2="420.9" />
+				<line className="st11" x1="423.5" y1="426.9" x2="440.8" y2="416.9" />
+				<line className="st11" x1="423.5" y1="422.9" x2="440.8" y2="412.9" />
+				<line className="st11" x1="423.5" y1="418.9" x2="440.8" y2="408.9" />
 			</g>
 			<g>
 				<polygon
@@ -5977,173 +2393,45 @@ export default function VpnDatacenter({ outline = true, ...props }: Props) {
 				</g>
 				<g>
 					<g>
-						<line
-							className="st7"
-							x1="455.6"
-							y1="531.7"
-							x2="431.3"
-							y2="517.7"
-						/>
-						<circle
-							className="st8"
-							cx="426.3"
-							cy="514.7"
-							r="2"
-						/>
+						<line className="st7" x1="455.6" y1="531.7" x2="431.3" y2="517.7" />
+						<circle className="st8" cx="426.3" cy="514.7" r="2" />
 					</g>
 					<g>
-						<line
-							className="st7"
-							x1="455.6"
-							y1="522.7"
-							x2="431.3"
-							y2="508.7"
-						/>
-						<circle
-							className="st8"
-							cx="426.3"
-							cy="505.7"
-							r="2"
-						/>
+						<line className="st7" x1="455.6" y1="522.7" x2="431.3" y2="508.7" />
+						<circle className="st8" cx="426.3" cy="505.7" r="2" />
 					</g>
 					<g>
-						<line
-							className="st7"
-							x1="455.6"
-							y1="512.7"
-							x2="431.3"
-							y2="498.7"
-						/>
-						<circle
-							className="st8"
-							cx="426.3"
-							cy="495.7"
-							r="2"
-						/>
+						<line className="st7" x1="455.6" y1="512.7" x2="431.3" y2="498.7" />
+						<circle className="st8" cx="426.3" cy="495.7" r="2" />
 					</g>
 					<g>
-						<line
-							className="st7"
-							x1="417.6"
-							y1="509.7"
-							x2="393.3"
-							y2="495.7"
-						/>
-						<circle
-							className="st8"
-							cx="388.3"
-							cy="492.7"
-							r="2"
-						/>
+						<line className="st7" x1="417.6" y1="509.7" x2="393.3" y2="495.7" />
+						<circle className="st8" cx="388.3" cy="492.7" r="2" />
 					</g>
 					<g>
-						<line
-							className="st7"
-							x1="455.6"
-							y1="540.7"
-							x2="431.3"
-							y2="526.7"
-						/>
-						<circle
-							className="st8"
-							cx="426.3"
-							cy="523.7"
-							r="2"
-						/>
+						<line className="st7" x1="455.6" y1="540.7" x2="431.3" y2="526.7" />
+						<circle className="st8" cx="426.3" cy="523.7" r="2" />
 					</g>
 					<g>
-						<line
-							className="st7"
-							x1="417.6"
-							y1="518.7"
-							x2="393.3"
-							y2="504.7"
-						/>
-						<circle
-							className="st8"
-							cx="388.3"
-							cy="501.7"
-							r="2"
-						/>
+						<line className="st7" x1="417.6" y1="518.7" x2="393.3" y2="504.7" />
+						<circle className="st8" cx="388.3" cy="501.7" r="2" />
 					</g>
 					<g>
-						<line
-							className="st7"
-							x1="417.6"
-							y1="500.7"
-							x2="393.3"
-							y2="486.7"
-						/>
-						<circle
-							className="st8"
-							cx="388.3"
-							cy="483.7"
-							r="2"
-						/>
+						<line className="st7" x1="417.6" y1="500.7" x2="393.3" y2="486.7" />
+						<circle className="st8" cx="388.3" cy="483.7" r="2" />
 					</g>
 					<g>
-						<line
-							className="st7"
-							x1="417.6"
-							y1="490.7"
-							x2="393.3"
-							y2="476.7"
-						/>
-						<circle
-							className="st8"
-							cx="388.3"
-							cy="473.7"
-							r="2"
-						/>
+						<line className="st7" x1="417.6" y1="490.7" x2="393.3" y2="476.7" />
+						<circle className="st8" cx="388.3" cy="473.7" r="2" />
 					</g>
 				</g>
-				<circle
-					className="st9"
-					cx="390.9"
-					cy="463.4"
-					r="3.5"
-				/>
-				<circle
-					className="st10"
-					cx="400.3"
-					cy="468.9"
-					r="3.5"
-				/>
-				<line
-					className="st11"
-					x1="527.5"
-					y1="550.3"
-					x2="544.9"
-					y2="540.3"
-				/>
-				<line
-					className="st11"
-					x1="527.5"
-					y1="546.3"
-					x2="544.9"
-					y2="536.3"
-				/>
-				<line
-					className="st11"
-					x1="527.5"
-					y1="542.3"
-					x2="544.9"
-					y2="532.3"
-				/>
-				<line
-					className="st11"
-					x1="527.5"
-					y1="538.3"
-					x2="544.9"
-					y2="528.3"
-				/>
-				<line
-					className="st11"
-					x1="527.5"
-					y1="534.3"
-					x2="544.9"
-					y2="524.3"
-				/>
+				<circle className="st9" cx="390.9" cy="463.4" r="3.5" />
+				<circle className="st10" cx="400.3" cy="468.9" r="3.5" />
+				<line className="st11" x1="527.5" y1="550.3" x2="544.9" y2="540.3" />
+				<line className="st11" x1="527.5" y1="546.3" x2="544.9" y2="536.3" />
+				<line className="st11" x1="527.5" y1="542.3" x2="544.9" y2="532.3" />
+				<line className="st11" x1="527.5" y1="538.3" x2="544.9" y2="528.3" />
+				<line className="st11" x1="527.5" y1="534.3" x2="544.9" y2="524.3" />
 			</g>
 			<g>
 				<polygon
@@ -6186,173 +2474,45 @@ export default function VpnDatacenter({ outline = true, ...props }: Props) {
 				</g>
 				<g>
 					<g>
-						<line
-							className="st7"
-							x1="558.7"
-							y1="594.1"
-							x2="534.4"
-							y2="580.1"
-						/>
-						<circle
-							className="st8"
-							cx="529.4"
-							cy="577.1"
-							r="2"
-						/>
+						<line className="st7" x1="558.7" y1="594.1" x2="534.4" y2="580.1" />
+						<circle className="st8" cx="529.4" cy="577.1" r="2" />
 					</g>
 					<g>
-						<line
-							className="st7"
-							x1="558.7"
-							y1="585.1"
-							x2="534.4"
-							y2="571.1"
-						/>
-						<circle
-							className="st8"
-							cx="529.4"
-							cy="568.1"
-							r="2"
-						/>
+						<line className="st7" x1="558.7" y1="585.1" x2="534.4" y2="571.1" />
+						<circle className="st8" cx="529.4" cy="568.1" r="2" />
 					</g>
 					<g>
-						<line
-							className="st7"
-							x1="558.7"
-							y1="575.1"
-							x2="534.4"
-							y2="561.1"
-						/>
-						<circle
-							className="st8"
-							cx="529.4"
-							cy="558.1"
-							r="2"
-						/>
+						<line className="st7" x1="558.7" y1="575.1" x2="534.4" y2="561.1" />
+						<circle className="st8" cx="529.4" cy="558.1" r="2" />
 					</g>
 					<g>
-						<line
-							className="st7"
-							x1="520.7"
-							y1="572.1"
-							x2="496.4"
-							y2="558.1"
-						/>
-						<circle
-							className="st8"
-							cx="491.4"
-							cy="555.1"
-							r="2"
-						/>
+						<line className="st7" x1="520.7" y1="572.1" x2="496.4" y2="558.1" />
+						<circle className="st8" cx="491.4" cy="555.1" r="2" />
 					</g>
 					<g>
-						<line
-							className="st7"
-							x1="558.7"
-							y1="603.1"
-							x2="534.4"
-							y2="589.1"
-						/>
-						<circle
-							className="st8"
-							cx="529.4"
-							cy="586.1"
-							r="2"
-						/>
+						<line className="st7" x1="558.7" y1="603.1" x2="534.4" y2="589.1" />
+						<circle className="st8" cx="529.4" cy="586.1" r="2" />
 					</g>
 					<g>
-						<line
-							className="st7"
-							x1="520.7"
-							y1="581.1"
-							x2="496.4"
-							y2="567.1"
-						/>
-						<circle
-							className="st8"
-							cx="491.4"
-							cy="564.1"
-							r="2"
-						/>
+						<line className="st7" x1="520.7" y1="581.1" x2="496.4" y2="567.1" />
+						<circle className="st8" cx="491.4" cy="564.1" r="2" />
 					</g>
 					<g>
-						<line
-							className="st7"
-							x1="520.7"
-							y1="563.1"
-							x2="496.4"
-							y2="549.1"
-						/>
-						<circle
-							className="st8"
-							cx="491.4"
-							cy="546.1"
-							r="2"
-						/>
+						<line className="st7" x1="520.7" y1="563.1" x2="496.4" y2="549.1" />
+						<circle className="st8" cx="491.4" cy="546.1" r="2" />
 					</g>
 					<g>
-						<line
-							className="st7"
-							x1="520.7"
-							y1="553.1"
-							x2="496.4"
-							y2="539.1"
-						/>
-						<circle
-							className="st8"
-							cx="491.4"
-							cy="536.1"
-							r="2"
-						/>
+						<line className="st7" x1="520.7" y1="553.1" x2="496.4" y2="539.1" />
+						<circle className="st8" cx="491.4" cy="536.1" r="2" />
 					</g>
 				</g>
-				<circle
-					className="st9"
-					cx="494"
-					cy="525.8"
-					r="3.5"
-				/>
-				<circle
-					className="st10"
-					cx="503.4"
-					cy="531.4"
-					r="3.5"
-				/>
-				<line
-					className="st11"
-					x1="630.7"
-					y1="612.8"
-					x2="648"
-					y2="602.8"
-				/>
-				<line
-					className="st11"
-					x1="630.7"
-					y1="608.8"
-					x2="648"
-					y2="598.8"
-				/>
-				<line
-					className="st11"
-					x1="630.7"
-					y1="604.8"
-					x2="648"
-					y2="594.8"
-				/>
-				<line
-					className="st11"
-					x1="630.7"
-					y1="600.8"
-					x2="648"
-					y2="590.8"
-				/>
-				<line
-					className="st11"
-					x1="630.7"
-					y1="596.8"
-					x2="648"
-					y2="586.8"
-				/>
+				<circle className="st9" cx="494" cy="525.8" r="3.5" />
+				<circle className="st10" cx="503.4" cy="531.4" r="3.5" />
+				<line className="st11" x1="630.7" y1="612.8" x2="648" y2="602.8" />
+				<line className="st11" x1="630.7" y1="608.8" x2="648" y2="598.8" />
+				<line className="st11" x1="630.7" y1="604.8" x2="648" y2="594.8" />
+				<line className="st11" x1="630.7" y1="600.8" x2="648" y2="590.8" />
+				<line className="st11" x1="630.7" y1="596.8" x2="648" y2="586.8" />
 			</g>
 			<g>
 				<polygon
@@ -6395,173 +2555,45 @@ export default function VpnDatacenter({ outline = true, ...props }: Props) {
 				</g>
 				<g>
 					<g>
-						<line
-							className="st7"
-							x1="246.7"
-							y1="533.3"
-							x2="222.4"
-							y2="519.3"
-						/>
-						<circle
-							className="st8"
-							cx="217.4"
-							cy="516.3"
-							r="2"
-						/>
+						<line className="st7" x1="246.7" y1="533.3" x2="222.4" y2="519.3" />
+						<circle className="st8" cx="217.4" cy="516.3" r="2" />
 					</g>
 					<g>
-						<line
-							className="st7"
-							x1="246.7"
-							y1="524.3"
-							x2="222.4"
-							y2="510.3"
-						/>
-						<circle
-							className="st8"
-							cx="217.4"
-							cy="507.3"
-							r="2"
-						/>
+						<line className="st7" x1="246.7" y1="524.3" x2="222.4" y2="510.3" />
+						<circle className="st8" cx="217.4" cy="507.3" r="2" />
 					</g>
 					<g>
-						<line
-							className="st7"
-							x1="246.7"
-							y1="514.3"
-							x2="222.4"
-							y2="500.3"
-						/>
-						<circle
-							className="st8"
-							cx="217.4"
-							cy="497.3"
-							r="2"
-						/>
+						<line className="st7" x1="246.7" y1="514.3" x2="222.4" y2="500.3" />
+						<circle className="st8" cx="217.4" cy="497.3" r="2" />
 					</g>
 					<g>
-						<line
-							className="st7"
-							x1="208.7"
-							y1="511.3"
-							x2="184.4"
-							y2="497.3"
-						/>
-						<circle
-							className="st8"
-							cx="179.4"
-							cy="494.3"
-							r="2"
-						/>
+						<line className="st7" x1="208.7" y1="511.3" x2="184.4" y2="497.3" />
+						<circle className="st8" cx="179.4" cy="494.3" r="2" />
 					</g>
 					<g>
-						<line
-							className="st7"
-							x1="246.7"
-							y1="542.3"
-							x2="222.4"
-							y2="528.3"
-						/>
-						<circle
-							className="st8"
-							cx="217.4"
-							cy="525.3"
-							r="2"
-						/>
+						<line className="st7" x1="246.7" y1="542.3" x2="222.4" y2="528.3" />
+						<circle className="st8" cx="217.4" cy="525.3" r="2" />
 					</g>
 					<g>
-						<line
-							className="st7"
-							x1="208.7"
-							y1="520.3"
-							x2="184.4"
-							y2="506.3"
-						/>
-						<circle
-							className="st8"
-							cx="179.4"
-							cy="503.3"
-							r="2"
-						/>
+						<line className="st7" x1="208.7" y1="520.3" x2="184.4" y2="506.3" />
+						<circle className="st8" cx="179.4" cy="503.3" r="2" />
 					</g>
 					<g>
-						<line
-							className="st7"
-							x1="208.7"
-							y1="502.3"
-							x2="184.4"
-							y2="488.3"
-						/>
-						<circle
-							className="st8"
-							cx="179.4"
-							cy="485.3"
-							r="2"
-						/>
+						<line className="st7" x1="208.7" y1="502.3" x2="184.4" y2="488.3" />
+						<circle className="st8" cx="179.4" cy="485.3" r="2" />
 					</g>
 					<g>
-						<line
-							className="st7"
-							x1="208.7"
-							y1="492.3"
-							x2="184.4"
-							y2="478.3"
-						/>
-						<circle
-							className="st8"
-							cx="179.4"
-							cy="475.3"
-							r="2"
-						/>
+						<line className="st7" x1="208.7" y1="492.3" x2="184.4" y2="478.3" />
+						<circle className="st8" cx="179.4" cy="475.3" r="2" />
 					</g>
 				</g>
-				<circle
-					className="st9"
-					cx="182"
-					cy="465"
-					r="3.5"
-				/>
-				<circle
-					className="st10"
-					cx="191.4"
-					cy="470.5"
-					r="3.5"
-				/>
-				<line
-					className="st11"
-					x1="318.6"
-					y1="551.9"
-					x2="336"
-					y2="541.9"
-				/>
-				<line
-					className="st11"
-					x1="318.6"
-					y1="547.9"
-					x2="336"
-					y2="537.9"
-				/>
-				<line
-					className="st11"
-					x1="318.6"
-					y1="543.9"
-					x2="336"
-					y2="533.9"
-				/>
-				<line
-					className="st11"
-					x1="318.6"
-					y1="539.9"
-					x2="336"
-					y2="529.9"
-				/>
-				<line
-					className="st11"
-					x1="318.6"
-					y1="535.9"
-					x2="336"
-					y2="525.9"
-				/>
+				<circle className="st9" cx="182" cy="465" r="3.5" />
+				<circle className="st10" cx="191.4" cy="470.5" r="3.5" />
+				<line className="st11" x1="318.6" y1="551.9" x2="336" y2="541.9" />
+				<line className="st11" x1="318.6" y1="547.9" x2="336" y2="537.9" />
+				<line className="st11" x1="318.6" y1="543.9" x2="336" y2="533.9" />
+				<line className="st11" x1="318.6" y1="539.9" x2="336" y2="529.9" />
+				<line className="st11" x1="318.6" y1="535.9" x2="336" y2="525.9" />
 			</g>
 			<g>
 				<polygon
@@ -6604,173 +2636,45 @@ export default function VpnDatacenter({ outline = true, ...props }: Props) {
 				</g>
 				<g>
 					<g>
-						<line
-							className="st7"
-							x1="142.7"
-							y1="594.8"
-							x2="118.4"
-							y2="580.8"
-						/>
-						<circle
-							className="st8"
-							cx="113.4"
-							cy="577.8"
-							r="2"
-						/>
+						<line className="st7" x1="142.7" y1="594.8" x2="118.4" y2="580.8" />
+						<circle className="st8" cx="113.4" cy="577.8" r="2" />
 					</g>
 					<g>
-						<line
-							className="st7"
-							x1="142.7"
-							y1="585.8"
-							x2="118.4"
-							y2="571.8"
-						/>
-						<circle
-							className="st8"
-							cx="113.4"
-							cy="568.8"
-							r="2"
-						/>
+						<line className="st7" x1="142.7" y1="585.8" x2="118.4" y2="571.8" />
+						<circle className="st8" cx="113.4" cy="568.8" r="2" />
 					</g>
 					<g>
-						<line
-							className="st7"
-							x1="142.7"
-							y1="575.8"
-							x2="118.4"
-							y2="561.8"
-						/>
-						<circle
-							className="st8"
-							cx="113.4"
-							cy="558.8"
-							r="2"
-						/>
+						<line className="st7" x1="142.7" y1="575.8" x2="118.4" y2="561.8" />
+						<circle className="st8" cx="113.4" cy="558.8" r="2" />
 					</g>
 					<g>
-						<line
-							className="st7"
-							x1="104.7"
-							y1="572.8"
-							x2="80.4"
-							y2="558.8"
-						/>
-						<circle
-							className="st8"
-							cx="75.4"
-							cy="555.8"
-							r="2"
-						/>
+						<line className="st7" x1="104.7" y1="572.8" x2="80.4" y2="558.8" />
+						<circle className="st8" cx="75.4" cy="555.8" r="2" />
 					</g>
 					<g>
-						<line
-							className="st7"
-							x1="142.7"
-							y1="603.8"
-							x2="118.4"
-							y2="589.8"
-						/>
-						<circle
-							className="st8"
-							cx="113.4"
-							cy="586.8"
-							r="2"
-						/>
+						<line className="st7" x1="142.7" y1="603.8" x2="118.4" y2="589.8" />
+						<circle className="st8" cx="113.4" cy="586.8" r="2" />
 					</g>
 					<g>
-						<line
-							className="st7"
-							x1="104.7"
-							y1="581.8"
-							x2="80.4"
-							y2="567.8"
-						/>
-						<circle
-							className="st8"
-							cx="75.4"
-							cy="564.8"
-							r="2"
-						/>
+						<line className="st7" x1="104.7" y1="581.8" x2="80.4" y2="567.8" />
+						<circle className="st8" cx="75.4" cy="564.8" r="2" />
 					</g>
 					<g>
-						<line
-							className="st7"
-							x1="104.7"
-							y1="563.8"
-							x2="80.4"
-							y2="549.8"
-						/>
-						<circle
-							className="st8"
-							cx="75.4"
-							cy="546.8"
-							r="2"
-						/>
+						<line className="st7" x1="104.7" y1="563.8" x2="80.4" y2="549.8" />
+						<circle className="st8" cx="75.4" cy="546.8" r="2" />
 					</g>
 					<g>
-						<line
-							className="st7"
-							x1="104.7"
-							y1="553.8"
-							x2="80.4"
-							y2="539.8"
-						/>
-						<circle
-							className="st8"
-							cx="75.4"
-							cy="536.8"
-							r="2"
-						/>
+						<line className="st7" x1="104.7" y1="553.8" x2="80.4" y2="539.8" />
+						<circle className="st8" cx="75.4" cy="536.8" r="2" />
 					</g>
 				</g>
-				<circle
-					className="st9"
-					cx="78"
-					cy="526.5"
-					r="3.5"
-				/>
-				<circle
-					className="st10"
-					cx="87.4"
-					cy="532"
-					r="3.5"
-				/>
-				<line
-					className="st11"
-					x1="214.6"
-					y1="613.4"
-					x2="232"
-					y2="603.4"
-				/>
-				<line
-					className="st11"
-					x1="214.6"
-					y1="609.4"
-					x2="232"
-					y2="599.4"
-				/>
-				<line
-					className="st11"
-					x1="214.6"
-					y1="605.4"
-					x2="232"
-					y2="595.4"
-				/>
-				<line
-					className="st11"
-					x1="214.6"
-					y1="601.4"
-					x2="232"
-					y2="591.4"
-				/>
-				<line
-					className="st11"
-					x1="214.6"
-					y1="597.4"
-					x2="232"
-					y2="587.4"
-				/>
+				<circle className="st9" cx="78" cy="526.5" r="3.5" />
+				<circle className="st10" cx="87.4" cy="532" r="3.5" />
+				<line className="st11" x1="214.6" y1="613.4" x2="232" y2="603.4" />
+				<line className="st11" x1="214.6" y1="609.4" x2="232" y2="599.4" />
+				<line className="st11" x1="214.6" y1="605.4" x2="232" y2="595.4" />
+				<line className="st11" x1="214.6" y1="601.4" x2="232" y2="591.4" />
+				<line className="st11" x1="214.6" y1="597.4" x2="232" y2="587.4" />
 			</g>
 			<g>
 				<polygon
@@ -6813,173 +2717,45 @@ export default function VpnDatacenter({ outline = true, ...props }: Props) {
 				</g>
 				<g>
 					<g>
-						<line
-							className="st7"
-							x1="350.7"
-							y1="593.6"
-							x2="326.4"
-							y2="579.5"
-						/>
-						<circle
-							className="st8"
-							cx="321.4"
-							cy="576.5"
-							r="2"
-						/>
+						<line className="st7" x1="350.7" y1="593.6" x2="326.4" y2="579.5" />
+						<circle className="st8" cx="321.4" cy="576.5" r="2" />
 					</g>
 					<g>
-						<line
-							className="st7"
-							x1="350.7"
-							y1="584.6"
-							x2="326.4"
-							y2="570.5"
-						/>
-						<circle
-							className="st8"
-							cx="321.4"
-							cy="567.5"
-							r="2"
-						/>
+						<line className="st7" x1="350.7" y1="584.6" x2="326.4" y2="570.5" />
+						<circle className="st8" cx="321.4" cy="567.5" r="2" />
 					</g>
 					<g>
-						<line
-							className="st7"
-							x1="350.7"
-							y1="574.6"
-							x2="326.4"
-							y2="560.5"
-						/>
-						<circle
-							className="st8"
-							cx="321.4"
-							cy="557.5"
-							r="2"
-						/>
+						<line className="st7" x1="350.7" y1="574.6" x2="326.4" y2="560.5" />
+						<circle className="st8" cx="321.4" cy="557.5" r="2" />
 					</g>
 					<g>
-						<line
-							className="st7"
-							x1="312.7"
-							y1="571.6"
-							x2="288.4"
-							y2="557.5"
-						/>
-						<circle
-							className="st8"
-							cx="283.4"
-							cy="554.5"
-							r="2"
-						/>
+						<line className="st7" x1="312.7" y1="571.6" x2="288.4" y2="557.5" />
+						<circle className="st8" cx="283.4" cy="554.5" r="2" />
 					</g>
 					<g>
-						<line
-							className="st7"
-							x1="350.7"
-							y1="602.6"
-							x2="326.4"
-							y2="588.5"
-						/>
-						<circle
-							className="st8"
-							cx="321.4"
-							cy="585.5"
-							r="2"
-						/>
+						<line className="st7" x1="350.7" y1="602.6" x2="326.4" y2="588.5" />
+						<circle className="st8" cx="321.4" cy="585.5" r="2" />
 					</g>
 					<g>
-						<line
-							className="st7"
-							x1="312.7"
-							y1="580.6"
-							x2="288.4"
-							y2="566.5"
-						/>
-						<circle
-							className="st8"
-							cx="283.4"
-							cy="563.5"
-							r="2"
-						/>
+						<line className="st7" x1="312.7" y1="580.6" x2="288.4" y2="566.5" />
+						<circle className="st8" cx="283.4" cy="563.5" r="2" />
 					</g>
 					<g>
-						<line
-							className="st7"
-							x1="312.7"
-							y1="562.6"
-							x2="288.4"
-							y2="548.5"
-						/>
-						<circle
-							className="st8"
-							cx="283.4"
-							cy="545.5"
-							r="2"
-						/>
+						<line className="st7" x1="312.7" y1="562.6" x2="288.4" y2="548.5" />
+						<circle className="st8" cx="283.4" cy="545.5" r="2" />
 					</g>
 					<g>
-						<line
-							className="st7"
-							x1="312.7"
-							y1="552.6"
-							x2="288.4"
-							y2="538.5"
-						/>
-						<circle
-							className="st8"
-							cx="283.4"
-							cy="535.5"
-							r="2"
-						/>
+						<line className="st7" x1="312.7" y1="552.6" x2="288.4" y2="538.5" />
+						<circle className="st8" cx="283.4" cy="535.5" r="2" />
 					</g>
 				</g>
-				<circle
-					className="st9"
-					cx="286"
-					cy="525.3"
-					r="3.5"
-				/>
-				<circle
-					className="st10"
-					cx="295.4"
-					cy="530.8"
-					r="3.5"
-				/>
-				<line
-					className="st11"
-					x1="422.7"
-					y1="612.2"
-					x2="440"
-					y2="602.2"
-				/>
-				<line
-					className="st11"
-					x1="422.7"
-					y1="608.2"
-					x2="440"
-					y2="598.2"
-				/>
-				<line
-					className="st11"
-					x1="422.7"
-					y1="604.2"
-					x2="440"
-					y2="594.2"
-				/>
-				<line
-					className="st11"
-					x1="422.7"
-					y1="600.2"
-					x2="440"
-					y2="590.2"
-				/>
-				<line
-					className="st11"
-					x1="422.7"
-					y1="596.2"
-					x2="440"
-					y2="586.2"
-				/>
+				<circle className="st9" cx="286" cy="525.3" r="3.5" />
+				<circle className="st10" cx="295.4" cy="530.8" r="3.5" />
+				<line className="st11" x1="422.7" y1="612.2" x2="440" y2="602.2" />
+				<line className="st11" x1="422.7" y1="608.2" x2="440" y2="598.2" />
+				<line className="st11" x1="422.7" y1="604.2" x2="440" y2="594.2" />
+				<line className="st11" x1="422.7" y1="600.2" x2="440" y2="590.2" />
+				<line className="st11" x1="422.7" y1="596.2" x2="440" y2="586.2" />
 			</g>
 			<g>
 				<polygon
@@ -7022,173 +2798,45 @@ export default function VpnDatacenter({ outline = true, ...props }: Props) {
 				</g>
 				<g>
 					<g>
-						<line
-							className="st7"
-							x1="246.7"
-							y1="655.1"
-							x2="222.4"
-							y2="641"
-						/>
-						<circle
-							className="st8"
-							cx="217.4"
-							cy="638"
-							r="2"
-						/>
+						<line className="st7" x1="246.7" y1="655.1" x2="222.4" y2="641" />
+						<circle className="st8" cx="217.4" cy="638" r="2" />
 					</g>
 					<g>
-						<line
-							className="st7"
-							x1="246.7"
-							y1="646.1"
-							x2="222.4"
-							y2="632"
-						/>
-						<circle
-							className="st8"
-							cx="217.4"
-							cy="629"
-							r="2"
-						/>
+						<line className="st7" x1="246.7" y1="646.1" x2="222.4" y2="632" />
+						<circle className="st8" cx="217.4" cy="629" r="2" />
 					</g>
 					<g>
-						<line
-							className="st7"
-							x1="246.7"
-							y1="636.1"
-							x2="222.4"
-							y2="622"
-						/>
-						<circle
-							className="st8"
-							cx="217.4"
-							cy="619"
-							r="2"
-						/>
+						<line className="st7" x1="246.7" y1="636.1" x2="222.4" y2="622" />
+						<circle className="st8" cx="217.4" cy="619" r="2" />
 					</g>
 					<g>
-						<line
-							className="st7"
-							x1="208.7"
-							y1="633.1"
-							x2="184.4"
-							y2="619"
-						/>
-						<circle
-							className="st8"
-							cx="179.4"
-							cy="616"
-							r="2"
-						/>
+						<line className="st7" x1="208.7" y1="633.1" x2="184.4" y2="619" />
+						<circle className="st8" cx="179.4" cy="616" r="2" />
 					</g>
 					<g>
-						<line
-							className="st7"
-							x1="246.7"
-							y1="664.1"
-							x2="222.4"
-							y2="650"
-						/>
-						<circle
-							className="st8"
-							cx="217.4"
-							cy="647"
-							r="2"
-						/>
+						<line className="st7" x1="246.7" y1="664.1" x2="222.4" y2="650" />
+						<circle className="st8" cx="217.4" cy="647" r="2" />
 					</g>
 					<g>
-						<line
-							className="st7"
-							x1="208.7"
-							y1="642.1"
-							x2="184.4"
-							y2="628"
-						/>
-						<circle
-							className="st8"
-							cx="179.4"
-							cy="625"
-							r="2"
-						/>
+						<line className="st7" x1="208.7" y1="642.1" x2="184.4" y2="628" />
+						<circle className="st8" cx="179.4" cy="625" r="2" />
 					</g>
 					<g>
-						<line
-							className="st7"
-							x1="208.7"
-							y1="624.1"
-							x2="184.4"
-							y2="610"
-						/>
-						<circle
-							className="st8"
-							cx="179.4"
-							cy="607"
-							r="2"
-						/>
+						<line className="st7" x1="208.7" y1="624.1" x2="184.4" y2="610" />
+						<circle className="st8" cx="179.4" cy="607" r="2" />
 					</g>
 					<g>
-						<line
-							className="st7"
-							x1="208.7"
-							y1="614.1"
-							x2="184.4"
-							y2="600"
-						/>
-						<circle
-							className="st8"
-							cx="179.4"
-							cy="597"
-							r="2"
-						/>
+						<line className="st7" x1="208.7" y1="614.1" x2="184.4" y2="600" />
+						<circle className="st8" cx="179.4" cy="597" r="2" />
 					</g>
 				</g>
-				<circle
-					className="st9"
-					cx="182"
-					cy="586.8"
-					r="3.5"
-				/>
-				<circle
-					className="st10"
-					cx="191.4"
-					cy="592.3"
-					r="3.5"
-				/>
-				<line
-					className="st11"
-					x1="318.7"
-					y1="673.7"
-					x2="336"
-					y2="663.7"
-				/>
-				<line
-					className="st11"
-					x1="318.7"
-					y1="669.7"
-					x2="336"
-					y2="659.7"
-				/>
-				<line
-					className="st11"
-					x1="318.7"
-					y1="665.7"
-					x2="336"
-					y2="655.7"
-				/>
-				<line
-					className="st11"
-					x1="318.7"
-					y1="661.7"
-					x2="336"
-					y2="651.7"
-				/>
-				<line
-					className="st11"
-					x1="318.7"
-					y1="657.7"
-					x2="336"
-					y2="647.7"
-				/>
+				<circle className="st9" cx="182" cy="586.8" r="3.5" />
+				<circle className="st10" cx="191.4" cy="592.3" r="3.5" />
+				<line className="st11" x1="318.7" y1="673.7" x2="336" y2="663.7" />
+				<line className="st11" x1="318.7" y1="669.7" x2="336" y2="659.7" />
+				<line className="st11" x1="318.7" y1="665.7" x2="336" y2="655.7" />
+				<line className="st11" x1="318.7" y1="661.7" x2="336" y2="651.7" />
+				<line className="st11" x1="318.7" y1="657.7" x2="336" y2="647.7" />
 			</g>
 			<g>
 				<polygon
@@ -7231,173 +2879,45 @@ export default function VpnDatacenter({ outline = true, ...props }: Props) {
 				</g>
 				<g>
 					<g>
-						<line
-							className="st7"
-							x1="454.7"
-							y1="653.8"
-							x2="430.4"
-							y2="639.8"
-						/>
-						<circle
-							className="st8"
-							cx="425.4"
-							cy="636.8"
-							r="2"
-						/>
+						<line className="st7" x1="454.7" y1="653.8" x2="430.4" y2="639.8" />
+						<circle className="st8" cx="425.4" cy="636.8" r="2" />
 					</g>
 					<g>
-						<line
-							className="st7"
-							x1="454.7"
-							y1="644.8"
-							x2="430.4"
-							y2="630.8"
-						/>
-						<circle
-							className="st8"
-							cx="425.4"
-							cy="627.8"
-							r="2"
-						/>
+						<line className="st7" x1="454.7" y1="644.8" x2="430.4" y2="630.8" />
+						<circle className="st8" cx="425.4" cy="627.8" r="2" />
 					</g>
 					<g>
-						<line
-							className="st7"
-							x1="454.7"
-							y1="634.8"
-							x2="430.4"
-							y2="620.8"
-						/>
-						<circle
-							className="st8"
-							cx="425.4"
-							cy="617.8"
-							r="2"
-						/>
+						<line className="st7" x1="454.7" y1="634.8" x2="430.4" y2="620.8" />
+						<circle className="st8" cx="425.4" cy="617.8" r="2" />
 					</g>
 					<g>
-						<line
-							className="st7"
-							x1="416.7"
-							y1="631.8"
-							x2="392.4"
-							y2="617.8"
-						/>
-						<circle
-							className="st8"
-							cx="387.4"
-							cy="614.8"
-							r="2"
-						/>
+						<line className="st7" x1="416.7" y1="631.8" x2="392.4" y2="617.8" />
+						<circle className="st8" cx="387.4" cy="614.8" r="2" />
 					</g>
 					<g>
-						<line
-							className="st7"
-							x1="454.7"
-							y1="662.8"
-							x2="430.4"
-							y2="648.8"
-						/>
-						<circle
-							className="st8"
-							cx="425.4"
-							cy="645.8"
-							r="2"
-						/>
+						<line className="st7" x1="454.7" y1="662.8" x2="430.4" y2="648.8" />
+						<circle className="st8" cx="425.4" cy="645.8" r="2" />
 					</g>
 					<g>
-						<line
-							className="st7"
-							x1="416.7"
-							y1="640.8"
-							x2="392.4"
-							y2="626.8"
-						/>
-						<circle
-							className="st8"
-							cx="387.4"
-							cy="623.8"
-							r="2"
-						/>
+						<line className="st7" x1="416.7" y1="640.8" x2="392.4" y2="626.8" />
+						<circle className="st8" cx="387.4" cy="623.8" r="2" />
 					</g>
 					<g>
-						<line
-							className="st7"
-							x1="416.7"
-							y1="622.8"
-							x2="392.4"
-							y2="608.8"
-						/>
-						<circle
-							className="st8"
-							cx="387.4"
-							cy="605.8"
-							r="2"
-						/>
+						<line className="st7" x1="416.7" y1="622.8" x2="392.4" y2="608.8" />
+						<circle className="st8" cx="387.4" cy="605.8" r="2" />
 					</g>
 					<g>
-						<line
-							className="st7"
-							x1="416.7"
-							y1="612.8"
-							x2="392.4"
-							y2="598.8"
-						/>
-						<circle
-							className="st8"
-							cx="387.4"
-							cy="595.8"
-							r="2"
-						/>
+						<line className="st7" x1="416.7" y1="612.8" x2="392.4" y2="598.8" />
+						<circle className="st8" cx="387.4" cy="595.8" r="2" />
 					</g>
 				</g>
-				<circle
-					className="st9"
-					cx="390"
-					cy="585.5"
-					r="3.5"
-				/>
-				<circle
-					className="st10"
-					cx="399.4"
-					cy="591.1"
-					r="3.5"
-				/>
-				<line
-					className="st11"
-					x1="526.7"
-					y1="672.5"
-					x2="544"
-					y2="662.5"
-				/>
-				<line
-					className="st11"
-					x1="526.7"
-					y1="668.5"
-					x2="544"
-					y2="658.5"
-				/>
-				<line
-					className="st11"
-					x1="526.7"
-					y1="664.5"
-					x2="544"
-					y2="654.5"
-				/>
-				<line
-					className="st11"
-					x1="526.7"
-					y1="660.5"
-					x2="544"
-					y2="650.5"
-				/>
-				<line
-					className="st11"
-					x1="526.7"
-					y1="656.5"
-					x2="544"
-					y2="646.5"
-				/>
+				<circle className="st9" cx="390" cy="585.5" r="3.5" />
+				<circle className="st10" cx="399.4" cy="591.1" r="3.5" />
+				<line className="st11" x1="526.7" y1="672.5" x2="544" y2="662.5" />
+				<line className="st11" x1="526.7" y1="668.5" x2="544" y2="658.5" />
+				<line className="st11" x1="526.7" y1="664.5" x2="544" y2="654.5" />
+				<line className="st11" x1="526.7" y1="660.5" x2="544" y2="650.5" />
+				<line className="st11" x1="526.7" y1="656.5" x2="544" y2="646.5" />
 			</g>
 		</g>
 		<g>
@@ -7441,173 +2961,45 @@ export default function VpnDatacenter({ outline = true, ...props }: Props) {
 			</g>
 			<g>
 				<g>
-					<line
-						className="st7"
-						x1="350.7"
-						y1="715.4"
-						x2="326.4"
-						y2="701.3"
-					/>
-					<circle
-						className="st8"
-						cx="321.4"
-						cy="698.3"
-						r="2"
-					/>
+					<line className="st7" x1="350.7" y1="715.4" x2="326.4" y2="701.3" />
+					<circle className="st8" cx="321.4" cy="698.3" r="2" />
 				</g>
 				<g>
-					<line
-						className="st7"
-						x1="350.7"
-						y1="706.4"
-						x2="326.4"
-						y2="692.3"
-					/>
-					<circle
-						className="st8"
-						cx="321.4"
-						cy="689.3"
-						r="2"
-					/>
+					<line className="st7" x1="350.7" y1="706.4" x2="326.4" y2="692.3" />
+					<circle className="st8" cx="321.4" cy="689.3" r="2" />
 				</g>
 				<g>
-					<line
-						className="st7"
-						x1="350.7"
-						y1="696.4"
-						x2="326.4"
-						y2="682.3"
-					/>
-					<circle
-						className="st8"
-						cx="321.4"
-						cy="679.3"
-						r="2"
-					/>
+					<line className="st7" x1="350.7" y1="696.4" x2="326.4" y2="682.3" />
+					<circle className="st8" cx="321.4" cy="679.3" r="2" />
 				</g>
 				<g>
-					<line
-						className="st7"
-						x1="312.7"
-						y1="693.4"
-						x2="288.4"
-						y2="679.3"
-					/>
-					<circle
-						className="st8"
-						cx="283.4"
-						cy="676.3"
-						r="2"
-					/>
+					<line className="st7" x1="312.7" y1="693.4" x2="288.4" y2="679.3" />
+					<circle className="st8" cx="283.4" cy="676.3" r="2" />
 				</g>
 				<g>
-					<line
-						className="st7"
-						x1="350.7"
-						y1="724.4"
-						x2="326.4"
-						y2="710.3"
-					/>
-					<circle
-						className="st8"
-						cx="321.4"
-						cy="707.3"
-						r="2"
-					/>
+					<line className="st7" x1="350.7" y1="724.4" x2="326.4" y2="710.3" />
+					<circle className="st8" cx="321.4" cy="707.3" r="2" />
 				</g>
 				<g>
-					<line
-						className="st7"
-						x1="312.7"
-						y1="702.4"
-						x2="288.4"
-						y2="688.3"
-					/>
-					<circle
-						className="st8"
-						cx="283.4"
-						cy="685.3"
-						r="2"
-					/>
+					<line className="st7" x1="312.7" y1="702.4" x2="288.4" y2="688.3" />
+					<circle className="st8" cx="283.4" cy="685.3" r="2" />
 				</g>
 				<g>
-					<line
-						className="st7"
-						x1="312.7"
-						y1="684.4"
-						x2="288.4"
-						y2="670.3"
-					/>
-					<circle
-						className="st8"
-						cx="283.4"
-						cy="667.3"
-						r="2"
-					/>
+					<line className="st7" x1="312.7" y1="684.4" x2="288.4" y2="670.3" />
+					<circle className="st8" cx="283.4" cy="667.3" r="2" />
 				</g>
 				<g>
-					<line
-						className="st7"
-						x1="312.7"
-						y1="674.4"
-						x2="288.4"
-						y2="660.3"
-					/>
-					<circle
-						className="st8"
-						cx="283.4"
-						cy="657.3"
-						r="2"
-					/>
+					<line className="st7" x1="312.7" y1="674.4" x2="288.4" y2="660.3" />
+					<circle className="st8" cx="283.4" cy="657.3" r="2" />
 				</g>
 			</g>
-			<circle
-				className="st9"
-				cx="286"
-				cy="647.1"
-				r="3.5"
-			/>
-			<circle
-				className="st10"
-				cx="295.4"
-				cy="652.6"
-				r="3.5"
-			/>
-			<line
-				className="st11"
-				x1="422.7"
-				y1="734"
-				x2="440"
-				y2="724"
-			/>
-			<line
-				className="st11"
-				x1="422.7"
-				y1="730"
-				x2="440"
-				y2="720"
-			/>
-			<line
-				className="st11"
-				x1="422.7"
-				y1="726"
-				x2="440"
-				y2="716"
-			/>
-			<line
-				className="st11"
-				x1="422.7"
-				y1="722"
-				x2="440"
-				y2="712"
-			/>
-			<line
-				className="st11"
-				x1="422.7"
-				y1="718"
-				x2="440"
-				y2="708"
-			/>
+			<circle className="st9" cx="286" cy="647.1" r="3.5" />
+			<circle className="st10" cx="295.4" cy="652.6" r="3.5" />
+			<line className="st11" x1="422.7" y1="734" x2="440" y2="724" />
+			<line className="st11" x1="422.7" y1="730" x2="440" y2="720" />
+			<line className="st11" x1="422.7" y1="726" x2="440" y2="716" />
+			<line className="st11" x1="422.7" y1="722" x2="440" y2="712" />
+			<line className="st11" x1="422.7" y1="718" x2="440" y2="708" />
 		</g>
 		{outline && (<g className="outline-anim">
 			<polygon
@@ -7698,5 +3090,5 @@ export default function VpnDatacenter({ outline = true, ...props }: Props) {
 				style={{display:"inline",fill:"#ffffff",fillOpacity:0.41428572}}
 			/>
 		</g>)}
-   </svg>
+	</svg>
 }
