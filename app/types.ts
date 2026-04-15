@@ -53,6 +53,7 @@ export interface FeatureBlockItem {
 export interface FeatureBlockLogoItem {
 	image: SvgData | string
 	imageAlt: string
+	imageColor?: string
 	link: string
 }
 
