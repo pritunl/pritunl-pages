@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="154.26015mm"
+   height="21.350105mm"
+   viewBox="0 0 154.26015 21.350105"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.4.3 (0d15f75042, 2025-12-25)"
+   sodipodi:docname="pritunl_logo.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#000000"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="false"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="true"
+     inkscape:deskcolor="#313131"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="4.6413109"
+     inkscape:cx="296.68342"
+     inkscape:cy="40.936711"
+     inkscape:window-width="3840"
+     inkscape:window-height="2085"
+     inkscape:window-x="0"
+     inkscape:window-y="43"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg1"
+     showborder="false">
+    <inkscape:grid
+       id="grid9"
+       units="mm"
+       originx="-32.244988"
+       originy="-78.252115"
+       spacingx="0.99999998"
+       spacingy="1"
+       empcolor="#0099e5"
+       empopacity="0.30196078"
+       color="#0099e5"
+       opacity="0.14901961"
+       empspacing="5"
+       enabled="true"
+       visible="false" />
+  </sodipodi:namedview>
+  <defs
+     id="defs1" />
+  <text
+     xml:space="preserve"
+     style="font-size:20.4611px;writing-mode:lr-tb;direction:ltr;display:inline;fill:#ffffff;stroke-width:0.264583"
+     x="74.073082"
+     y="16.381138"
+     id="dev"
+     inkscape:label="dev"><tspan
+       sodipodi:role="line"
+       id="tspan18"
+       style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:20.4611px;font-family:Fredoka;-inkscape-font-specification:'Fredoka Light';stroke-width:0.264583"
+       x="0"
+       y="0">dev</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-size:20.4611px;writing-mode:lr-tb;direction:ltr;display:inline;fill:#ffffff;stroke-width:0.264583"
+     x="74.073082"
+     y="16.381138"
+     id="tools"
+     inkscape:label="tools"><tspan
+       sodipodi:role="line"
+       id="tspan17"
+       style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:20.4611px;font-family:Fredoka;-inkscape-font-specification:'Fredoka Light';stroke-width:0.264583"
+       x="0"
+       y="0">tools</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-size:20.4611px;writing-mode:lr-tb;direction:ltr;display:inline;fill:#ffffff;stroke-width:0.264583"
+     x="74.073082"
+     y="16.381138"
+     id="boot"
+     inkscape:label="boot"><tspan
+       sodipodi:role="line"
+       id="tspan14"
+       style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:20.4611px;font-family:Fredoka;-inkscape-font-specification:'Fredoka Light';stroke-width:0.264583"
+       x="74.073082"
+       y="16.381138">boot</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-size:20.4611px;writing-mode:lr-tb;direction:ltr;display:inline;fill:#ffffff;stroke-width:0.264583"
+     x="74.073082"
+     y="16.381138"
+     id="endpoint"
+     inkscape:label="endpoint"><tspan
+       sodipodi:role="line"
+       id="tspan16"
+       style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:20.4611px;font-family:Fredoka;-inkscape-font-specification:'Fredoka Light';stroke-width:0.264583"
+       x="74.073082"
+       y="16.381138">endpoint</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-size:20.4611px;writing-mode:lr-tb;direction:ltr;display:inline;fill:#ffffff;stroke-width:0.264583"
+     x="74.073082"
+     y="16.381138"
+     id="link"
+     inkscape:label="link"><tspan
+       sodipodi:role="line"
+       id="tspan15"
+       style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:20.4611px;font-family:Fredoka;-inkscape-font-specification:'Fredoka Light';stroke-width:0.264583"
+       x="74.073082"
+       y="16.381138">link</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-size:20.4611px;writing-mode:lr-tb;direction:ltr;display:inline;fill:#ffffff;stroke-width:0.264583"
+     x="74.073082"
+     y="16.381138"
+     id="client"
+     inkscape:label="client"><tspan
+       sodipodi:role="line"
+       id="tspan12"
+       style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:20.4611px;font-family:Fredoka;-inkscape-font-specification:'Fredoka Light';stroke-width:0.264583"
+       x="74.073082"
+       y="16.381138">client</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-size:20.4611px;writing-mode:lr-tb;direction:ltr;display:inline;fill:#ffffff;stroke-width:0.264583"
+     x="74.073082"
+     y="16.381138"
+     id="cloud"
+     inkscape:label="cloud"><tspan
+       sodipodi:role="line"
+       id="tspan11"
+       style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:20.4611px;font-family:Fredoka;-inkscape-font-specification:'Fredoka Light';stroke-width:0.264583"
+       x="0"
+       y="0">cloud</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-size:20.4611px;writing-mode:lr-tb;direction:ltr;display:inline;fill:#ffffff;stroke-width:0.264583"
+     x="74.073082"
+     y="16.381138"
+     id="zero"
+     inkscape:label="zero"><tspan
+       sodipodi:role="line"
+       id="tspan9"
+       style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:20.4611px;font-family:Fredoka;-inkscape-font-specification:'Fredoka Light';stroke-width:0.264583"
+       x="0"
+       y="0">zero</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-size:20.4611px;writing-mode:lr-tb;direction:ltr;display:inline;fill:#ffffff;stroke-width:0.264583"
+     x="74.073082"
+     y="16.381138"
+     id="vpn"
+     inkscape:label="vpn"><tspan
+       sodipodi:role="line"
+       id="tspan13"
+       style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:20.4611px;font-family:Fredoka;-inkscape-font-specification:'Fredoka Light';stroke-width:0.264583"
+       x="0"
+       y="0">vpn</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:23.9889px;font-family:Fredoka;-inkscape-font-specification:'Fredoka Light';letter-spacing:0px;writing-mode:lr-tb;direction:ltr;fill:#ffffff;stroke-width:0.264583"
+     x="66.201393"
+     y="16.480381"
+     id="divider"
+     inkscape:label="divider"><tspan
+       sodipodi:role="line"
+       id="tspan4"
+       style="font-size:23.9889px;stroke-width:0.264583"
+       x="66.201393"
+       y="16.480381">|</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-size:20.4611px;writing-mode:lr-tb;direction:ltr;fill:#ffffff;stroke-width:0.264583"
+     x="-0.53196955"
+     y="16.74612"
+     id="pritunl"
+     inkscape:label="pritunl"><tspan
+       sodipodi:role="line"
+       id="tspan1"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:20.4611px;font-family:Fredoka;-inkscape-font-specification:'Fredoka Bold';stroke-width:0.264583"
+       x="-0.53196955"
+       y="16.74612">pritunl<tspan
+   style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-family:Fredoka;-inkscape-font-specification:'Fredoka Light'"
+   id="tspan10" /></tspan></text>
+</svg>
