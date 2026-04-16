@@ -71,7 +71,7 @@ export default function FeaturesGrid({ featuresGrid }: Props) {
 											image={item.image}
 											alt={item.title}
 											fill
-											className="object-cover object-left"
+											className={`object-cover object-left${item.imageColor ? " " + item.imageColor : ""}`}
 										/>
 									</div>
 									<div className="p-6 pt-4">
