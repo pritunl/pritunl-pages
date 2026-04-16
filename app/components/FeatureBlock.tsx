@@ -46,7 +46,7 @@ export default function FeatureBlock({ block, first, last }: Props) {
 					height={1442}
 					image={block.image!}
 					alt={block.imageAlt || ""}
-					className="w-full rounded-md shadow-xl"
+					className={`w-full rounded-md shadow-xl${block.imageColor ? " " + block.imageColor : ""}`}
 				/>
 			</div>
 		</div>
@@ -118,7 +118,7 @@ export default function FeatureBlock({ block, first, last }: Props) {
 											height={48}
 											image={item.image}
 											alt={item.imageAlt}
-											className="max-h-12 max-w-full object-contain"
+											className={`max-h-12 max-w-full object-contain${item.imageColor ? " " + item.imageColor : ""}`}
 										/>
 									</div>
 								</Link>
@@ -151,7 +151,7 @@ export default function FeatureBlock({ block, first, last }: Props) {
 								height={1442}
 								image={block.image!}
 								alt={block.imageAlt || ""}
-								className="w-full rounded-md shadow-xl"
+								className={`w-full rounded-md shadow-xl${block.imageColor ? " " + block.imageColor : ""}`}
 							/>
 						</div>
 					</div>
@@ -199,7 +199,7 @@ export default function FeatureBlock({ block, first, last }: Props) {
 								height={1442}
 								image={block.image!}
 								alt={block.imageAlt || ""}
-								className="w-full rounded-md shadow-xl"
+								className={`w-full rounded-md shadow-xl${block.imageColor ? " " + block.imageColor : ""}`}
 							/>
 						</div>
 					</div>
