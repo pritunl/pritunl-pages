@@ -8,12 +8,15 @@ import GitBook from "../icons/GitBook"
 import Substack from "../icons/Substack"
 import Home from "../components/Home"
 import Pritunl from "../logos/Pritunl"
+import PritunlClient from "../logos/PritunlClient"
 
 const definition: ProductDefinition = {
 	config: {
 		name: "Pritunl Client",
 		title: "Pritunl Client - Open Source OpenVPN and WireGuard Client",
 		description: "Free and open source cross platform OpenVPN and WireGuard client.",
+		logo: PritunlClient,
+		logoAlt: "Pritunl Client",
 		codeBackground: true,
 		googleTag: "G-MDB6RT6KPS",
 
