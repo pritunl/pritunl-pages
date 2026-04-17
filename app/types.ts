@@ -24,6 +24,7 @@ export interface HeroButton {
 export interface HeroImage {
 	image: string | SvgData
 	alt: string
+	imageColor?: string
 	rounded?: string
 	ring?: boolean
 	quality?: number
@@ -32,6 +33,7 @@ export interface HeroImage {
 
 export interface FeaturesGridItem {
 	image: string | SvgData
+	imageColor?: string
 	title: string
 	description: string
 }
@@ -111,6 +113,7 @@ export interface FeatureBlock {
 	description: string
 	image?: string | SvgData
 	imageAlt?: string
+	imageColor?: string
 	items?: FeatureBlockItem[]
 	logoItems?: FeatureBlockLogoItem[]
 }
