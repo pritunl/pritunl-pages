@@ -14,6 +14,8 @@ const definition: ProductDefinition = {
 		name: "Pritunl",
 		title: "Pritunl - Enterprise VPN Server",
 		description: "Free and open source enterprise VPN server with distributed architecture and scalability.",
+		logo: Pritunl,
+		logoAlt: "Pritunl",
 
 		navigation: [
 			{ name: "Pricing", href: "#pricing" },
