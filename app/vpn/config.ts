@@ -6,6 +6,14 @@ import {
 import Discourse from "../icons/Discourse"
 import GitBook from "../icons/GitBook"
 import Substack from "../icons/Substack"
+import Auth0 from "../logos/Auth0"
+import Duo from "../logos/Duo"
+import GoogleWorkspace from "../logos/GoogleWorkspace"
+import JumpCloud from "../logos/JumpCloud"
+import MicrosoftEntra from "../logos/MicrosoftEntra"
+import Okta from "../logos/Okta"
+import OneLogin from "../logos/OneLogin"
+import Yubico from "../logos/Yubico"
 import Home from "../components/Home"
 import Pritunl from "../logos/Pritunl"
 import PritunlCloud from "../logos/PritunlCloud"
@@ -103,6 +111,61 @@ const definition: ProductDefinition = {
 						imageAlt: "Hetzner",
 						imageColor: "text-[#d50c2d]",
 						link: "https://www.hetzner.com",
+					},
+				],
+			},
+			{
+				type: "logos",
+				title: "Single Sign-On Providers",
+				description: "Supported single sign-on and secondary authentication providers.",
+				logoItems: [
+					{
+						image: GoogleWorkspace,
+						imageAlt: "Google Workspace",
+						imageColor: "text-white",
+						link: "https://workspace.google.com",
+					},
+					{
+						image: Okta,
+						imageAlt: "Okta",
+						imageColor: "text-white",
+						link: "https://okta.com",
+					},
+					{
+						image: OneLogin,
+						imageAlt: "OneLogin",
+						imageColor: "text-white",
+						link: "https://onelogin.com",
+					},
+					{
+						image: MicrosoftEntra,
+						imageAlt: "Microsoft Entra",
+						imageColor: "text-white",
+						link: "https://www.microsoft.com/en-us/security/business/microsoft-entra",
+					},
+					{
+						image: Auth0,
+						imageAlt: "Auth0",
+						imageColor: "text-white",
+						link: "https://auth0.com",
+					},
+					{
+						image: JumpCloud,
+						imageAlt: "JumpCloud",
+						imageColor: "text-white",
+						link: "https://jumpcloud.com",
+					},
+					{
+						image: Duo,
+						imageAlt: "Duo",
+						imageColor: "text-white",
+						link: "https://duo.com",
+					},
+					{
+						image: Yubico,
+						imageAlt: "Yubico",
+						imageColor: "text-white",
+						link: "https://yubico.com",
 					},
 				],
 			},
