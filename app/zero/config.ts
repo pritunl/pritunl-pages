@@ -12,12 +12,15 @@ import {
 } from "lucide-react"
 
 import Home from "../components/Home"
+import PritunlZero from "../logos/PritunlZero"
 
 const definition: ProductDefinition = {
 	config: {
 		name: "Pritunl Zero",
 		title: "Pritunl Zero - Enterprise Zero Trust",
 		description: "Free and open source zero trust server providing BeyondCorp security for authenticated access to web applications and SSH",
+		logo: PritunlZero,
+		logoAlt: "Pritunl Zero",
 
 		navigation: [
 			{ name: "Pricing", href: "#pricing" },
