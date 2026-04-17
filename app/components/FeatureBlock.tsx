@@ -199,7 +199,7 @@ export default function FeatureBlock({ block, first, last }: Props) {
 								height={1442}
 								image={block.image!}
 								alt={block.imageAlt || ""}
-								className={`w-full rounded-md shadow-xl${block.imageColor ? " " + block.imageColor : ""}`}
+								className={`w-full rounded-md ${block.imageColor ? " " + block.imageColor : ""}`}
 							/>
 						</div>
 					</div>
