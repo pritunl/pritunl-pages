@@ -39,12 +39,15 @@ import OneLogin from "../logos/OneLogin"
 import Yubico from "../logos/Yubico"
 import Home from "../components/Home"
 import Pritunl from "../logos/Pritunl"
+import PritunlCloud from "../logos/PritunlCloud"
 
 const definition: ProductDefinition = {
 	config: {
 		name: "Pritunl Cloud",
 		title: "Pritunl Cloud - Self Hosted Declarative Virtualization Platform",
 		description: "Self hosted cloud with shell and python declarative deployments. KVM based alternative to Kubernetes using live templates.",
+		logo: PritunlCloud,
+		logoAlt: "Pritunl Cloud",
 
 		navigation: [
 			{ name: "Pricing", href: "#pricing" },
