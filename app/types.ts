@@ -53,7 +53,7 @@ export interface FeatureBlockItem {
 }
 
 export interface FeatureBlockLogoItem {
-	image: SvgData | string
+	image: string | SvgData
 	imageAlt: string
 	imageColor?: string
 	link: string
@@ -93,7 +93,7 @@ export interface Support {
 }
 
 export interface Footer {
-	icon: SvgData | string
+	icon: string | SvgData
 	address1: string
 	address2: string
 	phone: string
