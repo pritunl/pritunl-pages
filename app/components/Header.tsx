@@ -1,6 +1,6 @@
 import Link from "next/link"
 import HeaderMenu from "./HeaderMenu"
-import Pritunl from "../logos/Pritunl"
+import Image from "./Image"
 import type { ProductConfig } from "../types"
 
 export default function Header({ config }: { config: ProductConfig }) {
@@ -10,7 +10,7 @@ export default function Header({ config }: { config: ProductConfig }) {
 				<div className="flex lg:flex-1">
 					<Link href="/" className="-m-1.5 p-1.5">
 						<span className="sr-only">{config.name}</span>
-						<Pritunl aria-label="Pritunl Logo" className="h-10 w-auto text-white" />
+						<Image image={config.logo} alt={config.logoAlt} className="h-10 w-auto text-white" />
 					</Link>
 				</div>
 				<HeaderMenu name={config.name} navigation={config.navigation} />
