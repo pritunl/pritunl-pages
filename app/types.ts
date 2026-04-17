@@ -136,6 +136,8 @@ export interface Installer {
 export interface ProductConfig {
 	name: string
 	title: string
+	logo: string | SvgData
+	logoAlt: string
 	description: string
 	codeBackground?: boolean
 	googleTag?: string
