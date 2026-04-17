@@ -8,6 +8,12 @@ import GitBook from "../icons/GitBook"
 import Substack from "../icons/Substack"
 import Home from "../components/Home"
 import Pritunl from "../logos/Pritunl"
+import PritunlCloud from "../logos/PritunlCloud"
+import AmazonAws from "../logos/AmazonAws"
+import GoogleCloud from "../logos/GoogleCloud"
+import MicrosoftAzure from "../logos/MicrosoftAzure"
+import Hetzner from "../logos/Hetzner"
+import Oracle from "../logos/Oracle"
 
 const definition: ProductDefinition = {
 	config: {
@@ -57,6 +63,48 @@ const definition: ProductDefinition = {
 				description: "Create a cloud vpn with complex site-to-site links, gateway links and provide local network access to remote users. Protect your network traffic and remote users connecting over public connections with secure encryption. All from a simple web interface.",
 				image: "vpn_datacenter",
 				imageAlt: "Protected Datacenter",
+			},
+			{
+				type: "logos",
+				title: "Multi-Cloud VPC Peering",
+				description: "Create multi-cloud site-to-site links with VPC peering. VPC peering available for AWS, Google Cloud, Azure, Oracle Cloud, Pritunl Cloud and Hetzner.",
+				logoItems: [
+					{
+						image: AmazonAws,
+						imageAlt: "Amazon AWS",
+						imageColor: "text-white",
+						link: "https://docs.pritunl.com/kb/vpn/link/aws",
+					},
+					{
+						image: GoogleCloud,
+						imageAlt: "Google Cloud",
+						imageColor: "text-white",
+						link: "https://docs.pritunl.com/kb/vpn/link/google-cloud",
+					},
+					{
+						image: MicrosoftAzure,
+						imageAlt: "Microsoft Azure",
+						link: "https://docs.pritunl.com/kb/vpn/link/azure-link",
+					},
+					{
+						image: Oracle,
+						imageAlt: "Oracle Cloud",
+						imageColor: "text-[#f80102]",
+						link: "https://docs.pritunl.com/kb/vpn/link/oracle-cloud",
+					},
+					{
+						image: PritunlCloud,
+						imageAlt: "Pritunl Cloud",
+						imageColor: "text-white",
+						link: "https://cloud.pritunl.com",
+					},
+					{
+						image: Hetzner,
+						imageAlt: "Hetzner",
+						imageColor: "text-[#d50c2d]",
+						link: "https://www.hetzner.com",
+					},
+				],
 			},
 		],
 
