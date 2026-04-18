@@ -10,7 +10,7 @@ export default function Header({ config }: { config: ProductConfig }) {
 				<div className="flex lg:flex-1">
 					<Link href="/" className="-m-1.5 p-1.5">
 						<span className="sr-only">{config.name}</span>
-						<Image image={config.logo} alt={config.logoAlt} className="h-12 w-auto text-white" />
+						<Image image={config.logo} alt={config.logoAlt} className="h-11 xl:h-12 w-auto text-white" />
 					</Link>
 				</div>
 				<HeaderMenu name={config.name} navigation={config.navigation} />
