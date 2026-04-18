@@ -145,6 +145,57 @@ export default function FeatureBlock({ block, first, last }: Props) {
 		)
 	}
 
+	if (block.type === "two_columns") {
+		const roundedClasses = [
+			"max-lg:rounded-t-4xl lg:rounded-tl-4xl",
+			"lg:rounded-tr-4xl",
+			"lg:rounded-bl-4xl",
+			"max-lg:rounded-b-4xl lg:rounded-br-4xl",
+		]
+		const colClasses = [
+			"lg:col-span-4",
+			"lg:col-span-2",
+			"lg:col-span-2",
+			"lg:col-span-4",
+		]
+		return (
+			<div className={`overflow-hidden${first && last ? "" : first ? " pb-12" : last ? " pt-12" : " py-12"}`}>
+				<div className="mx-auto max-w-2xl px-6 lg:max-w-7xl lg:px-8">
+					<h2 className="mt-2 text-4xl font-medium tracking-tight text-pretty text-white sm:text-5xl">
+						{block.title}
+					</h2>
+					<p className="mt-6 max-w-lg text-lg/8 text-gray-400">
+						{block.description}
+					</p>
+					{block.cardItems && block.cardItems.length > 0 && (
+						<div className="mt-10 grid grid-cols-1 gap-4 sm:mt-16 lg:grid-cols-6 lg:grid-rows-2">
+							{block.cardItems.map((item, i) => (
+								<div key={i} className={`flex p-px ${colClasses[i % 4]}`}>
+									<div className={`w-full overflow-hidden rounded-lg bg-gray-950/30 outline outline-white/15 ${roundedClasses[i % 4]}`}>
+										{item.image && (
+											<Image
+												width={2432}
+												height={1442}
+												image={item.image}
+												alt={item.imageAlt || ""}
+												className={`h-80 object-cover object-left${item.imageColor ? " " + item.imageColor : ""}`}
+											/>
+										)}
+										<div className="p-10">
+											{item.subtitle && <h3 className="text-sm/4 font-semibold text-gray-400">{item.subtitle}</h3>}
+											<p className={`${item.subtitle ? "mt-2 " : ""}text-2xl font-medium tracking-tight text-white`}>{item.title}</p>
+											<p className="mt-2 max-w-lg text-lg/8 text-gray-400">{item.description}</p>
+										</div>
+									</div>
+								</div>
+							))}
+						</div>
+					)}
+				</div>
+			</div>
+		)
+	}
+
 	if (block.type === "center") {
 		return (
 			<div className={`overflow-hidden${first && last ? "" : first ? " pb-12" : last ? " pt-12" : " py-12"}`}>
