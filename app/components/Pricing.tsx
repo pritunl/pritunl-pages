@@ -70,8 +70,7 @@ export default function Pricing({ pricing }: Props) {
 						{plan.href && (
 							<a
 								href={plan.href}
-								target="_blank"
-								rel="noopener noreferrer"
+								{...(plan.external ? { target: "_blank", rel: "noopener noreferrer" } : {})}
 								className={[
 									plan.featured
 										? "bg-indigo-500 text-white hover:bg-indigo-400 focus-visible:outline-indigo-500"
