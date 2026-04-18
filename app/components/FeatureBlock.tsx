@@ -116,8 +116,8 @@ export default function FeatureBlock({ block, first, last }: Props) {
 					</div>
 					{block.logoItems && block.logoItems.length > 0 && (
 						<div className={`mt-16 -mx-6 grid grid-cols-2 gap-0.5 overflow-hidden sm:mx-0 sm:rounded-2xl ${block.logoItems.length === 6 ? "md:grid-cols-3" : "md:grid-cols-4"}`}>
-							{block.logoItems.map((item, i) => (
-								<Link key={i} href={item.link} className="bg-white/5 p-8 sm:p-10">
+							{block.logoItems.map((item, i) => {
+								const content = (
 									<div className="flex h-12 w-full items-center justify-center">
 										<Image
 											width={500}
@@ -127,8 +127,17 @@ export default function FeatureBlock({ block, first, last }: Props) {
 											className={`max-h-12 max-w-full object-contain${item.imageColor ? " " + item.imageColor : ""}`}
 										/>
 									</div>
-								</Link>
-							))}
+								)
+								return item.external ? (
+									<a key={i} href={item.link} target="_blank" rel="noopener noreferrer" className="bg-white/5 p-8 sm:p-10">
+										{content}
+									</a>
+								) : (
+									<Link key={i} href={item.link} className="bg-white/5 p-8 sm:p-10">
+										{content}
+									</Link>
+								)
+							})}
 						</div>
 					)}
 				</div>
