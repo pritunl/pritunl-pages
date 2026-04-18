@@ -14,18 +14,21 @@ export default function Header({ config }: { config: ProductConfig }) {
 					</Link>
 				</div>
 				<HeaderMenu name={config.name} navigation={config.navigation} />
-				<div className="hidden lg:flex lg:gap-x-12">
-					{config.navigation.map((item) =>
-						item.external ? (
-							<a key={item.name} href={item.href} target="_blank" className="text-sm/6 font-medium text-white">
-								{item.name}
-							</a>
-						) : (
-							<Link key={item.name} href={item.href} className="text-sm/6 font-medium text-white">
-								{item.name}
-							</Link>
-						)
-					)}
+				<div className="hidden lg:flex items-center gap-x-2 xl:gap-x-4">
+					{config.navigation.map((item, index) => (
+						<>
+							{index > 0 && <span className="text-white/50">|</span>}
+							{item.external ? (
+								<a key={item.name} href={item.href} target="_blank" className="text-sm/6 font-medium text-white">
+									{item.name}
+								</a>
+							) : (
+								<Link key={item.name} href={item.href} className="text-sm/6 font-medium text-white">
+									{item.name}
+								</Link>
+							)}
+						</>
+					))}
 				</div>
 				<div className="hidden lg:flex lg:flex-1"></div>
 			</nav>
