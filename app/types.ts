@@ -50,6 +50,7 @@ export interface FeatureBlockItem {
 	description: string
 	link?: string
 	linkLabel?: string
+	external?: boolean
 }
 
 export interface FeatureBlockLogoItem {
@@ -57,6 +58,7 @@ export interface FeatureBlockLogoItem {
 	imageAlt: string
 	imageColor?: string
 	link: string
+	external?: boolean
 }
 
 export interface PricingPlanFeature {
@@ -71,6 +73,7 @@ export interface PricingPlan {
 	featured?: boolean
 	href?: string
 	buttonLabel?: string
+	external?: boolean
 	features: PricingPlanFeature[]
 }
 
@@ -84,6 +87,7 @@ export interface SupportButton {
 	label: string
 	link: string
 	icon: LucideIcon | SvgData
+	external?: boolean
 }
 
 export interface Support {
