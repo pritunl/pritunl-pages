@@ -79,9 +79,15 @@ export default function FeatureBlock({ block, first, last }: Props) {
 												<p className="flex-auto">{item.description}</p>
 												{item.link && (
 													<p className="mt-6">
-														<Link href={item.link} target="_blank" className="text-sm/6 font-semibold text-indigo-400 hover:text-indigo-300">
-															{item.linkLabel || "Learn more"} <span aria-hidden="true">→</span>
-														</Link>
+														{item.external ? (
+															<a href={item.link} target="_blank" rel="noopener noreferrer" className="text-sm/6 font-semibold text-indigo-400 hover:text-indigo-300">
+																{item.linkLabel || "Learn more"} <span aria-hidden="true">→</span>
+															</a>
+														) : (
+															<Link href={item.link} className="text-sm/6 font-semibold text-indigo-400 hover:text-indigo-300">
+																{item.linkLabel || "Learn more"} <span aria-hidden="true">→</span>
+															</Link>
+														)}
 													</p>
 												)}
 											</dd>
