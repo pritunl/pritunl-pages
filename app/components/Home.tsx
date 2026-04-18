@@ -37,7 +37,7 @@ export default async function Home({ config }: PageProps) {
 									</span>
 								))}
 							</h1>
-							<p className="mt-8 text-lg max-w-2xl mx-auto text-pretty text-gray-400 sm:text-xl/8">
+							<p className="mt-8 text-lg max-w-2xl mx-auto text-pretty font-light text-gray-300 sm:text-3xl/10">
 								{config.subheading}
 							</p>
 							<div className="mt-10 flex items-center justify-center gap-x-6">
