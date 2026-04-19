@@ -19,11 +19,11 @@ export default function Header({ config }: { config: ProductConfig }) {
 						<>
 							{index > 0 && <span className="text-white/50">|</span>}
 							{item.external ? (
-								<a key={item.name} href={item.href} target="_blank" className="text-sm/6 font-medium text-white">
+								<a key={item.name} href={item.href} target="_blank" className="text-sm font-medium text-white">
 									{item.name}
 								</a>
 							) : (
-								<Link key={item.name} href={item.href} className="text-sm/6 font-medium text-white">
+								<Link key={item.name} href={item.href} className="text-sm font-medium text-white">
 									{item.name}
 								</Link>
 							)}
