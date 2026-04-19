@@ -80,11 +80,11 @@ export default function FeatureBlock({ block, first, last }: Props) {
 												{item.link && (
 													<p className="mt-6">
 														{item.external ? (
-															<a href={item.link} target="_blank" rel="noopener noreferrer" className="text-sm/6 font-semibold text-indigo-400 hover:text-indigo-300">
+															<a href={item.link} target="_blank" rel="noopener noreferrer" className="text-base font-semibold text-indigo-400 hover:text-indigo-300">
 																{item.linkLabel || "Learn more"} <span aria-hidden="true">→</span>
 															</a>
 														) : (
-															<Link href={item.link} className="text-sm/6 font-semibold text-indigo-400 hover:text-indigo-300">
+															<Link href={item.link} className="text-base font-semibold text-indigo-400 hover:text-indigo-300">
 																{item.linkLabel || "Learn more"} <span aria-hidden="true">→</span>
 															</Link>
 														)}
@@ -182,7 +182,7 @@ export default function FeatureBlock({ block, first, last }: Props) {
 											/>
 										)}
 										<div className="p-10">
-											{item.subtitle && <h3 className="text-sm/4 font-semibold text-gray-400">{item.subtitle}</h3>}
+											{item.subtitle && <h3 className="text-base font-semibold text-gray-400">{item.subtitle}</h3>}
 											<p className={`${item.subtitle ? "mt-2 " : ""}text-2xl font-medium tracking-tight text-white`}>{item.title}</p>
 											<p className="mt-2 max-w-lg text-lg/8 text-gray-400">{item.description}</p>
 										</div>
