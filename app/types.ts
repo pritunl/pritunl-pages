@@ -111,8 +111,17 @@ export interface Footer {
 	substack: string
 }
 
+export interface FeatureBlockCardItem {
+	image?: string | SvgData
+	imageAlt?: string
+	imageColor?: string
+	subtitle?: string
+	title: string
+	description: string
+}
+
 export interface FeatureBlock {
-	type: "left" | "right" | "center" | "center_open" | "columns" | "logos"
+	type: "left" | "right" | "center" | "center_open" | "columns" | "logos" | "two_columns"
 	title: string
 	description: string
 	image?: string | SvgData
@@ -120,6 +129,7 @@ export interface FeatureBlock {
 	imageColor?: string
 	items?: FeatureBlockItem[]
 	logoItems?: FeatureBlockLogoItem[]
+	cardItems?: FeatureBlockCardItem[]
 }
 
 export type RepositoryDistribution = "arch" | "alma" | "rocky" | "debian" | "oracle" | "fedora" | "ubuntu"
