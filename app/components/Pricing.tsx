@@ -52,7 +52,7 @@ export default function Pricing({ pricing }: Props) {
 						</p>
 						<ul
 							role="list"
-							className="mt-8 space-y-3 text-sm/6 text-gray-300 sm:mt-10"
+							className="mt-8 space-y-3 text-base text-gray-300 sm:mt-10"
 						>
 							{plan.features.map((feature) => {
 								const Icon = feature.icon || Check
@@ -75,7 +75,7 @@ export default function Pricing({ pricing }: Props) {
 									plan.featured
 										? "bg-indigo-500 text-white hover:bg-indigo-400 focus-visible:outline-indigo-500"
 										: "bg-white/10 text-white inset-ring inset-ring-white/5 hover:bg-white/20 focus-visible:outline-white/75",
-									"mt-8 block rounded-md px-3.5 py-2.5 text-center text-sm font-semibold focus-visible:outline-2 focus-visible:outline-offset-2 sm:mt-10",
+									"mt-8 block rounded-md px-3.5 py-2.5 text-center text-base font-semibold focus-visible:outline-2 focus-visible:outline-offset-2 sm:mt-10",
 								].join(" ")}
 							>
 								{plan.buttonLabel || "Get started today"}
