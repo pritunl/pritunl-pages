@@ -29,13 +29,13 @@ export default function Footer({ footer }: Props) {
 						<Image image={footer.icon} alt={footer.address1} className="h-9 w-auto" />
 					)}
 					<div className="mt-4">
-						<p className="text-sm/6 text-gray-400">{footer.address1}</p>
-						<p className="text-sm/6 text-gray-400">{footer.address2}</p>
-						<p className="text-sm/6 text-gray-400">{footer.phone}</p>
+						<p className="text-sm text-gray-400">{footer.address1}</p>
+						<p className="text-sm text-gray-400">{footer.address2}</p>
+						<p className="text-sm text-gray-400">{footer.phone}</p>
 					</div>
 				</div>
 				<div className="mt-8 border-t border-white/10 pt-8 md:flex md:items-center md:justify-between">
-					<p className="flex flex-wrap items-center justify-center gap-x-6 text-center text-sm/6 text-gray-400 md:order-1 md:justify-start">
+					<p className="flex flex-wrap items-center justify-center gap-x-6 text-center text-sm text-gray-400 md:order-1 md:justify-start">
 						<span>{footer.copyright}</span>
 						{footer.privacy && (
 							<a
