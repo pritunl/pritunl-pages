@@ -23,7 +23,7 @@ export default async function Home({ config }: PageProps) {
 									{config.badge}
 								</span>
 							</div>
-							<h1 className="text-4.5xl font-semibold tracking-tight text-balance text-white min-[460px]:text-5xl min-[560px]:text-6xl min-[660px]:text-7xl">
+							<h1 className="text-4.5xl font-semibold tracking-tight text-balance text-white min-[460px]:text-5xl/13 min-[560px]:text-6xl/16 min-[800px]:text-7xl/19">
 								{config.heading.map((line, i) => (
 									<span key={i}>
 										{i > 0 && <br />}
@@ -47,8 +47,8 @@ export default async function Home({ config }: PageProps) {
 										href={button.href}
 										{...(button.external ? { target: "_blank", rel: "noopener noreferrer" } : {})}
 										className={button.style === "primary"
-											? "rounded-md bg-indigo-500 px-3.5 py-2.5 text-sm font-semibold text-white shadow-xs hover:bg-white/20 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-500"
-											: "rounded-md bg-white/10 px-3.5 py-2.5 text-sm font-semibold text-white shadow-xs hover:bg-white/20 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white"
+											? "rounded-md bg-indigo-500 px-3.5 py-2.5 text-base font-semibold text-white shadow-xs hover:bg-white/20 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-500"
+											: "rounded-md bg-white/10 px-3.5 py-2.5 text-base font-semibold text-white shadow-xs hover:bg-white/20 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white"
 										}
 									>
 										{button.label}
