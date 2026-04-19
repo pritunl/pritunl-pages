@@ -76,7 +76,7 @@ export default function FeaturesGrid({ featuresGrid }: Props) {
 									</div>
 									<div className="p-6 pt-4">
 										<p className="text-lg font-semibold tracking-tight text-white">{item.title}</p>
-										<p className="mt-2 max-w-lg text-sm/6 text-gray-400">{item.description}</p>
+										<p className="mt-2 max-w-lg text-base text-gray-400">{item.description}</p>
 									</div>
 								</div>
 								<div className={`pointer-events-none absolute inset-0 rounded-lg shadow-sm outline outline-white/15 ${cls.outer}`}></div>
