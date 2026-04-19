@@ -183,8 +183,11 @@ export default function FeatureBlock({ block, first, last }: Props) {
 										)}
 										<div className="p-10">
 											{item.subtitle && <h3 className="text-base font-semibold text-gray-400">{item.subtitle}</h3>}
-											<p className={`${item.subtitle ? "mt-2 " : ""}text-2xl font-medium tracking-tight text-white`}>{item.title}</p>
-											<p className="mt-2 max-w-lg text-lg/8 text-gray-400">{item.description}</p>
+											<p className={`${item.subtitle ? "mt-2 " : ""}flex items-center gap-x-3 text-2xl font-medium tracking-tight text-white`}>
+												{item.icon && <item.icon aria-hidden="true" className="size-8 flex-none text-indigo-400" />}
+												{item.title}
+											</p>
+											<p className="mt-2 text-lg/8 text-gray-400">{item.description}</p>
 										</div>
 									</div>
 								</div>
