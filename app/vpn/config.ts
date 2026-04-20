@@ -126,8 +126,8 @@ const definition: ProductDefinition = {
 			},
 			{
 				type: "logos",
-				title: "Single Sign-On Providers",
-				description: "Supported single sign-on and secondary authentication providers.",
+				title: "Single Sign-On",
+				description: "Securely deploy remote access to thousands of users using their existing company account with support for several single sign-on providers and protocols.",
 				logoItems: [
 					{
 						image: GoogleWorkspace,
