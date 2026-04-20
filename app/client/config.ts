@@ -76,27 +76,30 @@ const definition: ProductDefinition = {
 			},
 		],
 
-		featuresGrid: {
-			title: "Simple OpenVPN and WireGuard client for macOS Linux and Windows",
-			description: "Pritunl Client provides a secure graphical and command line interface to connect to OpenVPN and WireGuard servers. Import OpenVPN and WireGuard profiles directly from Pritunl servers or standard OpenVPN configuration files.",
-			items: [
-				{
-					image: "client_open",
-					title: "Open Source",
-					description: "All source code for Pritunl is publicly available on GitHub. To allow anyone to evaluate Pritunl to ensure that it is secure.",
-				},
-				{
-					image: "client_import",
-					title: "Viscosity Alternative",
-					description: "Free and open source alternative to Viscosity. No registration or credit card necessary.",
-				},
-				{
-					image: "client_settings",
-					title: "Easy Configuration",
-					description: "Easily add OpenVPN profiles by importing the configuration or by using the URI available with Pritunl servers.",
-				},
-			],
-		},
+		featureBlocks: [
+			{
+				type: "grid",
+				title: "Simple OpenVPN and WireGuard client for macOS Linux and Windows",
+				description: "Pritunl Client provides a secure graphical and command line interface to connect to OpenVPN and WireGuard servers. Import OpenVPN and WireGuard profiles directly from Pritunl servers or standard OpenVPN configuration files.",
+				gridItems: [
+					{
+						image: "client_open",
+						title: "Open Source",
+						description: "All source code for Pritunl is publicly available on GitHub. To allow anyone to evaluate Pritunl to ensure that it is secure.",
+					},
+					{
+						image: "client_import",
+						title: "Viscosity Alternative",
+						description: "Free and open source alternative to Viscosity. No registration or credit card necessary.",
+					},
+					{
+						image: "client_settings",
+						title: "Easy Configuration",
+						description: "Easily add OpenVPN profiles by importing the configuration or by using the URI available with Pritunl servers.",
+					},
+				],
+			},
+		],
 
 		installers: {
 			macos: {
