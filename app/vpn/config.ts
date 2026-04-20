@@ -1,11 +1,15 @@
 import type { ProductDefinition } from "../types"
 import {
+	Cpu,
 	Mail,
+	IdCard,
 } from "lucide-react"
 
 import Discourse from "../icons/Discourse"
 import GitBook from "../icons/GitBook"
 import Substack from "../icons/Substack"
+import GitHubOutline from "../icons/GitHubOutline"
+import Aws from "../icons/Aws"
 import Auth0 from "../logos/Auth0"
 import Duo from "../logos/Duo"
 import GoogleWorkspace from "../logos/GoogleWorkspace"
