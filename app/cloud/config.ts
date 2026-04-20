@@ -91,74 +91,74 @@ const definition: ProductDefinition = {
 			ring: true,
 		},
 
-		featuresGrid: {
-			title: "Declarative Virtualization with Dynamic Shell and Python Specs",
-			description: "Define resources with dynamic templates that adjust to configuration changes in the cluster. Provides the benefits of Kubernetes with a less complex architecture and fewer interdependent components.",
-			items: [
-				{
-					image: "cloud_python_shell_spec",
-					title: "Transparent Python Integration",
-					description: "Utilize both shell and Python in pod templates with a transparent shared environment.",
-				},
-				{
-					image: "cloud_images",
-					title: "Instance Base Images",
-					description: "Includes base images for common Linux distributions and FreeBSD.",
-				},
-				{
-					image: "cloud_multi_tenant_selection",
-					title: "Multi-Tenant Support",
-					description: "Isolate resources into organizations and control user access to each organization.",
-				},
-				{
-					image: "cloud_vpc",
-					title: "VPC Networking",
-					description: "Advanced VPC networking with routing table support. Source and destination checking option for instances allows site-to-site VPN configurations.",
-				},
-				{
-					image: "cloud_policies",
-					title: "Access Policies",
-					description: "Policy controls with WebAuthn, location, source network and browser options.",
-				},
-				{
-					image: "cloud_domains",
-					title: "Domain Management",
-					description: "Integrated domain management with API support for AWS, Cloudflare and Oracle Cloud. Configure A, AAAA and CNAME records manually or automated with pods.",
-				},
-				{
-					image: "cloud_firewall",
-					title: "Advanced Firewall",
-					description: "Detailed network ingress control with firewall rules that can be defined through role matched rules or in pod templates.",
-				},
-				{
-					image: "cloud_ip_blocks",
-					title: "Static IP Management",
-					description: "Static IP management that can manage pools of public IPv4 and IPv6 addresses that are either host specific or shared between multiple hosts. Support for DHCPv4, DHCPv6 and SLAAC is also available.",
-				},
-				{
-					image: "cloud_storage",
-					title: "S3 Storage Integration",
-					description: "Integrated support for S3 API based storage providers. Pod template images, disk snapshots and backups are stored on the S3 storage.",
-				},
-				{
-					image: "cloud_authority",
-					title: "SSH Key Management",
-					description: "Easily manage multiple SSH keys or SSH certificates to control access to instances.",
-				},
-				{
-					image: "cloud_secret",
-					title: "Secrets Storage",
-					description: "Store secrets in JSON format and provide access through the IMDS service and pod templates.",
-				},
-				{
-					image: "cloud_load_balancer",
-					title: "Load Balancer",
-					description: "Built in load balancer to provide access from the host to web servers running on instances.",
-				},
-			],
-		},
-
 		featureBlocks: [
+			{
+				type: "grid",
+				title: "Declarative Virtualization with Dynamic Shell and Python Specs",
+				description: "Define resources with dynamic templates that adjust to configuration changes in the cluster. Provides the benefits of Kubernetes with a less complex architecture and fewer interdependent components.",
+				gridItems: [
+					{
+						image: "cloud_python_shell_spec",
+						title: "Transparent Python Integration",
+						description: "Utilize both shell and Python in pod templates with a transparent shared environment.",
+					},
+					{
+						image: "cloud_images",
+						title: "Instance Base Images",
+						description: "Includes base images for common Linux distributions and FreeBSD.",
+					},
+					{
+						image: "cloud_multi_tenant_selection",
+						title: "Multi-Tenant Support",
+						description: "Isolate resources into organizations and control user access to each organization.",
+					},
+					{
+						image: "cloud_vpc",
+						title: "VPC Networking",
+						description: "Advanced VPC networking with routing table support. Source and destination checking option for instances allows site-to-site VPN configurations.",
+					},
+					{
+						image: "cloud_policies",
+						title: "Access Policies",
+						description: "Policy controls with WebAuthn, location, source network and browser options.",
+					},
+					{
+						image: "cloud_domains",
+						title: "Domain Management",
+						description: "Integrated domain management with API support for AWS, Cloudflare and Oracle Cloud. Configure A, AAAA and CNAME records manually or automated with pods.",
+					},
+					{
+						image: "cloud_firewall",
+						title: "Advanced Firewall",
+						description: "Detailed network ingress control with firewall rules that can be defined through role matched rules or in pod templates.",
+					},
+					{
+						image: "cloud_ip_blocks",
+						title: "Static IP Management",
+						description: "Static IP management that can manage pools of public IPv4 and IPv6 addresses that are either host specific or shared between multiple hosts. Support for DHCPv4, DHCPv6 and SLAAC is also available.",
+					},
+					{
+						image: "cloud_storage",
+						title: "S3 Storage Integration",
+						description: "Integrated support for S3 API based storage providers. Pod template images, disk snapshots and backups are stored on the S3 storage.",
+					},
+					{
+						image: "cloud_authority",
+						title: "SSH Key Management",
+						description: "Easily manage multiple SSH keys or SSH certificates to control access to instances.",
+					},
+					{
+						image: "cloud_secret",
+						title: "Secrets Storage",
+						description: "Store secrets in JSON format and provide access through the IMDS service and pod templates.",
+					},
+					{
+						image: "cloud_load_balancer",
+						title: "Load Balancer",
+						description: "Built in load balancer to provide access from the host to web servers running on instances.",
+					},
+				],
+			},
 			{
 				type: "left",
 				title: "A New Template Format",
