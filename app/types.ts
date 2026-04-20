@@ -119,6 +119,9 @@ export interface FeatureBlockCardItem {
 	title: string
 	description: string
 	icon?: LucideIcon | SvgData
+	link?: string
+	linkLabel?: string
+	external?: boolean
 }
 
 export interface FeatureBlock {
