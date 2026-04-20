@@ -22,7 +22,7 @@ export default function Support({ support }: Props) {
 								key={button.label}
 								href={button.link}
 								{...(button.external ? { target: "_blank", rel: "noopener noreferrer" } : {})}
-								className="inline-flex items-center gap-x-2 rounded-md bg-indigo-500 px-3.5 py-2.5 text-base font-semibold text-white shadow-xs hover:bg-indigo-400 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-500"
+								className="inline-flex items-center gap-x-2 rounded-md bg-indigo-500 px-3.5 py-2.5 text-sm font-semibold text-white shadow-xs hover:bg-indigo-400 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-500"
 							>
 								<Icon aria-hidden="true" className="h-5 w-5" />
 								{button.label}
