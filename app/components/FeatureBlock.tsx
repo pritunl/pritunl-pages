@@ -188,6 +188,19 @@ export default function FeatureBlock({ block, first, last }: Props) {
 												{item.title}
 											</p>
 											<p className="mt-2 text-lg/8 text-gray-400">{item.description}</p>
+											{item.link && (
+												<p className="mt-6">
+													{item.external ? (
+														<a href={item.link} target="_blank" rel="noopener noreferrer" className="text-base font-semibold text-indigo-400 hover:text-indigo-300">
+															{item.linkLabel} <span aria-hidden="true">→</span>
+														</a>
+													) : (
+														<Link href={item.link} className="text-base font-semibold text-indigo-400 hover:text-indigo-300">
+															{item.linkLabel} <span aria-hidden="true">→</span>
+														</Link>
+													)}
+												</p>
+											)}
 										</div>
 									</div>
 								</div>
