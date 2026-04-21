@@ -125,6 +125,43 @@ const definition: ProductDefinition = {
 				],
 			},
 			{
+				type: "two_columns",
+				title: "Simple Virtual Private Networks",
+				description: "Create a cloud vpn with complex site-to-site links, gateway links and provide local network access to remote users. Protect your network traffic and remote users connecting over public connections with secure encryption. All from a simple web interface.",
+				cardItems: [
+					{
+						icon: Cpu,
+						title: "The Most Secure VPN Server",
+						description: "Pritunl provides innovative security features not available from any other provider. Including TPM and Apple Secure Enclave device authentication, a dynamic firewall, SELinux policies, dual web server design and self shutdown notification system.",
+						link: "https://docs.pritunl.com/kb/vpn/security/features",
+						linkLabel: "Explore Security Features",
+						external: true,
+					},
+					{
+						icon: Aws,
+						title: "AWS VPN Server",
+						description: "Interconnect AWS VPC networks across AWS regions and provide reliable remote access with automatic failover that can scale horizontally.",
+						link: "/vpc",
+						linkLabel: "Explore AWS Integration",
+					},
+					{
+						icon: IdCard,
+						title: "Single Sign-On",
+						description: "Securely deploy remote access to thousands of users using their existing company account with support for several single sign-on providers and protocols.",
+						link: "/sso",
+						linkLabel: "See All Supported Providers",
+					},
+					{
+						icon: CircuitBoard,
+						title: "Plugin System",
+						description: "Highly customizable Python plugin system to allow expanding and modifying Pritunl. Plugins can be created to support custom authentication systems and custom access control systems.",
+						link: "https://docs.pritunl.com/kb/vpn/system/plugins",
+						linkLabel: "Learn More About Plugins",
+						external: true,
+					},
+				],
+			},
+			{
 				type: "logos",
 				title: "Single Sign-On",
 				description: "Securely deploy remote access to thousands of users using their existing company account with support for several single sign-on providers and protocols.",
@@ -186,43 +223,6 @@ const definition: ProductDefinition = {
 						external: true,
 					},
 				],
-			},
-			{
-				type: "two_columns",
-				title: "Simple Virtual Private Networks",
-				description: "Create a cloud vpn with complex site-to-site links, gateway links and provide local network access to remote users. Protect your network traffic and remote users connecting over public connections with secure encryption. All from a simple web interface.",
-				cardItems: [
-					{
-						icon: Cpu,
-						title: "The Most Secure VPN Server",
-						description: "Pritunl provides innovative security features not available from any other provider. Including TPM and Apple Secure Enclave device authentication, a dynamic firewall, SELinux policies, dual web server design and self shutdown notification system.",
-						link: "https://docs.pritunl.com/kb/vpn/security/features",
-						linkLabel: "Explore Security Features",
-						external: true,
-					},
-					{
-						icon: Aws,
-						title: "AWS VPN Server",
-						description: "Interconnect AWS VPC networks across AWS regions and provide reliable remote access with automatic failover that can scale horizontally.",
-						link: "/vpc",
-						linkLabel: "Explore AWS Integration",
-					},
-					{
-						icon: IdCard,
-						title: "Single Sign-On",
-						description: "Securely deploy remote access to thousands of users using their existing company account with support for several single sign-on providers and protocols.",
-						link: "/sso",
-						linkLabel: "See All Supported Providers",
-					},
-					{
-						icon: GitHubOutline,
-						title: "Open Source Alternative",
-						description: "Pritunl is the best open source alternative to proprietary commercial vpn products such as Aviatrix,  Ivanti Secure Accese, Pulse Secure and AnyConnect. Create larger cloud vpn networks supporting thousands of concurrent users and get more control over your vpn server without any per-user pricing.",
-						link: "https://docs.pritunl.com/kb/vpn/security/features",
-						linkLabel: "Browse Source Code",
-						external: true,
-					},
-				]
 			},
 		],
 
