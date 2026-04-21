@@ -119,7 +119,7 @@ export interface FeatureBlockCardItem {
 }
 
 export interface FeatureBlock {
-	type: "left" | "right" | "center" | "center_open" | "columns" | "logos" | "two_columns"
+	type: "grid" | "left" | "right" | "center" | "center_open" | "columns" | "logos" | "two_columns"
 	title: string
 	description: string
 	image?: string | SvgData
@@ -128,6 +128,7 @@ export interface FeatureBlock {
 	items?: FeatureBlockItem[]
 	logoItems?: FeatureBlockLogoItem[]
 	cardItems?: FeatureBlockCardItem[]
+	gridItems?: FeaturesGridItem[]
 }
 
 export type RepositoryDistribution = "arch" | "alma" | "rocky" | "debian" | "oracle" | "fedora" | "ubuntu"
@@ -165,7 +166,6 @@ export interface ProductConfig {
 	heroImage?: HeroImage
 	heroImages?: HeroImage[]
 
-	featuresGrid?: FeaturesGrid
 	featureBlocks?: FeatureBlock[]
 	pricing?: Pricing
 	repositories?: Repository[]
