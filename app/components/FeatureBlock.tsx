@@ -40,13 +40,13 @@ export default function FeatureBlock({ block, first, last }: Props) {
 
 	const imageContent = (
 		<div className={block.type === "right" ? "order-last lg:order-first" : ""}>
-			<div className="max-w-lg rounded-xl bg-white/2.5 p-2 ring-1 ring-inset ring-white/10 lg:max-w-xl">
+			<div className={`max-w-lg lg:max-w-xl${block.imageNoRing ? "" : " rounded-xl bg-white/2.5 p-2 ring-1 ring-inset ring-white/10"}`}>
 				<Image
 					width={2432}
 					height={1442}
 					image={block.image!}
 					alt={block.imageAlt || ""}
-					className={`w-full rounded-md shadow-xl${block.imageColor ? " " + block.imageColor : ""}`}
+					className={`w-full${block.imageNoRing ? "" : " rounded-md shadow-xl"}${block.imageColor ? " " + block.imageColor : ""}`}
 				/>
 			</div>
 		</div>
