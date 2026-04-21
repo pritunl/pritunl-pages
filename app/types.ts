@@ -38,12 +38,6 @@ export interface FeaturesGridItem {
 	description: string
 }
 
-export interface FeaturesGrid {
-	title: string
-	description: string
-	items: FeaturesGridItem[]
-}
-
 export interface FeatureBlockItem {
 	icon: LucideIcon
 	title: string
