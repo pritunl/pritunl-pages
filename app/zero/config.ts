@@ -68,29 +68,29 @@ const definition: ProductDefinition = {
 			ring: true,
 		},
 
-		featuresGrid: {
-			title: "Provide Easy and Secure Access to Web Applications and SSH",
-			description: "Pritunl Zero creates an authentication layer in front of existing web applications. No modifications to the existing web application is required. For SSH servers Pritunl Zero will maintain a certificate authority and provide controlled SSH access with additional layers of authentication.",
-			items: [
-				{
-					image: "zero_network_policy",
-					title: "Network Policy Control",
-					description: "Control access based on permitted and blocked networks.",
-				},
-				{
-					image: "zero_two_factor_policy",
-					title: "Multi-Factor Authentication",
-					description: "Require multi-factor authentication from providers with secondary authentication support including Duo, OneLogin Protect and Okta Verify.",
-				},
-				{
-					image: "zero_webauthn_policy",
-					title: "WebAuthn Device Authentication",
-					description: "Authenticate users with hardware WebAuthn tokens including the YubiKey and Google Titan Security Key.",
-				},
-			],
-		},
-
 		featureBlocks: [
+			{
+				type: "grid",
+				title: "Provide Easy and Secure Access to Web Applications and SSH",
+				description: "Pritunl Zero creates an authentication layer in front of existing web applications. No modifications to the existing web application is required. For SSH servers Pritunl Zero will maintain a certificate authority and provide controlled SSH access with additional layers of authentication.",
+				gridItems: [
+					{
+						image: "zero_network_policy",
+						title: "Network Policy Control",
+						description: "Control access based on permitted and blocked networks.",
+					},
+					{
+						image: "zero_two_factor_policy",
+						title: "Multi-Factor Authentication",
+						description: "Require multi-factor authentication from providers with secondary authentication support including Duo, OneLogin Protect and Okta Verify.",
+					},
+					{
+						image: "zero_webauthn_policy",
+						title: "WebAuthn Device Authentication",
+						description: "Authenticate users with hardware WebAuthn tokens including the YubiKey and Google Titan Security Key.",
+					},
+				],
+			},
 			{
 				type: "left",
 				title: "Simple Authentication",
