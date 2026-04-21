@@ -113,16 +113,19 @@ export default function FeatureBlock({ block, first, last }: Props) {
 								<div key={i} className="relative">
 									<div className={`absolute inset-0 rounded-lg bg-white/5 ${cls.outer}`}></div>
 									<div className={`relative flex h-full flex-col overflow-hidden rounded-[calc(var(--radius-lg)+1px)] ${cls.inner}`}>
-										<div className={`relative m-2 h-60 shrink-0 overflow-hidden rounded-sm ring-1 ring-white/10 ${cls.img}`}>
+										{item.image && <div className={`relative m-2 h-60 shrink-0 overflow-hidden rounded-sm ring-1 ring-white/10 ${cls.img}`}>
 											<Image
 												image={item.image}
 												alt={item.title}
 												fill
 												className={`object-cover object-left${item.imageColor ? " " + item.imageColor : ""}`}
 											/>
-										</div>
+										</div>}
 										<div className="p-6 pt-4">
-											<p className="text-lg font-semibold tracking-tight text-white">{item.title}</p>
+											<p className="flex items-center gap-x-2 text-lg font-semibold tracking-tight text-white">
+											{item.icon && <item.icon aria-hidden="true" className="size-5 flex-none text-indigo-400" />}
+											{item.title}
+										</p>
 											<p className="mt-2 max-w-lg text-base text-gray-400">{item.description}</p>
 										</div>
 									</div>
