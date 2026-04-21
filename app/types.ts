@@ -126,6 +126,7 @@ export interface FeatureBlock {
 	image?: string | SvgData
 	imageAlt?: string
 	imageColor?: string
+	imageNoRing?: boolean
 	items?: FeatureBlockItem[]
 	logoItems?: FeatureBlockLogoItem[]
 	cardItems?: FeatureBlockCardItem[]
