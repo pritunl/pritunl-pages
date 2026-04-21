@@ -15,9 +15,9 @@ export default function FeatureBlock({ block, first, last }: Props) {
 				<h2 className="mt-2 text-4xl font-medium tracking-tight text-pretty text-white sm:text-5xl">
 					{block.title}
 				</h2>
-				<p className="mt-6 text-lg/8 text-gray-400">
+				{block.description && <p className="mt-6 text-lg/8 text-gray-400">
 					{block.description}
-				</p>
+				</p>}
 				{block.items && block.items.length > 0 && (
 					<dl className="mt-10 max-w-xl space-y-8 text-base/7 text-gray-400 lg:max-w-none">
 						{block.items.map((item, i) => {
@@ -103,9 +103,9 @@ export default function FeatureBlock({ block, first, last }: Props) {
 					<h2 className="mt-2 max-w-2xl text-4xl font-medium tracking-tight text-pretty text-white sm:text-5xl">
 						{block.title}
 					</h2>
-					<p className="mt-6 max-w-2xl text-lg text-gray-400">
+					{block.description && <p className="mt-6 max-w-2xl text-lg text-gray-400">
 						{block.description}
-					</p>
+					</p>}
 					<div className="mt-10 grid grid-cols-1 gap-4 sm:mt-16 lg:grid-cols-3">
 						{gridItems.map((item, i) => {
 							const cls = getClasses(i)
@@ -147,9 +147,9 @@ export default function FeatureBlock({ block, first, last }: Props) {
 						<h2 className="mt-2 text-4xl font-medium tracking-tight text-pretty text-white sm:text-5xl lg:text-balance">
 							{block.title}
 						</h2>
-						<p className="mt-6 text-lg/8 text-gray-400">
+						{block.description && <p className="mt-6 text-lg/8 text-gray-400">
 							{block.description}
-						</p>
+						</p>}
 					</div>
 					{block.items && block.items.length > 0 && (
 						<div className="mx-auto mt-16 max-w-2xl sm:mt-20 lg:mt-24 lg:max-w-none">
@@ -197,9 +197,9 @@ export default function FeatureBlock({ block, first, last }: Props) {
 						<h2 className="mt-2 text-4xl font-medium tracking-tight text-pretty text-white sm:text-5xl lg:text-balance">
 							{block.title}
 						</h2>
-						<p className="mt-6 text-lg/8 text-gray-400">
+						{block.description && <p className="mt-6 text-lg/8 text-gray-400">
 							{block.description}
-						</p>
+						</p>}
 					</div>
 					{block.logoItems && block.logoItems.length > 0 && (
 						<div className={`mt-16 -mx-6 grid grid-cols-2 gap-0.5 overflow-hidden sm:mx-0 sm:rounded-2xl ${block.logoItems.length === 6 ? "md:grid-cols-3" : "md:grid-cols-4"}`}>
@@ -251,9 +251,9 @@ export default function FeatureBlock({ block, first, last }: Props) {
 					<h2 className="mt-2 text-4xl font-medium tracking-tight text-pretty text-white sm:text-5xl">
 						{block.title}
 					</h2>
-					<p className="mt-6 max-w-lg text-lg/8 text-gray-400">
+					{block.description && <p className="mt-6 max-w-lg text-lg/8 text-gray-400">
 						{block.description}
-					</p>
+					</p>}
 					{block.cardItems && block.cardItems.length > 0 && (
 						<div className="mt-10 grid grid-cols-1 gap-4 sm:mt-16 lg:grid-cols-6 lg:grid-rows-2">
 							{block.cardItems.map((item, i) => (
@@ -307,9 +307,9 @@ export default function FeatureBlock({ block, first, last }: Props) {
 						<h2 className="mt-2 text-4xl font-medium tracking-tight text-pretty text-white sm:text-5xl sm:text-balance">
 							{block.title}
 						</h2>
-						<p className="mt-6 text-lg/8 text-gray-400">
+						{block.description && <p className="mt-6 text-lg/8 text-gray-400">
 							{block.description}
-						</p>
+						</p>}
 					</div>
 				</div>
 				<div className="relative overflow-hidden pt-12">
@@ -355,9 +355,9 @@ export default function FeatureBlock({ block, first, last }: Props) {
 						<h2 className="mt-2 text-4xl font-medium tracking-tight text-pretty text-white sm:text-5xl sm:text-balance">
 							{block.title}
 						</h2>
-						<p className="mt-6 text-lg/8 text-gray-400">
+						{block.description && <p className="mt-6 text-lg/8 text-gray-400">
 							{block.description}
-						</p>
+						</p>}
 					</div>
 				</div>
 				<div className="relative overflow-hidden pt-12">
