@@ -122,7 +122,7 @@ export interface FeatureBlockCardItem {
 export interface FeatureBlock {
 	type: "grid" | "left" | "right" | "center" | "center_open" | "columns" | "logos" | "two_columns"
 	title: string
-	description: string
+	description?: string
 	image?: string | SvgData
 	imageAlt?: string
 	imageColor?: string
