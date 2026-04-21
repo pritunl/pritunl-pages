@@ -32,10 +32,11 @@ export interface HeroImage {
 }
 
 export interface FeaturesGridItem {
-	image: string | SvgData
+	image?: string | SvgData
 	imageColor?: string
 	title: string
 	description: string
+	icon?: LucideIcon | SvgData
 }
 
 export interface FeatureBlockItem {
