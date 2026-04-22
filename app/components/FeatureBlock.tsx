@@ -9,6 +9,23 @@ interface Props {
 }
 
 export default function FeatureBlock({ block, first, last }: Props) {
+	const LinkIcon = block.linkIcon
+	const blockLink = block.link && block.linkLabel ? (
+		<p className="mt-6">
+			{block.external ? (
+				<a href={block.link} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-x-2 text-base font-semibold text-indigo-400 hover:text-indigo-300">
+					{LinkIcon && <LinkIcon aria-hidden="true" className="size-5" />}
+					{block.linkLabel} <span aria-hidden="true">→</span>
+				</a>
+			) : (
+				<Link href={block.link} className="inline-flex items-center gap-x-2 text-base font-semibold text-indigo-400 hover:text-indigo-300">
+					{LinkIcon && <LinkIcon aria-hidden="true" className="size-5" />}
+					{block.linkLabel} <span aria-hidden="true">→</span>
+				</Link>
+			)}
+		</p>
+	) : null
+
 	const dataContent = (
 		<div className={block.type === "left" ? "lg:pt-4 lg:pr-8" : "lg:pt-4 lg:pl-8"}>
 			<div className="lg:max-w-lg">
@@ -18,6 +35,7 @@ export default function FeatureBlock({ block, first, last }: Props) {
 				{block.description && <p className="mt-6 text-lg/8 text-gray-400">
 					{block.description}
 				</p>}
+				{blockLink}
 				{block.items && block.items.length > 0 && (
 					<dl className="mt-10 max-w-xl space-y-8 text-base/7 text-gray-400 lg:max-w-none">
 						{block.items.map((item, i) => {
@@ -106,6 +124,7 @@ export default function FeatureBlock({ block, first, last }: Props) {
 					{block.description && <p className="mt-6 max-w-2xl text-lg text-gray-400">
 						{block.description}
 					</p>}
+					{blockLink}
 					<div className="mt-10 grid grid-cols-1 gap-4 sm:mt-16 lg:grid-cols-3">
 						{gridItems.map((item, i) => {
 							const cls = getClasses(i)
@@ -150,6 +169,7 @@ export default function FeatureBlock({ block, first, last }: Props) {
 						{block.description && <p className="mt-6 text-lg/8 text-gray-400">
 							{block.description}
 						</p>}
+						{blockLink}
 					</div>
 					{block.items && block.items.length > 0 && (
 						<div className="mx-auto mt-16 max-w-2xl sm:mt-20 lg:mt-24 lg:max-w-none">
@@ -200,6 +220,7 @@ export default function FeatureBlock({ block, first, last }: Props) {
 						{block.description && <p className="mt-6 text-lg/8 text-gray-400">
 							{block.description}
 						</p>}
+						{blockLink}
 					</div>
 					{block.logoItems && block.logoItems.length > 0 && (
 						<div className={`mt-16 -mx-6 grid grid-cols-2 gap-0.5 overflow-hidden sm:mx-0 sm:rounded-2xl ${block.logoItems.length === 6 ? "md:grid-cols-3" : "md:grid-cols-4"}`}>
@@ -254,6 +275,7 @@ export default function FeatureBlock({ block, first, last }: Props) {
 					{block.description && <p className="mt-6 max-w-lg text-lg/8 text-gray-400">
 						{block.description}
 					</p>}
+					{blockLink}
 					{block.cardItems && block.cardItems.length > 0 && (
 						<div className="mt-10 grid grid-cols-1 gap-4 sm:mt-16 lg:grid-cols-6 lg:grid-rows-2">
 							{block.cardItems.map((item, i) => (
@@ -310,6 +332,7 @@ export default function FeatureBlock({ block, first, last }: Props) {
 						{block.description && <p className="mt-6 text-lg/8 text-gray-400">
 							{block.description}
 						</p>}
+						{blockLink}
 					</div>
 				</div>
 				<div className="relative overflow-hidden pt-12">
@@ -358,6 +381,7 @@ export default function FeatureBlock({ block, first, last }: Props) {
 						{block.description && <p className="mt-6 text-lg/8 text-gray-400">
 							{block.description}
 						</p>}
+						{blockLink}
 					</div>
 				</div>
 				<div className="relative overflow-hidden pt-12">
