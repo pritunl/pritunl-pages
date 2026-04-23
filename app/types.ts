@@ -123,6 +123,10 @@ export interface FeatureBlock {
 	type: "grid" | "left" | "right" | "center" | "center_open" | "columns" | "logos" | "two_columns"
 	title: string
 	description?: string
+	link?: string
+	linkLabel?: string
+	linkIcon?: LucideIcon
+	external?: boolean
 	image?: string | SvgData
 	imageAlt?: string
 	imageColor?: string
