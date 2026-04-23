@@ -58,6 +58,7 @@ export interface FeatureBlockLogoItem {
 
 export interface PricingPlanFeature {
 	label: string
+	details?: string
 	icon?: LucideIcon
 }
 
