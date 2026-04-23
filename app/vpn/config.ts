@@ -79,7 +79,7 @@ const definition: ProductDefinition = {
 			{
 				type: "logos",
 				title: "Multi-Cloud VPC Peering",
-				description: "Create multi-cloud site-to-site links with VPC peering. VPC peering available for AWS, Google Cloud, Azure, Oracle Cloud, Pritunl Cloud and Hetzner.",
+				description: "Create multi-cloud WireGuard or IPsec site-to-site links with Pritunl Link. Available for AWS, Google Cloud, Azure, Oracle Cloud, Pritunl Cloud and Hetzner.",
 				logoItems: [
 					{
 						image: AmazonAws,
