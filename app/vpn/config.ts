@@ -126,15 +126,18 @@ const definition: ProductDefinition = {
 			},
 			{
 				type: "two_columns",
-				title: "Simple Virtual Private Networks",
-				description: "Create a cloud vpn with complex site-to-site links, gateway links and provide local network access to remote users. Protect your network traffic and remote users connecting over public connections with secure encryption. All from a simple web interface.",
+				title: "The Most Secure VPN Server",
+				description: "Pritunl provides innovative security features not available from any other provider. Including TPM and Apple Secure Enclave device authentication, a dynamic firewall, SELinux policies, dual web server design and self shutdown notification system.",
+				link: "https://docs.pritunl.com/kb/vpn/security/features",
+				linkLabel: "Explore Security Features",
+				linkIcon: Cpu,
 				cardItems: [
 					{
 						icon: Cpu,
-						title: "The Most Secure VPN Server",
-						description: "Pritunl provides innovative security features not available from any other provider. Including TPM and Apple Secure Enclave device authentication, a dynamic firewall, SELinux policies, dual web server design and self shutdown notification system.",
-						link: "https://docs.pritunl.com/kb/vpn/security/features",
-						linkLabel: "Explore Security Features",
+						title: "Platform and Device Support",
+						description: "Pritunl supports all OpenVPN clients. Use the Pritunl Client on macOS, Windows and Linux for full functionality with support for both OpenVPN and WireGuard. Support for Chrome OS OpenVPN profiles also available.",
+						link: "https://client.pritunl.com",
+						linkLabel: "Pritunl Client Overview",
 						external: true,
 					},
 					{
