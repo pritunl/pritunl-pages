@@ -165,6 +165,30 @@ const definition: ProductDefinition = {
 				],
 			},
 			{
+				type: "left",
+				title: "Distributed and Scalable",
+				image: "vpn_servers",
+				imageAlt: "Pritunl Distributed Cluster",
+				imageNoRing: true,
+				items: [
+					{
+						icon: TrendingUp,
+						title: "Scale Easily",
+						description: "Pritunl servers can be easily distributed across multiple servers and different datacenters for improved performance, high availability and automatic failover when an instance fails.",
+					},
+					{
+						icon: DatabaseZap,
+						title: "Simple Distribution",
+						description: "All server communication and interconnecting is done with MongoDB allowing servers to be quickly connected without having to modify firewalls for inter-server communication.",
+					},
+					{
+						icon: HeartPlus,
+						title: "High Availability",
+						description: "All Pritunl servers are equal in the cluster and can run independently in the event of other instances failing.",
+					},
+				],
+			},
+			{
 				type: "logos",
 				title: "Single Sign-On",
 				description: "Securely deploy remote access to thousands of users using their existing company account with support for several single sign-on providers and protocols.",
