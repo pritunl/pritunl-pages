@@ -1,3 +1,4 @@
+import React from "react"
 import Link from "next/link"
 import HeaderMenu from "./HeaderMenu"
 import Image from "./Image"
@@ -16,18 +17,18 @@ export default function Header({ config }: { config: ProductConfig }) {
 				<HeaderMenu name={config.name} navigation={config.navigation} />
 				<div className="hidden lg:flex items-center gap-x-2 xl:gap-x-4">
 					{config.navigation.map((item, index) => (
-						<>
+						<React.Fragment key={item.name}>
 							{index > 0 && <span className="text-white/50">|</span>}
 							{item.external ? (
-								<a key={item.name} href={item.href} target="_blank" className="text-sm font-medium text-white">
+								<a href={item.href} target="_blank" className="text-sm font-medium text-white">
 									{item.name}
 								</a>
 							) : (
-								<Link key={item.name} href={item.href} className="text-sm font-medium text-white">
+								<Link href={item.href} className="text-sm font-medium text-white">
 									{item.name}
 								</Link>
 							)}
-						</>
+						</React.Fragment>
 					))}
 				</div>
 				<div className="hidden lg:flex lg:flex-1"></div>
