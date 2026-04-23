@@ -189,6 +189,43 @@ const definition: ProductDefinition = {
 				],
 			},
 			{
+				type: "grid",
+				title: "Self Hosted and Reliable",
+				description: "A self hosted VPN platform with over 10 years of proven reliability and security, trusted by thousands of organizations worldwide.",
+				gridItems: [
+					{
+						title: "Open Source",
+						description: "All source code for Pritunl is publicly available on GitHub, allowing for complete transparency, community contributions and full customization to fit your environment.",
+						icon: GitFork,
+					},
+					{
+						title: "Free to Use",
+						description: "Free and open source alternative to commercial VPN products such as Aviatrix, Pulse Secure and AnyConnect. Get started immediately with no registration or credit card required.",
+						icon: CircleDollarSign,
+					},
+					{
+						title: "Easy Configuration",
+						description: "Manage users, servers and organizations from an intuitive web interface. Quickly handle complex multi-server configurations and large deployments without touching config files.",
+						icon: Settings,
+					},
+					{
+						title: "Security",
+						description: "All traffic between clients and servers is encrypted. Support for two-step authentication with TOTP, push notifications and device authentication using TPM and Secure Enclave.",
+						icon: BrickWallShield,
+					},
+					{
+						title: "Multiple Protocols",
+						description: "Support for both OpenVPN and WireGuard client connections. WireGuard and IPsec are used for high performance site-to-site links and VPC peering between datacenters.",
+						icon: Shuffle,
+					},
+					{
+						title: "REST API",
+						description: "Fully integrate Pritunl into your existing infrastructure and CI/CD pipelines using the REST API. Automate user provisioning, server management and configuration changes.",
+						icon: SquareTerminal,
+					},
+				],
+			},
+			{
 				type: "logos",
 				title: "Single Sign-On",
 				description: "Securely deploy remote access to thousands of users using their existing company account with support for several single sign-on providers and protocols.",
