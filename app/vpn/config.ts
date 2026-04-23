@@ -226,6 +226,31 @@ const definition: ProductDefinition = {
 				],
 			},
 			{
+				type: "right",
+				title: "Connect Infrastructure",
+				description: "Provide secure remote access to your corporate infrastructure for users across your organization and interconnect sites.",
+				image: "vpn_infrastructure",
+				imageAlt: "High Availability Infrastructure",
+				imageNoRing: true,
+				items: [
+					{
+						icon: Network,
+						title: "WireGuard and IPsec Links",
+						description: "Create high performance site-to-site links between datacenters and on-premise networks using WireGuard and IPsec with support for both hub-and-spoke and mesh topologies.",
+					},
+					{
+						icon: RefreshCw,
+						title: "Replication and Automated Failover",
+						description: "All servers in the cluster operate as equal peers with no single point of failure. When an instance fails, connected clients are automatically routed to a healthy node with no manual intervention.",
+					},
+					{
+						icon: ScrollText,
+						title: "Advanced Auditing",
+						description: "Capture detailed audit events in structured JSON format for integration with SIEM systems. Track user connections, authentication events and configuration changes across the entire cluster.",
+					},
+				],
+			},
+			{
 				type: "logos",
 				title: "Single Sign-On",
 				description: "Securely deploy remote access to thousands of users using their existing company account with support for several single sign-on providers and protocols.",
