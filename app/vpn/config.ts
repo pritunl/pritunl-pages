@@ -3,6 +3,22 @@ import {
 	Cpu,
 	Mail,
 	IdCard,
+	CircuitBoard,
+	FingerprintPattern,
+	Shield,
+	Grip,
+	TrendingUp,
+	DatabaseZap,
+	HeartPlus,
+	Network,
+	RefreshCw,
+	ScrollText,
+	GitFork,
+	CircleDollarSign,
+	Settings,
+	BrickWallShield,
+	Shuffle,
+	SquareTerminal,
 } from "lucide-react"
 
 import Discourse from "../icons/Discourse"
