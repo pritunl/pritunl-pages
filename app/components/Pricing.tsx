@@ -1,6 +1,5 @@
 import type { Pricing as PricingType } from "../types"
-import { Check } from "lucide-react"
-import FeatureDetails from "./FeatureDetails"
+import { Check, Info } from "lucide-react"
 
 interface Props {
 	pricing: PricingType
@@ -9,7 +8,6 @@ interface Props {
 export default function Pricing({ pricing }: Props) {
 	const isThreeCol = pricing.plans.length === 3
 
-	// For 3-col layout, reorder so featured plan is in the middle
 	const orderedPlans = isThreeCol
 		? (() => {
 				const featured = pricing.plans.find((p) => p.featured)
@@ -34,7 +32,7 @@ export default function Pricing({ pricing }: Props) {
 			<div
 				className={
 					isThreeCol
-						? "mx-auto mt-16 grid max-w-6xl grid-cols-1 gap-y-6 sm:mt-20 sm:gap-y-0 lg:max-w-6xl lg:grid-cols-3 lg:items-start"
+						? "mx-auto mt-16 grid max-w-6xl grid-cols-1 gap-y-6 sm:mt-20 lg:gap-y-0 lg:max-w-6xl lg:grid-cols-3 lg:items-start"
 						: "mx-auto mt-16 grid max-w-lg grid-cols-1 items-center gap-y-6 sm:mt-20 sm:gap-y-0 lg:max-w-4xl lg:grid-cols-2"
 				}
 			>
@@ -45,9 +43,9 @@ export default function Pricing({ pricing }: Props) {
 							plan.featured ? "relative bg-gray-900" : "bg-white/2.5 sm:mx-8 lg:mx-0",
 							isThreeCol
 								? planIdx === 0
-									? "lg:rounded-tr-none lg:rounded-br-none mt-8"
+									? "lg:rounded-tr-none lg:rounded-br-none lg:mt-8"
 									: planIdx === 2
-										? "lg:rounded-tl-none lg:rounded-bl-none mt-8"
+										? "lg:rounded-tl-none lg:rounded-bl-none lg:mt-8"
 										: ""
 								: plan.featured
 									? ""
@@ -87,18 +85,25 @@ export default function Pricing({ pricing }: Props) {
 									return (
 										<li key={feature.label}>
 											{feature.details ? (
-												<FeatureDetails
-													label={
-														<>
-															<Icon
-																aria-hidden="true"
-																className="h-6 w-5 flex-none text-indigo-400"
-															/>
-															<span className="flex-1">{feature.label}</span>
-														</>
-													}
-													details={feature.details}
-												/>
+												<div className="group/tip relative flex gap-x-3">
+													<Icon
+														aria-hidden="true"
+														className="h-6 w-5 flex-none text-indigo-400"
+													/>
+													<span className="flex-1 group-hover/tip:text-white group-focus-within/tip:text-white transition-colors duration-150">
+														{feature.label}
+													</span>
+													<button type="button" className="cursor-help focus:outline-none">
+														<Info
+															aria-hidden="true"
+															className="h-4 w-4 flex-none text-gray-500 mt-0.5 group-hover/tip:text-indigo-400 group-focus-within/tip:text-indigo-400 transition-colors duration-150"
+														/>
+													</button>
+													<div className="pointer-events-none absolute left-8 bottom-full mb-2 w-64 rounded-lg bg-gray-800 px-3 py-2 text-sm text-gray-300 opacity-0 transition-opacity duration-150 shadow-lg ring-1 ring-white/10 group-hover/tip:opacity-100 group-focus-within/tip:opacity-100 z-10">
+														{feature.details}
+														<div className="absolute left-4 top-full border-4 border-transparent border-t-gray-800" />
+													</div>
+												</div>
 											) : (
 												<span className="flex gap-x-3">
 													<Icon
