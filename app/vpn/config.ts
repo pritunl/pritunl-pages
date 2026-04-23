@@ -251,6 +251,31 @@ const definition: ProductDefinition = {
 				],
 			},
 			{
+				type: "grid",
+				title: "Open Source Alternative",
+				description: "Pritunl is the best open source alternative to proprietary commercial vpn products such as Aviatrix,  Ivanti Secure Accese, Pulse Secure and AnyConnect. Create larger cloud vpn networks supporting thousands of concurrent users and get more control over your vpn server without any per-user pricing.",
+				link: "https://github.com/pritunl/pritunl",
+				linkLabel: "Explore GitHub Repository",
+				linkIcon: GitHubOutline,
+				gridItems: [
+					{
+						title: "Ivanti Secure Access Alternative",
+						description: "Lower cost and more customizable alternative to Ivanti Secure Access with transparent pricing.",
+						icon: FingerprintPattern,
+					},
+					{
+						title: "OpenVPN Access Server Alternative",
+						description: "Open source low cost alternative to OpenVPN Access Server with no per-user pricing.",
+						icon: Shield,
+					},
+					{
+						title: "Tailscale Alternative",
+						description: "Lower cost and more customizable WireGuard server alternative to Tailscale.",
+						icon: Grip,
+					},
+				],
+			},
+			{
 				type: "logos",
 				title: "Single Sign-On",
 				description: "Securely deploy remote access to thousands of users using their existing company account with support for several single sign-on providers and protocols.",
