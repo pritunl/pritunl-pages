@@ -125,7 +125,7 @@ export interface FeatureBlock {
 	description?: string
 	link?: string
 	linkLabel?: string
-	linkIcon?: LucideIcon
+	linkIcon?: LucideIcon | SvgData
 	external?: boolean
 	image?: string | SvgData
 	imageAlt?: string
