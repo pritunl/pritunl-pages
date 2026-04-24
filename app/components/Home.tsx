@@ -1,6 +1,7 @@
 import Header from "./Header"
 import FeatureBlock from "./FeatureBlock"
 import Repositories from "./Repositories"
+import Client from "./Client"
 import Pricing from "./Pricing"
 import Support from "./Support"
 import Footer from "./Footer"
@@ -105,6 +106,10 @@ export default async function Home({ config }: PageProps) {
 					repositories={config.repositories}
 					installers={config.installers}
 				/>
+				<div className="h-38"></div>
+			</>}
+			{config.client && <>
+				<Client client={config.client}/>
 				<div className="h-38"></div>
 			</>}
 			{config.footer && <Footer footer={config.footer}/>}
