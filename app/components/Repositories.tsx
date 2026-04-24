@@ -3,6 +3,8 @@ import { highlight } from "../lib/shiki"
 import RepositorySelector from "./RepositorySelector"
 
 interface Props {
+	installTitle: string,
+	installDescription: string,
 	repositories: Repository[]
 	installers?: { macos?: Installer; windows?: Installer }
 }
@@ -111,7 +113,7 @@ sudo apt install ${repo.package}`
 	}
 }
 
-export default async function Repositories({ repositories, installers }: Props) {
+export default async function Repositories({ installTitle, installDescription, repositories, installers }: Props) {
 	const entries = await Promise.all(
 		repositories.map(async (repo) => {
 			const commands = generateCommands(repo)
@@ -129,10 +131,10 @@ export default async function Repositories({ repositories, installers }: Props) 
 		<div id="install" className="relative isolate px-6 lg:px-8">
 			<div className="mx-auto max-w-4xl">
 				<h2 className="text-center text-4xl font-medium tracking-tight text-balance text-white sm:text-5xl">
-					Installation
+					{installTitle}
 				</h2>
 				<p className="mx-auto mt-6 max-w-xl text-center text-lg/8 text-pretty text-gray-400">
-					Select your distribution to view installation instructions.
+					{installDescription}
 				</p>
 				<RepositorySelector entries={entries}/>
 				{installers && (installers.macos || installers.windows) && (
