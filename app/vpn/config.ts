@@ -19,6 +19,33 @@ import {
 	BrickWallShield,
 	Shuffle,
 	SquareTerminal,
+	Server,
+	Users,
+	Smartphone,
+	CreditCard,
+	ArrowRightLeft,
+	Route,
+	ShieldCheck,
+	KeyRound,
+	Laptop,
+	RefreshCcw,
+	Palette,
+	Star,
+	LogIn,
+	Fingerprint,
+	HeartPulse,
+	Copy,
+	Layers,
+	Cloud,
+	Link,
+	Globe,
+	Forward,
+	Activity,
+	Cable,
+	UsersRound,
+	Lock,
+	Plug,
+	CloudCog,
 } from "lucide-react"
 
 import Discourse from "../icons/Discourse"
@@ -355,6 +382,221 @@ const definition: ProductDefinition = {
 				],
 			},
 		],
+
+		pricing: {
+			title: "Pricing",
+			description: "Simple per-host pricing with unlimited users and connections on every plan.",
+			plans: [
+				{
+					name: "Community",
+					cost: 0,
+					description: "Single server with unlimited users.",
+					features: [
+						{
+							label: "Single server",
+							details: "Run a single Pritunl instance",
+							icon: Server,
+						},
+						{
+							label: "Unlimited users",
+							details: "No limit on the number of users created or users connected",
+							icon: Users,
+						},
+						{
+							label: "Unlimited devices",
+							details: "No limit on the number of devices that each user has connected",
+							icon: Smartphone,
+						},
+					],
+				},
+				{
+					name: "Premium",
+					cost: 10,
+					description: "Per-host billing with advanced features.",
+					href: "https://buy.stripe.com/aEU4jl8bj9yS7le148",
+					external: true,
+					buttonLabel: "Subscribe",
+					features: [
+						{
+							label: "Billing per host",
+							details: "Each Pritunl host is billed at $10/month. The host can contain an unlimited number of VPN servers and unlimited number of users or connections",
+							icon: CreditCard,
+						},
+						{
+							label: "Unlimited users",
+							details: "No limit on the number of users created or users connected",
+							icon: Users,
+						},
+						{
+							label: "Unlimited devices",
+							details: "No limit on the number of devices that each user has connected",
+							icon: Smartphone,
+						},
+						{
+							label: "Port forwarding",
+							details: "Forward ports to vpn clients",
+							icon: ArrowRightLeft,
+						},
+						{
+							label: "Gateway links",
+							details: "Create a gateway link to route traffic for a local network to a vpn client. Allowing the vpn clients to access the remote network that is available to the linked vpn client",
+							icon: Route,
+						},
+						{
+							label: "Failover gateway links",
+							details: "Connect multiple gateway links to a Pritunl server and when a link goes down another available link will automatically be used",
+							icon: ShieldCheck,
+						},
+						{
+							label: "Bypass secondary auth",
+							details: "Per-user option to bypass secondary authentication such as two-factor authentication. For server users that can't provide a two-factor code",
+							icon: KeyRound,
+						},
+						{
+							label: "Chromebook support",
+							details: "Easily connect Chromebook users with ChromeOS compatible vpn profiles",
+							icon: Laptop,
+						},
+						{
+							label: "Configuration sync",
+							details: "When clients connect with a Pritunl client, vpn setting changes such as port/protocol will be updated to allow the client to connect without needing to download a new configuration",
+							icon: RefreshCcw,
+						},
+						{
+							label: "Email user keys",
+							details: "Email users a link to download vpn profiles using a configured SMTP server",
+							icon: Mail,
+						},
+						{
+							label: "Additional themes",
+							details: "Change the interface to light or dark theme",
+							icon: Palette,
+						},
+					],
+				},
+				{
+					name: "Enterprise",
+					cost: 70,
+					description: "All Premium features plus SSO, failover and site-to-site links.",
+					featured: true,
+					href: "https://buy.stripe.com/00gaHJ4Z7bH0fRKbIV",
+					external: true,
+					buttonLabel: "Subscribe",
+					features: [
+						{
+							label: "All Premium features",
+							details: "All of the features included with a Premium subscription",
+							icon: Star,
+						},
+						{
+							label: "Billing per host",
+							details: "Each Pritunl host is billed at $70/month. The host can contain an unlimited number of VPN servers and unlimited number of users or connections",
+							icon: CreditCard,
+						},
+						{
+							label: "Single sign-on",
+							details: "Single sign-on with SAML, Google Apps, Duo Security and Radius",
+							icon: LogIn,
+						},
+						{
+							label: "TPM device authentication",
+							details: "Device authentication with TPM and Apple Secure Enclave",
+							icon: Fingerprint,
+						},
+						{
+							label: "Automatic failover",
+							details: "When a Pritunl instance fails the vpn servers running on the instance will automatically failover to another available Pritunl instance",
+							icon: HeartPulse,
+						},
+						{
+							label: "Replicated servers",
+							details: "Replicate a vpn server across multiple Pritunl instances to easily scale horizontally to handle more user connections",
+							icon: Copy,
+						},
+						{
+							label: "VXLan support",
+							details: "Automatic VXLan management for replication across availability zones without layer 2 connectivity while still maintaining client-to-client communication",
+							icon: Layers,
+						},
+						{
+							label: "AWS VPC integration",
+							details: "Integrate with AWS VPC to allow Pritunl to dynamically control the VPC routing table",
+							icon: Cloud,
+						},
+						{
+							label: "Site-to-site VPN",
+							details: "Easily create a site-to-site link between two Pritunl instances without any complicated configuration",
+							icon: Link,
+						},
+						{
+							label: "Server route NAT control",
+							details: "Enable or disable NAT for server routes",
+							icon: Route,
+						},
+						{
+							label: "DNS mapping",
+							details: "Map connected vpn clients to dns domains such as user0.org0.vpn using a custom dns server that runs along with the Pritunl server",
+							icon: Globe,
+						},
+						{
+							label: "DNS forwarding",
+							details: "Forward dns queries to a dns server on a remote network such as a consul server on an AWS VPC",
+							icon: Forward,
+						},
+						{
+							label: "Monitoring",
+							details: "Monitor server and user metrics with InfluxDB",
+							icon: Activity,
+						},
+						{
+							label: "Advanced auditing",
+							details: "Optional advanced auditing of user and administrator related events for improved security and intrusion detection",
+							icon: ScrollText,
+						},
+						{
+							label: "Bridged VPN mode",
+							details: "Create tap servers that bridge the vpn clients to the servers local network interface. Allowing vpn clients to get an ip address on the servers local network",
+							icon: Cable,
+						},
+						{
+							label: "Multiple administrators",
+							details: "Allow multiple administrators to manage the Pritunl server",
+							icon: UsersRound,
+						},
+						{
+							label: "User pin policy",
+							details: "Control over requiring users to set a pin before they are able to connect to a vpn server",
+							icon: Lock,
+						},
+						{
+							label: "Plugin system",
+							details: "Integrate Pritunl with other systems using plugins written in Python",
+							icon: Plug,
+						},
+						{
+							label: "API access",
+							details: "Manage Pritunl cluster using RESTful API with support for multiple API keys",
+							icon: SquareTerminal,
+						},
+						{
+							label: "IPsec site-to-site links",
+							details: "Site-to-site links with IPsec using pritunl-link client. Link client does not require database connection",
+							icon: Shield,
+						},
+						{
+							label: "Multi-Cloud VPC peering",
+							details: "Simple VPC peering and hybrid cloud with Pritunl link client",
+							icon: CloudCog,
+						},
+						{
+							label: "Automated link failover",
+							details: "Link failover with automated routing table management and automated port forwarding for Unifi links",
+							icon: RefreshCw,
+						},
+					],
+				},
+			],
+		},
 
 		repositories: [
 			{ distribution: "arch", version: "", package: "pritunl-client-electron" },
