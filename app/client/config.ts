@@ -116,6 +116,8 @@ const definition: ProductDefinition = {
 			},
 		},
 
+		installTitle: "Installation",
+		installDescription: "Select your distribution to view installation instructions.",
 		repositories: [
 			{ distribution: "arch", version: "", package: "pritunl-client-electron" },
 			{ distribution: "alma", version: "10", package: "pritunl-client-electron" },
