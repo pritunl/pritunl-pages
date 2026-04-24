@@ -63,6 +63,7 @@ import OneLogin from "../logos/OneLogin"
 import Yubico from "../logos/Yubico"
 import Home from "../components/Home"
 import Pritunl from "../logos/Pritunl"
+import PritunlClient from "../logos/PritunlClient"
 import PritunlCloud from "../logos/PritunlCloud"
 import AmazonAws from "../logos/AmazonAws"
 import GoogleCloud from "../logos/GoogleCloud"
@@ -608,6 +609,46 @@ const definition: ProductDefinition = {
 			{ distribution: "ubuntu", version: "24.04", package: "pritunl-client-electron" },
 			{ distribution: "ubuntu", version: "25.10", package: "pritunl-client-electron" },
 		],
+
+		client: {
+			logo: PritunlClient,
+			logoAlt: "Pritunl Client",
+			title: "OpenVPN and WireGuard Client",
+			description: "Free and open source cross platform OpenVPN and WireGuard client. Connect to any OpenVPN server with a secure open source client. Additonal integration available when connecting to a Pritunl server. Free and open source alternative to Viscosity.",
+			image: "client_macos",
+			imageAlt: "Pritunl Client",
+			link: "https://client.pritunl.com",
+			linkLabel: "Visit Client Homepage",
+			external: true,
+
+			installTitle: "Client Installation",
+			installDescription: "Select your distribution to view client installation instructions.",
+			repositories: [
+				{ distribution: "arch", version: "", package: "pritunl-client-electron" },
+				{ distribution: "alma", version: "10", package: "pritunl-client-electron" },
+				{ distribution: "oracle", version: "10", package: "pritunl-client-electron" },
+				{ distribution: "debian", version: "13", package: "pritunl-client-electron" },
+				{ distribution: "fedora", version: "42", package: "pritunl-client-electron" },
+				{ distribution: "fedora", version: "43", package: "pritunl-client-electron" },
+				{ distribution: "ubuntu", version: "24.04", package: "pritunl-client-electron" },
+				{ distribution: "ubuntu", version: "25.10", package: "pritunl-client-electron" },
+			],
+
+			installers: {
+				macos: {
+					label: "macOS",
+					version: "1.3.4562.57",
+					url: "https://github.com/pritunl/pritunl-client-electron/releases/download/$version/Pritunl.pkg.zip",
+					hashUrl: "https://raw.githubusercontent.com/pritunl/pritunl-client-electron/master/SHA256",
+				},
+				windows: {
+					label: "Windows",
+					version: "1.3.4562.57",
+					url: "https://github.com/pritunl/pritunl-client-electron/releases/download/$version/Pritunl.exe",
+					hashUrl: "https://raw.githubusercontent.com/pritunl/pritunl-client-electron/master/SHA256",
+				},
+			},
+		},
 
 		support: {
 			title: "Support",
