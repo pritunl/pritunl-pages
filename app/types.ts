@@ -153,6 +153,25 @@ export interface Installer {
 	hashUrl: string
 }
 
+export interface Client {
+	logo?: string | SvgData
+	logoAlt?: string
+	title: string
+	description: string
+	image?: string | SvgData
+	imageAlt?: string
+	link?: string
+	linkLabel?: string
+	external?: boolean
+	installTitle?: string
+	installDescription?: string
+	repositories?: Repository[]
+	installers?: {
+		macos?: Installer;
+		windows?: Installer
+	}
+}
+
 export interface ProductConfig {
 	name: string
 	title: string
@@ -180,6 +199,7 @@ export interface ProductConfig {
 		macos?: Installer;
 		windows?: Installer
 	}
+	client?: Client
 	support?: Support
 	footer?: Footer
 }
