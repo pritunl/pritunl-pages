@@ -99,7 +99,12 @@ export default async function Home({ config }: PageProps) {
 				<div className="h-38"></div>
 			</>}
 			{config.repositories && config.repositories.length > 0 && <>
-				<Repositories repositories={config.repositories} installers={config.installers}/>
+				<Repositories
+					installTitle={config.installTitle!}
+					installDescription={config.installDescription!}
+					repositories={config.repositories}
+					installers={config.installers}
+				/>
 				<div className="h-38"></div>
 			</>}
 			{config.footer && <Footer footer={config.footer}/>}
