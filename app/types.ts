@@ -194,6 +194,8 @@ export interface ProductConfig {
 
 	featureBlocks?: FeatureBlock[]
 	pricing?: Pricing
+	installTitle?: string
+	installDescription?: string
 	repositories?: Repository[]
 	installers?: {
 		macos?: Installer;
