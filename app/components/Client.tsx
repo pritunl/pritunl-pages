@@ -31,7 +31,7 @@ export default async function Client({ client }: Props) {
 							<Image
 								image={client.image}
 								alt={client.imageAlt!}
-								className="bg-white/5 shadow-2xl rounded-md ring-1 ring-white/10"
+								className={`bg-white/5 shadow-2xl ${client.imageRing ? "ring-1 ring-white/10" : ""} rounded-md`}
 							/>
 						</div>
 					</div>
