@@ -673,7 +673,7 @@ const definition: ProductDefinition = {
 			terms: "https://pritunl.com/terms",
 			twitter: "https://x.com/pritunl",
 			bluesky: "https://bsky.app/profile/pritunl.bsky.social",
-			github: "https://github.com/pritunl/pritunl-client",
+			github: "https://github.com/pritunl/pritunl",
 			linkedin: "https://linkedin.com/company/pritunl",
 			substack: "https://pritunl.substack.com",
 		},
