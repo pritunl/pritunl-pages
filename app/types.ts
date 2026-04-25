@@ -34,6 +34,7 @@ export interface HeroImage {
 export interface FeaturesGridItem {
 	image?: string | SvgData
 	imageColor?: string
+	imageNoRing?: boolean
 	title: string
 	description: string
 	icon?: LucideIcon | SvgData
