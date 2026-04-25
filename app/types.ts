@@ -160,6 +160,7 @@ export interface Client {
 	description: string
 	image?: string | SvgData
 	imageAlt?: string
+	imageRing?: boolean
 	link?: string
 	linkLabel?: string
 	external?: boolean
