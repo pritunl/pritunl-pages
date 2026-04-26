@@ -39,6 +39,10 @@ export interface FeaturesGridItem {
 	title: string
 	description: string
 	icon?: LucideIcon | SvgData
+	link?: string
+	linkLabel?: string
+	linkIcon?: LucideIcon | SvgData
+	external?: boolean
 }
 
 export interface FeatureBlockItem {
