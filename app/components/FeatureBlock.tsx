@@ -137,7 +137,7 @@ export default function FeatureBlock({ block, first, last }: Props) {
 												image={item.image}
 												alt={item.title}
 												fill
-												className={`object-cover object-left${item.imageColor ? " " + item.imageColor : ""}`}
+												className={`${item.imageFit ? "object-contain" : "object-cover object-left"}${item.imageColor ? " " + item.imageColor : ""}`}
 											/>
 										</div>}
 										<div className="p-6 pt-4">
