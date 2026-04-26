@@ -147,6 +147,21 @@ export default function FeatureBlock({ block, first, last }: Props) {
 											{item.title}
 										</p>
 											<p className="mt-2 max-w-lg text-base text-gray-400">{item.description}</p>
+											{item.link && (
+												<p className="mt-6">
+													{item.external ? (
+														<a href={item.link} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-x-2 text-base font-semibold text-indigo-400 hover:text-indigo-300">
+															{item.linkIcon && <item.linkIcon aria-hidden="true" className="size-5" />}
+															{item.linkLabel} <span aria-hidden="true">→</span>
+														</a>
+													) : (
+														<Link href={item.link} className="inline-flex items-center gap-x-2 text-base font-semibold text-indigo-400 hover:text-indigo-300">
+															{item.linkIcon && <item.linkIcon aria-hidden="true" className="size-5" />}
+															{item.linkLabel} <span aria-hidden="true">→</span>
+														</Link>
+													)}
+												</p>
+											)}
 										</div>
 									</div>
 									<div className={`pointer-events-none absolute inset-0 rounded-lg shadow-sm outline outline-white/15 ${cls.outer}`}></div>
