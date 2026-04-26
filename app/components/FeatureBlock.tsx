@@ -72,18 +72,19 @@ export default function FeatureBlock({ block, first, last }: Props) {
 
 	if (block.type === "grid") {
 		const gridItems = block.gridItems || []
-		const numRows = Math.ceil(gridItems.length / 3)
+		const cols = gridItems.length === 4 ? 2 : 3
+		const numRows = Math.ceil(gridItems.length / cols)
 
 		function getClasses(index: number) {
-			const col = index % 3
-			const row = Math.floor(index / 3)
+			const col = index % cols
+			const row = Math.floor(index / cols)
 			const isFirstRow = row === 0
 			const isLastRow = row === numRows - 1
 			const isFirst = index === 0
 			const isLast = index === gridItems.length - 1
 
 			const isTL = isFirstRow && col === 0
-			const isTR = isFirstRow && (col === 2 || (isLast && col < 2))
+			const isTR = isFirstRow && (col === cols - 1 || (isLast && col < cols - 1))
 			const isBL = isLastRow && col === 0
 			const isBR = isLast
 
@@ -125,7 +126,7 @@ export default function FeatureBlock({ block, first, last }: Props) {
 						{block.description}
 					</p>}
 					{blockLink}
-					<div className="mt-10 grid grid-cols-1 gap-4 sm:mt-16 lg:grid-cols-3">
+					<div className={`mt-10 grid grid-cols-1 gap-4 sm:mt-16 ${cols === 2 ? "lg:grid-cols-2" : "lg:grid-cols-3"}`}>
 						{gridItems.map((item, i) => {
 							const cls = getClasses(i)
 							return (
