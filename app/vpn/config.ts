@@ -382,6 +382,43 @@ const definition: ProductDefinition = {
 					},
 				],
 			},
+			{
+				type: "grid",
+				title: "Example Tutorials",
+				link: "https://github.com/pritunl/pritunl",
+				linkLabel: "Explore Documentation",
+				linkIcon: GitHubOutline,
+				gridItems: [
+					{
+						title: "Getting Started",
+						description: "Install and configure your first Pritunl VPN server with users, organizations and a running VPN connection.",
+						image: "getting_started",
+						imageNoRing: true,
+						imageFit: true,
+					},
+					{
+						title: "Replicated Servers",
+						description: "Deploy multiple Pritunl hosts for high availability with replicated VPN servers and automatic failover.",
+						image: "replicated_servers",
+						imageNoRing: true,
+						imageFit: true,
+					},
+					{
+						title: "Secure Access to Cloud Network",
+						description: "Route VPN client traffic to private cloud resources such as AWS VPCs and other internal networks.",
+						image: "accessing_private_network",
+						imageNoRing: true,
+						imageFit: true,
+					},
+					{
+						title: "Site-to-Site Configuration",
+						description: "Connect multiple networks across locations using Pritunl Links for encrypted site-to-site WireGuard or IPsec tunnels.",
+						image: "site_to_site",
+						imageNoRing: true,
+						imageFit: true,
+					},
+				],
+			},
 		],
 
 		pricing: {
