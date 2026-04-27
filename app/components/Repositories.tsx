@@ -11,6 +11,7 @@ interface Props {
 
 const distroLabels: Record<string, string> = {
 	arch: "Arch Linux",
+	amazon: "Amazon Linux",
 	alma: "AlmaLinux",
 	rocky: "Rocky Linux",
 	debian: "Debian",
@@ -38,6 +39,7 @@ const ubuntuVersionNames: Record<string, string> = {
 }
 
 const dnfPaths: Record<string, string> = {
+	amazon: "amazonlinux",
 	oracle: "oraclelinux",
 	alma: "almalinux",
 	rocky: "rockylinux",
