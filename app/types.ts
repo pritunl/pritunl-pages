@@ -202,6 +202,7 @@ export interface ProductConfig {
 
 	featureBlocks?: FeatureBlock[]
 	pricing?: Pricing
+	featureBlocksLower?: FeatureBlock[]
 	installTitle?: string
 	installDescription?: string
 	repositories?: Repository[]
