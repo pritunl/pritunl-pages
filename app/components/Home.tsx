@@ -108,6 +108,12 @@ export default async function Home({ config }: PageProps) {
 				/>
 				<div className="h-38"></div>
 			</>}
+			{config.featureBlocksLower?.map((block, i) => (
+				<FeatureBlock key={i} block={block} first={i === 0} last={i === config.featureBlocksLower!.length - 1}/>
+			))}
+			{(config.featureBlocksLower?.length ?? 0) > 0 && (
+					<div className="h-38"></div>
+			)}
 			{config.client && <>
 				<Client client={config.client}/>
 				<div className="h-38"></div>
