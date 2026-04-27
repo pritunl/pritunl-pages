@@ -25,6 +25,7 @@ import {
 	CreditCard,
 	ArrowRightLeft,
 	Route,
+	Rocket,
 	ShieldCheck,
 	KeyRound,
 	Laptop,
