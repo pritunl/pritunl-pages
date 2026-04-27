@@ -392,6 +392,7 @@ const definition: ProductDefinition = {
 					{
 						title: "Getting Started",
 						description: "Install and configure your first Pritunl VPN server with users, organizations and a running VPN connection.",
+						icon: Rocket,
 						image: "getting_started",
 						imageNoRing: true,
 						imageFit: true,
@@ -402,6 +403,7 @@ const definition: ProductDefinition = {
 					{
 						title: "Replicated Servers",
 						description: "Deploy multiple Pritunl hosts for high availability with replicated VPN servers and automatic failover.",
+						icon: Copy,
 						image: "replicated_servers",
 						imageNoRing: true,
 						imageFit: true,
@@ -412,6 +414,7 @@ const definition: ProductDefinition = {
 					{
 						title: "Secure Access to Cloud Network",
 						description: "Route VPN client traffic to private cloud resources such as AWS VPCs and other internal networks.",
+						icon: Cloud,
 						image: "accessing_private_network",
 						imageNoRing: true,
 						imageFit: true,
@@ -422,6 +425,7 @@ const definition: ProductDefinition = {
 					{
 						title: "Site-to-Site Configuration",
 						description: "Connect multiple networks across locations using Pritunl Links for encrypted site-to-site WireGuard or IPsec tunnels.",
+						icon: Network,
 						image: "site_to_site",
 						imageNoRing: true,
 						imageFit: true,
