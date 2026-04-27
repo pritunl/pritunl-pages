@@ -383,6 +383,9 @@ const definition: ProductDefinition = {
 					},
 				],
 			},
+		],
+
+		featureBlocksLower: [
 			{
 				type: "grid",
 				title: "Example Tutorials",
