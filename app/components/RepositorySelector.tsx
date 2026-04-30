@@ -4,6 +4,7 @@ import { useState, type ComponentType, type SVGProps } from "react"
 import type { RepositoryDistribution } from "../types"
 import ArchLinux from "../icons/ArchLinux"
 import AlmaLinux from "../icons/AlmaLinux"
+import Aws from "../icons/Aws"
 import RockyLinux from "../icons/RockyLinux"
 import Debian from "../icons/Debian"
 import OracleLinux from "../icons/OracleLinux"
@@ -23,6 +24,7 @@ interface Props {
 
 const distroIcons: Record<RepositoryDistribution, ComponentType<SVGProps<SVGSVGElement>>> = {
 	arch: ArchLinux,
+	amazon: Aws,
 	alma: AlmaLinux,
 	rocky: RockyLinux,
 	debian: Debian,
