@@ -4,7 +4,7 @@ const clipPath3 = "polygon(50% 0%, 80% 10%, 100% 40%, 95% 70%, 75% 100%, 40% 90%
 
 export function Gradient({ children, codeBackground, short }: { children: React.ReactNode, codeBackground?: boolean, short?: boolean }) {
 	return (
-		<div className="relative isolate bg-gray-950 overflow-hidden">
+		<div className="relative isolate bg-gray-950 overflow-hidden [overflow-anchor:none]">
 			{codeBackground && <div
 				aria-hidden="true"
 				className="fixed inset-0 -z-10 opacity-2"
