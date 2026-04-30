@@ -144,7 +144,7 @@ export interface FeatureBlock {
 	gridItems?: FeaturesGridItem[]
 }
 
-export type RepositoryDistribution = "arch" | "alma" | "rocky" | "debian" | "oracle" | "fedora" | "ubuntu"
+export type RepositoryDistribution = "arch" | "amazon" | "alma" | "rocky" | "debian" | "oracle" | "fedora" | "ubuntu"
 
 export interface Repository {
 	distribution: RepositoryDistribution
