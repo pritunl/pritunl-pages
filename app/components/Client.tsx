@@ -50,6 +50,7 @@ export default async function Client({ client }: Props) {
 				{client.repositories && client.repositories.length > 0 && <>
 					<div className="h-12"></div>
 					<Repositories
+						id="client_install"
 						installTitle={client.installTitle!}
 						installDescription={client.installDescription!}
 						repositories={client.repositories!}
