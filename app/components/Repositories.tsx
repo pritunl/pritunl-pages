@@ -3,6 +3,7 @@ import { highlight } from "../lib/shiki"
 import RepositorySelector from "./RepositorySelector"
 
 interface Props {
+	id: string,
 	installTitle: string,
 	installDescription: string,
 	repositories: Repository[]
@@ -270,7 +271,7 @@ sudo systemctl start mongod ${repo.package}`
 	}
 }
 
-export default async function Repositories({ installTitle, installDescription, repositories, installers }: Props) {
+export default async function Repositories({ id, installTitle, installDescription, repositories, installers }: Props) {
 	const entries = await Promise.all(
 		repositories.map(async (repo) => {
 			var commands: string
@@ -290,7 +291,7 @@ export default async function Repositories({ installTitle, installDescription, r
 	)
 
 	return (
-		<div id="install" className="relative isolate px-6 lg:px-8">
+		<div id={id} className="relative isolate px-6 lg:px-8">
 			<div className="mx-auto max-w-4xl">
 				<h2 className="text-center text-4xl font-medium tracking-tight text-balance text-white sm:text-5xl">
 					{installTitle}
