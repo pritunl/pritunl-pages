@@ -277,7 +277,7 @@ export default async function Repositories({ installTitle, installDescription, r
 			if (repo.type === "vpn") {
 				commands = generateCommandsVpn(repo)
 			} else {
-				commands = generateCommandsVpn(repo)
+				commands = generateCommands(repo)
 			}
 			const highlightedHtml = await highlight(commands, "bash")
 			return {
