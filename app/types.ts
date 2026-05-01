@@ -148,10 +148,10 @@ export type RepositoryDistribution = "arch" | "amazon" | "alma" | "rocky" | "deb
 
 export interface Repository {
 	type?: string
-	distribution: RepositoryDistribution
+	distro: RepositoryDistribution
 	version: string
 	package: string
-	mongoVersion?: string
+	mongo?: string
 }
 
 export interface Installer {
