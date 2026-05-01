@@ -8,7 +8,7 @@ interface Props {
 
 export default async function Client({ client }: Props) {
 	return (
-		<div className="relative isolate px-6 lg:px-8">
+		<div id="client" className="relative isolate px-6 lg:px-8">
 			<div className="mx-auto max-w-4xl">
 				{client.logo && (
 					<div className="flex justify-center">
