@@ -147,9 +147,11 @@ export interface FeatureBlock {
 export type RepositoryDistribution = "arch" | "amazon" | "alma" | "rocky" | "debian" | "oracle" | "fedora" | "ubuntu"
 
 export interface Repository {
+	type?: string
 	distribution: RepositoryDistribution
 	version: string
 	package: string
+	mongoVersion?: string
 }
 
 export interface Installer {
