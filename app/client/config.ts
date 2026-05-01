@@ -119,14 +119,14 @@ const definition: ProductDefinition = {
 		installTitle: "Installation",
 		installDescription: "Select your distribution to view installation instructions.",
 		repositories: [
-			{ distribution: "arch", version: "", package: "pritunl-client-electron" },
-			{ distribution: "alma", version: "10", package: "pritunl-client-electron" },
-			{ distribution: "oracle", version: "10", package: "pritunl-client-electron" },
-			{ distribution: "debian", version: "13", package: "pritunl-client-electron" },
-			{ distribution: "fedora", version: "42", package: "pritunl-client-electron" },
-			{ distribution: "fedora", version: "43", package: "pritunl-client-electron" },
-			{ distribution: "ubuntu", version: "24.04", package: "pritunl-client-electron" },
-			{ distribution: "ubuntu", version: "25.10", package: "pritunl-client-electron" },
+			{ distro: "arch", version: "", package: "pritunl-client-electron" },
+			{ distro: "alma", version: "10", package: "pritunl-client-electron" },
+			{ distro: "oracle", version: "10", package: "pritunl-client-electron" },
+			{ distro: "debian", version: "13", package: "pritunl-client-electron" },
+			{ distro: "fedora", version: "42", package: "pritunl-client-electron" },
+			{ distro: "fedora", version: "43", package: "pritunl-client-electron" },
+			{ distro: "ubuntu", version: "24.04", package: "pritunl-client-electron" },
+			{ distro: "ubuntu", version: "25.10", package: "pritunl-client-electron" },
 		],
 
 		support: {
