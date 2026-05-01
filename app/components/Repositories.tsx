@@ -81,7 +81,7 @@ const mongoGpgVersions: Record<string, string> = {
 }
 
 function getRepoLabel(repo: Repository): string {
-	const label = distroLabels[repo.distribution] || repo.distribution
+	const label = distroLabels[repo.distro] || repo.distro
 	if (repo.version) {
 		return `${label} ${repo.version}`
 	}
@@ -92,7 +92,7 @@ function generateCommands(repo: Repository): string {
 	const gpgKey = "https://raw.githubusercontent.com/pritunl/pgp/master/pritunl_repo_pub.asc"
 	const gpgKeyId = "7568D9BB55FF9E5287D586017AE645C0CF8E292A"
 
-	switch (repo.distribution) {
+	switch (repo.distro) {
 		case "arch":
 			return `sudo tee -a /etc/pacman.conf << EOF
 [pritunl]
@@ -112,7 +112,7 @@ sudo pacman -S --noconfirm ${repo.package}`
 			return `sudo tee /etc/yum.repos.d/pritunl.repo << EOF
 [pritunl]
 name=Pritunl Stable Repository
-baseurl=https://repo.pritunl.com/stable/yum/${dnfPaths[repo.distribution]}/${repo.version}/
+baseurl=https://repo.pritunl.com/stable/yum/${dnfPaths[repo.distro]}/${repo.version}/
 gpgcheck=1
 enabled=1
 gpgkey=${gpgKey}
@@ -153,7 +153,7 @@ function generateCommandsVpn(repo: Repository): string {
 	const gpgKey = "https://raw.githubusercontent.com/pritunl/pgp/master/pritunl_repo_pub.asc"
 	const gpgKeyId = "7568D9BB55FF9E5287D586017AE645C0CF8E292A"
 
-	switch (repo.distribution) {
+	switch (repo.distro) {
 		case "arch":
 			return `sudo tee -a /etc/pacman.conf << EOF
 [pritunl]
@@ -177,16 +177,16 @@ sudo systemctl start mongodb ${repo.package}`
 			return `sudo tee /etc/yum.repos.d/mongodb-org.repo << EOF
 [mongodb-org]
 name=MongoDB Repository
-baseurl=https://repo.mongodb.org/yum/${mongoDnfPaths[repo.distribution]}/${mongoDnfVersions[repo.version]}/mongodb-org/${repo.mongoVersion}/x86_64/
+baseurl=https://repo.mongodb.org/yum/${mongoDnfPaths[repo.distro]}/${mongoDnfVersions[repo.version]}/mongodb-org/${repo.mongo}/x86_64/
 gpgcheck=1
 enabled=1
-gpgkey=https://www.mongodb.org/static/pgp/server-${mongoGpgVersions[repo.mongoVersion!]}.asc
+gpgkey=https://www.mongodb.org/static/pgp/server-${mongoGpgVersions[repo.mongo!]}.asc
 EOF
 
 sudo tee /etc/yum.repos.d/pritunl.repo << EOF
 [pritunl]
 name=Pritunl Stable Repository
-baseurl=https://repo.pritunl.com/stable/yum/${dnfPaths[repo.distribution]}/${repo.version}/
+baseurl=https://repo.pritunl.com/stable/yum/${dnfPaths[repo.distro]}/${repo.version}/
 gpgcheck=1
 enabled=1
 gpgkey=${gpgKey}
@@ -202,8 +202,8 @@ sudo systemctl start mongod ${repo.package}`
 
 		case "ubuntu":
 			return `sudo tee /etc/apt/sources.list.d/mongodb-org.list << EOF
-deb [ signed-by=/usr/share/keyrings/mongodb-server-${mongoGpgVersions[repo.mongoVersion!]}.gpg ] \\
-https://repo.mongodb.org/apt/ubuntu ${mongoDebianVersionNames[repo.version]}/mongodb-org/${repo.mongoVersion} multiverse
+deb [ signed-by=/usr/share/keyrings/mongodb-server-${mongoGpgVersions[repo.mongo!]}.gpg ] \\
+https://repo.mongodb.org/apt/ubuntu ${mongoDebianVersionNames[repo.version]}/mongodb-org/${repo.mongo} multiverse
 EOF
 
 sudo tee /etc/apt/sources.list.d/openvpn.list << EOF
@@ -216,8 +216,8 @@ deb [signed-by=/usr/share/keyrings/pritunl.gpg] https://repo.pritunl.com/stable/
 EOF
 
 sudo apt --assume-yes install gnupg
-curl -fsSL https://www.mongodb.org/static/pgp/server-${mongoGpgVersions[repo.mongoVersion!]}.asc \\
-  | sudo gpg -o /usr/share/keyrings/mongodb-server-${mongoGpgVersions[repo.mongoVersion!]}.gpg --dearmor --yes
+curl -fsSL https://www.mongodb.org/static/pgp/server-${mongoGpgVersions[repo.mongo!]}.asc \\
+  | sudo gpg -o /usr/share/keyrings/mongodb-server-${mongoGpgVersions[repo.mongo!]}.gpg --dearmor --yes
 curl -fsSL https://swupdate.openvpn.net/repos/repo-public.gpg \\
   | sudo gpg -o /usr/share/keyrings/openvpn-repo.gpg --dearmor --yes
 curl -fsSL ${gpgKey} \\
@@ -235,8 +235,8 @@ sudo systemctl start mongod ${repo.package}`
 
 		case "debian":
 			return `sudo tee /etc/apt/sources.list.d/mongodb-org.list << EOF
-deb [ signed-by=/usr/share/keyrings/mongodb-server-${mongoGpgVersions[repo.mongoVersion!]}.gpg ] \\
-https://repo.mongodb.org/apt/debian ${mongoDebianVersionNames[repo.version]}/mongodb-org/${repo.mongoVersion} main
+deb [ signed-by=/usr/share/keyrings/mongodb-server-${mongoGpgVersions[repo.mongo!]}.gpg ] \\
+https://repo.mongodb.org/apt/debian ${mongoDebianVersionNames[repo.version]}/mongodb-org/${repo.mongo} main
 EOF
 
 sudo tee /etc/apt/sources.list.d/openvpn.list << EOF
@@ -249,8 +249,8 @@ deb [signed-by=/usr/share/keyrings/pritunl.gpg] https://repo.pritunl.com/stable/
 EOF
 
 sudo apt --assume-yes install gnupg
-curl -fsSL https://www.mongodb.org/static/pgp/server-${mongoGpgVersions[repo.mongoVersion!]}.asc \\
-  | sudo gpg -o /usr/share/keyrings/mongodb-server-${mongoGpgVersions[repo.mongoVersion!]}.gpg --dearmor --yes
+curl -fsSL https://www.mongodb.org/static/pgp/server-${mongoGpgVersions[repo.mongo!]}.asc \\
+  | sudo gpg -o /usr/share/keyrings/mongodb-server-${mongoGpgVersions[repo.mongo!]}.gpg --dearmor --yes
 curl -fsSL https://swupdate.openvpn.net/repos/repo-public.gpg \\
   | sudo gpg -o /usr/share/keyrings/openvpn-repo.gpg --dearmor --yes
 curl -fsSL ${gpgKey} \\
@@ -283,7 +283,7 @@ export default async function Repositories({ id, installTitle, installDescriptio
 			const highlightedHtml = await highlight(commands, "bash")
 			return {
 				label: getRepoLabel(repo),
-				distribution: repo.distribution,
+				distribution: repo.distro,
 				commands,
 				highlightedHtml,
 			}
