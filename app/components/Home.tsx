@@ -101,6 +101,7 @@ export default async function Home({ config }: PageProps) {
 			</>}
 			{config.repositories && config.repositories.length > 0 && <>
 				<Repositories
+					id="install"
 					installTitle={config.installTitle!}
 					installDescription={config.installDescription!}
 					repositories={config.repositories}
