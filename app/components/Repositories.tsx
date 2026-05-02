@@ -224,10 +224,6 @@ curl -fsSL https://swupdate.openvpn.net/repos/repo-public.gpg \\
 curl -fsSL ${gpgKey} \\
   | sudo gpg -o /usr/share/keyrings/pritunl.gpg --dearmor --yes
 
-sudo apt --assume-yes install gnupg
-curl -fsSL ${gpgKey} \\
-  | sudo gpg -o /usr/share/keyrings/pritunl.gpg --dearmor --yes
-
 sudo ufw disable
 sudo apt update
 sudo apt install ${repo.package} mongodb-org wireguard-tools
@@ -254,10 +250,6 @@ curl -fsSL https://www.mongodb.org/static/pgp/server-${mongoGpgVersions[repo.mon
   | sudo gpg -o /usr/share/keyrings/mongodb-server-${mongoGpgVersions[repo.mongo!]}.gpg --dearmor --yes
 curl -fsSL https://swupdate.openvpn.net/repos/repo-public.gpg \\
   | sudo gpg -o /usr/share/keyrings/openvpn-repo.gpg --dearmor --yes
-curl -fsSL ${gpgKey} \\
-  | sudo gpg -o /usr/share/keyrings/pritunl.gpg --dearmor --yes
-
-sudo apt --assume-yes install gnupg
 curl -fsSL ${gpgKey} \\
   | sudo gpg -o /usr/share/keyrings/pritunl.gpg --dearmor --yes
 
