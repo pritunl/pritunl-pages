@@ -105,6 +105,7 @@ sudo pacman-key --lsign-key ${gpgKeyId}
 sudo pacman -Sy
 sudo pacman -S --noconfirm ${repo.package}`
 
+		case "amazon":
 		case "oracle":
 		case "alma":
 		case "rocky":
