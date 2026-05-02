@@ -116,7 +116,6 @@ const definition: ProductDefinition = {
 			},
 		],
 
-
 		featureBlocks: [
 			{
 				type: "center_open",
