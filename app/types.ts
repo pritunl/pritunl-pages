@@ -219,6 +219,22 @@ export interface ProductConfig {
 	footer?: Footer
 }
 
+export interface PageConfig {
+	title: string
+	description: string
+
+	badge: string
+	heading: HeadingSegment[][]
+	subheading: string
+	buttons: HeroButton[]
+
+	heroImage?: HeroImage
+	heroImages?: HeroImage[]
+
+	featureBlocks?: FeatureBlock[]
+	footer?: Footer
+}
+
 export interface PageProps {
 	config: ProductConfig
 }
@@ -227,5 +243,6 @@ export interface ProductDefinition {
 	config: ProductConfig
 	pages: {
 		home: ComponentType<PageProps>
+		[key: string]: ComponentType<PageProps> | PageConfig
 	}
 }
