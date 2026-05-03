@@ -72,7 +72,7 @@ export default function FeatureBlock({ block, first, last }: Props) {
 
 	if (block.type === "grid") {
 		const gridItems = block.gridItems || []
-		const cols = gridItems.length === 4 ? 2 : 3
+		const cols = gridItems.length === 2 || gridItems.length === 4 ? 2 : 3
 		const numRows = Math.ceil(gridItems.length / cols)
 
 		function getClasses(index: number) {
