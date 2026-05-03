@@ -750,6 +750,61 @@ const definition: ProductDefinition = {
 
 	pages: {
 		home: Home,
+		"vpc": {
+			title: "Pritunl - Single Sign On",
+			description: "Free and open source enterprise VPN server with distributed architecture and scalability.",
+
+			badge: "Site-to-Site Multi-Cloud",
+			heading: [
+				[
+					{ text: "Multi-Cloud VPC Peering" },
+				],
+			],
+			subheading: "Interconnect VPC networks using WireGuard or IPsec across AWS, Google Cloud and Oracle Cloud to provide reliable peering with automatic failover that can scale horizontally.",
+
+			buttons: [
+				{
+					label: "Live Demo",
+					href: "https://demo.pritunl.com",
+					style: "secondary",
+					external: true,
+				},
+				{
+					label: "Get Started",
+					href: "https://docs.pritunl.com/kb/vpn/sso/connection-authentication",
+					style: "primary",
+					external: true,
+				},
+			],
+
+			featureBlocks: [
+				{
+					type: "right",
+					title: "Reliable VPC Networking",
+					description: "Interconnect your VPC networks and provide remote access in minutes. Pritunl can handle both small and large use cases on AWS without any complicated configuration.",
+					image: "vpn_infrastructure",
+					imageAlt: "High Availability Infrastructure",
+					imageNoRing: true,
+					items: [
+						{
+							icon: Shield,
+							title: "WireGuard and IPsec Links",
+							description: "Create high performance site-to-site links between datacenters and cloud networks using WireGuard and IPsec with support for both hub-and-spoke and mesh topologies.",
+						},
+						{
+							icon: RefreshCw,
+							title: "Automated Failover",
+							description: "Automatically update cloud provider routing tables using native APIs when a link failure is detected, ensuring traffic is rerouted to a healthy node with no manual intervention.",
+						},
+						{
+							icon: Globe,
+							title: "Multi-Cloud Connectivity",
+							description: "Link networks across AWS, Google Cloud, Azure, Oracle Cloud, Pritunl Cloud, Hetzner and on-premise datacenters from a single management interface with unified routing and monitoring.",
+						},
+					],
+				},
+			],
+		},
 		"sso": {
 			title: "Pritunl - Single Sign On",
 			description: "Free and open source enterprise VPN server with distributed architecture and scalability.",
