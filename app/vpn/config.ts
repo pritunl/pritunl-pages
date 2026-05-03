@@ -1112,6 +1112,70 @@ const definition: ProductDefinition = {
 				},
 			],
 		},
+		"infrastructure": {
+			title: "Pritunl - Distributed and Scalable Infrastructure",
+			description: "Quickly scale to thousands of users with high availability in a cloud environment without the need for expensive proprietary hardware.",
+
+			badge: "Scalable Infrastructure",
+			heading: [
+				[
+					{ text: "Distributed and Scalable " },
+					{ text: "Infrastructure", highlight: true },
+				],
+			],
+			subheading: "Quickly scale to thousands of users with high availability in a cloud environment without the need for expensive proprietary hardware.",
+
+			buttons: [
+				{
+					label: "Live Demo",
+					href: "https://demo.pritunl.com",
+					style: "secondary",
+					external: true,
+				},
+				{
+					label: "Learn More",
+					href: "https://docs.pritunl.com/kb/vpn/system/infrastructure",
+					style: "primary",
+					external: true,
+				},
+			],
+
+			heroImage: {
+				image: "vpn_servers",
+				alt: "Pritunl Distributed Infrastructure",
+				ring: false,
+				noBorder: true,
+				small: true,
+			},
+
+			featureBlocks: [
+				{
+					type: "grid",
+					title: "Reliable Infrastructure",
+					link: "https://docs.pritunl.com/kb/vpn/system/infrastructure",
+					linkLabel: "View Infrastructure Documentation",
+					linkIcon: Server,
+					gridItems: [
+						{
+							icon: DatabaseBackup,
+							title: "Replication and High Availability",
+							description: "All servers operate as equal peers with no single point of failure. When an instance fails, connected clients are automatically routed to a healthy node with no manual intervention required.",
+							link: "https://medium.com/@pritunl/pritunl-20k-clients-e990a399e954",
+							linkIcon: FlaskConical,
+							linkLabel: "View 20k Concurrent Clients Test",
+						},
+						{
+							icon: Scaling,
+							title: "Scale Complex Configurations",
+							description: "Deploy complex multi-server topologies and site-to-site network links with minimal configuration. Redundant link design ensures failover without unexpected outages.",
+							link: "https://docs.pritunl.com/kb/vpn/system/scaling",
+							linkIcon: BookOpen,
+							linkLabel: "Explore Scaling Documentation",
+						},
+					],
+				},
+			],
+		},
 	},
 }
 
