@@ -47,6 +47,7 @@ import {
 	Lock,
 	Plug,
 	CloudCog,
+	AtSign,
 } from "lucide-react"
 
 import Discourse from "../icons/Discourse"
