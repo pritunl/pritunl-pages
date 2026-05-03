@@ -889,6 +889,23 @@ const definition: ProductDefinition = {
 						},
 					],
 				},
+				{
+					type: "grid",
+					title: "Dynamic DNS",
+					description: "Automatically manage DNS records for connected VPN users and forward queries to remote networks.",
+					gridItems: [
+						{
+							icon: AtSign,
+							title: "DNS Mapping",
+							description: "All connected users and devices are automatically mapped to a DNS domain using their username and organization name, such as user0.organization0.vpn.",
+						},
+						{
+							icon: Route,
+							title: "DNS Forwarding",
+							description: "Forward DNS queries to a DNS server on a remote network such as a Consul server on an AWS VPC. Map user domains to internal services, for example search.user.org.vpn resolves to search.node.consul.",
+						},
+					],
+				},
 			],
 		},
 		"sso": {
