@@ -751,7 +751,7 @@ const definition: ProductDefinition = {
 	pages: {
 		home: Home,
 		"vpc": {
-			title: "Pritunl - Single Sign On",
+			title: "Pritunl - Multi-Cloud VPC Peering",
 			description: "Free and open source enterprise VPN server with distributed architecture and scalability.",
 
 			badge: "Site-to-Site Multi-Cloud",
