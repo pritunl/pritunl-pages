@@ -28,6 +28,7 @@ export interface HeroImage {
 	rounded?: string
 	ring?: boolean
 	noBorder?: boolean
+	small?: boolean
 	quality?: number
 	unoptimized?: boolean
 }
