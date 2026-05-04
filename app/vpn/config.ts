@@ -1232,6 +1232,32 @@ const definition: ProductDefinition = {
 						},
 					],
 				},
+				{
+					type: "grid",
+					title: "Scalable Architecture",
+					gridItems: [
+						{
+							icon: DatabaseZap,
+							title: "Built on MongoDB",
+							description: "Pritunl is built on MongoDB, a reliable and scalable database that can be quickly deployed. With built in support for replication a reliable database can be setup in minutes making a Pritunl cluster deployment fast and easy.",
+						},
+						{
+							icon: Activity,
+							title: "Monitoring with InfluxDB",
+							description: "Monitor Pritunl clusters using InfluxDB with tools such as Grafana.",
+						},
+						{
+							icon: RefreshCw,
+							title: "Automated Failover",
+							description: "Automated failover ensures all VPN servers are running and in the event that an instance fails the VPN server will automatically be started on a healthy instance.",
+						},
+						{
+							icon: Copy,
+							title: "Server Replication",
+							description: "Full support for server replication to scale clusters for thousands of concurrent users. Clients are automatically routed between replicas to maintain client-to-client communication. Automatic VXLan management for replication across availability zones.",
+						},
+					],
+				},
 			],
 		},
 	},
