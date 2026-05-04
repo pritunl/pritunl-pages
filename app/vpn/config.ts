@@ -1119,6 +1119,74 @@ const definition: ProductDefinition = {
 				},
 			],
 		},
+		"security": {
+			title: "Pritunl - Advanced Security",
+			description: "Pritunl is the most secure VPN server available and the only VPN server to offer up to five layers of authentication. Including a user certificate, six digit user pin, two-factor authenticator, single sign-on and mobile push authentication.",
+
+			badge: "Advanced VPN Security",
+			heading: [
+				[
+					{ text: "Advanced " },
+					{ text: "Security", highlight: true },
+				],
+			],
+			subheading: "Pritunl is the most secure VPN server available and the only VPN server to offer up to five layers of authentication. Including a user certificate, six digit user pin, two-factor authenticator, single sign-on and mobile push authentication.",
+
+			buttons: [
+				{
+					label: "Live Demo",
+					href: "https://demo.pritunl.com",
+					style: "secondary",
+					external: true,
+				},
+				{
+					label: "Learn More",
+					href: "https://docs.pritunl.com/kb/vpn/security/features",
+					style: "primary",
+					external: true,
+				},
+			],
+
+			featureBlocks: [
+				{
+					type: "grid",
+					title: "Security Features",
+					link: "https://docs.pritunl.com/kb/vpn/security/features",
+					linkLabel: "View Security Features Documentation",
+					linkIcon: ShieldCheck,
+					gridItems: [
+						{
+							icon: ScrollText,
+							title: "User Auditing",
+							description: "Audit user and administrator events to assist in intrusion detection, improve security and fulfill regulatory requirements.",
+							link: "https://docs.pritunl.com/kb/vpn/system/auditing",
+							linkLabel: "View Auditing Documentation",
+						},
+						{
+							icon: LogIn,
+							title: "Single Sign-On",
+							description: "Prevent phishing attacks, add additional layers of security and enforce user security policies with single sign-on. Pritunl has full support for several single sign-on providers without any complicated setup.",
+							link: "https://docs.pritunl.com/kb/vpn/sso/connection-authentication",
+							linkLabel: "View Single Sign-On Documentation",
+						},
+						{
+							icon: Fingerprint,
+							title: "Device Authentication",
+							description: "TPM and Apple Secure Enclave device authentication provides hardware-level identity verification, ensuring only trusted and authorized devices can establish VPN connections.",
+							link: "https://docs.pritunl.com/kb/vpn/security/device-authentication",
+							linkLabel: "View Device Authentication Documentation",
+						},
+						{
+							icon: ShieldCheck,
+							title: "SELinux",
+							description: "Pritunl has full support for SELinux with included policies to restrict each component for improved security.",
+							link: "https://docs.pritunl.com/kb/vpn/security/features",
+							linkLabel: "View SELinux Documentation",
+						},
+					],
+				},
+			],
+		},
 		"infrastructure": {
 			title: "Pritunl - Distributed and Scalable Infrastructure",
 			description: "Quickly scale to thousands of users with high availability in a cloud environment without the need for expensive proprietary hardware.",
