@@ -75,7 +75,7 @@ export default async function Home({ config }: PageProps) {
 								</div>
 							</div>
 						) : config.heroImage ? (
-							<div className="px-4 mt-16 flex justify-center sm:mt-24">
+							<div className={`px-4 mt-16 flex justify-center sm:mt-24${config.heroImage.small ? " max-w-3xl mx-auto" : ""}`}>
 								<div className={config.heroImage.noBorder ? "w-fit" : "-m-2 rounded-xl bg-white/2.5 p-2 ring-1 ring-inset ring-white/10 lg:-m-4 lg:rounded-2xl lg:p-4 w-fit"}>
 									<Image image={config.heroImage.image} alt={config.heroImage.alt} className={`${config.heroImage.noBorder ? "" : "bg-white/5 shadow-2xl "}${config.heroImage.ring ? "ring-1 ring-white/10" : ""} ${config.heroImage.rounded ?? "rounded-md"}${config.heroImage.imageColor ? " " + config.heroImage.imageColor : ""}`} quality={config.heroImage.quality} unoptimized={config.heroImage.unoptimized}/>
 								</div>
