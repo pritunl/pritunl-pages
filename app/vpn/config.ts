@@ -48,6 +48,10 @@ import {
 	Plug,
 	CloudCog,
 	AtSign,
+	DatabaseBackup,
+	FlaskConical,
+	Scaling,
+	BookOpen,
 } from "lucide-react"
 
 import Discourse from "../icons/Discourse"
