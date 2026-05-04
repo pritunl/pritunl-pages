@@ -1,6 +1,7 @@
 import Header from "./Header"
 import FeatureBlock from "./FeatureBlock"
 import Footer from "./Footer"
+import Repositories from "./Repositories"
 import Image from "./Image"
 import { Gradient } from "./Themed"
 
@@ -89,6 +90,16 @@ export default async function Page({ config, pageConfig }: { config: ProductConf
 			{(pageConfig.featureBlocks?.length ?? 0) > 0 && (
 					<div className="h-38"></div>
 			)}
+			{pageConfig.repositories && pageConfig.repositories.length > 0 && <>
+				<Repositories
+					id="install"
+					installTitle={pageConfig.installTitle!}
+					installDescription={pageConfig.installDescription!}
+					repositories={pageConfig.repositories}
+					installers={pageConfig.installers}
+				/>
+				<div className="h-38"></div>
+			</>}
 			{footer && <Footer footer={footer}/>}
 		</Gradient>
 	)
