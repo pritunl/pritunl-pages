@@ -235,6 +235,14 @@ export interface PageConfig {
 
 	featureBlocks?: FeatureBlock[]
 	footer?: Footer
+
+	installTitle?: string
+	installDescription?: string
+	repositories?: Repository[]
+	installers?: {
+		macos?: Installer;
+		windows?: Installer
+	}
 }
 
 export interface PageProps {
