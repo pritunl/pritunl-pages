@@ -129,6 +129,9 @@ const definition: ProductDefinition = {
 				type: "logos",
 				title: "Multi-Cloud VPC Peering",
 				description: "Create multi-cloud WireGuard or IPsec site-to-site links with Pritunl Link. Available for AWS, Google Cloud, Azure, Oracle Cloud, Pritunl Cloud and Hetzner.",
+				link: "/vpc",
+				linkLabel: "Explore VPC Peering Features",
+				linkIcon: Network,
 				logoItems: [
 					{
 						image: AmazonAws,
