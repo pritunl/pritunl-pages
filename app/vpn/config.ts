@@ -184,7 +184,7 @@ const definition: ProductDefinition = {
 				type: "two_columns",
 				title: "The Most Secure VPN Server",
 				description: "Pritunl provides innovative security features not available from any other provider. Including TPM and Apple Secure Enclave device authentication, a dynamic firewall, SELinux policies, dual web server design and self shutdown notification system.",
-				link: "https://docs.pritunl.com/kb/vpn/security/features",
+				link: "/security",
 				linkLabel: "Explore Security Features",
 				linkIcon: Cpu,
 				cardItems: [
