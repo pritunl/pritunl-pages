@@ -73,7 +73,7 @@ export default async function Page({ config, pageConfig }: { config: ProductConf
 								</div>
 							</div>
 						) : pageConfig.heroImage ? (
-							<div className="px-4 mt-16 flex justify-center sm:mt-24">
+							<div className={`px-4 mt-16 flex justify-center sm:mt-24${pageConfig.heroImage.small ? " max-w-3xl mx-auto" : ""}`}>
 								<div className={pageConfig.heroImage.noBorder ? "w-fit" : "-m-2 rounded-xl bg-white/2.5 p-2 ring-1 ring-inset ring-white/10 lg:-m-4 lg:rounded-2xl lg:p-4 w-fit"}>
 									<Image image={pageConfig.heroImage.image} alt={pageConfig.heroImage.alt} className={`${pageConfig.heroImage.noBorder ? "" : "bg-white/5 shadow-2xl "}${pageConfig.heroImage.ring ? "ring-1 ring-white/10" : ""} ${pageConfig.heroImage.rounded ?? "rounded-md"}${pageConfig.heroImage.imageColor ? " " + pageConfig.heroImage.imageColor : ""}`} quality={pageConfig.heroImage.quality} unoptimized={pageConfig.heroImage.unoptimized}/>
 								</div>
