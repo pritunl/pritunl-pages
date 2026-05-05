@@ -33,8 +33,11 @@ export default function Header({ config }: { config: ProductConfig }) {
 				</div>
 				<div className="hidden lg:flex lg:flex-1"></div>
 			</nav>
-			{config.subNavigation && (
-				<nav aria-label="Secondary" className="hidden lg:flex items-center justify-center gap-x-2 xl:gap-x-4 pb-6">
+			{config.subNavigation && (<>
+				<div className="hidden lg:flex items-center justify-center px-8">
+					<div className="h-px w-full max-w-md bg-gradient-to-r from-transparent via-white/25 to-transparent" />
+				</div>
+				<nav aria-label="Secondary" className="hidden lg:flex items-center justify-center gap-x-2 xl:gap-x-4 pt-2 pb-6">
 					{config.subNavigation.map((item, index) => (
 						<React.Fragment key={item.name}>
 							{index > 0 && <span className="text-white/50">|</span>}
@@ -50,7 +53,7 @@ export default function Header({ config }: { config: ProductConfig }) {
 						</React.Fragment>
 					))}
 				</nav>
-			)}
+			</>)}
 		</header>
 	)
 }
