@@ -56,6 +56,9 @@ export default function HeaderMenu(
 										</Link>
 									)
 								)}
+								{subNavigation && (
+									<div className="my-2 h-px w-full bg-gradient-to-r from-transparent via-white/25 to-transparent" />
+								)}
 								{subNavigation && subNavigation.map((item) =>
 									item.external ? (
 										<a key={item.name} href={item.href} target="_blank" className="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-medium text-white hover:bg-white/5">
