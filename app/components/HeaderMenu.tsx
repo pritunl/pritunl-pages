@@ -9,7 +9,7 @@ import Pritunl from "../logos/Pritunl"
 import type { NavItem } from "../types"
 
 export default function HeaderMenu(
-	{ name, navigation }: { name: string; navigation: NavItem[] }
+	{ name, navigation, subNavigation }: { name: string; navigation: NavItem[]; subNavigation?: NavItem[] }
 ) {
 	const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
 
@@ -46,6 +46,17 @@ export default function HeaderMenu(
 						<div className="-my-6 divide-y divide-gray-500/30">
 							<div className="space-y-2 py-6">
 								{navigation.map((item) =>
+									item.external ? (
+										<a key={item.name} href={item.href} target="_blank" className="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-medium text-white hover:bg-white/5">
+											{item.name}
+										</a>
+									) : (
+										<Link key={item.name} href={item.href} onClick={() => setMobileMenuOpen(false)} className="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-medium text-white hover:bg-white/5">
+											{item.name}
+										</Link>
+									)
+								)}
+								{subNavigation && subNavigation.map((item) =>
 									item.external ? (
 										<a key={item.name} href={item.href} target="_blank" className="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-medium text-white hover:bg-white/5">
 											{item.name}
