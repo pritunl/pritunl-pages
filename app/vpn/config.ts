@@ -1328,6 +1328,81 @@ const definition: ProductDefinition = {
 				},
 			],
 		},
+		"platforms": {
+			title: "Pritunl - Platform and Device Support",
+			description: "Pritunl supports all OpenVPN clients and the Pritunl Client is available on macOS, Windows and Linux.",
+
+			badge: "Cross Platform VPN",
+			heading: [
+				[
+					{ text: "Platform and " },
+					{ text: "Device", highlight: true },
+					{ text: " Support" },
+				],
+			],
+			subheading: "Pritunl supports all OpenVPN clients and the Pritunl Client is available on macOS, Windows and Linux.",
+
+			buttons: [
+				{
+					label: "Live Demo",
+					href: "https://demo.pritunl.com",
+					style: "secondary",
+					external: true,
+				},
+				{
+					label: "View Client Homepage",
+					href: "https://client.pritunl.com",
+					style: "primary",
+					external: true,
+				},
+			],
+
+			heroImages: [
+				{
+					image: "client_windows",
+					alt: "Pritunl Client Windows",
+					rounded: "rounded-lg",
+				},
+				{
+					image: "client_macos",
+					alt: "Pritunl Client macOS",
+					rounded: "rounded-xl",
+				},
+				{
+					image: "client_linux",
+					alt: "Pritunl Client Linux",
+					rounded: "rounded-sm",
+				},
+			],
+
+			installers: {
+				macos: {
+					label: "macOS",
+					version: "1.3.4562.57",
+					url: "https://github.com/pritunl/pritunl-client-electron/releases/download/$version/Pritunl.pkg.zip",
+					hashUrl: "https://raw.githubusercontent.com/pritunl/pritunl-client-electron/master/SHA256",
+				},
+				windows: {
+					label: "Windows",
+					version: "1.3.4562.57",
+					url: "https://github.com/pritunl/pritunl-client-electron/releases/download/$version/Pritunl.exe",
+					hashUrl: "https://raw.githubusercontent.com/pritunl/pritunl-client-electron/master/SHA256",
+				},
+			},
+
+			installTitle: "Client Installation",
+			installDescription: "Select your distribution to view installation instructions.",
+			repositories: [
+				{ distro: "arch", version: "", package: "pritunl-client-electron" },
+				{ distro: "alma", version: "10", package: "pritunl-client-electron" },
+				{ distro: "oracle", version: "10", package: "pritunl-client-electron" },
+				{ distro: "debian", version: "13", package: "pritunl-client-electron" },
+				{ distro: "fedora", version: "42", package: "pritunl-client-electron" },
+				{ distro: "fedora", version: "43", package: "pritunl-client-electron" },
+				{ distro: "ubuntu", version: "24.04", package: "pritunl-client-electron" },
+				{ distro: "ubuntu", version: "25.10", package: "pritunl-client-electron" },
+			],
+		},
 	},
 }
 
