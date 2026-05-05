@@ -7,14 +7,14 @@ import type { ProductConfig } from "../types"
 export default function Header({ config }: { config: ProductConfig }) {
 	return (
 		<header className="absolute inset-x-0 top-0 z-50">
-			<nav aria-label="Global" className="flex items-center justify-between p-6 lg:px-8">
+			<nav aria-label="Global" className={`flex items-center justify-between p-6 lg:px-8 ${config.subNavigation ? "pb-0" : ""}`}>
 				<div className="flex lg:flex-1">
 					<Link href="/" className="-m-1.5 p-1.5">
 						<span className="sr-only">{config.name}</span>
 						<Image image={config.logo} alt={config.logoAlt} className="h-11 xl:h-12 w-auto text-white" />
 					</Link>
 				</div>
-				<HeaderMenu name={config.name} navigation={config.navigation} />
+				<HeaderMenu name={config.name} navigation={config.navigation} subNavigation={config.subNavigation} />
 				<div className="hidden lg:flex items-center gap-x-2 xl:gap-x-4">
 					{config.navigation.map((item, index) => (
 						<React.Fragment key={item.name}>
@@ -33,6 +33,24 @@ export default function Header({ config }: { config: ProductConfig }) {
 				</div>
 				<div className="hidden lg:flex lg:flex-1"></div>
 			</nav>
+			{config.subNavigation && (
+				<nav aria-label="Secondary" className="hidden lg:flex items-center justify-center gap-x-2 xl:gap-x-4 pb-6">
+					{config.subNavigation.map((item, index) => (
+						<React.Fragment key={item.name}>
+							{index > 0 && <span className="text-white/50">|</span>}
+							{item.external ? (
+								<a href={item.href} target="_blank" className="text-sm font-medium text-white">
+									{item.name}
+								</a>
+							) : (
+								<Link href={item.href} className="text-sm font-medium text-white">
+									{item.name}
+								</Link>
+							)}
+						</React.Fragment>
+					))}
+				</nav>
+			)}
 		</header>
 	)
 }
