@@ -197,6 +197,7 @@ export interface ProductConfig {
 	cloudflareTag?: string
 
 	navigation: NavItem[]
+	subNavigation?: NavItem[]
 
 	badge: string
 	heading: HeadingSegment[][]
