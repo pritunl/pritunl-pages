@@ -90,6 +90,13 @@ const definition: ProductDefinition = {
 		logoAlt: "Pritunl",
 
 		navigation: [
+			{ name: "VPC Peering", href: "/vpc" },
+			{ name: "Single Sign-On", href: "/sso" },
+			{ name: "Infrastructure", href: "/infrastructure" },
+			{ name: "Security", href: "/security" },
+			{ name: "Platforms", href: "/platforms" },
+		],
+		subNavigation: [
 			{ name: "Pricing", href: "#pricing" },
 			{ name: "Support", href: "#support" },
 			{ name: "Documentation", href: "https://docs.pritunl.com/kb/vpn", external: true },
