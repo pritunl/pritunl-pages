@@ -52,6 +52,7 @@ import {
 	FlaskConical,
 	Scaling,
 	BookOpen,
+	Binary,
 } from "lucide-react"
 
 import Discourse from "../icons/Discourse"
