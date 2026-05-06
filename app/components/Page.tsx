@@ -17,45 +17,47 @@ export default async function Page({ config, pageConfig }: { config: ProductConf
 			<div className="pt-42">
 				<div>
 					<div className="mx-auto max-w-7xl px-2 lg:px-8">
-						<div className="mx-auto max-w-4xl text-center">
-							<div className="mb-4 flex justify-center">
-								<span className="inline-flex items-center rounded-full bg-indigo-500/10 px-4 py-1.5 text-sm font-medium text-indigo-400 ring-1 ring-inset ring-indigo-500/20">
-									{pageConfig.badge}
-								</span>
-							</div>
-							<h1 className="text-4.5xl font-semibold tracking-tight text-balance text-white min-[460px]:text-5xl/13 min-[560px]:text-6xl/16 min-[800px]:text-7xl/19">
-								{pageConfig.heading.map((line, i) => (
-									<span key={i}>
-										{i > 0 && <br />}
-										{line.map((segment, j) =>
-											segment.highlight ? (
-												<span key={j} className="text-indigo-400">{segment.text}</span>
-											) : (
-												<span key={j}>{segment.text}</span>
-											)
-										)}
+						{pageConfig.heading && (
+							<div className="mx-auto max-w-4xl text-center">
+								<div className="mb-4 flex justify-center">
+									<span className="inline-flex items-center rounded-full bg-indigo-500/10 px-4 py-1.5 text-sm font-medium text-indigo-400 ring-1 ring-inset ring-indigo-500/20">
+										{pageConfig.badge}
 									</span>
-								))}
-							</h1>
-							<p className="mt-8 text-lg max-w-2xl mx-auto text-pretty font-light text-gray-300 sm:text-3xl/10">
-								{pageConfig.subheading}
-							</p>
-							<div className="mt-10 flex items-center justify-center gap-x-6">
-								{pageConfig.buttons.map((button) => (
-									<a
-										key={button.label}
-										href={button.href}
-										{...(button.external ? { target: "_blank", rel: "noopener noreferrer" } : {})}
-										className={button.style === "primary"
-											? "rounded-md bg-indigo-500 px-3.5 py-2.5 text-base font-semibold text-white shadow-xs hover:bg-white/20 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-500"
-											: "rounded-md bg-white/10 px-3.5 py-2.5 text-base font-semibold text-white shadow-xs hover:bg-white/20 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white"
-										}
-									>
-										{button.label}
-									</a>
-								))}
+								</div>
+								<h1 className="text-4.5xl font-semibold tracking-tight text-balance text-white min-[460px]:text-5xl/13 min-[560px]:text-6xl/16 min-[800px]:text-7xl/19">
+									{pageConfig.heading!.map((line, i) => (
+										<span key={i}>
+											{i > 0 && <br />}
+											{line.map((segment, j) =>
+												segment.highlight ? (
+													<span key={j} className="text-indigo-400">{segment.text}</span>
+												) : (
+													<span key={j}>{segment.text}</span>
+												)
+											)}
+										</span>
+									))}
+								</h1>
+								<p className="mt-8 text-lg max-w-2xl mx-auto text-pretty font-light text-gray-300 sm:text-3xl/10">
+									{pageConfig.subheading}
+								</p>
+								<div className="mt-10 flex items-center justify-center gap-x-6">
+									{pageConfig.buttons!.map((button) => (
+										<a
+											key={button.label}
+											href={button.href}
+											{...(button.external ? { target: "_blank", rel: "noopener noreferrer" } : {})}
+											className={button.style === "primary"
+												? "rounded-md bg-indigo-500 px-3.5 py-2.5 text-base font-semibold text-white shadow-xs hover:bg-white/20 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-500"
+												: "rounded-md bg-white/10 px-3.5 py-2.5 text-base font-semibold text-white shadow-xs hover:bg-white/20 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white"
+											}
+										>
+											{button.label}
+										</a>
+									))}
+								</div>
 							</div>
-						</div>
+						)}
 						{pageConfig.heroImages ? (
 							<div className="px-4 mt-16 sm:mt-24 mx-auto max-w-7xl grid grid-cols-1 md:grid-cols-3 items-start gap-6 md:gap-0">
 								<div className="order-2 md:order-1 sm:mt-0 sm:-rotate-3 sm:z-10 sm:-mr-[10%]">
