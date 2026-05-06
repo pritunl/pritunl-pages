@@ -816,6 +816,11 @@ const definition: ProductDefinition = {
 							title: "Multi-Cloud Connectivity",
 							description: "Link networks across AWS, Google Cloud, Azure, Oracle Cloud, Pritunl Cloud, Hetzner and on-premise datacenters from a single management interface with unified routing and monitoring.",
 						},
+						{
+							icon: Binary,
+							title: "IPv6 Support",
+							description: "Full IPv6 support for both client connections and site-to-site links with dual-stack networking, allowing seamless connectivity across IPv4 and IPv6 networks.",
+						},
 					],
 				},
 				{
