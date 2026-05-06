@@ -14,7 +14,7 @@ function getPageEntry(slug: string): PageConfig | React.ComponentType<PageProps>
 }
 
 function isPageConfig(entry: PageConfig | React.ComponentType<PageProps>): entry is PageConfig {
-	return typeof entry === "object" && "title" in entry
+	return typeof entry !== "function"
 }
 
 export async function generateStaticParams() {
