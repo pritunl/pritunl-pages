@@ -103,7 +103,7 @@ export default async function Page({ config, pageConfig }: { config: ProductConf
 				<FeatureBlock key={i} block={block} first={i === 0} last={i === pageConfig.featureBlocks!.length - 1}/>
 			))}
 			{(pageConfig.featureBlocks?.length ?? 0) > 0 && (
-					<div className="h-38"></div>
+				<div className="h-38"></div>
 			)}
 			{pageConfig.repositories && pageConfig.repositories.length > 0 && <>
 				<Repositories
