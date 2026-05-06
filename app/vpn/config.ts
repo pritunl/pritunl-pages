@@ -200,9 +200,8 @@ const definition: ProductDefinition = {
 						icon: Cpu,
 						title: "Platform and Device Support",
 						description: "Pritunl supports all OpenVPN clients. Use the Pritunl Client on macOS, Windows and Linux for full functionality with support for both OpenVPN and WireGuard. Support for Chrome OS OpenVPN profiles also available.",
-						link: "https://client.pritunl.com",
-						linkLabel: "Pritunl Client Overview",
-						external: true,
+						link: "/platforms",
+						linkLabel: "Explore Platform Support",
 					},
 					{
 						icon: Aws,
@@ -214,7 +213,7 @@ const definition: ProductDefinition = {
 					{
 						icon: IdCard,
 						title: "Single Sign-On",
-						description: "Securely deploy remote access to thousands of users using their existing company account with support for several single sign-on providers and protocols.",
+						description: "Securely deploy remote access to thousands of users using their existing company account with support for several single sign-on providers.",
 						link: "/sso",
 						linkLabel: "See All Supported Providers",
 					},
@@ -239,6 +238,8 @@ const definition: ProductDefinition = {
 						icon: TrendingUp,
 						title: "Scale Easily",
 						description: "Pritunl servers can be easily distributed across multiple servers and different datacenters for improved performance, high availability and automatic failover when an instance fails.",
+						link: "/infrastructure",
+						linkLabel: "Learn More",
 					},
 					{
 						icon: DatabaseZap,
@@ -256,6 +257,9 @@ const definition: ProductDefinition = {
 				type: "grid",
 				title: "Self Hosted and Reliable",
 				description: "A self hosted VPN platform with over 10 years of proven reliability and security, trusted by thousands of organizations worldwide.",
+				link: "/security",
+				linkLabel: "Explore Security Features",
+				linkIcon: ShieldCheck,
 				gridItems: [
 					{
 						title: "Open Source",
@@ -293,6 +297,9 @@ const definition: ProductDefinition = {
 				type: "right",
 				title: "Connect Infrastructure",
 				description: "Provide secure remote access to your corporate infrastructure for users across your organization and interconnect sites.",
+				link: "/infrastructure",
+				linkLabel: "Explore Infrastructure Features",
+				linkIcon: Server,
 				image: "vpn_infrastructure",
 				imageAlt: "High Availability Infrastructure",
 				imageNoRing: true,
@@ -301,6 +308,8 @@ const definition: ProductDefinition = {
 						icon: Network,
 						title: "WireGuard and IPsec Links",
 						description: "Create high performance site-to-site links between datacenters and on-premise networks using WireGuard and IPsec with support for both hub-and-spoke and mesh topologies.",
+						link: "/vpc",
+						linkLabel: "Explore VPC Peering",
 					},
 					{
 						icon: RefreshCw,
@@ -343,6 +352,9 @@ const definition: ProductDefinition = {
 				type: "logos",
 				title: "Single Sign-On",
 				description: "Securely deploy remote access to thousands of users using their existing company account with support for several single sign-on providers and protocols.",
+				link: "/sso",
+				linkLabel: "Explore Single Sign-On Features",
+				linkIcon: LogIn,
 				logoItems: [
 					{
 						image: GoogleWorkspace,
