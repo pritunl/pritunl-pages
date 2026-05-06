@@ -223,13 +223,15 @@ export interface ProductConfig {
 }
 
 export interface PageConfig {
-	title: string
-	description: string
+	title?: string
+	description?: string
 
-	badge: string
-	heading: HeadingSegment[][]
-	subheading: string
-	buttons: HeroButton[]
+	badge?: string
+	heading?: HeadingSegment[][]
+	subheading?: string
+	buttons?: HeroButton[]
+
+	legal?: string
 
 	heroImage?: HeroImage
 	heroImages?: HeroImage[]
