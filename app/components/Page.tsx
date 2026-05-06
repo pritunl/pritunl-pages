@@ -84,7 +84,21 @@ export default async function Page({ config, pageConfig }: { config: ProductConf
 					</div>
 				</div>
 			</div>
-			<div className="h-38"></div>
+			{pageConfig.heading && (
+				<div className="h-38"></div>
+			)}
+			{pageConfig.legal && <>
+				<div className="relative isolate px-6 lg:px-8">
+					<div className="mx-auto max-w-4xl">
+						<div className="rounded-lg bg-white/3 ring-1 ring-inset ring-white/10 overflow-hidden">
+							<div className="p-4 overflow-x-auto text-sm leading-relaxed bg-black/20">
+								<pre className="whitespace-pre-wrap text-gray-300">{pageConfig.legal}</pre>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div className="h-38"></div>
+			</>}
 			{pageConfig.featureBlocks?.map((block, i) => (
 				<FeatureBlock key={i} block={block} first={i === 0} last={i === pageConfig.featureBlocks!.length - 1}/>
 			))}
