@@ -48,6 +48,7 @@ const definition: ProductDefinition = {
 		description: "Self hosted cloud with shell and python declarative deployments. KVM based alternative to Kubernetes using live templates.",
 		logo: PritunlCloud,
 		logoAlt: "Pritunl Cloud",
+		codeBackground: true,
 
 		navigation: [
 			{ name: "Pricing", href: "#pricing" },
