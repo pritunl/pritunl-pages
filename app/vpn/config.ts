@@ -1208,7 +1208,7 @@ const definition: ProductDefinition = {
 							title: "SELinux",
 							description: "Pritunl has full support for SELinux with included policies to restrict each component for improved security.",
 							link: "https://docs.pritunl.com/kb/vpn/security/features",
-							linkLabel: "View SELinux Documentation",
+							linkLabel: "View Security Documentation",
 						},
 					],
 				},
