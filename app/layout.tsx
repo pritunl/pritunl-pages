@@ -20,6 +20,7 @@ export const metadata: Metadata = {
 		title: config.title,
 		description: config.description,
 		card: "summary_large_image",
+		creator: "@pritunl",
 	},
 	icons: {
 		apple: "/webclip.png",
