@@ -800,7 +800,7 @@ const definition: ProductDefinition = {
 				},
 				{
 					label: "Get Started",
-					href: "https://docs.pritunl.com/kb/vpn/sso/connection-authentication",
+					href: "https://docs.pritunl.com/kb/vpn/link",
 					style: "primary",
 					external: true,
 				},
