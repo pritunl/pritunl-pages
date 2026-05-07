@@ -184,7 +184,7 @@ const definition: ProductDefinition = {
 						image: Hetzner,
 						imageAlt: "Hetzner",
 						imageColor: "text-[#d50c2d]",
-						link: "https://www.hetzner.com",
+						link: "https://docs.pritunl.com/kb/vpn/link",
 						external: true,
 					},
 				],
@@ -421,8 +421,9 @@ const definition: ProductDefinition = {
 			{
 				type: "grid",
 				title: "Example Tutorials",
-				link: "https://github.com/pritunl/pritunl",
-				linkLabel: "Explore Documentation",
+				link: "https://docs.pritunl.com/kb/vpn/tutorials/tutorials",
+				linkLabel: "View All Tutorials",
+				external: true,
 				linkIcon: GitHubOutline,
 				gridItems: [
 					{
@@ -1321,7 +1322,7 @@ const definition: ProductDefinition = {
 							image: Hetzner,
 							imageAlt: "Hetzner",
 							imageColor: "text-[#d50c2d]",
-							link: "https://www.hetzner.com",
+							link: "https://docs.pritunl.com/kb/vpn/link",
 							external: true,
 						},
 					],
