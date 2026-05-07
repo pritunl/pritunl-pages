@@ -327,7 +327,7 @@ const definition: ProductDefinition = {
 			{
 				type: "grid",
 				title: "Open Source Alternative",
-				description: "Pritunl is the best open source alternative to proprietary commercial vpn products such as Aviatrix,  Ivanti Secure Accese, Pulse Secure and AnyConnect. Create larger cloud vpn networks supporting thousands of concurrent users and get more control over your vpn server without any per-user pricing.",
+				description: "Pritunl is the best open source alternative to proprietary commercial vpn products such as Aviatrix, Ivanti Secure Access, Pulse Secure and AnyConnect. Create larger cloud vpn networks supporting thousands of concurrent users and get more control over your vpn server without any per-user pricing.",
 				link: "https://github.com/pritunl/pritunl",
 				linkLabel: "Explore GitHub Repository",
 				linkIcon: GitHubOutline,
@@ -713,7 +713,7 @@ const definition: ProductDefinition = {
 			logo: PritunlClient,
 			logoAlt: "Pritunl Client",
 			title: "OpenVPN and WireGuard Client",
-			description: "Free and open source cross platform OpenVPN and WireGuard client. Connect to any OpenVPN server with a secure open source client. Additonal integration available when connecting to a Pritunl server. Free and open source alternative to Viscosity.",
+			description: "Free and open source cross platform OpenVPN and WireGuard client. Connect to any OpenVPN server with a secure open source client. Additional integration available when connecting to a Pritunl server. Free and open source alternative to Viscosity.",
 			image: "client_macos",
 			imageAlt: "Pritunl Client",
 			link: "https://client.pritunl.com",
