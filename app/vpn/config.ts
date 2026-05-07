@@ -89,6 +89,7 @@ const definition: ProductDefinition = {
 		description: "Free open source enterprise distributed VPN server. Virtualize your private networks across datacenters and provide simple remote access in minutes.",
 		logo: Pritunl,
 		logoAlt: "Pritunl",
+		googleTag: "G-8EVXF8J1B4",
 
 		navigation: [
 			{ name: "VPC Peering", href: "/vpc" },
