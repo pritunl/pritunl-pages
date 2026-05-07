@@ -21,6 +21,7 @@ const definition: ProductDefinition = {
 		description: "Free and open source zero trust server providing BeyondCorp security for authenticated access to web applications and SSH",
 		logo: PritunlZero,
 		logoAlt: "Pritunl Zero",
+		googleTag: "G-97QXRWJPJT",
 
 		navigation: [
 			{ name: "Pricing", href: "#pricing" },
