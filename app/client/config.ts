@@ -23,7 +23,7 @@ const definition: ProductDefinition = {
 		navigation: [
 			{ name: "Install", href: "#install" },
 			{ name: "Support", href: "#support" },
-			{ name: "Documentation", href: "https://docs.pritunl.com/kb/zero", external: true },
+			{ name: "Documentation", href: "https://docs.pritunl.com/kb/vpn", external: true },
 			{ name: "Community Forums", href: "https://forum.pritunl.com", external: true },
 		],
 
