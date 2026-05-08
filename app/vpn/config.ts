@@ -53,6 +53,7 @@ import {
 	Scaling,
 	BookOpen,
 	Binary,
+	UserKey,
 } from "lucide-react"
 
 import Discourse from "../icons/Discourse"
@@ -355,7 +356,7 @@ const definition: ProductDefinition = {
 				description: "Securely deploy remote access to thousands of users using their existing company account with support for several single sign-on providers and protocols.",
 				link: "/sso",
 				linkLabel: "Explore Single Sign-On Features",
-				linkIcon: LogIn,
+				linkIcon: UserKey,
 				logoItems: [
 					{
 						image: GoogleWorkspace,
