@@ -384,7 +384,7 @@ const definition: ProductDefinition = {
 
 		pricing: {
 			title: "Pricing",
-			description: "Pritunl Cloud is free to use with no limits on the number of servers or users. An optional subscription provides enterprise features including multi-tenant support, single sign-on and geo-IP data. The subscription can be activated from the admin web console at anytime.",
+			description: "Pritunl Cloud is free to use with no limits on the number of servers or users. An optional subscription provides enterprise features including multi-tenant support, single sign-on and geo-IP data. The subscription can be activated from the admin web console at anytime. The paid subscription has no additional per-user or per-host charges.",
 			plans: [
 				{
 					name: "Community",
