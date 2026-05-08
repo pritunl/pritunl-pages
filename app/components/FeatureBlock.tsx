@@ -1,6 +1,8 @@
 import type { FeatureBlock as FeatureBlockType } from "../types"
 import Image from "./Image"
 import Link from "next/link"
+import { highlight } from "../lib/shiki"
+import CodeBlock from "./CodeBlock"
 
 interface Props {
 	block: FeatureBlockType
@@ -8,7 +10,7 @@ interface Props {
 	last?: boolean
 }
 
-export default function FeatureBlock({ block, first, last }: Props) {
+export default async function FeatureBlock({ block, first, last }: Props) {
 	const LinkIcon = block.linkIcon
 	const blockLink = block.link && block.linkLabel ? (
 		<p className="mt-6">
@@ -333,6 +335,68 @@ export default function FeatureBlock({ block, first, last }: Props) {
 						</div>
 					)}
 				</div>
+			</div>
+		)
+	}
+
+	if (block.type === "code") {
+		const highlightedHtml = block.code ? await highlight(block.code, "bash") : ""
+
+		return (
+			<div className={`overflow-hidden${first && last ? "" : first ? " pb-12" : last ? " pt-12" : " py-12"}`}>
+				<div className="mx-auto max-w-7xl px-6 lg:px-8">
+					<div className={`mx-auto${block.image ? "" : " max-w-3xl"} sm:text-center`}>
+						<h2 className="mt-2 text-4xl font-medium tracking-tight text-pretty text-white sm:text-5xl sm:text-balance">
+							{block.title}
+						</h2>
+						{block.description && <p className="mt-6 text-lg/8 text-gray-400">
+							{block.description}
+						</p>}
+						{blockLink}
+					</div>
+				</div>
+				<div className="relative overflow-hidden pt-12">
+					<div className="mx-auto max-w-7xl px-6 lg:px-8">
+						{block.image && (
+							<div className="max-w-full rounded-xl bg-white/2.5 p-2 ring-1 ring-inset ring-white/10">
+								<Image
+									width={2432}
+									height={1442}
+									image={block.image}
+									alt={block.imageAlt || ""}
+									className={`w-full rounded-md shadow-xl${block.imageColor ? " " + block.imageColor : ""}`}
+								/>
+							</div>
+						)}
+						{block.code && (
+							<CodeBlock
+								code={block.code}
+								highlightedHtml={highlightedHtml}
+								codeTitle={block.codeTitle}
+								codeHeight={block.codeHeight}
+								className={block.image ? "mt-6" : ""}
+							/>
+						)}
+					</div>
+				</div>
+				{block.items && block.items.length > 0 && (
+					<div className="mx-auto mt-12 max-w-7xl px-6 sm:mt-14 md:mt-18 lg:px-8">
+						<dl className="mx-auto grid max-w-2xl grid-cols-1 gap-x-6 gap-y-10 text-base/7 text-gray-400 sm:grid-cols-2 lg:mx-0 lg:max-w-none lg:grid-cols-3 lg:gap-x-8 lg:gap-y-16">
+							{block.items.map((item, i) => {
+								const Icon = item.icon
+								return (
+									<div key={i} className="relative pl-9">
+										<dt className="inline font-semibold text-white">
+											{Icon && <Icon aria-hidden="true" className="absolute top-1 left-1 size-5 text-indigo-400" />}
+											{item.title}
+										</dt>{" "}
+										<dd className="inline">{item.description}</dd>
+									</div>
+								)
+							})}
+						</dl>
+					</div>
+				)}
 			</div>
 		)
 	}
