@@ -407,6 +407,8 @@ const definition: ProductDefinition = {
 					href: "https://app.pritunl.com/checkout/cloud",
 					buttonLabel: "Get started today",
 					features: [
+						{ label: "Unlimited Users", icon: Users },
+						{ label: "Unlimited Servers", icon: HardDrive },
 						{ label: "Multi-Tenant Support", icon: Building2 },
 						{ label: "Single Sign-On", icon: LogIn },
 						{ label: "Geo-IP Data", icon: MapPin },
