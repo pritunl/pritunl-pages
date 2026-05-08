@@ -93,13 +93,13 @@ export default function Pricing({ pricing }: Props) {
 													<span className="flex-1 group-hover/tip:text-white group-focus-within/tip:text-white transition-colors duration-150">
 														{feature.label}
 													</span>
-													<button type="button" className="cursor-help focus:outline-none">
+													<button type="button" className="cursor-help focus:outline-none peer" aria-label={`More info about ${feature.label}`}>
 														<Info
 															aria-hidden="true"
 															className="h-4 w-4 flex-none text-gray-500 mt-0.5 group-hover/tip:text-indigo-400 group-focus-within/tip:text-indigo-400 transition-colors duration-150"
 														/>
 													</button>
-													<div className="pointer-events-none absolute left-8 bottom-full mb-2 w-64 rounded-lg bg-gray-800 px-3 py-2 text-sm text-gray-300 opacity-0 transition-opacity duration-150 shadow-lg ring-1 ring-white/10 group-hover/tip:opacity-100 group-focus-within/tip:opacity-100 z-10">
+													<div className="pointer-events-none absolute left-8 bottom-full mb-2 w-64 rounded-lg bg-gray-800 px-3 py-2 text-sm text-gray-300 opacity-0 transition-opacity duration-150 shadow-lg ring-1 ring-white/10 group-hover/tip:opacity-100 group-focus-within/tip:opacity-100 peer-focus:opacity-100 z-10">
 														{feature.details}
 														<div className="absolute left-4 top-full border-4 border-transparent border-t-gray-800" />
 													</div>
