@@ -131,7 +131,7 @@ export interface FeatureBlockCardItem {
 }
 
 export interface FeatureBlock {
-	type: "grid" | "left" | "right" | "center" | "center_open" | "columns" | "logos" | "two_columns"
+	type: "grid" | "left" | "right" | "center" | "center_open" | "columns" | "logos" | "two_columns" | "code"
 	title: string
 	description?: string
 	link?: string
@@ -146,6 +146,9 @@ export interface FeatureBlock {
 	logoItems?: FeatureBlockLogoItem[]
 	cardItems?: FeatureBlockCardItem[]
 	gridItems?: FeaturesGridItem[]
+	code?: string
+	codeTitle?: string
+	codeHeight?: string
 }
 
 export type RepositoryDistribution = "arch" | "amazon" | "alma" | "rocky" | "debian" | "oracle" | "fedora" | "ubuntu"
