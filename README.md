@@ -7,6 +7,12 @@
 
 [![pritunl](public/logo_code.png)](https://docs.pritunl.com/kb/cloud)
 
+## Build Requirements
+
+```shell
+sudo dnf -y install libavif-tools libwebp-tools
+```
+
 ## License
 
 Please refer to the [`LICENSE`](LICENSE) file for a copy of the license.
