@@ -431,7 +431,7 @@ const definition: ProductDefinition = {
 			github: "https://github.com/pritunl/pritunl-cloud",
 			linkedin: "https://linkedin.com/company/pritunl",
 			substack: "https://pritunl.substack.com",
-		}
+		},
 	},
 
 	pages: {
