@@ -407,6 +407,27 @@ const definition: ProductDefinition = {
 					},
 				],
 			},
+			{
+				type: "center",
+				title: "Detailed Audit Reports",
+				description: "Detailed auditing of user events with location data.",
+				image: "zero_audit",
+				imageAlt: "",
+			},
+			{
+				type: "center",
+				title: "User Session Control",
+				description: "Monitor and control user sessions with detailed device and location information.",
+				image: "zero_sessions",
+				imageAlt: "",
+			},
+			{
+				type: "center",
+				title: "WebAuthn Token Control",
+				description: "Manage users WebAuthn tokens from the administrator console or allow the user to validate their own WebAuthn token.",
+				image: "zero_devices",
+				imageAlt: "",
+			},
 		],
 	},
 
