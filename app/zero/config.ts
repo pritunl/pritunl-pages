@@ -380,6 +380,33 @@ const definition: ProductDefinition = {
 
 // echo "Open: https://$VSCODE_DOMAIN"`,
 			},
+			{
+				type: "two_columns",
+				title: "Protect Internal Web Applications with Minimal User Impact",
+				description: "",
+				cardItems: [
+					{
+							icon: Globe,
+							title: "Web Application Gateway",
+							description: "Add a nearly seamless layer of authentication to your existing internal web applications without impact usability or device support. Pritunl Zero works with all existing web browsers without requiring any additional software on the client.",
+					},
+					{
+						icon: KeyRound,
+						title: "Multi-Factor Authentication",
+						description: "Multifactor secondary authentication from Duo, OneLogin Protect, Okta Verify and any WebAuthn hardware token including YubiKeys.",
+					},
+					{
+						icon: DatabaseZap,
+						title: "High Availability",
+						description: "All nodes run independently and will continue running in the event of other nodes failing. Additional nodes can be added and removed as needed.",
+					},
+					{
+						icon: Code,
+						title: "Open Source Code Base",
+						description: "All source code for Pritunl Zero is available on GitHub, allowing for transparency and customization. Information for installing Pritunl Zero from source is available on the repository.",
+					},
+				],
+			},
 		],
 	},
 
