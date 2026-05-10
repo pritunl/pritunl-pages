@@ -28,7 +28,20 @@ import {
 } from "lucide-react"
 
 import Home from "../components/Home"
+import Pritunl from "../logos/Pritunl"
 import PritunlZero from "../logos/PritunlZero"
+import Auth0 from "../logos/Auth0"
+import Duo from "../logos/Duo"
+import GoogleWorkspace from "../logos/GoogleWorkspace"
+import JumpCloud from "../logos/JumpCloud"
+import MicrosoftEntra from "../logos/MicrosoftEntra"
+import Okta from "../logos/Okta"
+import OneLogin from "../logos/OneLogin"
+import Yubico from "../logos/Yubico"
+import GitHubOutline from "../icons/GitHubOutline"
+import Discourse from "../icons/Discourse"
+import GitBook from "../icons/GitBook"
+import Substack from "../icons/Substack"
 
 const definition: ProductDefinition = {
 	config: {
