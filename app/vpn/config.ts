@@ -505,7 +505,7 @@ const definition: ProductDefinition = {
 					name: "Premium",
 					cost: 10,
 					description: "Per-host billing with advanced features.",
-					href: "https://buy.stripe.com/aEU4jl8bj9yS7le148",
+					href: "https://app.pritunl.com/checkout/premium",
 					external: true,
 					buttonLabel: "Subscribe",
 					features: [
@@ -571,7 +571,7 @@ const definition: ProductDefinition = {
 					cost: 70,
 					description: "All Premium features plus SSO, failover and site-to-site links.",
 					featured: true,
-					href: "https://buy.stripe.com/00gaHJ4Z7bH0fRKbIV",
+					href: "https://app.pritunl.com/checkout/enterprise",
 					external: true,
 					buttonLabel: "Subscribe",
 					features: [
