@@ -260,6 +260,126 @@ const definition: ProductDefinition = {
 					},
 				],
 			},
+			{
+				type: "code",
+				title: "Create an Authenticated Visual Studio Code Web Server",
+				description: "Install and configure an authenticated Visual Studio Code server using the Pritunl Zero command line configuration tools.",
+				image: "zero_vscode_wide",
+				imageAlt: "Authenticated Visual Studio Code",
+				link: "https://docs.pritunl.com/kb/zero/general/zero-vscode-web",
+				linkLabel: "View Visual Studio Code Tutorial",
+				linkIcon: SquareTerminal,
+				codeHeight: "600px",
+				codeTitle: "Create Authenticated Visual Studio Code with Pritunl Zero",
+// 				code: `#!/bin/bash
+// # Install and configure Visual Studio Code Web Server with Pritunl Zero on AlmaLinux
+// set -ex
+
+// # Update and register dns of with server ip to domains below
+// # Open port 80 on server to automatically obtain Lets Encrypt certificate
+// ROOT_DOMAIN="pritunl.demo"
+// ZERO_DOMAIN="zero.pritunl.demo"
+// VSCODE_DOMAIN="vscode.pritunl.demo"
+
+// sudo systemctl disable --now firewalld.service
+
+// sudo tee /etc/yum.repos.d/pritunl.repo << EOF
+// [pritunl]
+// name=Pritunl Repository
+// baseurl=https://repo.pritunl.com/stable/yum/almalinux/9/
+// gpgcheck=1
+// enabled=1
+// gpgkey=https://raw.githubusercontent.com/pritunl/pgp/master/pritunl_repo_pub.asc
+// EOF
+// sudo tee /etc/yum.repos.d/mongodb-org.repo << EOF
+// [mongodb-org]
+// name=MongoDB Repository
+// baseurl=https://repo.mongodb.org/yum/redhat/9/mongodb-org/8.0/x86_64/
+// gpgcheck=1
+// enabled=1
+// gpgkey=https://pgp.mongodb.com/server-8.0.asc
+// EOF
+// sudo tee /etc/yum.repos.d/code.repo << EOF
+// [code]
+// name=Visual Studio Code
+// baseurl=https://packages.microsoft.com/yumrepos/vscode
+// enabled=1
+// gpgcheck=1
+// gpgkey=https://packages.microsoft.com/keys/microsoft.asc
+// EOF
+
+// sudo dnf -y install pritunl-zero mongodb-org code
+// sudo systemctl enable --now mongod
+
+// sudo useradd -r -s /sbin/nologin -d /home/vscode -m vscode || true
+// sudo chmod 700 /home/vscode
+
+// sudo mkdir -p /var/lib/vscode/.vscode/data/Machine /var/lib/vscode/data
+// sudo chown -R vscode:vscode /var/lib/vscode
+// sudo chmod -R 700 /var/lib/vscode
+
+// sudo ln -snf /var/lib/vscode/data /home/vscode/data
+// sudo chown -h vscode:vscode /home/vscode/data
+
+// sudo tee /var/lib/vscode/.vscode/data/Machine/settings.json << 'EOF'
+// {
+//     "editor.fontSize": 14,
+//     "files.autoSave": "afterDelay",
+//     "files.autoSaveDelay": 200,
+// }
+// EOF
+// sudo chown vscode:vscode /var/lib/vscode/.vscode/data/Machine/settings.json
+// sudo chmod 644 /var/lib/vscode/.vscode/data/Machine/settings.json
+
+// sudo tee /etc/systemd/system/vscode.service << EOF
+// [Unit]
+// Description=VS Code web server
+
+// [Service]
+// Type=exec
+// User=vscode
+// Group=vscode
+// WorkingDirectory=/home/vscode
+// Restart=on-failure
+// RestartSec=5s
+// ExecStart=/usr/bin/code serve-web --host 0.0.0.0 --port 8000 \\
+// 	--server-data-dir=/var/lib/vscode/.vscode --without-connection-token \\
+// 	--accept-server-license-terms
+// TimeoutStopSec=5s
+// LimitNOFILE=500000
+// LimitNPROC=512
+// PrivateTmp=true
+// ProtectSystem=full
+// ProtectHostname=true
+// ProtectKernelTunables=true
+
+// [Install]
+// WantedBy=multi-user.target
+// EOF
+
+// sudo systemctl daemon-reload
+// sudo systemctl enable --now pritunl-zero
+// sudo systemctl enable --now vscode
+// sleep 5
+
+// sudo pritunl-zero upsert service --name=vscode --type=http --role=vscode \\
+//   --domain="$VSCODE_DOMAIN" --server="http://127.0.0.1:8000" --share-session=true \\
+//   --websockets=true --logout-path="/logout"
+// sudo pritunl-zero upsert node --name=self --management=true --proxy=true \\
+//   --management-domain=$ZERO_DOMAIN --webauthn-domain=$ROOT_DOMAIN \\
+//   --add-service=vscode
+// if ! sudo pritunl-zero upsert certificate --name=pritunl-cert --type=lets_encrypt \\
+//   --acme-domain=$ZERO_DOMAIN --acme-domain=$VSCODE_DOMAIN --acme-type=http 2>/dev/null;
+//   then echo "Failed to obtain optional Lets Encrypt Certificate"
+// elif ! sudo pritunl-zero upsert node --name=self --add-certificate=pritunl-cert 2>/dev/null;
+//   then echo "Failed to obtain optional Lets Encrypt Certificate"
+// fi
+// sudo pritunl-zero upsert policy --name=pritunl-zero --role=vscode --add-service=vscode
+// sudo pritunl-zero upsert user --name=pritunl --role=vscode
+// sudo pritunl-zero default-password
+
+// echo "Open: https://$VSCODE_DOMAIN"`,
+			},
 		],
 	},
 
