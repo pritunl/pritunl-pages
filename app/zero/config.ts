@@ -69,7 +69,7 @@ const definition: ProductDefinition = {
 				{ text: "Enterprise Zero Trust" },
 			],
 		],
-		subheading: "Free and open source zero trust server providing BeyondCorp security for authenticated access to web applications and SSH",
+		subheading: "Free and open source zero trust server providing BeyondCorp security for authenticated access to web applications and SSH.",
 
 		buttons: [
 			{
