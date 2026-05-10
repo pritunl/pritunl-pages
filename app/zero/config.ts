@@ -9,6 +9,22 @@ import {
 	Activity,
 	FileText,
 	BarChart3,
+	SquareTerminal,
+	LogIn,
+	DatabaseZap,
+	Users,
+	HardDrive,
+	Network,
+	Mail,
+	UserKey,
+	BadgeCheck,
+	MapPin,
+	CreditCard,
+	Landmark,
+	Code,
+	Orbit,
+	ShieldUser,
+	Cloud,
 } from "lucide-react"
 
 import Home from "../components/Home"
