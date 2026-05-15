@@ -400,7 +400,7 @@ const definition: ProductDefinition = {
 					],
 				},
 				{
-					name: "Enterprise",
+					name: "Cloud",
 					cost: 50,
 					description: "Free 7 day trial included.",
 					featured: true,
