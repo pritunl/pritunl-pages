@@ -497,6 +497,21 @@ const definition: ProductDefinition = {
 				},
 			],
 		},
+
+		footer: {
+			icon: Pritunl,
+			address1: "1700 7th Ave Ste 116-211",
+			address2: "Seattle, WA 98101",
+			phone: "(206) 202-2276",
+			copyright: `Pritunl, Inc © ${new Date().getFullYear()}`,
+			privacy: "https://pritunl.com/privacy",
+			terms: "https://pritunl.com/terms",
+			twitter: "https://x.com/pritunl",
+			bluesky: "https://bsky.app/profile/pritunl.bsky.social",
+			github: "https://github.com/pritunl/pritunl-zero",
+			linkedin: "https://linkedin.com/company/pritunl",
+			substack: "https://pritunl.substack.com",
+		},
 	},
 
 	pages: {
