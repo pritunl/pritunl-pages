@@ -428,6 +428,26 @@ const definition: ProductDefinition = {
 				image: "zero_devices",
 				imageAlt: "",
 			},
+			{
+				type: "grid",
+				title: "Open Source Alternative",
+				description: "Replace expensive commercial zero trust solutions with a free and open source alternative.",
+				link: "https://github.com/pritunl/pritunl-zero",
+				linkLabel: "Explore GitHub Repository",
+				linkIcon: GitHubOutline,
+				gridItems: [
+					{
+						title: "Teleport Alternative",
+						description: "Free alternative to Gravitational Teleport with faster implementation.",
+						icon: Orbit,
+					},
+					{
+						title: "Okta Advanced Server Access Alternative",
+						description: "Open source and free alternative to Okta Advanced Server Access.",
+						icon: ShieldUser,
+					},
+				],
+			},
 		],
 	},
 
