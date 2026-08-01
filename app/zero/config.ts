@@ -24,7 +24,6 @@ import {
 	Code,
 	Orbit,
 	ShieldUser,
-	Cloud,
 } from "lucide-react"
 
 import Home from "../components/Home"
