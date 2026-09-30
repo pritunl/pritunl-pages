@@ -1,5 +1,6 @@
 import type { ComponentType, SVGProps } from "react"
 import type { LucideIcon } from "lucide-react"
+import { Node, Edge } from "@xyflow/react"
 
 export type SvgData = ComponentType<SVGProps<SVGSVGElement>>
 
@@ -143,6 +144,10 @@ export interface FeatureBlock {
 	imageAlt?: string
 	imageColor?: string
 	imageNoRing?: boolean
+	diagram?: {
+		nodes: Node[]
+		edges: Edge[]
+	}
 	items?: FeatureBlockItem[]
 	logoItems?: FeatureBlockLogoItem[]
 	cardItems?: FeatureBlockCardItem[]
