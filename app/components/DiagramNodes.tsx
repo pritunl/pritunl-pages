@@ -69,7 +69,16 @@ function CloudNode({ data }: { data: Record<string, unknown> }) {
 	)
 }
 
+function LabelNode({ data }: { data: Record<string, unknown> }) {
+	return (
+		<div className="text-slate-400 text-sm font-mono">
+			{data.label as string}
+		</div>
+	)
+}
+
 export const diagramNodeTypes: NodeTypes = {
 	device: DeviceNode,
 	cloud: CloudNode,
+	label: LabelNode,
 }
