@@ -77,8 +77,50 @@ function LabelNode({ data }: { data: Record<string, unknown> }) {
 	)
 }
 
+function AnimatedEdge({ sourceX, sourceY, targetX, targetY, label }: EdgeProps) {
+	const [path, labelX, labelY] = getStraightPath({ sourceX, sourceY, targetX, targetY })
+
+	return (
+		<g>
+			<path
+				d={path}
+				fill="none"
+				stroke="#6366f1"
+				strokeWidth={2}
+				strokeDasharray="6 4"
+				style={{ animation: "diagramDash 1s linear infinite" }}
+			/>
+			<circle r={3} fill="#818cf8">
+				<animateMotion dur="2s" repeatCount="indefinite" path={path} />
+			</circle>
+			<circle r={3} fill="#818cf8">
+				<animateMotion dur="2s" repeatCount="indefinite" path={path} begin="1s" />
+			</circle>
+			{label && (
+				<text
+					x={labelX}
+					y={labelY}
+					textAnchor="middle"
+					dominantBaseline="middle"
+					className="fill-slate-400 text-sm"
+				>
+					{String(label).split("\n").map((line, i) => (
+						<tspan key={i} x={labelX} dy={i === 0 ? 0 : 14}>
+							{line}
+						</tspan>
+					))}
+				</text>
+			)}
+		</g>
+	)
+}
+
 export const diagramNodeTypes: NodeTypes = {
 	device: DeviceNode,
 	cloud: CloudNode,
 	label: LabelNode,
+}
+
+export const diagramEdgeTypes: EdgeTypes = {
+	animated: AnimatedEdge,
 }
