@@ -62,6 +62,7 @@ export interface FeatureBlockLogoItem {
 	image: string | SvgData
 	imageAlt: string
 	imageColor?: string
+	imageMod?: string
 	link: string
 	external?: boolean
 }
