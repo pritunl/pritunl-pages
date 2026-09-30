@@ -41,6 +41,10 @@ export interface FeaturesGridItem {
 	imageNoRing?: boolean
 	imageFit?: boolean
 	imageBox?: string
+	diagram?: {
+		nodes: Node[]
+		edges: Edge[]
+	}
 	title: string
 	description: string
 	icon?: LucideIcon | SvgData
