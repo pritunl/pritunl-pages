@@ -1,5 +1,6 @@
 import type { FeatureBlock as FeatureBlockType } from "../types"
 import Image from "./Image"
+import Diagram from "./Diagram"
 import Link from "next/link"
 import { highlight } from "../lib/shiki"
 import CodeBlock from "./CodeBlock"
@@ -135,7 +136,14 @@ export default async function FeatureBlock({ block, first, last }: Props) {
 								<div key={i} className="relative">
 									<div className={`absolute inset-0 rounded-lg bg-white/5 ${cls.outer}`}></div>
 									<div className={`relative flex h-full flex-col overflow-hidden rounded-[calc(var(--radius-lg)+1px)] ${cls.inner}`}>
-										{item.image && <div className={`relative m-2 ${item.imageBox || "h-80"} ${item.imageFit ? "flex items-center justify-center" : ""} shrink-0 overflow-hidden rounded-sm${item.imageNoRing ? "" : " ring-1 ring-white/10"} ${cls.img}`}>
+										{item.diagram && <div className={`relative m-2 ${item.imageBox || "h-80"} shrink-0 overflow-hidden rounded-sm${item.imageNoRing ? "" : " ring-1 ring-white/10"} ${cls.img}`}>
+											<Diagram
+												nodes={item.diagram.nodes}
+												edges={item.diagram.edges}
+												className="w-full h-full"
+											/>
+										</div>}
+										{!item.diagram && item.image && <div className={`relative m-2 ${item.imageBox || "h-80"} ${item.imageFit ? "flex items-center justify-center" : ""} shrink-0 overflow-hidden rounded-sm${item.imageNoRing ? "" : " ring-1 ring-white/10"} ${cls.img}`}>
 											<Image
 												image={item.image}
 												alt={item.title}
