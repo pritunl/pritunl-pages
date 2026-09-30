@@ -252,7 +252,7 @@ export default async function FeatureBlock({ block, first, last }: Props) {
 						<div className={`mt-16 -mx-6 grid grid-cols-2 gap-0.5 overflow-hidden sm:mx-0 sm:rounded-2xl ${block.logoItems.length === 6 ? "md:grid-cols-3" : "md:grid-cols-4"}`}>
 							{block.logoItems.map((item, i) => {
 								const content = (
-									<div className="flex h-12 w-full items-center justify-center">
+									<div className={`flex h-12 w-full items-center justify-center ${item.imageMod || ""}`}>
 										<Image
 											width={500}
 											height={48}
