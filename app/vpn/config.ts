@@ -151,6 +151,7 @@ const definition: ProductDefinition = {
 						image: AmazonAws,
 						imageAlt: "Amazon AWS",
 						imageColor: "text-white",
+						imageMod: "lg:scale-115 xl:scale-130",
 						link: "https://docs.pritunl.com/kb/vpn/link/aws",
 						external: true,
 					},
