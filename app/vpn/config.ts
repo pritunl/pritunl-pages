@@ -432,9 +432,17 @@ const definition: ProductDefinition = {
 						title: "Getting Started",
 						description: "Install and configure your first Pritunl VPN server with users, organizations and a running VPN connection.",
 						icon: Rocket,
-						image: "vpn_getting_started",
-						imageNoRing: true,
-						imageFit: true,
+						diagram: {
+							nodes: [
+								{ id: "client", type: "device", position: { x: 0, y: 48 }, data: { icon: "Monitor", label: "Remote User", sublabel: "10.60.0.20\nPritunl Client", delay: 0 } },
+								{ id: "internet", type: "cloud", position: { x: 250, y: 70 }, data: { icon: "Globe", label: "Internet", delay: 0.2 } },
+								{ id: "server", type: "device", position: { x: 500, y: 58 }, data: { icon: "Server", label: "Pritunl Server", sublabel: "10.50.0.20", delay: 0.4 } },
+							],
+							edges: [
+								{ id: "e1", source: "client", target: "internet", type: "animated" },
+								{ id: "e2", source: "internet", target: "server", type: "animated" },
+							],
+						},
 						link: "https://docs.pritunl.com/kb/vpn/getting-started/installation",
 						linkLabel: "View Getting Started Tutorial",
 						external: true,
