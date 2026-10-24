@@ -433,19 +433,33 @@ export default async function FeatureBlock({ block, first, last }: Props) {
 						{blockLink}
 					</div>
 				</div>
-				<div className="relative overflow-hidden pt-12">
-					<div className="mx-auto max-w-7xl px-6 lg:px-8">
-						<div className="max-w-full rounded-xl bg-white/2.5 p-2 ring-1 ring-inset ring-white/10">
-							<Image
-								width={2432}
-								height={1442}
-								image={block.image!}
-								alt={block.imageAlt || ""}
-								className={`w-full rounded-md shadow-xl${block.imageColor ? " " + block.imageColor : ""}`}
-							/>
+				{block.diagram ? (
+					<div className="relative overflow-hidden pt-12">
+						<div className="mx-auto max-w-7xl px-6 lg:px-8">
+							<div className="w-full h-96 lg:h-[32rem]">
+								<Diagram
+									nodes={block.diagram.nodes}
+									edges={block.diagram.edges}
+									className="w-full h-full"
+								/>
+							</div>
 						</div>
 					</div>
-				</div>
+				) : (
+					<div className="relative overflow-hidden pt-12">
+						<div className="mx-auto max-w-7xl px-6 lg:px-8">
+							<div className="max-w-full rounded-xl bg-white/2.5 p-2 ring-1 ring-inset ring-white/10">
+								<Image
+									width={2432}
+									height={1442}
+									image={block.image!}
+									alt={block.imageAlt || ""}
+									className={`w-full rounded-md shadow-xl${block.imageColor ? " " + block.imageColor : ""}`}
+								/>
+							</div>
+						</div>
+					</div>
+				)}
 				{block.items && block.items.length > 0 && (
 					<div className="mx-auto mt-12 max-w-7xl px-6 sm:mt-14 md:mt-18 lg:px-8">
 						<dl className="mx-auto grid max-w-2xl grid-cols-1 gap-x-6 gap-y-10 text-base/7 text-gray-400 sm:grid-cols-2 lg:mx-0 lg:max-w-none lg:grid-cols-3 lg:gap-x-8 lg:gap-y-16">
