@@ -102,7 +102,7 @@ function AnimatedEdge({ sourceX, sourceY, targetX, targetY, label }: EdgeProps) 
 					y={labelY}
 					textAnchor="middle"
 					dominantBaseline="middle"
-					className="fill-slate-400 text-sm"
+					className="fill-white text-base"
 				>
 					{String(label).split("\n").map((line, i) => (
 						<tspan key={i} x={labelX} dy={i === 0 ? 0 : 14}>
